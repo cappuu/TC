@@ -1,64 +1,113 @@
-sub ARM_BUY2 {
+sub ARM_BUY {
 
-	if($in{'no'} eq ""){&ERR("NO:°¡ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù.");}
-	if($in{'select'} eq ""){&ERR("»óÇ°ÀÌ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù.");}
+	if($in{'no'} eq ""){&ERR("NO:ê°€ ì…ë ¥ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");}
 	&CHARA_MAIN_OPEN;
-	open(IN,"$ARM_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	&TOWN_DATA_OPEN("$kpos");
+	&TIME_DATA;
+	open(IN,"$ARM_LIST");
+	@ARM_DATA = <IN>;
+	close(IN);
+	($armname,$armval,$armstr,$armlea,$armint,$armcha,$armclass,$armtownid,$armname1) = split(/<>/,$ARM_DATA[$karm]);
+	$armval = ($armval * 0.6);
+	if($kvsub2 eq 0){$armval = int($armval / 10);}
+	&HEADER;
+	$no = $in{'no'} + 1;
+
+	foreach(@no){
+		$no_list .= "<input type=hidden name=no value=$_>"
+	}
+
+	$get_sol = $klea - $ksol;
+	print <<"EOM";
+<body bgcolor="white" text="white" link="blue" vlink="purple" alink="red" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0">
+<table align="center" cellpadding="0" cellspacing="0" width="945">
+    <tr>
+        <td width="945">
+            <p><img src="$IMG/up.gif" width="950" height="93" border="0"></p>
+        </td>
+    </tr>
+    <tr>
+        <td width="945" height="857" background="$IMG/backg.gif"><br>
+<table align="center" cellpadding="0" cellspacing="0" width="700" height="186" background="$IMG/item1.jpg">
+    <tr>
+        <td width="805">
+            <table cellpadding="10" cellspacing="0" width="700">
+                <tr>
+                    <td width="180" height="185" rowspan="2">
+                    </td>
+                    <td width="480" height="63">
+                        <p align="right"><span style="filter:shadow(color=#BLACK,direction=135); color:FFFFFF; font-size:36px; height:1pt;">ì™•ì„œë°©ì˜ 
+                        ì¥ë¹„ìƒì </span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="480" height="122" valign="up">
+                        <p align="left"><span style="font-size:9pt;"><font color="black">íìŒ $kname, ìë„¨ê°€?<br>ê·€ì°®ê²Œ ì™œ ë˜ ì™”ëŠ”ê°€?<br>ì§œì¦ì´ 
+                        ë‚œë‹¤ë„¤<BR>ì¥ë¹„ë¥¼ ì‚´ë ¤ê³  ë§ì¸ê°€?<BR>í˜„ì¬ ìë„¤ê°€ íŒ”ë ¤ê³  
+                        í•˜ëŠ” $armnameì˜ ê°€ê²©ì€ ê¸ˆ </span><FONT color=red><span style="font-size:9pt;">$armval</span></FONT><span style="font-size:9pt;"> ì´ë¼ë„¤.<BR>ì•„ë˜ì— 
+                        íŒ”ê³  ìˆëŠ” ì•„ì´í…œì˜ 
+ë¦¬ìŠ¤íŠ¸ë“¤ì„ ë³´ê²Œë‚˜.</font><BR></span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<br>
+<form action="$COMMAND" method="POST"><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass>
+<center><TABLE bgcolor=$TABLE_C>
+EOM
+
+	open(IN,"$ARM_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@ARM_DATA = <IN>;
 	close(IN);
 
-	$num = $in{'select'};
-	($earmname,$earmval,$earmdmg,$earmwei,$earmele,$earmsta,$earmclass,$earmtownid) = split(/<>/,$ARM_DATA[$num]);
-	$hit=0;
-	if($earmval > $kgold){&ERR("µ·ÀÌ ÃæºĞÇÏÁö ¾Ê½À´Ï´Ù.");}
-
-	open(IN,"./charalog/command/$kid.cgi");
-	@COM_DATA = <IN>;
-	close(IN);
-
-	$mes_num = @COM_DATA;
-
-	if($mes_num > $MAX_COM) { pop(@COM_DATA); }
-
-	@NEW_COM_DATA=();$i=0;
-
-	if($in{'no'} eq "all"){
-		while(@NEW_COM_DATA < $MAX_COM){
-			push(@NEW_COM_DATA,"$in{'mode'}<><>¹«±â : $earmname¸¦ ±¸ÀÔ<>$tt<><>$num<><>\n");
+	$list = "<TR align=center><TD bgcolor=$TD_C1>ì„ íƒ</TD><TD bgcolor=$TD_C2 width=80><center>ëª…ì¹­</TD><TD align=right bgcolor=$TD_C3><center>ê°€ê²©</TD><TD bgcolor=$TD_C2 width=40>ë¬´ë ¥</TD><TD bgcolor=$TD_C2 width=40>í†µì†”ë ¥</TD><TD bgcolor=$TD_C2 width=40>ì§€ë ¥</TD><TD bgcolor=$TD_C2 width=40>ë§¤ë ¥</TD><TD bgcolor=$TD_C3 width=50>ì œí•œë ˆë²¨</TD><TD bgcolor=$TD_C2 width=400>ì¥ë¹„íš¨ê³¼</TD></TR>";
+	$s_i=0;
+	foreach(@ARM_DATA){
+		($armname,$armval,$armstr,$armlea,$armint,$armcha,$armclass,$armtownid,$armname1) = split(/<>/);
+		if($armtownid eq 0){
+			if($kvsub2 eq 0){$armval = int($armval / 10);}
+			if($armname eq "ë°±ê·€ë‚œë§ˆ")
+			{
+			$list .= "<TR><TD bgcolor=$TD_C1></TD><TD bgcolor=$TD_C2><center>$armname</TD><TD align=right bgcolor=$TD_C3><left>êµ¬ì…ë¶ˆê°€</TD><TD bgcolor=$TD_C2><center>$armstr</TD><TD bgcolor=$TD_C2><center>$armlea</TD><TD bgcolor=$TD_C2><center>$armint</TD><TD bgcolor=$TD_C2><center>$armcha</TD><TD bgcolor=$TD_C3><center>$armclass</TD><TD bgcolor=$TD_C2><left>$armname1</TD></TR>";
+			}else{
+			$list .= "<TR><TD bgcolor=$TD_C1><input type=radio name=select value=$s_i></TD><TD bgcolor=$TD_C2><center>$armname</TD><TD align=right bgcolor=$TD_C3>$armval</TD><TD bgcolor=$TD_C2><center>$armstr</TD><TD bgcolor=$TD_C2><center>$armlea</TD><TD bgcolor=$TD_C2><center>$armint</TD><TD bgcolor=$TD_C2><center>$armcha</TD><TD bgcolor=$TD_C3><center>$armclass</TD><TD bgcolor=$TD_C2><left>$armname1</TD></TR>";
 		}
-		$no = $in{'no'};
-	}else{
-		foreach(@COM_DATA){
-			($cid,$cno,$cname,$ctime,$csub,$cnum,$cend) = split(/<>/);
-			$ahit=0;
-			foreach(@no){
-				if($i eq $_){
-					$ahit=1;
-					push(@NEW_COM_DATA,"$in{'mode'}<><>¹«±â : $earmname¸¦ ±¸ÀÔ<>$tt<><>$num<><>\n");
-					$lno = $_ + 1;
-					$no .= "$lno,";
-				}
-			}
-			if(!$ahit){
-				push(@NEW_COM_DATA,"$_");
-			}
-			$i++;
 		}
+		$s_i++;
 	}
 
-	open(OUT,">./charalog/command/$kid.cgi") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
-	print OUT @NEW_COM_DATA;
-	close(OUT);
 
-	&HEADER;
-
-	print <<"EOM";
-<CENTER><hr size=0><h2>NO:$no¿¡ ¹«±â : $earmnameÀÇ ±¸ÀÔÀ» ÀÔ·ÂÇß½À´Ï´Ù.</h2><p>
+print <<"EOM";
+$list
+</TABLE>
+$no_list
+<br>
+<table align="center">
+    <tr>
+        <td>
+<input type=hidden name=mode value=22>
+<input type=submit value="êµ¬ì…í•œë‹¤"></form>
+        </td>
+        <td>
 <form action="$FILE_STATUS" method="post">
 <input type=hidden name=id value=$kid>
 <input type=hidden name=pass value=$kpass>
 <input type=hidden name=mode value=STATUS>
-<input type=submit value="È®ÀÎ"></form></CENTER>
+<input type=submit value="ëŒì•„ì˜¨ë‹¤"></form>
+        </td>
+    </tr>
+</table>
+        </td>
+    </tr>
+    <tr>
+        <td width="945">
+            <p><img src="$IMG/down.gif" width="950" height="26" border="0"></p>
+        </td>
+    </tr>
+</table>
+</body>
+
 EOM
 
 	&FOOTER;
