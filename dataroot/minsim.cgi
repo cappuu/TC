@@ -2,9 +2,9 @@
 sub MINSIM{
 						$ksub2=0;
 						if($krice<100){
-							&K_LOG("$mmonth¿ù : ½ÒÀÌ ºÎÁ·ÇØ ½ÇÇàÇÒ ¼ö ¾ø¾ú½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ìŒ€ì´ ë¶€ì¡±í•´ ì‹¤í–‰í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 						}elsif($zpri >= 100){
-							&K_LOG("$mmonth¿ù : ¹Î½ÉÀ» ´õÀÌ»ó ¿Ã¸± ¼ö ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ë¯¼ì‹¬ì„ ë”ì´ìƒ ì˜¬ë¦´ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 							$zpri=100;
 						}else{
 							if($kskill =~ /Fa/){
@@ -16,7 +16,7 @@ sub MINSIM{
 							$krice -= 100;
 							$kcex += 30;
 							$kexp += 30;
-							$kpoint += 10;
+							$kpoint += 15;
 							if($zpri > 100){
 								$zpri=100;
 							}
@@ -29,15 +29,15 @@ sub MINSIM{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /¹Î½É/){
-										if($qup =~ /¹Î½É/){
+									if($qcategory =~ /ë¯¼ì‹¬/){
+										if($qup =~ /ë¯¼ì‹¬/){
 										$kqpoint += $zpriadd;
 										}else{
 										$kqpoint += $qup;
 										}
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 									}	
 								}
@@ -46,10 +46,10 @@ sub MINSIM{
 							if($kcodea =~ /C6/ && 30 > rand(100)){
 								if($kintt > rand(200)){
 								$kqpoint += 1;
-								&K_LOG("$mmonth¿ù : [¹æÈ­¹ü] ÀÌÅ©~ µéÄ×´Ù!");
-								&K_LOG("$mmonth¿ù : ºÒÀ» Áö¸£·Á°í ½ÃµµÇÏ´ø ¹æÈ­¹üÀ» Àâ¾Ò´Ù!");
+								&K_LOG("$mmonthì›” : [ë°©í™”ë²”] ì´í¬~ ë“¤ì¼°ë‹¤!");
+								&K_LOG("$mmonthì›” : ë¶ˆì„ ì§€ë¥´ë ¤ê³  ì‹œë„í•˜ë˜ ë°©í™”ë²”ì„ ì¡ì•˜ë‹¤!");
 								}else{
-								&K_LOG("$mmonth¿ù : ¹æÈ­¹ü¿¡ ´ëÇÑ ¾î¶°ÇÑ ´Ü¼­µµ Ã£À» ¼ö°¡ ¾ø¾ú´Ù.");
+								&K_LOG("$mmonthì›” : ë°©í™”ë²”ì— ëŒ€í•œ ì–´ë– í•œ ë‹¨ì„œë„ ì°¾ì„ ìˆ˜ê°€ ì—†ì—ˆë‹¤.");
 								}
 							}
 
@@ -61,7 +61,7 @@ sub MINSIM{
 								splice(@TOWN_DATA,$kpos,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
 							}
 
-							&K_LOG("$mmonth¿ù : $zname¼ºÀÇ ¹Î½ÉÀÌ <font color=red>+$zpriadd</font> ¿Ã¶ú½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : $znameì„±ì˜ ë¯¼ì‹¬ì´ <font color=red>+$zpriadd</font> ì˜¬ëìŠµë‹ˆë‹¤.");
 							$kcha_ex++;
 							$go_ex += int($kbank/5);
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
