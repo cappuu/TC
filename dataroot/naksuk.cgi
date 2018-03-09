@@ -14,9 +14,9 @@ sub NAKSUK{
 					$trap_flg = 0;
 					$trapmax = @TRAP_DATA;
 					if($kskill =~ /Dc/){
-					$r = int(rand($kintt) + rand($kintt));
+					$r = int(($kintt/2) + rand($kintt));
 					}else{
-					$r = int((rand($kintt) + rand($kintt))/2);
+					$r = int((($kintt/2) + rand($kintt/2)));
 					}
 					for($trapi=0;$trapi<$trapmax;$trapi++){
 						($tid,$tname,$ttown_id,$tcon,$ttrap,$tint) = split(/<>/,$TRAP_DATA[$trapi]);
