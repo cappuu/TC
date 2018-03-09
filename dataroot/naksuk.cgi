@@ -1,15 +1,15 @@
 
 sub NAKSUK{
 				$ksub2=0;
-				if($kgold<500){
-					&K_LOG("$mmonth¿ù : ÀÚ±İºÎÁ·À¸·Î ½ÇÇàÇÒ ¼ö ¾ø¾ú½À´Ï´Ù.");
+				if($kgold<1000){
+					&K_LOG("$mmonthì›” : ìê¸ˆë¶€ì¡±ìœ¼ë¡œ ì‹¤í–‰í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 				}elsif($zsub1<800){
-					&K_LOG("$mmonth¿ù : ³«¼®À» ¼³Ä¡ÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ÃæºĞÇÏÁö ¾Ê½À´Ï´Ù.");
+					&K_LOG("$mmonthì›” : ë‚™ì„ì„ ì„¤ì¹˜í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ì¶©ë¶„í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 				}else{
 						open(IN,"$TRAP_LIST");
 						@TRAP_DATA = <IN>;
 						close(IN);
-					$kgold -= 500;
+					$kgold -= 1000;
 					$trap_count = 0;
 					$trap_flg = 0;
 					$trapmax = @TRAP_DATA;
@@ -33,7 +33,7 @@ sub NAKSUK{
 						}
 					}
 					if( $trap_flg == -1 ){
-						&K_LOG("$mmonth¿ù : ³«¼®À» °³·®ÇÒ ¼ö ¾ø¾ú½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : ë‚™ì„ì„ ê°œëŸ‰í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 					}elsif( $trap_flg == 1 ){
 						splice(@TRAP_DATA,$trapi,1,"$kid<>$kname<>$kpos<>$kcon<>2<>$r<>\n");
 					if($kskill =~ /Dc/){
@@ -45,7 +45,7 @@ sub NAKSUK{
 						$kexp += 20;
 						$kpoint += 8;
 					}
-						&K_LOG("$mmonth¿ù : $zname¼ºÀÇ ³«¼®À» °³·®Çß½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : $znameì„±ì˜ ë‚™ì„ì„ ê°œëŸ‰í–ˆìŠµë‹ˆë‹¤.");
 						$kint_ex += 2;
 						$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}elsif( $trap_count < 5 ){
@@ -59,12 +59,12 @@ sub NAKSUK{
 						$kexp += 20;
 						$kpoint += 8;
 					}
-						&K_LOG("$mmonth¿ù : $zname¼º¿¡ ³«¼®À» ¼³Ä¡ÇÏ¿´½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : $znameì„±ì— ë‚™ì„ì„ ì„¤ì¹˜í•˜ì˜€ìŠµë‹ˆë‹¤.");
 						$kint_ex += 2;
 						$go_ex += int($kbank/5);
 						$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}else{
-						&K_LOG("$mmonth¿ù : ÀÌ¹Ì $zname¼º¿¡¼­´Â 5°³ÀÇ ÇÔÁ¤ÀÌ ¼³Ä¡µÇ¾ú½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : ì´ë¯¸ $znameì„±ì—ì„œëŠ” 5ê°œì˜ í•¨ì •ì´ ì„¤ì¹˜ë˜ì—ˆìŠµë‹ˆë‹¤.");
 					}
 				}
 }
