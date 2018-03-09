@@ -7,7 +7,7 @@ sub BALRYUNG{
 							if("$uid" eq "$kid" && $unit_id eq $kid){$uhit=1;last;}
 						}
 						if(!$uhit){
-							&K_LOG("$mmonth¿ù : ´ëÀå¹Û¿¡ ½ÇÇàÇÒ ¼ö ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ëŒ€ì¥ë°–ì— ì‹¤í–‰í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 						}else{
 
 							foreach(@UNI_DATA){
@@ -19,17 +19,18 @@ sub BALRYUNG{
 									($eid,$epass,$ename,$echara,$estr,$eint,$elea,$echa,$esol,$egat,$econ,$egold,$erice,$ecex,$eclass,$earm,$ebook,$ebank,$esub1,$esub2,$epos,$emes,$ehost,$edate,$email,$eos,$eskill,$epoint,$ect,$elevel,$eexp,$ecodea,$ecodeb,$eqpoint) = split(/<>/,$E_DATA[0]);
 									if($csub eq $ename){							
 									$epos = $cnum;
-									&E_LOG2("$mmonth¿ù : ´ëÀåÀÇ ¸í·É¿¡ ÀÇÇØ $town_name[$cnum]¼ºÀ¸·Î ¹ß·ÉµÇ¾ú½À´Ï´Ù.");
+									&E_LOG2("$mmonthì›” : ëŒ€ì¥ì˜ ëª…ë ¹ì— ì˜í•´ $town_name[$cnum]ì„±ìœ¼ë¡œ ë°œë ¹ë˜ì—ˆìŠµë‹ˆë‹¤.");
 									&ENEMY_INPUT;
 									}
 								}
 							}
 							$kcha_ex++;
 							$go_ex += int($kbank/5);
-							$kcex+=30;
+							$kcex += 30;
+							$kexp += 30;
 							$kpoint += 10;
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
-							&K_LOG("$mmonth¿ù : $csub´ÔÀ» $town_name[$cnum]¼ºÀ¸·Î ¹ß·Éº¸³Â½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : $csubë‹˜ì„ $town_name[$cnum]ì„±ìœ¼ë¡œ ë°œë ¹ë³´ëƒˆìŠµë‹ˆë‹¤.");
 						}
 }
 1;
