@@ -1,22 +1,22 @@
 
 sub HWAGAE{
 				$ksub2=0;
-				if($kgold<300){
-					&K_LOG("$mmonth¿ù : ÀÚ±İºÎÁ·À¸·Î ½ÇÇàÇÒ ¼ö ¾ø¾ú½À´Ï´Ù.");
-				}elsif($zsub1<500){
-					&K_LOG("$mmonth¿ù : È­°è¸¦ ¼³Ä¡ÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ÃæºĞÇÏÁö ¾Ê½À´Ï´Ù.");
+				if($kgold<200){
+					&K_LOG("$mmonthì›” : ìê¸ˆë¶€ì¡±ìœ¼ë¡œ ì‹¤í–‰í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤.");
+				}elsif($zsub1<300){
+					&K_LOG("$mmonthì›” : í™”ê³„ë¥¼ ì„¤ì¹˜í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ì¶©ë¶„í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 				}else{
 					open(IN,"$TRAP_LIST");
 					@TRAP_DATA = <IN>;
 					close(IN);
-					$kgold -= 300;
+					$kgold -= 200;
 					$trap_count = 0;
 					$trap_flg = 0;
 					$trapmax = @TRAP_DATA;
 					if($kskill =~ /Dc/){
-					$r = int(rand($kintt) + rand($kintt));
+					$r = int(($kintt/2) + rand($kintt));
 					}else{
-					$r = int((rand($kintt) + rand($kintt))/2);
+					$r = int((($kintt*2)/3 + rand($kintt/2)));
 					}
 					for($trapi=0;$trapi<$trapmax;$trapi++){
 						($tid,$tname,$ttown_id,$tcon,$ttrap,$tint) = split(/<>/,$TRAP_DATA[$trapi]);
@@ -33,7 +33,7 @@ sub HWAGAE{
 						}
 					}
 					if( $trap_flg == -1 ){
-						&K_LOG("$mmonth¿ù : È­°è¸¦ °³·®ÇÒ ¼ö ¾ø¾ú½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : í™”ê³„ë¥¼ ê°œëŸ‰í•  ìˆ˜ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 					}elsif( $trap_flg == 1 ){
 						splice(@TRAP_DATA,$trapi,1,"$kid<>$kname<>$kpos<>$kcon<>1<>$r<>\n");
 					if($kskill =~ /Dc/){
@@ -45,7 +45,7 @@ sub HWAGAE{
 						$kexp += 20;
 						$kpoint += 8;
 					}
-						&K_LOG("$mmonth¿ù : $zname¼ºÀÇ È­°è¸¦ °³·®ÇÏ¿´½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : $znameì„±ì˜ í™”ê³„ë¥¼ ê°œëŸ‰í•˜ì˜€ìŠµë‹ˆë‹¤.");
 						$kint_ex += 2;
 						$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}elsif( $trap_count < 5 ){
@@ -60,12 +60,12 @@ sub HWAGAE{
 						$kpoint += 8;
 					}
 						$kqpoint = 1 if $kcodea =~ /D1/;
-						&K_LOG("$mmonth¿ù : $zname¼º¿¡ È­°è¸¦ ¼³Ä¡ÇÏ¿´½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : $znameì„±ì— í™”ê³„ë¥¼ ì„¤ì¹˜í•˜ì˜€ìŠµë‹ˆë‹¤.");
 						$kint_ex += 2;
 						$go_ex += int($kbank/5);
 						$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}else{
-						&K_LOG("$mmonth¿ù : ÀÌ¹Ì $zname¼º¿¡¼­´Â 5°³ÀÇ ÇÔÁ¤ÀÌ ¼³Ä¡µÇ¾ú½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : ì´ë¯¸ $znameì„±ì—ì„œëŠ” 5ê°œì˜ í•¨ì •ì´ ì„¤ì¹˜ë˜ì—ˆìŠµë‹ˆë‹¤.");
 					}
 				}
 }
