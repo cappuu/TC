@@ -215,7 +215,7 @@ sub CHEACK_COM{
 					$kadd  = int(($ksal * $kcex / ($cex_total[$kcon] * 1.2))+$kcex * 1.3)+$adv+$goldplus;
 					}
 
-					if($kadd > 1000 + $klevel * 150){$kadd=(1000+$klevel*150)+$adv+$goldplus;}
+					if($kadd > 1500 + $klevel * 200){$kadd=(1500+$klevel*200)+$adv+$goldplus;}
 					$kgold += $kadd;
 					$k_ex_fol= $kexp;
 					if($k_ex_fol > int(200 * (1+($klevel*0.1)))){
@@ -234,7 +234,7 @@ sub CHEACK_COM{
 							$klea++;
 							$add_m = "통솔력";
 						}
-						$max_sal = 1000+$klevel*150;
+						$max_sal = 1500+$klevel*200;
 						$klevel++;
 						$kclass += int(200 * (1+($klevel*0.1)));
 						&K_LOG("$mmonth월 : [<font color=red>레벨업</font>] $add_m이 1포인트 올랐습니다.");
@@ -254,7 +254,7 @@ sub CHEACK_COM{
 						$kadd  = int(($ksal * $kcex / ($cex_total[$kcon] * 1.2)) + $kcex * 1.3 + $ssalplus);
 					}
 
-					if($kadd > 1000 + $klevel * 150){$kadd=1000+$klevel*150+$ssalplus;}
+					if($kadd > 2000 + $klevel * 200){$kadd=1500+$klevel*200+$ssalplus;}
 					$krice += $kadd;
 					$k_ex_fol = $kexp;
 					if($k_ex_fol >= int(200 * (1+($klevel*0.1)))){
@@ -276,7 +276,7 @@ sub CHEACK_COM{
 						}
 						$klevel++;
 						$kclass += int(200 * (1+($klevel*0.1)));
-						$max_sal = 1000 + $klevel * 150;
+						$max_sal = 1500 + $klevel * 200;
 						&K_LOG("$mmonth월 : [<font color=red>레벨업</font>] $add_m이 1포인트 올랐습니다!");
 						&K_LOG("$mmonth월 : [<font color=red>레벨업</font>] Lv.$klevel이 되었다! 봉록이 <font color=red> $max_sal </font>로 늘어났다!");
 						&HISTORY_LOG($kid,"Lv.$klevel이 되었다!");
