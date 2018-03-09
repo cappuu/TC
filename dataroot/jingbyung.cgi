@@ -2,20 +2,20 @@
 sub JINGBYUNG{
 						$ksub2=0;
 
-						if($kcha > 40){
+						if($kcha > 50){
 						$ga = int($kchat/5);
 						}
 						if($kgold < $ggyo){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ¼ÒÁö±ÝÀÌ ÃæºÐÇÏÁö ¾Ê½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì†Œì§€ê¸ˆì´ ì¶©ë¶„í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 
 						}elsif($znum < $cnum){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ³ó¹ÎµéÀÌ ÃæºÐÇÏÁö ¾Ê½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ë†ë¯¼ë“¤ì´ ì¶©ë¶„í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 						}elsif($cnum <= 0){
-							&K_LOG("$mmonth¿ù : [±º»ç] : º´»ç¸¦ 0¸í ÀÌÇÏ·Î Â¡º´ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ë³‘ì‚¬ë¥¼ 0ëª… ì´í•˜ë¡œ ì§•ë³‘í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 						}elsif($zpri < int($cnum / 300)){
-							&K_LOG("$mmonth¿ù ; [±º»ç] : ³ó¹ÎµéÀÌ °ÅºÎÇß½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” ; [êµ°ì‚¬] : ë†ë¯¼ë“¤ì´ ê±°ë¶€í–ˆìŠµë‹ˆë‹¤.");
 						}elsif($znum < 0){
-							&K_LOG("$mmonth¿ù ; [±º»ç] : ³ó¹ÎµéÀÌ 0 ÀÌÇÏ·Î ³»·Á°¥ ¼ö ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” ; [êµ°ì‚¬] : ë†ë¯¼ë“¤ì´ 0 ì´í•˜ë¡œ ë‚´ë ¤ê°ˆ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 							$znum = 0;
 						}elsif($kskill =~ /Ac/){
 
@@ -66,62 +66,62 @@ sub JINGBYUNG{
 								splice(@TOWN_DATA,$kpos,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
 							}
 
-							&K_LOG("$mmonth¿ù : $SOL_TYPE[$ksub1_ex]¸¦ <font color=red>+$cnum</font> Â¡º´Çß½À´Ï´Ù. [Â¡º´±Ý¾× : $ggyo]");
+							&K_LOG("$mmonthì›” : $SOL_TYPE[$ksub1_ex]ë¥¼ <font color=red>+$cnum</font> ì§•ë³‘í–ˆìŠµë‹ˆë‹¤. [ì§•ë³‘ê¸ˆì•¡ : $ggyo]");
 							if($cnum > 14){
 							$kstr_ex++;
 							$go_ex += int($kbank/5);
 							}
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 						}elsif("7" eq $csub && $zsub1 < 1150){
-							&K_LOG("$mmonth¿ù : [±º»ç] : È²½Ç±ÙÀ§º´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í™©ì‹¤ê·¼ìœ„ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("15" eq $csub && $zsub1 < 899){
-							&K_LOG("$mmonth¿ù : [±º»ç] : »ê¿ùº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì‚°ì›”ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("8" eq $csub && $zsub1 < 750){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÄÚ³¢¸®º´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì½”ë¼ë¦¬ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("9" eq $csub && $zsub1 < 1150){
-							&K_LOG("$mmonth¿ù : [±º»ç] : »ê¾Çº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì‚°ì•…ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("10" eq $csub && $zsub1 < 1100){
-							&K_LOG("$mmonth¿ù : [±º»ç] : Ã¶±âº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì² ê¸°ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("11" eq $csub && $zsub1 < 1100){
-							&K_LOG("$mmonth¿ù : [±º»ç] : È­¶ûÀ» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í™”ëž‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("1" eq $csub && $zsub1 < 100){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ±Ãº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ê¶ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("2" eq $csub && $zsub1 < 250){
-							&K_LOG("$mmonth¿ù : [±º»ç] : Ã¢º´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì°½ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("3" eq $csub && $zsub1 < 450){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÁßÀåº¸º´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì¤‘ìž¥ë³´ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("4" eq $csub && $zsub1 < 750){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ±âº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ê¸°ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("6" eq $csub && $zsub1 < 800){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÀÇº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
-						}elsif("7" eq $csub && ($zname eq "¼­·®" || $zname eq "¹«µµ" || $zname eq "°Ç³ç" || $zname eq "¾ÈÁ¤" || $zname eq "ÇÑÁß" || $zname eq "°Ë°¢" || $zname eq "ÀÚµ¿" || $zname eq "°­ÁÖ" || $zname eq "¿µ¾È" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "°è" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÆò" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "È¸°è" || $zname eq "¾çÆò" || $zname eq "±¹³»" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "¼­¶ó¹ú" || $zname eq "¿î³²" || $zname eq "Ãµ¼ö" || $zname eq "Á¹º»")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â È²½Ç±ÙÀ§º´À» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì˜ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
+						}elsif("7" eq $csub && ($zname eq "ì„œëŸ‰" || $zname eq "ë¬´ë„" || $zname eq "ê±´ë…•" || $zname eq "ì•ˆì •" || $zname eq "í•œì¤‘" || $zname eq "ê²€ê°" || $zname eq "ìžë™" || $zname eq "ê°•ì£¼" || $zname eq "ì˜ì•ˆ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ê³„" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í‰" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "íšŒê³„" || $zname eq "ì–‘í‰" || $zname eq "êµ­ë‚´" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ì„œë¼ë²Œ" || $zname eq "ìš´ë‚¨" || $zname eq "ì²œìˆ˜" || $zname eq "ì¡¸ë³¸")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” í™©ì‹¤ê·¼ìœ„ë³‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
 						}elsif("5" eq $csub && $zsub1 < 1000){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ½Å±Íº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
-						}elsif("8" eq $csub && ($zname eq "¼ºµµ" || $zname eq "Àå¾È" || $zname eq "¾ç¾ç" || $zname eq "³«¾ç" || $zname eq "¾÷" || $zname eq "ÇãÃ¢" || $zname eq "°Ç¾÷" || $zname eq "ÇÑ" || $zname eq "¹«µµ" || $zname eq "°Ç³ç" || $zname eq "ÀÚµ¿" || $zname eq "°­ÁÖ" || $zname eq "¿µ¾È" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "°è" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÆò" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "È¸°è" || $zname eq "¾çÆò" || $zname eq "±¹³»" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "¼­¶ó¹ú" || $zname eq "Ãµ¼ö" || $zname eq "Á¹º»")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â ÄÚ³¢¸®º´À» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
-						}elsif("9" eq $csub && ($zname eq "Àå¾È" || $zname eq "¾ç¾ç" || $zname eq "³«¾ç" || $zname eq "¾÷" || $zname eq "ÇãÃ¢" || $zname eq "°Ç¾÷" || $zname eq "ÇÑ" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "È¸°è" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "Ãµ¼ö" || $zname eq "¿î³²")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â »ê¾Çº´À» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
-						}elsif("10" eq $csub && ($zname eq "Àå¾È" || $zname eq "¾ç¾ç" || $zname eq "³«¾ç" || $zname eq "¾÷" || $zname eq "ÇãÃ¢" || $zname eq "°Ç¾÷" || $zname eq "ÇÑ" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "È¸°è" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "Ãµ¼ö" || $zname eq "¿î³²" || $zname eq "Á¹º»")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â Ã¶±âº´À» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
-						}elsif("11" eq $csub && ($zname eq "¼ºµµ" || $zname eq "Àå¾È" || $zname eq "¾ç¾ç" || $zname eq "³«¾ç" || $zname eq "¾÷" || $zname eq "ÇãÃ¢" || $zname eq "°Ç¾÷" || $zname eq "ÇÑ" || $zname eq "¹«µµ" || $zname eq "°Ç³ç" || $zname eq "¾ÈÁ¤" || $zname eq "ÇÑÁß" || $zname eq "°Ë°¢" || $zname eq "ÀÚµ¿" || $zname eq "°­ÁÖ" || $zname eq "¿µ¾È" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "°è" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÆò" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "È¸°è" || $zname eq "¾çÆò" || $zname eq "±¹³»" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "¿î³²" || $zname eq "Ãµ¼ö" || $zname eq "Á¹º»")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â È­¶ûÀ» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ì‹ ê·€ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
+						}elsif("8" eq $csub && ($zname eq "ì„±ë„" || $zname eq "ìž¥ì•ˆ" || $zname eq "ì–‘ì–‘" || $zname eq "ë‚™ì–‘" || $zname eq "ì—…" || $zname eq "í—ˆì°½" || $zname eq "ê±´ì—…" || $zname eq "í•œ" || $zname eq "ë¬´ë„" || $zname eq "ê±´ë…•" || $zname eq "ìžë™" || $zname eq "ê°•ì£¼" || $zname eq "ì˜ì•ˆ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ê³„" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í‰" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "íšŒê³„" || $zname eq "ì–‘í‰" || $zname eq "êµ­ë‚´" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ì„œë¼ë²Œ" || $zname eq "ì²œìˆ˜" || $zname eq "ì¡¸ë³¸")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” ì½”ë¼ë¦¬ë³‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
+						}elsif("9" eq $csub && ($zname eq "ìž¥ì•ˆ" || $zname eq "ì–‘ì–‘" || $zname eq "ë‚™ì–‘" || $zname eq "ì—…" || $zname eq "í—ˆì°½" || $zname eq "ê±´ì—…" || $zname eq "í•œ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "íšŒê³„" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ì²œìˆ˜" || $zname eq "ìš´ë‚¨")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” ì‚°ì•…ë³‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
+						}elsif("10" eq $csub && ($zname eq "ìž¥ì•ˆ" || $zname eq "ì–‘ì–‘" || $zname eq "ë‚™ì–‘" || $zname eq "ì—…" || $zname eq "í—ˆì°½" || $zname eq "ê±´ì—…" || $zname eq "í•œ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "íšŒê³„" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ì²œìˆ˜" || $zname eq "ìš´ë‚¨" || $zname eq "ì¡¸ë³¸")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” ì² ê¸°ë³‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
+						}elsif("11" eq $csub && ($zname eq "ì„±ë„" || $zname eq "ìž¥ì•ˆ" || $zname eq "ì–‘ì–‘" || $zname eq "ë‚™ì–‘" || $zname eq "ì—…" || $zname eq "í—ˆì°½" || $zname eq "ê±´ì—…" || $zname eq "í•œ" || $zname eq "ë¬´ë„" || $zname eq "ê±´ë…•" || $zname eq "ì•ˆì •" || $zname eq "í•œì¤‘" || $zname eq "ê²€ê°" || $zname eq "ìžë™" || $zname eq "ê°•ì£¼" || $zname eq "ì˜ì•ˆ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ê³„" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í‰" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "íšŒê³„" || $zname eq "ì–‘í‰" || $zname eq "êµ­ë‚´" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ìš´ë‚¨" || $zname eq "ì²œìˆ˜" || $zname eq "ì¡¸ë³¸")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” í™”ëž‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
 						}elsif("13" eq $csub && $zsub1 < 900){
-							&K_LOG("$mmonth¿ù ; [±º»ç] : È²°ÇÀûÀ» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” ; [êµ°ì‚¬] : í™©ê±´ì ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("12" eq $csub && $zsub1 < 1199){
-							&K_LOG("$mmonth¿ù ; [±º»ç] : ¹ß¼®°Å¸¦ »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” ; [êµ°ì‚¬] : ë°œì„ê±°ë¥¼ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("17" eq $csub && $zsub1 < 1199){
-							&K_LOG("$mmonth¿ù ; [±º»ç] : ÆÄ¼âÂ÷¸¦ »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
-						}elsif("15" eq $csub && ($zname eq "¼ºµµ" || $zname eq "Àå¾È" || $zname eq "¾ç¾ç" || $zname eq "³«¾ç" || $zname eq "¾÷" || $zname eq "ÇãÃ¢" || $zname eq "°Ç¾÷" || $zname eq "ÇÑ" || $zname eq "¹«µµ" || $zname eq "°Ç³ç" || $zname eq "¾ÈÁ¤" || $zname eq "ÇÑÁß" || $zname eq "°Ë°¢" || $zname eq "ÀÚµ¿" || $zname eq "°­ÁÖ" || $zname eq "¿µ¾È" || $zname eq "È«³ó" || $zname eq "¿Ï" || $zname eq "°­¸ª" || $zname eq "¹«¸ª" || $zname eq "¿µ¸ª" || $zname eq "½Å¾ß" || $zname eq "°­ÇÏ" || $zname eq "Àå»ç" || $zname eq "°è¾ç" || $zname eq "³²ÇØ" || $zname eq "ÁøÀ¯" || $zname eq "¿©³²" || $zname eq "½Ã»ó" || $zname eq "Æò¿ø" || $zname eq "º¹¾ç" || $zname eq "ÃÊ" || $zname eq "¼öÃá" || $zname eq "´Ü¾ç" || $zname eq "¿©°­" || $zname eq "°è" || $zname eq "³²ÇÇ" || $zname eq "¼ÒÆÐ" || $zname eq "ºÏÆò" || $zname eq "ºÏÇØ" || $zname eq "ÇÏºñ" || $zname eq "±¤¸ª" || $zname eq "¿À" || $zname eq "¿î³²" || $zname eq "¾çÆò" || $zname eq "±¹³»" || $zname eq "»çºñ" || $zname eq "¸Å¼Ò" || $zname eq "¼­¶ó¹ú" || $zname eq "Ãµ¼ö" || $zname eq "Á¹º»")){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ÇØ´ç Áö¿ª¿¡¼­´Â »ê¿ùº´À» »ÌÀ» ¼ö°¡ ¾ø½À´Ï´Ù..");
+							&K_LOG("$mmonthì›” ; [êµ°ì‚¬] : íŒŒì‡„ì°¨ë¥¼ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
+						}elsif("15" eq $csub && ($zname eq "ì„±ë„" || $zname eq "ìž¥ì•ˆ" || $zname eq "ì–‘ì–‘" || $zname eq "ë‚™ì–‘" || $zname eq "ì—…" || $zname eq "í—ˆì°½" || $zname eq "ê±´ì—…" || $zname eq "í•œ" || $zname eq "ë¬´ë„" || $zname eq "ê±´ë…•" || $zname eq "ì•ˆì •" || $zname eq "í•œì¤‘" || $zname eq "ê²€ê°" || $zname eq "ìžë™" || $zname eq "ê°•ì£¼" || $zname eq "ì˜ì•ˆ" || $zname eq "í™ë†" || $zname eq "ì™„" || $zname eq "ê°•ë¦‰" || $zname eq "ë¬´ë¦‰" || $zname eq "ì˜ë¦‰" || $zname eq "ì‹ ì•¼" || $zname eq "ê°•í•˜" || $zname eq "ìž¥ì‚¬" || $zname eq "ê³„ì–‘" || $zname eq "ë‚¨í•´" || $zname eq "ì§„ìœ " || $zname eq "ì—¬ë‚¨" || $zname eq "ì‹œìƒ" || $zname eq "í‰ì›" || $zname eq "ë³µì–‘" || $zname eq "ì´ˆ" || $zname eq "ìˆ˜ì¶˜" || $zname eq "ë‹¨ì–‘" || $zname eq "ì—¬ê°•" || $zname eq "ê³„" || $zname eq "ë‚¨í”¼" || $zname eq "ì†ŒíŒ¨" || $zname eq "ë¶í‰" || $zname eq "ë¶í•´" || $zname eq "í•˜ë¹„" || $zname eq "ê´‘ë¦‰" || $zname eq "ì˜¤" || $zname eq "ìš´ë‚¨" || $zname eq "ì–‘í‰" || $zname eq "êµ­ë‚´" || $zname eq "ì‚¬ë¹„" || $zname eq "ë§¤ì†Œ" || $zname eq "ì„œë¼ë²Œ" || $zname eq "ì²œìˆ˜" || $zname eq "ì¡¸ë³¸")){
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : í•´ë‹¹ ì§€ì—­ì—ì„œëŠ” ì‚°ì›”ë³‘ì„ ë½‘ì„ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤..");
 						}elsif("16" eq $csub && $zsub1 < 499){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ³ó¹Îº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ë†ë¯¼ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("18" eq $csub && $zsub1 < 999){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ±Øº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ê·¹ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("19" eq $csub && $zsub1 < 749){
-							&K_LOG("$mmonth¿ù : [±º»ç] : ¼öº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ìˆ˜ë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}elsif("20" eq $csub && $zsub1 < 1099){
-							&K_LOG("$mmonth¿ù : [±º»ç] : °øº´À» »ý»êÇÏ±â¿¡´Â ±â¼ú·ÂÀÌ ºÎÁ·ÇÕ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : [êµ°ì‚¬] : ê³µë³‘ì„ ìƒì‚°í•˜ê¸°ì—ëŠ” ê¸°ìˆ ë ¥ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.");
 						}else{
 
 
@@ -147,13 +147,13 @@ sub JINGBYUNG{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /Â¡º´/){
-										if($qup =~ /Â¡º´/){
+									if($qcategory =~ /ì§•ë³‘/){
+										if($qup =~ /ì§•ë³‘/){
 										$kqpoint += $cnum;
 										}else{
 										$kqpoint += $qup;
 										}
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 									}
 								}
 							}
@@ -200,7 +200,7 @@ sub JINGBYUNG{
 								splice(@TOWN_DATA,$kpos,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
 							}
 
-							&K_LOG("$mmonth¿ù : $SOL_TYPE[$ksub1_ex]¸¦ <font color=red>+$cnum</font> Â¡º´Çß½À´Ï´Ù. [Â¡º´±Ý¾× : $ggyo]");
+							&K_LOG("$mmonthì›” : $SOL_TYPE[$ksub1_ex]ë¥¼ <font color=red>+$cnum</font> ì§•ë³‘í–ˆìŠµë‹ˆë‹¤. [ì§•ë³‘ê¸ˆì•¡ : $ggyo]");
 							if($cnum > 14){
 							$kstr_ex++;
 							$go_ex += int($kbank/5);
