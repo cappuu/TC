@@ -3,11 +3,11 @@ sub WAR{
 						$ksub2=0;
 						($zname,$zcon,$znum,$znou,$zsyo,$zshiro,$znou_max,$zsyo_max,$zshiro_max,$zpri,$zx,$zy,$zsouba,$zdef_att,$zsub1,$zsub2,$z[0],$z[1],$z[2],$z[3],$z[4],$z[5],$z[6],$z[7],$zname1,$zname2,$zbong1,$zbong2,$zbong3)=split(/<>/,$TOWN_DATA[$cnum]);
 						if($zcon eq $kcon){
-							&K_LOG("$mmonth¿ù : ÀÚ±¹¿¡´Â °ø°İ¹ŞÁö ¾Ê½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ìêµ­ì—ëŠ” ê³µê²©ë°›ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 						}elsif($ksol < 1){
-							&K_LOG("$mmonth¿ù : º´·ÂÀÌ ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ë³‘ë ¥ì´ ì—†ìŠµë‹ˆë‹¤.");
 						}elsif($z[0] ne $kpos && $z[1] ne $kpos && $z[2] ne $kpos && $z[3] ne $kpos && $z[4] ne $kpos && $z[5] ne $kpos && $z[6] ne $kpos && $z[7] ne $kpos ){
-							&K_LOG("$mmonth¿ù : $zname¿¡´Â ÀÎÁ¢ÇÏ°í ÀÖÁö ¾Ê½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : $znameì—ëŠ” ì¸ì ‘í•˜ê³  ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.");
 						}else{
 
 
@@ -21,11 +21,11 @@ sub WAR{
 								if($xvcid eq $zcon){$zvhit=1;last;}
 							}
 							if($zvhit && $xvmark < $BATTLE_STOP){
-								&K_LOG("$mmonth¿ù : $xvname±¹¿¡°Ô´Â ¾ÆÁ÷ °ø°İ¹ŞÁö ¾Ê½À´Ï´Ù. ($xvmark ÅÏ)");
+								&K_LOG("$mmonthì›” : $xvnameêµ­ì—ê²ŒëŠ” ì•„ì§ ê³µê²©ë°›ì§€ ì•ŠìŠµë‹ˆë‹¤. ($xvmark í„´)");
 							}else{
 								&COUNTRY_DATA_OPEN("$kcon");
 								if($xmark < $BATTLE_STOP){
-									&K_LOG("$mmonth¿ù : $xname±¹Àº ¾ÆÁ÷ °ø°İ¹ŞÁö ¾Ê½À´Ï´Ù. ($xmark ÅÏ)");
+									&K_LOG("$mmonthì›” : $xnameêµ­ì€ ì•„ì§ ê³µê²©ë°›ì§€ ì•ŠìŠµë‹ˆë‹¤. ($xmark í„´)");
 								}else{
 									open(IN,"$DEF_LIST");
 									@DEF_LIST3 = <IN>;
@@ -41,7 +41,7 @@ sub WAR{
 									$kcex += 20;
 									$kexp += 20;
 									$kpoint += 6;
-									&MAP_LOG("<img src=$IMG/j1.gif> $xname±¹ÀÇ $knameºÎ´ë´Â $zname¼ºÀ¸·Î ÃÄµé¾î °¬½À´Ï´Ù!");
+									&MAP_LOG("<img src=$IMG/j1.gif> $xnameêµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameì„±ìœ¼ë¡œ ì³ë“¤ì–´ ê°”ìŠµë‹ˆë‹¤!");
 
 									$krice -= int($SOL_RICE[$ksub1_ex]*($ksol/60));
 									$erice -= int($SOL_RICE[$esub1_ex]*($esol/60));
@@ -64,28 +64,28 @@ sub WAR{
 						$t_hit = 1;
 					}
 					if($t_hit){
-						@trapstr = ("","È­°è","³«¼®","Çãº¸");
+						@trapstr = ("","í™”ê³„","ë‚™ì„","í—ˆë³´");
 						($eid,$ename,$etown_id,$econ,$etrap,$eint) = split(/<>/,$TRAP_DATA[$ttid]);
-						$r = int(rand($kintt));
+						$r = int(($kintt*2)/3);
 						$ran = int(rand(2000));
-						$r1 = int(rand($kleat));
-						if(($r - $eint > 0 || ($ksub1_ex == 20 && $ksol > $ran)) && $ksol > 500){
-							&K_LOG2("$kname´ÔÀº $ename´ÔÀÇ $trapstr[$etrap]¸¦ ÇØÁ¦Çß½À´Ï´Ù.");
-							&E_LOG2("$kname´Ô¿¡ ÀÇÇØ ÇÔÁ¤ $trapstr[$etrap]¸¦ ÇØÁ¦´çÇß½À´Ï´Ù.");
+						$r1 = int(($kleat)/2);
+						if(($r - int(rand($eint))- int(rand($eint)) > 0 || ($ksub1_ex == 20 && $ksol > $ran)) && $ksol > 500){
+							&K_LOG2("$knameë‹˜ì€ $enameë‹˜ì˜ $trapstr[$etrap]ë¥¼ í•´ì œí–ˆìŠµë‹ˆë‹¤.");
+							&E_LOG2("$knameë‹˜ì— ì˜í•´ í•¨ì • $trapstr[$etrap]ë¥¼ í•´ì œë‹¹í–ˆìŠµë‹ˆë‹¤.");
 							splice(@TRAP_DATA,$ttid,1);
 							$t_hit = 0;
 						}elsif($kskill =~ /Cb/){
-							&K_LOG2("$kname´ÔÀº Æ¯±â 'È¸ÇÇ'·Î ÀÎÇØ $ename´ÔÀÇ $trapstr[$etrap]¸¦ È¸ÇÇÇß½À´Ï´Ù.");
-							&E_LOG2("$kname´ÔÀÌ Æ¯±â 'È¸ÇÇ'·Î ÀÎÇØ $trapstr[$etrap]¸¦ È¸ÇÇÇØ¹ö·È½À´Ï´Ù!");
+							&K_LOG2("$knameë‹˜ì€ íŠ¹ê¸° 'íšŒí”¼'ë¡œ ì¸í•´ $enameë‹˜ì˜ $trapstr[$etrap]ë¥¼ íšŒí”¼í–ˆìŠµë‹ˆë‹¤.");
+							&E_LOG2("$knameë‹˜ì´ íŠ¹ê¸° 'íšŒí”¼'ë¡œ ì¸í•´ $trapstr[$etrap]ë¥¼ íšŒí”¼í•´ë²„ë ¸ìŠµë‹ˆë‹¤!");
 						}elsif($ksub1_ex eq 5){
-							&K_LOG2("$kname´ÔÀº ±º¼¼°¡ ½Å±Íº´ÀÌ±â ¶§¹®¿¡ $ename´ÔÀÇ $trapstr[$etrap]¸¦ Áö³ªÃÆ½À´Ï´Ù.");
-							&E_LOG2("$kname´ÔÀÌ ±º¼¼°¡ ½Å±Íº´ÀÌ±â ¶§¹®¿¡ $trapstr[$etrap]¸¦ Áö³ªÃÆ½À´Ï´Ù!");
-						}elsif($r1 - $eint > 0 || $ksub1_ex eq 5 || $kskill =~ /Cb/){
-							&K_LOG2("$kname´ÔÀº ±º»çµéÀ» ÀÏ»çºĞ¶õÇÏ°Ô ÁöÈÖÇÏ¿© $ename´ÔÀÇ $trapstr[$etrap]¸¦ È¸ÇÇÇß½À´Ï´Ù.");
-							&E_LOG2("$kname´ÔÀÌ ±º»çµéÀ» ÀÏ»çºĞ¶õÇÏ°Ô ÁöÈÖÇÏ¿© $trapstr[$etrap]¸¦ È¸ÇÇÇØ¹ö·È½À´Ï´Ù!");
+							&K_LOG2("$knameë‹˜ì€ êµ°ì„¸ê°€ ì‹ ê·€ë³‘ì´ê¸° ë•Œë¬¸ì— $enameë‹˜ì˜ $trapstr[$etrap]ë¥¼ ì§€ë‚˜ì³¤ìŠµë‹ˆë‹¤.");
+							&E_LOG2("$knameë‹˜ì´ êµ°ì„¸ê°€ ì‹ ê·€ë³‘ì´ê¸° ë•Œë¬¸ì— $trapstr[$etrap]ë¥¼ ì§€ë‚˜ì³¤ìŠµë‹ˆë‹¤!");
+						}elsif($r1 - int(rand($eint)) > 0 || $ksub1_ex eq 5 || $kskill =~ /Cb/){
+							&K_LOG2("$knameë‹˜ì€ êµ°ì‚¬ë“¤ì„ ì¼ì‚¬ë¶„ë€í•˜ê²Œ ì§€íœ˜í•˜ì—¬ $enameë‹˜ì˜ $trapstr[$etrap]ë¥¼ íšŒí”¼í–ˆìŠµë‹ˆë‹¤.");
+							&E_LOG2("$knameë‹˜ì´ êµ°ì‚¬ë“¤ì„ ì¼ì‚¬ë¶„ë€í•˜ê²Œ ì§€íœ˜í•˜ì—¬ $trapstr[$etrap]ë¥¼ íšŒí”¼í•´ë²„ë ¸ìŠµë‹ˆë‹¤!");
 						}else{
 							if($etrap == 1){
-								$tdm = int(($ksol/30)*$eint/15);
+								$tdm = int(($ksol/30)*$eint/13);
 								if($ksol < $tdm ){
 									$tdm = $ksol;
 									$ksol = 0;
@@ -94,11 +94,11 @@ sub WAR{
 									$ksol -= $tdm;
 									$t_hit = 0;
 								}
-								&K_LOG2("$ename´ÔÀÇ $trapstr[$etrap]°¡ ¹ßµ¿! Áø±ºÁßÀÌ´ø $kname´ÔÀÇ º´·Â <font color=red>$tdm</font>¸íÀÌ »ç¸ÁÇß½À´Ï´Ù.");
-								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $enameÀÇ $trapstr[$etrap]°¡ ¹ßµ¿ÇÏ¿© Áø±ºÁßÀÌ´ø $knameÀÇ º´·ÂÀÌ ÇÇÇØ¸¦ ÀÔÀº µí ÇÏ´Ù!</font>");
-								&E_LOG2("$ename´ÔÀÇ $trapstr[$etrap]°¡ ¹ßµ¿! Áø±ºÁßÀÌ´ø $kname´ÔÀÇ º´·Â <font color=red>$tdm</font>¸íÀÌ »ç¸ÁÇß½À´Ï´Ù.");
+								&K_LOG2("$enameë‹˜ì˜ $trapstr[$etrap]ê°€ ë°œë™! ì§„êµ°ì¤‘ì´ë˜ $knameë‹˜ì˜ ë³‘ë ¥ <font color=red>$tdm</font>ëª…ì´ ì‚¬ë§í–ˆìŠµë‹ˆë‹¤.");
+								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $enameì˜ $trapstr[$etrap]ê°€ ë°œë™í•˜ì—¬ ì§„êµ°ì¤‘ì´ë˜ $knameì˜ ë³‘ë ¥ì´ í”¼í•´ë¥¼ ì…ì€ ë“¯ í•˜ë‹¤!</font>");
+								&E_LOG2("$enameë‹˜ì˜ $trapstr[$etrap]ê°€ ë°œë™! ì§„êµ°ì¤‘ì´ë˜ $knameë‹˜ì˜ ë³‘ë ¥ <font color=red>$tdm</font>ëª…ì´ ì‚¬ë§í–ˆìŠµë‹ˆë‹¤.");
 							}elsif($etrap == 2){
-								$tdm = int(($ksol/30)*$eint/6);
+								$tdm = int(($ksol/40)*$eint/7);
 								if($ksol < $tdm ){
 									$tdm = $ksol;
 									$ksol = 0;
@@ -107,9 +107,9 @@ sub WAR{
 									$ksol -= $tdm;
 									$t_hit = 0;
 								}
-								&K_LOG2("$mmonth¿ù : $ename´ÔÀÇ $trapstr[$etrap]ÀÌ ¹ßµ¿! µ¹ÀÌ ±¼·¯¶³¾îÁ® $kname´ÔÀÇ º´·Â <font color=red>$tdm</font>¸íÀÌ »ç¸ÁÇß½À´Ï´Ù.");
-								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$enameÀÇ $trapstr[$etrap]ÀÌ ¹ßµ¿ÇÏ¿© Áø±ºÁßÀÌ´ø $knameÀÇ º´·ÂÀÌ ±ò·ÁÁ×Àº µí ÇÏ´Ù!</font>");
-								&E_LOG2("$mmonth¿ù : $ename´ÔÀÇ $trapstr[$etrap]ÀÌ ¹ßµ¿! µ¹ÀÌ ±¼·¯¶³¾îÁ® $kname´ÔÀÇ º´·Â <font color=red>$tdm</font>¸íÀÌ »ç¸ÁÇß½À´Ï´Ù.");
+								&K_LOG2("$mmonthì›” : $enameë‹˜ì˜ $trapstr[$etrap]ì´ ë°œë™! ëŒì´ êµ´ëŸ¬ë–¨ì–´ì ¸ $knameë‹˜ì˜ ë³‘ë ¥ <font color=red>$tdm</font>ëª…ì´ ì‚¬ë§í–ˆìŠµë‹ˆë‹¤.");
+								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$enameì˜ $trapstr[$etrap]ì´ ë°œë™í•˜ì—¬ ì§„êµ°ì¤‘ì´ë˜ $knameì˜ ë³‘ë ¥ì´ ê¹”ë ¤ì£½ì€ ë“¯ í•˜ë‹¤!</font>");
+								&E_LOG2("$mmonthì›” : $enameë‹˜ì˜ $trapstr[$etrap]ì´ ë°œë™! ëŒì´ êµ´ëŸ¬ë–¨ì–´ì ¸ $knameë‹˜ì˜ ë³‘ë ¥ <font color=red>$tdm</font>ëª…ì´ ì‚¬ë§í–ˆìŠµë‹ˆë‹¤.");
 							}elsif($etrap == 3){
 								$tdm = int(($kgat*$eint)/250);
 								if($kgat < $tdm ){
@@ -117,11 +117,11 @@ sub WAR{
 								}else{
 									$kgat -= $tdm;
 								}
-								&K_LOG2("$mmonth¿ù : $ename´ÔÀÇ $trapstr[$etrap]°¡ ¹ßµ¿µÇ¾î $kname´ÔÀÇ º´·ÂÀÌ È¥¶õ¿¡ ºüÁ³½À´Ï´Ù!");
-								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$enameÀÇ $trapstr[$etrap]°¡ ¹ßµ¿ÇÏ¿© Áø±ºÁßÀÌ´ø $knameÀÇ ºÎ´ë°¡ È¥¶õ¿¡ ºüÁø µí ÇÏ´Ù!</font>");
-								&E_LOG2("$mmonth¿ù : $ename´ÔÀÇ $trapstr[$etrap]°¡ ¹ßµ¿µÇ¾î $kname´ÔÀÇ º´·ÂÀÌ È¥¶õ¿¡ ºüÁ³½À´Ï´Ù!");
+								&K_LOG2("$mmonthì›” : $enameë‹˜ì˜ $trapstr[$etrap]ê°€ ë°œë™ë˜ì–´ $knameë‹˜ì˜ ë³‘ë ¥ì´ í˜¼ë€ì— ë¹ ì¡ŒìŠµë‹ˆë‹¤!");
+								&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$enameì˜ $trapstr[$etrap]ê°€ ë°œë™í•˜ì—¬ ì§„êµ°ì¤‘ì´ë˜ $knameì˜ ë¶€ëŒ€ê°€ í˜¼ë€ì— ë¹ ì§„ ë“¯ í•˜ë‹¤!</font>");
+								&E_LOG2("$mmonthì›” : $enameë‹˜ì˜ $trapstr[$etrap]ê°€ ë°œë™ë˜ì–´ $knameë‹˜ì˜ ë³‘ë ¥ì´ í˜¼ë€ì— ë¹ ì¡ŒìŠµë‹ˆë‹¤!");
 							}
-
+							
 							splice(@TRAP_DATA,$ttid,1);
 							open(IN,"./charalog/main/$eid\.cgi");
 							@E_DATA = <IN>;
@@ -144,9 +144,9 @@ sub WAR{
 
 									$last_battle=0;
 									}else{
-										&K_LOG2("Àü·É : $knameÀå±º´Ô! $zname¼ºÀÇ ¼öºñ´ë°¡ ³ó¼ºÀ» ÁØºñÇÏ°í ÀÖ½À´Ï´Ù! ¼ºº®À» °ø°İÇÏ°Ú½À´Ï´Ù! [¹æ½Ã:$zdef_att]");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $zname¼ºÀÇ ¼öºñ´ë°¡ ³ó¼ºÀ» ÁØºñÇÏ°í ÀÖ´Â µí ÇÏ´Ù! $knameÀÇ ºÎ´ë´Â ¼ºº®À» °ø°İÇÒ ÅÂ¼¼´Ù!</font>");
-										$ename = "$zname¼º";
+										&K_LOG2("ì „ë ¹ : $knameì¥êµ°ë‹˜! $znameì„±ì˜ ìˆ˜ë¹„ëŒ€ê°€ ë†ì„±ì„ ì¤€ë¹„í•˜ê³  ìˆìŠµë‹ˆë‹¤! ì„±ë²½ì„ ê³µê²©í•˜ê² ìŠµë‹ˆë‹¤! [ë°©ì‹œ:$zdef_att]");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $znameì„±ì˜ ìˆ˜ë¹„ëŒ€ê°€ ë†ì„±ì„ ì¤€ë¹„í•˜ê³  ìˆëŠ” ë“¯ í•˜ë‹¤! $knameì˜ ë¶€ëŒ€ëŠ” ì„±ë²½ì„ ê³µê²©í•  íƒœì„¸ë‹¤!</font>");
+										$ename = "$znameì„±";
 										$esol = $zshiro;
 										$estrt = int($zdef_att/10);
 										$egat = $zpri;
@@ -156,16 +156,16 @@ sub WAR{
 
 									if($kcodea =~ /C9/ && 20 > rand(100) && $earm == 16){
 										$kqpoint = 1;
-										&K_LOG("$mmonth¿ù : Àü¼³ÀÇ ½Å°ËÀÇ ÆÄÆíÀ» ÀÔ¼öÇÏ¿´´Ù.");
+										&K_LOG("$mmonthì›” : ì „ì„¤ì˜ ì‹ ê²€ì˜ íŒŒí¸ì„ ì…ìˆ˜í•˜ì˜€ë‹¤.");
 									}
 									if($ecodea =~ /C9/ && 20 > rand(100) && $karm == 16){
 										$eqpoint = 1;
-										&E_LOG("$mmonth¿ù : Àü¼³ÀÇ ½Å°ËÀÇ ÆÄÆíÀ» ÀÔ¼öÇÏ¿´´Ù.");
+										&E_LOG("$mmonthì›” : ì „ì„¤ì˜ ì‹ ê²€ì˜ íŒŒí¸ì„ ì…ìˆ˜í•˜ì˜€ë‹¤.");
 									}
 
-									&K_LOG2("$mmonth¿ù : $xname±¹ÀÇ $knameºÎ´ë´Â $zname¼º¿¡ ÃÄµé¾î°¬½À´Ï´Ù!");
-									&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $xname±¹ÀÇ $knameºÎ´ë´Â $zname¼º¿¡ ÃÄµé¾î°¬½À´Ï´Ù!</font>");
-									&E_LOG2("$mmonth¿ù : $xname±¹ÀÇ $knameºÎ´ë´Â $zname¼ºÀÇ $enameºÎ´ë¿Í ÀüÅõ¸¦ ¹ú¿´½À´Ï´Ù!");
+									&K_LOG2("$mmonthì›” : $xnameêµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameì„±ì— ì³ë“¤ì–´ê°”ìŠµë‹ˆë‹¤!");
+									&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $xnameêµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameì„±ì— ì³ë“¤ì–´ê°”ìŠµë‹ˆë‹¤!</font>");
+									&E_LOG2("$mmonthì›” : $xnameêµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameì„±ì˜ $enameë¶€ëŒ€ì™€ ì „íˆ¬ë¥¼ ë²Œì˜€ìŠµë‹ˆë‹¤!");
 
 									&CHARA_ITEM_OPEN;
 
@@ -290,7 +290,7 @@ sub WAR{
 
 
 									if($zname2 == 1){
-									$jih = "ÆòÁö";
+									$jih = "í‰ì§€";
 									$SOL_TYPE1[0] = "100";
 									$SOL_TYPE1[1] = "95";
 									$SOL_TYPE1[2] = "90";
@@ -313,7 +313,7 @@ sub WAR{
 									$SOL_TYPE1[19] = "80";
 									$SOL_TYPE1[20] = "100";
 									}elsif($zname2 == 2){
-									$jih = "¼ö»ó";
+									$jih = "ìˆ˜ìƒ";
 									$SOL_TYPE1[0] = "100";
 									$SOL_TYPE1[1] = "100";
 									$SOL_TYPE1[2] = "100";
@@ -336,7 +336,7 @@ sub WAR{
 									$SOL_TYPE1[19] = "130";
 									$SOL_TYPE1[20] = "110";
 									}elsif($zname2 == 3){
-									$jih = "»ê¾Ç";
+									$jih = "ì‚°ì•…";
 									$SOL_TYPE1[0] = "100";
 									$SOL_TYPE1[1] = "115";
 									$SOL_TYPE1[2] = "120";
@@ -442,13 +442,13 @@ sub WAR{
 									$skill=0;
 
 									if($last_battle eq "0"){
-										&K_LOG2("Àü·É : $zname¼ºÀ¸·ÎºÎÅÍ $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë°¡ ¿ä°İÀ» ÇØ¿Ô½À´Ï´Ù!");
-										&K_LOG2("$cou_name[$econ]±ºÁø¿µ : <$ename> <¹«·Â $estrt> <º´Á¾ $SOL_TYPE[$esub1_ex]> <ÈÆ·Ã $egat> <º´·Â $esol> <ÁöÇü $jih> <ÇØ´çº´°ú¼÷·Ã:Lv.$esuk>");
-										&K_LOG2("ÀüÅõ·ÂºĞ¼® : ¡¸¾Æ±ºÀüÅõ·Â $katt ÁöÇü»ó¼º $SOL_TYPE1[$ksub1_ex]\%¡¹ VS ¡¸Àû±ºÀüÅõ·Â $eatt ÁöÇü»ó¼º $SOL_TYPE1[$esub1_ex]\%¡¹");
-										&E_LOG2("Àü·É : $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë°¡ $zname¼º ¾ÕÀ¸·Î Áø±ºÇØ¿Ô½À´Ï´Ù! ¿ä°İÀ» ÁØºñÇÏ°Ú½À´Ï´Ù!");
-										&E_LOG2("$cou_name[$econ]±ºÁø¿µ : <$kname> <¹«·Â $kstrt> <º´Á¾ $SOL_TYPE[$ksub1_ex]> <ÈÆ·Ã $kgat> <º´·Â $ksol> <ÁöÇü $jih> <ÇØ´çº´°ú¼÷·Ã:Lv.$ksuk>");
-										&E_LOG2("ÀüÅõ·ÂºĞ¼® : ¡¸¾Æ±ºÀüÅõ·Â $eatt ÁöÇü»ó¼º $SOL_TYPE1[$esub1_ex]\%¡¹ VS ¡¸Àû±ºÀüÅõ·Â $katt ÁöÇü»ó¼º $SOL_TYPE1[$ksub1_ex]\%¡¹");
-										&BATTLE_LOG("<table border=1 width=274 align=center><tr><td width=100 bgcolor=$ELE_C[$cou_ele[$kcon]]><p align=center><img src=$IMG/$kchara\.gif></p></td><td width=52 height=171 rowspan=3 bgcolor=black><p align=center><b><font color=white>VS</font></b></p></td><td width=100 bgcolor=$ELE_C[$cou_ele[$econ]]><p align=center><img src=$IMG/$echara\.gif></p></td></tr><tr><td width=100 height=19 bgcolor=$ELE_C[$cou_ele[$kcon]]><p align=center><b>$kname<br></b></td><td width=100 height=19 bgcolor=$ELE_C[$cou_ele[$econ]]><p align=center><b>$ename</b></td></tr><tr><td width=100 height=102 bgcolor=black><p><b>ÃÑÀüÅõ·Â:$katt</b><br>º´Á¾:$SOL_TYPE[$ksub1_ex]<br>ÈÆ·Ãµµ:$kgat<br>ÁöÇü»ó¼º:$SOL_TYPE1[$ksub1_ex]</td><td width=100 height=102  bgcolor=black><b>ÃÑÀüÅõ·Â:$eatt</b><br>º´Á¾:$SOL_TYPE[$esub1_ex]<br>ÈÆ·Ãµµ:$egat<br>ÁöÇü»ó¼º:$SOL_TYPE1[$esub1_ex]</td></tr></table>");
+										&K_LOG2("ì „ë ¹ : $znameì„±ìœ¼ë¡œë¶€í„° $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ê°€ ìš”ê²©ì„ í•´ì™”ìŠµë‹ˆë‹¤!");
+										&K_LOG2("$cou_name[$econ]êµ°ì§„ì˜ : <$ename> <ë¬´ë ¥ $estrt> <ë³‘ì¢… $SOL_TYPE[$esub1_ex]> <í›ˆë ¨ $egat> <ë³‘ë ¥ $esol> <ì§€í˜• $jih> <í•´ë‹¹ë³‘ê³¼ìˆ™ë ¨:Lv.$esuk>");
+										&K_LOG2("ì „íˆ¬ë ¥ë¶„ì„ : ã€Œì•„êµ°ì „íˆ¬ë ¥ $katt ì§€í˜•ìƒì„± $SOL_TYPE1[$ksub1_ex]\%ã€ VS ã€Œì êµ°ì „íˆ¬ë ¥ $eatt ì§€í˜•ìƒì„± $SOL_TYPE1[$esub1_ex]\%ã€");
+										&E_LOG2("ì „ë ¹ : $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ê°€ $znameì„± ì•ìœ¼ë¡œ ì§„êµ°í•´ì™”ìŠµë‹ˆë‹¤! ìš”ê²©ì„ ì¤€ë¹„í•˜ê² ìŠµë‹ˆë‹¤!");
+										&E_LOG2("$cou_name[$econ]êµ°ì§„ì˜ : <$kname> <ë¬´ë ¥ $kstrt> <ë³‘ì¢… $SOL_TYPE[$ksub1_ex]> <í›ˆë ¨ $kgat> <ë³‘ë ¥ $ksol> <ì§€í˜• $jih> <í•´ë‹¹ë³‘ê³¼ìˆ™ë ¨:Lv.$ksuk>");
+										&E_LOG2("ì „íˆ¬ë ¥ë¶„ì„ : ã€Œì•„êµ°ì „íˆ¬ë ¥ $eatt ì§€í˜•ìƒì„± $SOL_TYPE1[$esub1_ex]\%ã€ VS ã€Œì êµ°ì „íˆ¬ë ¥ $katt ì§€í˜•ìƒì„± $SOL_TYPE1[$ksub1_ex]\%ã€");
+										&BATTLE_LOG("<table border=1 width=274 align=center><tr><td width=100 bgcolor=$ELE_C[$cou_ele[$kcon]]><p align=center><img src=$IMG/$kchara\.gif></p></td><td width=52 height=171 rowspan=3 bgcolor=black><p align=center><b><font color=white>VS</font></b></p></td><td width=100 bgcolor=$ELE_C[$cou_ele[$econ]]><p align=center><img src=$IMG/$echara\.gif></p></td></tr><tr><td width=100 height=19 bgcolor=$ELE_C[$cou_ele[$kcon]]><p align=center><b>$kname<br></b></td><td width=100 height=19 bgcolor=$ELE_C[$cou_ele[$econ]]><p align=center><b>$ename</b></td></tr><tr><td width=100 height=102 bgcolor=black><p><b>ì´ì „íˆ¬ë ¥:$katt</b><br>ë³‘ì¢…:$SOL_TYPE[$ksub1_ex]<br>í›ˆë ¨ë„:$kgat<br>ì§€í˜•ìƒì„±:$SOL_TYPE1[$ksub1_ex]</td><td width=100 height=102  bgcolor=black><b>ì´ì „íˆ¬ë ¥:$eatt</b><br>ë³‘ì¢…:$SOL_TYPE[$esub1_ex]<br>í›ˆë ¨ë„:$egat<br>ì§€í˜•ìƒì„±:$SOL_TYPE1[$esub1_ex]</td></tr></table>");
 
 
 
@@ -459,14 +459,14 @@ sub WAR{
 								
 
 										if($ilrand == 1){
-										&K_LOG4("\[$old_date\]$ename(¹«·Â:$estrt Åë¼Ö:$eleat)´Ô°ú ÀÏ±âÅä¸¦ ½ÃÀÛ!");
-										&E_LOG4("\[$old_date\]$kname(¹«·Â:$kstrt Åë¼Ö:$kleat)´Ô°ú ÀÏ±âÅä¸¦ ½ÃÀÛ!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÇÍ¹ß³¯¸®´Â ÀüÀå¿¡¼­ ¾ç±ºÀÌ ÁöÄÑº¸´Â °¡¿îµ¥ ÀÏ±âÅä ½ÃÀÛ!</font>");
+										&K_LOG4("\[$old_date\]$ename(ë¬´ë ¥:$estrt í†µì†”:$eleat)ë‹˜ê³¼ ì¼ê¸°í† ë¥¼ ì‹œì‘!");
+										&E_LOG4("\[$old_date\]$kname(ë¬´ë ¥:$kstrt í†µì†”:$kleat)ë‹˜ê³¼ ì¼ê¸°í† ë¥¼ ì‹œì‘!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : í•ë°œë‚ ë¦¬ëŠ” ì „ì¥ì—ì„œ ì–‘êµ°ì´ ì§€ì¼œë³´ëŠ” ê°€ìš´ë° ì¼ê¸°í†  ì‹œì‘!</font>");
 
 										if($kskill =~ /Gc/ && rand(100) < 50){
-										&K_LOG4("<font color=red>1</font>ÇÕ:$knameÀÇ ÀÏ¼¶ ¹ßµ¿! $ename´ÔÀº ÁßÅÂ°¡ µÇ¾ú½À´Ï´Ù.");
-										&E_LOG4("<font color=red>1</font>ÇÕ:$knameÀÇ ÀÏ¼¶ ¹ßµ¿! $ename´ÔÀº ÁßÅÂ°¡ µÇ¾ú½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $knameÀÇ ÀÏ¼¶ÀÌ ¹ßµ¿! $enameÀÇ »óÅÂ°¡ ÀÌ»óÇÏ´Ù!</font>");
+										&K_LOG4("<font color=red>1</font>í•©:$knameì˜ ì¼ì„¬ ë°œë™! $enameë‹˜ì€ ì¤‘íƒœê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("<font color=red>1</font>í•©:$knameì˜ ì¼ì„¬ ë°œë™! $enameë‹˜ì€ ì¤‘íƒœê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $knameì˜ ì¼ì„¬ì´ ë°œë™! $enameì˜ ìƒíƒœê°€ ì´ìƒí•˜ë‹¤!</font>");
 										$ego_ex += $kstrt*10;
 										if($eqo_ex > 1800){
 											$ego_ex = 1800;
@@ -491,8 +491,8 @@ sub WAR{
 										$eche -= $kdmge;
 
 										if($eche <= 0){
-											&K_LOG4("<font color=red>$count</font>ÇÕ:$knameÀÇ Ã¼·Â $kche (-$edmge\) VS $enameÀÇ Ã¼·Â $eche (-$kdmge\)");
-											&E_LOG4("<font color=red>$count</font>ÇÕ:$knameÀÇ Ã¼·Â $kche (-$edmge\) VS $enameÀÇ Ã¼·Â $eche (-$kdmge\)");
+											&K_LOG4("<font color=red>$count</font>í•©:$knameì˜ ì²´ë ¥ $kche (-$edmge\) VS $enameì˜ ì²´ë ¥ $eche (-$kdmge\)");
+											&E_LOG4("<font color=red>$count</font>í•©:$knameì˜ ì²´ë ¥ $kche (-$edmge\) VS $enameì˜ ì²´ë ¥ $eche (-$kdmge\)");
 											$wine = 1;
 										last;
 										}
@@ -504,11 +504,11 @@ sub WAR{
 										$kche -= $edmge;
 
 										if($kche <= 0){
-											&K_LOG4("<font color=red>$count</font>ÇÕ:$knameÀÇ Ã¼·Â $kche (-$edmge\) VS $enameÀÇ Ã¼·Â $eche (-$kdmge\)");
-											&E_LOG4("<font color=red>$count</font>ÇÕ:$knameÀÇ Ã¼·Â $kche (-$edmge\) VS $enameÀÇ Ã¼·Â $eche (-$kdmge\)");
+											&K_LOG4("<font color=red>$count</font>í•©:$knameì˜ ì²´ë ¥ $kche (-$edmge\) VS $enameì˜ ì²´ë ¥ $eche (-$kdmge\)");
+											&E_LOG4("<font color=red>$count</font>í•©:$knameì˜ ì²´ë ¥ $kche (-$edmge\) VS $enameì˜ ì²´ë ¥ $eche (-$kdmge\)");
 											last;
 										}
-										&K_LOG4("<font color=red>$count</font>ÇÕ:$knameÀÇ Ã¼·Â $kche (-$edmge\) VS $enameÀÇ Ã¼·Â $eche (-$kdmge\)");
+										&K_LOG4("<font color=red>$count</font>í•©:$knameì˜ ì²´ë ¥ $kche (-$edmge\) VS $enameì˜ ì²´ë ¥ $eche (-$kdmge\)");
 										}
 										}
 
@@ -516,73 +516,73 @@ sub WAR{
 										$ilgito = int(rand(5));
 										if($ilgito == 0){
 										$edmg = int($edmg*0.8);
-										&K_LOG4("$ename´ÔÀÇ ¼öºñ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&E_LOG4("$ename´ÔÀÇ ¼öºñ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ¼öºñ·ÂÀÌ ¾àÈ­!</font>");
+										&K_LOG4("$enameë‹˜ì˜ ìˆ˜ë¹„ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$enameë‹˜ì˜ ìˆ˜ë¹„ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ìˆ˜ë¹„ë ¥ì´ ì•½í™”!</font>");
 										}elsif($ilgito == 1){
 										if($egold < 1000){
-										&K_LOG4("Å»ÃëÇÏ·Á°í ÇßÀ¸³ª $ename´ÔÀÌ µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
-										&E_LOG4("Å»Ãë´çÇÒ»·ÇßÀ¸³ª $ename´ÔÀº µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
+										&K_LOG4("íƒˆì·¨í•˜ë ¤ê³  í–ˆìœ¼ë‚˜ $enameë‹˜ì´ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
+										&E_LOG4("íƒˆì·¨ë‹¹í• ë»”í–ˆìœ¼ë‚˜ $enameë‹˜ì€ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
 										}else{
 										$goldt = int(rand(1000));
 										$kgold += $goldt;
 										$egold -= $goldt;
-										&K_LOG4("$ename´Ô¿¡°Ô¼­ ±İ $goldt¸¦ Å»ÃëÇÏ¿´½À´Ï´Ù.");
-										&E_LOG4("$kname´Ô¿¡°Ô ±İ $goldt¸¦ Å»Ãë´çÇß½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ±İ $goldt¸¦ Å»Ãë´çÇß´Ù!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œì„œ ê¸ˆ $goldtë¥¼ íƒˆì·¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í–ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í–ˆë‹¤!</font>");
 										}
 										}elsif($ilgito == 2){
 										$ego_ex += rand(100);
-										&K_LOG4("$ename´Ô¿¡°Ô ºÎ»óÀ» ÀÔÇû½À´Ï´Ù!");
-										&E_LOG4("$kname´Ô¿¡°Ô ºÎ»óÀ» ´çÇß½À´Ï´Ù!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ºÎ»óÀ» ÀÔ¾ú´Ù!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ë¶€ìƒì„ ì…í˜”ìŠµë‹ˆë‹¤!");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ë¶€ìƒì„ ë‹¹í–ˆìŠµë‹ˆë‹¤!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ë¶€ìƒì„ ì…ì—ˆë‹¤!</font>");
 										}else{
-										&K_LOG4("ÀÏ±âÅä·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
-										&E_LOG4("ÀÏ±âÅä·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
+										&K_LOG4("ì¼ê¸°í† ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("ì¼ê¸°í† ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 										}
 
-										&MAP_LOG("<img src=$IMG/j25.gif> $kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
-										&K_LOG4("\[$old_date\]$kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
-										&E_LOG4("\[$old_date\]$kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
+										&MAP_LOG("<img src=$IMG/j25.gif> $knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
+										&K_LOG4("\[$old_date\]$knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
+										&E_LOG4("\[$old_date\]$knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
 										}else{
 
 										$ilgito = int(rand(5));
 										if($ilgito == 0){
 										$kdmg = int($kdmg*0.8);
-										&K_LOG4("$kname´ÔÀÇ °ø°İ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&E_LOG4("$kname´ÔÀÇ °ø°İ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ¼öºñ·ÂÀÌ ¾àÈ­!</font>");
+										&K_LOG4("$knameë‹˜ì˜ ê³µê²©ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì˜ ê³µê²©ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ìˆ˜ë¹„ë ¥ì´ ì•½í™”!</font>");
 										}elsif($ilgito == 1){
 										if($kgold < 1000){
-										&E_LOG4("Å»ÃëÇÏ·Á°í ÇßÀ¸³ª $kname´ÔÀÌ µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
-										&K_LOG4("Å»Ãë´çÇÒ»·ÇßÀ¸³ª $kname´ÔÀº µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
+										&E_LOG4("íƒˆì·¨í•˜ë ¤ê³  í–ˆìœ¼ë‚˜ $knameë‹˜ì´ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
+										&K_LOG4("íƒˆì·¨ë‹¹í• ë»”í–ˆìœ¼ë‚˜ $knameë‹˜ì€ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
 										}else{
 										$goldt = int(rand(1000));
 										$egold += $goldt;
 										$kgold -= $goldt;
-										&K_LOG4("$ename´Ô¿¡°Ô ±İ $goldt¸¦ Å»Ãë´çÇß½À´Ï´Ù.");
-										&E_LOG4("$kname´Ô¿¡°Ô¼­ ±İ $goldt¸¦ Å»ÃëÇÏ¿´½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ±İ $goldt¸¦ Å»Ãë´çÇÔ!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í–ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì—ê²Œì„œ ê¸ˆ $goldtë¥¼ íƒˆì·¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í•¨!</font>");
 										}
 										}elsif($ilgito == 2){
 										$go_ex += rand(100);
-										&E_LOG4("$kname´Ô¿¡°Ô ºÎ»óÀ» ÀÔÇû½À´Ï´Ù!");
-										&K_LOG4("$ename´Ô¿¡°Ô ºÎ»óÀ» ´çÇß½À´Ï´Ù!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ÀÏ±âÅä °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ºÎ»óÀ» ÀÔ¾ú´Ù!</font>");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ë¶€ìƒì„ ì…í˜”ìŠµë‹ˆë‹¤!");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ë¶€ìƒì„ ë‹¹í–ˆìŠµë‹ˆë‹¤!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì¼ê¸°í†  ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ë¶€ìƒì„ ì…ì—ˆë‹¤!</font>");
 										}else{
-										&K_LOG4("ÀÏ±âÅä·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
-										&E_LOG4("ÀÏ±âÅä·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
+										&K_LOG4("ì¼ê¸°í† ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("ì¼ê¸°í† ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 										}
 
-										&MAP_LOG("<img src=$IMG/j25.gif> $ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
-										&K_LOG4("\[$old_date\]$ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
-										&E_LOG4("\[$old_date\]$ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ÀÏ±âÅä¿¡¼­ ½Â¸®!");
+										&MAP_LOG("<img src=$IMG/j25.gif> $enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
+										&K_LOG4("\[$old_date\]$enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
+										&E_LOG4("\[$old_date\]$enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì¼ê¸°í† ì—ì„œ ìŠ¹ë¦¬!");
 										}
 
 										}elsif($ilrand == 2){
-										&K_LOG4("\[$old_date\]$ename(Áö·Â:$eintt ¸Å·Â:$echat)´Ô°ú ¼³ÀüÀ» ½ÃÀÛ!");
-										&E_LOG4("\[$old_date\]$kname(Áö·Â:$kintt ¸Å·Â:$kchat)´Ô°ú ¼³ÀüÀ» ½ÃÀÛ!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¾çÂÊ ±º¼¼¿¡¼­ Àå¼öµéÀÌ ³ª¿Í È£ÅëÀ» Ä¡±â ½ÃÀÛÇß´Ù!</font>");
+										&K_LOG4("\[$old_date\]$ename(ì§€ë ¥:$eintt ë§¤ë ¥:$echat)ë‹˜ê³¼ ì„¤ì „ì„ ì‹œì‘!");
+										&E_LOG4("\[$old_date\]$kname(ì§€ë ¥:$kintt ë§¤ë ¥:$kchat)ë‹˜ê³¼ ì„¤ì „ì„ ì‹œì‘!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì–‘ìª½ êµ°ì„¸ì—ì„œ ì¥ìˆ˜ë“¤ì´ ë‚˜ì™€ í˜¸í†µì„ ì¹˜ê¸° ì‹œì‘í–ˆë‹¤!</font>");
 										for($count=1;$count<60;$count++){
 
 										if($kche <= 0){last;}
@@ -600,8 +600,8 @@ sub WAR{
 
 										if($eche <= 0){
 											$eche = 0;
-											&K_LOG4("<font color=red>$count</font>È¸:$knameÀÇ Á¤½Å·Â $kche (-$edmge\) VS $enameÀÇ Á¤½Å·Â $eche (-$kdmge\)");
-											&E_LOG4("<font color=red>$count</font>È¸:$knameÀÇ Á¤½Å·Â $kche (-$edmge\) VS $enameÀÇ Á¤½Å·Â $eche (-$kdmge\)");
+											&K_LOG4("<font color=red>$count</font>íšŒ:$knameì˜ ì •ì‹ ë ¥ $kche (-$edmge\) VS $enameì˜ ì •ì‹ ë ¥ $eche (-$kdmge\)");
+											&E_LOG4("<font color=red>$count</font>íšŒ:$knameì˜ ì •ì‹ ë ¥ $kche (-$edmge\) VS $enameì˜ ì •ì‹ ë ¥ $eche (-$kdmge\)");
 											$wine = 1;
 										last;
 										}
@@ -614,76 +614,76 @@ sub WAR{
 
 										if($kche <= 0){
 											$kche = 0;
-											&K_LOG4("<font color=red>$count</font>È¸:$knameÀÇ Á¤½Å·Â $kche (-$edmge\) VS $enameÀÇ Á¤½Å·Â $eche (-$kdmge\)");
-											&E_LOG4("<font color=red>$count</font>È¸:$knameÀÇ Á¤½Å·Â $kche (-$edmge\) VS $enameÀÇ Á¤½Å·Â $eche (-$kdmge\)");
+											&K_LOG4("<font color=red>$count</font>íšŒ:$knameì˜ ì •ì‹ ë ¥ $kche (-$edmge\) VS $enameì˜ ì •ì‹ ë ¥ $eche (-$kdmge\)");
+											&E_LOG4("<font color=red>$count</font>íšŒ:$knameì˜ ì •ì‹ ë ¥ $kche (-$edmge\) VS $enameì˜ ì •ì‹ ë ¥ $eche (-$kdmge\)");
 											last;
 										}
-										&K_LOG4("<font color=red>$count</font>È¸:$knameÀÇ Á¤½Å·Â $kche (-$edmge\) VS $enameÀÇ Á¤½Å·Â $eche (-$kdmge\)");
+										&K_LOG4("<font color=red>$count</font>íšŒ:$knameì˜ ì •ì‹ ë ¥ $kche (-$edmge\) VS $enameì˜ ì •ì‹ ë ¥ $eche (-$kdmge\)");
 										}
 
 										if($wine){
 										$ilgito = int(rand(5));
 										if($ilgito == 0){
 										$edmg = int($edmg*0.8);
-										&K_LOG4("$ename´ÔÀÇ ¼öºñ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&E_LOG4("$ename´ÔÀÇ ¼öºñ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ¼öºñ·ÂÀÌ ¾àÈ­!</font>");
+										&K_LOG4("$enameë‹˜ì˜ ìˆ˜ë¹„ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$enameë‹˜ì˜ ìˆ˜ë¹„ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ìˆ˜ë¹„ë ¥ì´ ì•½í™”!</font>");
 										}elsif($ilgito == 1){
 										if($egold < 1000){
-										&K_LOG4("Å»ÃëÇÏ·Á°í ÇßÀ¸³ª $ename´ÔÀÌ µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
-										&E_LOG4("Å»Ãë´çÇÒ»·ÇßÀ¸³ª $ename´ÔÀº µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
+										&K_LOG4("íƒˆì·¨í•˜ë ¤ê³  í–ˆìœ¼ë‚˜ $enameë‹˜ì´ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
+										&E_LOG4("íƒˆì·¨ë‹¹í• ë»”í–ˆìœ¼ë‚˜ $enameë‹˜ì€ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
 										}else{
 										$goldt = int(rand(1000));
 										$kgold += $goldt;
 										$egold -= $goldt;
-										&K_LOG4("$ename´Ô¿¡°Ô¼­ ±İ $goldt¸¦ Å»ÃëÇÏ¿´½À´Ï´Ù.");
-										&E_LOG4("$kname´Ô¿¡°Ô ±İ $goldt¸¦ Å»Ãë´çÇß½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ±İ $goldt¸¦ Å»Ãë´çÇÔ!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œì„œ ê¸ˆ $goldtë¥¼ íƒˆì·¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í–ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í•¨!</font>");
 										}
 										}elsif($ilgito == 2){
 										$ego_ex += rand(100);
-										&K_LOG4("$ename´Ô¿¡°Ô ºÎ»óÀ» ÀÔÇû½À´Ï´Ù!");
-										&E_LOG4("$kname´Ô¿¡°Ô ºÎ»óÀ» ´çÇß½À´Ï´Ù!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $enameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ºÎ»óÀ» ´çÇÔ!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ë¶€ìƒì„ ì…í˜”ìŠµë‹ˆë‹¤!");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ë¶€ìƒì„ ë‹¹í–ˆìŠµë‹ˆë‹¤!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $enameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ë¶€ìƒì„ ë‹¹í•¨!</font>");
 										}else{
-										&K_LOG4("¼³ÀüÀ¸·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
-										&E_LOG4("¼³ÀüÀ¸·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
+										&K_LOG4("ì„¤ì „ìœ¼ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("ì„¤ì „ìœ¼ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 										}
 
-										&MAP_LOG("<img src=$IMG/j26.gif> $kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
-										&K_LOG4("\[$old_date\]$kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
-										&E_LOG4("\[$old_date\]$kname´ÔÀÌ $ename´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
+										&MAP_LOG("<img src=$IMG/j26.gif> $knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
+										&K_LOG4("\[$old_date\]$knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
+										&E_LOG4("\[$old_date\]$knameë‹˜ì´ $enameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
 										}elsif(!$wine){
 										$ilgito = int(rand(5));
 										if($ilgito == 0){
 										$kdmg = int($kdmg*0.8);
-										&K_LOG4("$kname´ÔÀÇ °ø°İ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&E_LOG4("$kname´ÔÀÇ °ø°İ·ÂÀÌ ¾àÈ­µÇ¾ú½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! °ø°İ·ÂÀÌ ¾àÈ­!</font>");
+										&K_LOG4("$knameë‹˜ì˜ ê³µê²©ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì˜ ê³µê²©ë ¥ì´ ì•½í™”ë˜ì—ˆìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ê³µê²©ë ¥ì´ ì•½í™”!</font>");
 										}elsif($ilgito == 1){
 										if($kgold < 1000){
-										&E_LOG4("Å»ÃëÇÏ·Á°í ÇßÀ¸³ª $kname´ÔÀÌ µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
-										&K_LOG4("Å»Ãë´çÇÒ»·ÇßÀ¸³ª $kname´ÔÀº µ·ÀÌ 1000¹Ì¸¸ÀÔ´Ï´Ù.");
+										&E_LOG4("íƒˆì·¨í•˜ë ¤ê³  í–ˆìœ¼ë‚˜ $knameë‹˜ì´ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
+										&K_LOG4("íƒˆì·¨ë‹¹í• ë»”í–ˆìœ¼ë‚˜ $knameë‹˜ì€ ëˆì´ 1000ë¯¸ë§Œì…ë‹ˆë‹¤.");
 										}else{
 										$goldt = int(rand(1000));
 										$egold += $goldt;
 										$kgold -= $goldt;
-										&K_LOG4("$ename´Ô¿¡°Ô ±İ $goldt¸¦ Å»Ãë´çÇß½À´Ï´Ù.");
-										&E_LOG4("$kname´Ô¿¡°Ô¼­ ±İ $goldt¸¦ Å»ÃëÇÏ¿´½À´Ï´Ù.");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ±İ $goldt¸¦ Å»Ãë´çÇÔ!</font>");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í–ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("$knameë‹˜ì—ê²Œì„œ ê¸ˆ $goldtë¥¼ íƒˆì·¨í•˜ì˜€ìŠµë‹ˆë‹¤.");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ê¸ˆ $goldtë¥¼ íƒˆì·¨ë‹¹í•¨!</font>");
 										}
 										}elsif($ilgito == 2){
 										$go_ex += rand(100);
-										&E_LOG4("$kname´Ô¿¡°Ô ºÎ»óÀ» ÀÔÇû½À´Ï´Ù!");
-										&K_LOG4("$ename´Ô¿¡°Ô ºÎ»óÀ» ´çÇß½À´Ï´Ù!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : ¼³Àü °á°ú, $knameÀÇ ÆĞ¹è°¡ È®½Ç½Ã! ºÎ»óÀ» ´çÇÔ!</font>");
+										&E_LOG4("$knameë‹˜ì—ê²Œ ë¶€ìƒì„ ì…í˜”ìŠµë‹ˆë‹¤!");
+										&K_LOG4("$enameë‹˜ì—ê²Œ ë¶€ìƒì„ ë‹¹í–ˆìŠµë‹ˆë‹¤!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : ì„¤ì „ ê²°ê³¼, $knameì˜ íŒ¨ë°°ê°€ í™•ì‹¤ì‹œ! ë¶€ìƒì„ ë‹¹í•¨!</font>");
 										}else{
-										&K_LOG4("¼³ÀüÀ¸·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
-										&E_LOG4("¼³ÀüÀ¸·Î ÀÎÇØ ¾Æ¹« ÀÏÀÌ ¾ø¾ú½À´Ï´Ù.");
+										&K_LOG4("ì„¤ì „ìœ¼ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
+										&E_LOG4("ì„¤ì „ìœ¼ë¡œ ì¸í•´ ì•„ë¬´ ì¼ì´ ì—†ì—ˆìŠµë‹ˆë‹¤.");
 										}
-										&MAP_LOG("<img src=$IMG/j26.gif> $ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
-										&K_LOG4("\[$old_date\]$ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
-										&E_LOG4("\[$old_date\]$ename´ÔÀÌ $kname´ÔÀ» »ó´ë·Î ¼³Àü¿¡¼­ ½Â¸®!");
+										&MAP_LOG("<img src=$IMG/j26.gif> $enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
+										&K_LOG4("\[$old_date\]$enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
+										&E_LOG4("\[$old_date\]$enameë‹˜ì´ $knameë‹˜ì„ ìƒëŒ€ë¡œ ì„¤ì „ì—ì„œ ìŠ¹ë¦¬!");
 										}
 										}
 
@@ -751,43 +751,43 @@ sub WAR{
 				
 
 										if($krap == 0 && ($erap == 1 || $erap == 2 || $erap == 3)){
-										$flag = "¢¸";
+										$flag = "â—€";
 										$kjensul = -20;
 										$ejensul = $W_JEN_SUL[$ecno];
 										}elsif($erap == 0 && ($krap == 1 || $krap == 2 || $krap == 3)){
-										$flag = "¢º";
+										$flag = "â–¶";
 										$kjensul = $W_JEN_SUL[$kcno];
 										$ejensul = -20;
 										}elsif(($krap == 0 && $erap == 0) || ($krap == 1 && $erap == 1) || ($krap == 2 && $erap == 2) || ($krap == 3 && $erap == 3)){
-										$flag = "¡ë";
+										$flag = "ã€“";
 										$kjensul = 0;
 										$ejensul = 0;
 										}elsif(($krap == 1 && $erap == 2) || ($krap == 2 && $erap == 3) || ($krap == 3 && $erap == 1)){
 										if($esub1_ex == 7 && $ecno == 16){
 											$esol += 200;
-											&K_LOG3("<font color=red>$count</font>ÅÏ:¿ø°øÁø ¹ßµ¿! Àû±ºÀÇ º´»ç°¡ <font color=blue>+200</font> »ó½Â!");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:¿ø°øÁø ¹ßµ¿! ¾Æ±ºÀÇ º´»ç°¡ <font color=blue>+200</font> »ó½Â!");
+											&K_LOG3("<font color=red>$count</font>í„´:ì›ê³µì§„ ë°œë™! ì êµ°ì˜ ë³‘ì‚¬ê°€ <font color=blue>+200</font> ìƒìŠ¹!");
+											&E_LOG3("<font color=red>$count</font>í„´:ì›ê³µì§„ ë°œë™! ì•„êµ°ì˜ ë³‘ì‚¬ê°€ <font color=blue>+200</font> ìƒìŠ¹!");
 										}
 										if($earm == 18 && $ecno == 12){
 											$edamage = int($katt * 0.4);
-											&K_LOG3("<font color=red>$count</font>ÅÏ:ºñÃµÁø ¹ßµ¿! ¾Æ±ºÀÇ °ø°İ·ÂÀÌ <font color=blue>$edamage</font> °¨¼Ò!");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:ºñÃµÁø ¹ßµ¿! ÀûÀÇ °ø°İ·ÂÀÌ <font color=blue>$edamage</font> °¨¼Ò!");
+											&K_LOG3("<font color=red>$count</font>í„´:ë¹„ì²œì§„ ë°œë™! ì•„êµ°ì˜ ê³µê²©ë ¥ì´ <font color=blue>$edamage</font> ê°ì†Œ!");
+											&E_LOG3("<font color=red>$count</font>í„´:ë¹„ì²œì§„ ë°œë™! ì ì˜ ê³µê²©ë ¥ì´ <font color=blue>$edamage</font> ê°ì†Œ!");
 										}
-										$flag = "¢¸";
+										$flag = "â—€";
 										$kjensul = $L_JEN_SUL[$kcno];
 										$ejensul = $W_JEN_SUL[$ecno];
 										}elsif(($erap == 1 && $krap == 2) || ($erap == 2 && $krap == 3) || ($erap == 3 && $krap == 1)){
 										if($ksub1_ex == 11 && $kcno == 15){
 											$egat -= 10;
-											&K_LOG3("<font color=red>$count</font>ÅÏ:½Å¶ó°ËÁø ¹ßµ¿! Àû Àå¼öÀÇ ÈÆ·Ãµµ¸¦ ±ğ¾Ò´Ù!");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:½Å¶ó°ËÁø ¹ßµ¿! Àû Àå¼ö¿¡°Ô ÈÆ·Ãµµ¸¦ ±ğ¿´´Ù!");
+											&K_LOG3("<font color=red>$count</font>í„´:ì‹ ë¼ê²€ì§„ ë°œë™! ì  ì¥ìˆ˜ì˜ í›ˆë ¨ë„ë¥¼ ê¹ì•˜ë‹¤!");
+											&E_LOG3("<font color=red>$count</font>í„´:ì‹ ë¼ê²€ì§„ ë°œë™! ì  ì¥ìˆ˜ì—ê²Œ í›ˆë ¨ë„ë¥¼ ê¹ì˜€ë‹¤!");
 										}
 										if($karm == 19 && $kcno == 13){
 											$ego_ex += 70;
-											&K_LOG3("<font color=red>$count</font>ÅÏ:Åº¸ÁÁø ¹ßµ¿! Àû Àå¼ö¿¡°Ô »óÃ³¸¦ ÀÔÇû´Ù!");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:Åº¸ÁÁø ¹ßµ¿! Àû Àå¼ö¿¡°Ô »óÃ³¸¦ ÀÔ¾ú´Ù!");
+											&K_LOG3("<font color=red>$count</font>í„´:íƒ„ë§ì§„ ë°œë™! ì  ì¥ìˆ˜ì—ê²Œ ìƒì²˜ë¥¼ ì…í˜”ë‹¤!");
+											&E_LOG3("<font color=red>$count</font>í„´:íƒ„ë§ì§„ ë°œë™! ì  ì¥ìˆ˜ì—ê²Œ ìƒì²˜ë¥¼ ì…ì—ˆë‹¤!");
 										}
-										$flag = "¢º";
+										$flag = "â–¶";
 										$kjensul = $W_JEN_SUL[$kcno];
 										$ejensul = $L_JEN_SUL[$ecno];
 										}
@@ -805,7 +805,7 @@ sub WAR{
 										$padmg = int(5+rand(5));
 										if($ksub1_ex == 17 && $last_battle == 1){
 										$zdef_att -= $padmg;
-										$gmd = "/¹æ¾î½Ã¼³ $zdef_att(-$padmg\)";
+										$gmd = "/ë°©ì–´ì‹œì„¤ $zdef_att(-$padmg\)";
 										}
 										}
 										
@@ -829,8 +829,8 @@ sub WAR{
 										
 										if($esol <= 0){
 											$esol=0;
-											&K_LOG3("<font color=red>$count</font>ÅÏ:$knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë $ksol¸í (-$edmg\)$kjihyng $flag $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë $esol¸í (-$kdmg\)$gmd$kskilldmg$ejihyng");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:$knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë $ksol¸í (-$edmg\)$kjihyng $flag $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë $esol¸í (-$kdmg\)$ejihyng");
+											&K_LOG3("<font color=red>$count</font>í„´:$knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ $ksolëª… (-$edmg\)$kjihyng $flag $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ $esolëª… (-$kdmg\)$gmd$kskilldmg$ejihyng");
+											&E_LOG3("<font color=red>$count</font>í„´:$knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ $ksolëª… (-$edmg\)$kjihyng $flag $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ $esolëª… (-$kdmg\)$ejihyng");
 											$win = 1;
 										last;
 										}
@@ -846,12 +846,12 @@ sub WAR{
 										$eex_add += ($wsol - $ksol);
 										if($ksol <= 0){
 											$ksol=0;
-											&K_LOG3("<font color=red>$count</font>ÅÏ:$knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë $ksol¸í (-$edmg\)$kjihyng $flag $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë $esol¸í (-$kdmg\)$gmd$kskilldmg$ejihyng");
-											&E_LOG3("<font color=red>$count</font>ÅÏ:$knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë $ksol¸í (-$edmg\)$kjihyng $flag $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë $esol¸í (-$kdmg\)$ejihyng");
+											&K_LOG3("<font color=red>$count</font>í„´:$knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ $ksolëª… (-$edmg\)$kjihyng $flag $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ $esolëª… (-$kdmg\)$gmd$kskilldmg$ejihyng");
+											&E_LOG3("<font color=red>$count</font>í„´:$knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ $ksolëª… (-$edmg\)$kjihyng $flag $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ $esolëª… (-$kdmg\)$ejihyng");
 											last;
 										}
 
-										&K_LOG3("<font color=red>$count</font>ÅÏ:$knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë $ksol¸í (-$edmg\)$kjihyng $flag $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë $esol¸í (-$kdmg\)$gmd$kskilldmg$ejihyng");
+										&K_LOG3("<font color=red>$count</font>í„´:$knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ $ksolëª… (-$edmg\)$kjihyng $flag $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ $esolëª… (-$kdmg\)$gmd$kskilldmg$ejihyng");
 									}
 
 									$eex_add = int($eex_add/40);
@@ -873,8 +873,8 @@ sub WAR{
 												open(OUT,">$COUNTRY_LIST");
 												print OUT @NEW_COU;
 												close(OUT);
-												&MAP_LOG2("<img src=$IMG/j3.gif> \[$old_date\]$cou_name[$zcon]±¹Àº ¸ê¸ÁÇß½À´Ï´Ù.");
-												&MAP_LOG("<img src=$IMG/j3.gif> \[$old_date\]$cou_name[$zcon]±¹Àº ¸ê¸ÁÇß½À´Ï´Ù.");
+												&MAP_LOG2("<img src=$IMG/j3.gif> \[$old_date\]$cou_name[$zcon]êµ­ì€ ë©¸ë§í–ˆìŠµë‹ˆë‹¤.");
+												&MAP_LOG("<img src=$IMG/j3.gif> \[$old_date\]$cou_name[$zcon]êµ­ì€ ë©¸ë§í–ˆìŠµë‹ˆë‹¤.");
 											}
 
 
@@ -915,11 +915,11 @@ sub WAR{
 
 
 
-											&K_LOG2("<font color=blue>$zname</font>¸¦ ¼Õ¿¡ ³Ö¾ú´Ù! <font color=red>$kex_add</font>ÀÇ °øÇåÄ¡¸¦ ¾ò¾ú½À´Ï´Ù!");
-											&HISTORY_LOG($kid,"<font color=blue>$zname</font>¸¦ ¼Õ¿¡ ³Ö¾ú´Ù!");
-											&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $knameÀÇ ºÎ´ë°¡ $zname¼ºÀ» Á¡·ÉÇß´Ù!</font>");
-											&MAP_LOG2("<img src=$IMG/j4.gif> \[$old_date\]$cou_name[$kcon]±¹ÀÇ $knameºÎ´ë´Â $zname¼ºÀ» Á¡·ÉÇß½À´Ï´Ù!");
-											&MAP_LOG("<img src=$IMG/j4.gif> $cou_name[$kcon]±¹ÀÇ $knameºÎ´ë´Â $zname¸¦ Á¡·ÉÇß½À´Ï´Ù!");
+											&K_LOG2("<font color=blue>$zname</font>ë¥¼ ì†ì— ë„£ì—ˆë‹¤! <font color=red>$kex_add</font>ì˜ ê³µí—Œì¹˜ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤!");
+											&HISTORY_LOG($kid,"<font color=blue>$zname</font>ë¥¼ ì†ì— ë„£ì—ˆë‹¤!");
+											&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $knameì˜ ë¶€ëŒ€ê°€ $znameì„±ì„ ì ë ¹í–ˆë‹¤!</font>");
+											&MAP_LOG2("<img src=$IMG/j4.gif> \[$old_date\]$cou_name[$kcon]êµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameì„±ì„ ì ë ¹í–ˆìŠµë‹ˆë‹¤!");
+											&MAP_LOG("<img src=$IMG/j4.gif> $cou_name[$kcon]êµ­ì˜ $knameë¶€ëŒ€ëŠ” $znameë¥¼ ì ë ¹í–ˆìŠµë‹ˆë‹¤!");
 										}else{
 											@NEW_DEF_LIST3=();
 											foreach(@DEF_LIST3){
@@ -939,13 +939,13 @@ sub WAR{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /ÀüÀï/){
+									if($qcategory =~ /ì „ìŸ/){
 										$kqpoint += $qup;
 										if($qtalkd eq ""){
 										}else{
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 										}
 									}	
@@ -965,10 +965,10 @@ sub WAR{
 											$esol = 0;
 											$egat = 0;
 											$kqpoint += 1 if $kcodea =~ /A9|C8/;
-											&K_LOG2("\[$old_date\] $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë´Â $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë¸¦ Àü¸ê½ÃÄ×½À´Ï´Ù! <font color=blue>$kgg</font>ÀÇ °øÇåÄ¡¸¦ ¾ò¾ú½À´Ï´Ù!");
-											&E_LOG2("\[$old_date\] $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë´Â $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë¿¡°Ô ÆĞ¹èÇß´Ù. <font color=red>$egg</font>ÀÇ °øÇåÄ¡¸¦ ¾ò¾ú½À´Ï´Ù!");
-											&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $knameÀÇ ºÎ´ë´Â ¿ä°İÁßÀÌ´ø $enameÀÇ ºÎ´ë¸¦ ÆÄÁ×Áö¼¼·Î Àü¸ê½ÃÅ² ¸ğ¾çÀÌ´Ù.</font>");
-											&MAP_LOG("<img src=$IMG/j5.gif> $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë´Â $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë¸¦ Àü¸ê½ÃÄ×½À´Ï´Ù!");
+											&K_LOG2("\[$old_date\] $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ëŠ” $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ë¥¼ ì „ë©¸ì‹œì¼°ìŠµë‹ˆë‹¤! <font color=blue>$kgg</font>ì˜ ê³µí—Œì¹˜ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤!");
+											&E_LOG2("\[$old_date\] $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ëŠ” $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ì—ê²Œ íŒ¨ë°°í–ˆë‹¤. <font color=red>$egg</font>ì˜ ê³µí—Œì¹˜ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤!");
+											&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $knameì˜ ë¶€ëŒ€ëŠ” ìš”ê²©ì¤‘ì´ë˜ $enameì˜ ë¶€ëŒ€ë¥¼ íŒŒì£½ì§€ì„¸ë¡œ ì „ë©¸ì‹œí‚¨ ëª¨ì–‘ì´ë‹¤.</font>");
+											&MAP_LOG("<img src=$IMG/j5.gif> $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ëŠ” $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ë¥¼ ì „ë©¸ì‹œì¼°ìŠµë‹ˆë‹¤!");
 										}
 									}else{
 											$esub2_ex++;
@@ -996,11 +996,11 @@ sub WAR{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($ecodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /ÀüÀï/){
+									if($qcategory =~ /ì „ìŸ/){
 										$eqpoint += $qup;
 										if($qtalkd eq ""){
 										}else{
-										&E_LOG("$mmonth¿ù : $qtalkd");
+										&E_LOG("$mmonthì›” : $qtalkd");
 										}
 									}	
 								}
@@ -1017,9 +1017,9 @@ sub WAR{
 										if($gg < 30){
 										$kgat = 0;
 										}
-										&K_LOG2("\[$old_date\] $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë´Â $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë¿¡°Ô ÆĞ¹èÇß´Ù.. <font color=red>$kex_add</font>ÀÇ °øÇåÄ¡¸¦ ¾ò¾ú½À´Ï´Ù!");
-										&E_LOG2("\[$old_date\] $enameÀÇ $SOL_TYPE[$esub1_ex]ºÎ´ë´Â $knameÀÇ $SOL_TYPE[$ksub1_ex]ºÎ´ë¸¦ Àü¸ê½ÃÄ×´Ù!! <font color=blue>$eex_add</font>ÀÇ °øÇåÄ¡¸¦ ¾ò¾ú½À´Ï´Ù!");
-										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonth¿ù : $enameÀÇ ºÎ´ë´Â °ø°İÇØ µé¾î¿À´Â $knameÀÇ ºÎ´ë¸¦ ¿ä°İÀ¸·Î Àü¸ê½ÃÅ² ¸ğ¾çÀÌ´Ù.</font>");
+										&K_LOG2("\[$old_date\] $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ëŠ” $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ì—ê²Œ íŒ¨ë°°í–ˆë‹¤.. <font color=red>$kex_add</font>ì˜ ê³µí—Œì¹˜ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤!");
+										&E_LOG2("\[$old_date\] $enameì˜ $SOL_TYPE[$esub1_ex]ë¶€ëŒ€ëŠ” $knameì˜ $SOL_TYPE[$ksub1_ex]ë¶€ëŒ€ë¥¼ ì „ë©¸ì‹œì¼°ë‹¤!! <font color=blue>$eex_add</font>ì˜ ê³µí—Œì¹˜ë¥¼ ì–»ì—ˆìŠµë‹ˆë‹¤!");
+										&BATTLE_LOG("<font color=$ELE_C[$cou_ele[$kcon]]>$mmonthì›” : $enameì˜ ë¶€ëŒ€ëŠ” ê³µê²©í•´ ë“¤ì–´ì˜¤ëŠ” $knameì˜ ë¶€ëŒ€ë¥¼ ìš”ê²©ìœ¼ë¡œ ì „ë©¸ì‹œí‚¨ ëª¨ì–‘ì´ë‹¤.</font>");
 									}
 
 									if(!$last_battle){
