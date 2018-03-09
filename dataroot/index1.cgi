@@ -27,8 +27,8 @@ A {
             <p></p>
         </td>
         <td width="408" height="14" background="$IMG/backg1.gif">
-            <p align="center"><font face="µ¸¿ò" color="#FFCC00"><span style="font-size:9pt;"><b>[$new_date]</b> ´ÙÀ½
-            ÅÏ±îÁö ¾ÕÀ¸·Î <B>$next_time</B>ºĞ ³²¾Ò½À´Ï´Ù.</span></font></p>
+            <p align="center"><font face="ë‹ì›€" color="#FFCC00"><span style="font-size:9pt;"><b>[$new_date]</b> ë‹¤ìŒ 
+            í„´ê¹Œì§€ ì•ìœ¼ë¡œ <B>$next_time</B>ë¶„ ë‚¨ì•˜ìŠµë‹ˆë‹¤.</span></font></p>
         </td>
         <td width="512" height="14" colspan="2">
             <table cellpadding="0" cellspacing="0" width="512">
@@ -38,16 +38,16 @@ A {
                         <p><img src="$IMG/id.gif" width="79" height="28" border="0"></p>
                     </td>
                     <td width="124" background="$IMG/backg2.gif">
-                        <p align="center"><input type="text" name="id" size="17" style="font-family:±Ã¼­; color:rgb(222,195,61); text-decoration:none; background-color:rgb(41,77,90); border-style:none;" value="$_id">
+                        <p align="center"><input type="text" name="id" size="17" style="font-family:ê¶ì„œ; color:rgb(222,195,61); text-decoration:none; background-color:rgb(41,77,90); border-style:none;" value="$_id">
                     </td>
                     <td width="79">
                         <p><img src="$IMG/pw.gif" width="79" height="28" border="0"></p>
                     </td>
                     <td width="124" background="$IMG/backg2.gif">
-                        <p align="center"><input type="password" name="pass" size="17" style="font-family:±Ã¼­; color:rgb(222,195,61); background-color:rgb(41,77,90); border-style:none;" value="$_pass">
+                        <p align="center"><input type="password" name="pass" size="17" style="font-family:ê¶ì„œ; color:rgb(222,195,61); background-color:rgb(41,77,90); border-style:none;" value="$_pass">
                     </td>
                     <td width="106" background="$IMG/backg3.gif">
-                        <p align="center"><input type="submit" style="font-family:±Ã¼­; color:rgb(204,255,0); background-color:rgb(41,77,90); border-style:none;" value="°ÔÀÓ°³½Ã"></form></p>
+                        <p align="center"><input type="submit" style="font-family:ê¶ì„œ; color:rgb(204,255,0); background-color:rgb(41,77,90); border-style:none;" value="ê²Œì„ê°œì‹œ"></form></p>
 
                     </td>
                 </tr>
@@ -63,7 +63,7 @@ A {
           <TR>
             <TD width=20 bgcolor=$TD_C2></TD>
 EOM
-	open(IN,"$TOWN_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$TOWN_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@TOWN_DATA = <IN>;
 	close(IN);
 
@@ -83,12 +83,12 @@ EOM
 				}
 				$col="";
 				if($m_hit){
-					if($zzname eq "¼ºµµ" || $zzname eq "Àå¾È" || $zzname eq "¾ç¾ç" || $zzname eq "³«¾ç" || $zzname eq "¾÷" || $zzname eq "ÇãÃ¢" || $zzname eq "°Ç¾÷" || $zzname eq "ÇÑ"){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
-					}elsif($zzname eq "È«³ó" || $zzname eq "¿Ï" || $zzname eq "°­¸ª" || $zzname eq "¿©³²" || $zzname eq "º¹¾ç" || $zzname eq "¼öÃá" || $zzname eq "°è" || $zzname eq "³²ÇÇ" || $zzname eq "ºÏÇØ" || $zzname eq "ÇÏºñ" || $zzname eq "±¤¸ª" || $zzname eq "¿À" || $zzname eq "±¹³»"){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
-					}elsif($zzname eq "¼­·®" || $zzname eq "Ãµ¼ö" || $zzname eq "»ó¿ë" || $zzname eq "Á¹º»" || $zzname eq "ÇÑÁß" || $zzname eq "°­ÁÖ" || $zzname eq "°­ÇÏ" || $zzname eq "Àå»ç" || $zzname eq "³²ÇØ" || $zzname eq "ÁøÀ¯" || $zzname eq "½Ã»ó" || $zzname eq "ÃÊ" || $zzname eq "´Ü¾ç" || $zzname eq "ºÏÆò" || $zzname eq "È¸°è" || $zzname eq "¼­¶ó¹ú" || $zzname eq "»çºñ"){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+					if($zzname eq "ì„±ë„" || $zzname eq "ì¥ì•ˆ" || $zzname eq "ì–‘ì–‘" || $zzname eq "ë‚™ì–‘" || $zzname eq "ì—…" || $zzname eq "í—ˆì°½" || $zzname eq "ê±´ì—…" || $zzname eq "í•œ"){
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
+					}elsif($zzname eq "í™ë†" || $zzname eq "ì™„" || $zzname eq "ê°•ë¦‰" || $zzname eq "ì—¬ë‚¨" || $zzname eq "ë³µì–‘" || $zzname eq "ìˆ˜ì¶˜" || $zzname eq "ê³„" || $zzname eq "ë‚¨í”¼" || $zzname eq "ë¶í•´" || $zzname eq "í•˜ë¹„" || $zzname eq "ê´‘ë¦‰" || $zzname eq "ì˜¤" || $zzname eq "êµ­ë‚´"){
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
+					}elsif($zzname eq "ì„œëŸ‰" || $zzname eq "ì²œìˆ˜" || $zzname eq "ì¡¸ë³¸" || $zzname eq "ìƒìš©" || $zzname eq "í•œì¤‘" || $zzname eq "ê°•ì£¼" || $zzname eq "ê°•í•˜" || $zzname eq "ì¥ì‚¬" || $zzname eq "ë‚¨í•´" || $zzname eq "ì§„ìœ " || $zzname eq "ì‹œìƒ" || $zzname eq "ì´ˆ" || $zzname eq "ë‹¨ì–‘" || $zzname eq "ë¶í‰" || $zzname eq "íšŒê³„" || $zzname eq "ì„œë¼ë²Œ" || $zzname eq "ì‚¬ë¹„"){
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 					}elsif($zzname eq "1"){
 						print "<TH img background=$IMG/sea.gif></TH>";
 					}elsif($zzname eq "2"){
@@ -100,7 +100,7 @@ EOM
 					}elsif($zzname eq "5"){
 						print "<TH img background=$IMG/cho.gif></TH>";
 					}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 					}
 				}else{
 					print "<TH> </TH>";
@@ -145,23 +145,23 @@ $G_MES
                 </tr>
                 <tr>
                     <td width="33%" height="97">
-                        <p align="center"><a href="./entry.cgi" title="»ï±¹Áö ¸ğÀÇÀüÅõ NET - Ä¥¶û¼­¹ö¿¡ ½Å±Ô°¡ÀÔÀ» ÇÕ´Ï´Ù."><img src="$IMG/m1.jpg" width="130" height="90" border="0"></a></p>
+                        <p align="center"><a href="./entry.cgi" title="ì‚¼êµ­ì§€ ëª¨ì˜ì „íˆ¬ NET - ì¹ ë‘ì„œë²„ì— ì‹ ê·œê°€ì…ì„ í•©ë‹ˆë‹¤."><img src="$IMG/m1.jpg" width="130" height="90" border="0"></a></p>
                     </td>
                     <td width="33%" height="97">
-                        <p align="center"><a href="./ranking.cgi" title="¸ğÀü ³»ÀÇ ¸ğµç Àå¼öÀÇ Á¤º¸¸¦ ÀÏ¶÷ÇÕ´Ï´Ù."><img src="$IMG/m2.jpg" width="130" height="90" border="0"></a></p>
+                        <p align="center"><a href="./ranking.cgi" title="ëª¨ì „ ë‚´ì˜ ëª¨ë“  ì¥ìˆ˜ì˜ ì •ë³´ë¥¼ ì¼ëŒí•©ë‹ˆë‹¤."><img src="$IMG/m2.jpg" width="130" height="90" border="0"></a></p>
                     </td>
-                    <td width="33%" height="97"><p align="center"><a href="./ranking2.cgi" title="°¢ ´É·ÂÄ¡ ºÎºĞ 1~10À§±îÁö ÀÏ¶÷ÇÕ´Ï´Ù."><img src="$IMG/m3.jpg" width="130" height="90" border="0"></a></p>
+                    <td width="33%" height="97"><p align="center"><a href="./ranking2.cgi" title="ê° ëŠ¥ë ¥ì¹˜ ë¶€ë¶„ 1~10ìœ„ê¹Œì§€ ì¼ëŒí•©ë‹ˆë‹¤."><img src="$IMG/m3.jpg" width="130" height="90" border="0"></a></p>
                     </td>
                 </tr>
                 <tr>
                     <td width="33%" height="110">
-                        <p align="center"><a href="./manual.htm" title="Ä¥¶û¼­¹öÀÇ ÇÃ·¹ÀÌ ¸Ş´º¾óÀÔ´Ï´Ù."><img src="$IMG/m4.jpg" width="130" height="90" border="0"></a></p>
+                        <p align="center"><a href="./manual.htm" title="ì¹ ë‘ì„œë²„ì˜ í”Œë ˆì´ ë©”ë‰´ì–¼ì…ë‹ˆë‹¤."><img src="$IMG/m4.jpg" width="130" height="90" border="0"></a></p>
                     </td>
                     <td width="33%" height="110">
-                        <p align="center"><a href="./sagwan.htm" title="¿ª´ë ¿ÕÁ¶ÀÇ ¿ª»çµéÀ» ÀÏ¶÷ÇÕ´Ï´Ù."><img src="$IMG/m5.jpg" width="130" height="90" border="0"></a></p>
+                        <p align="center"><a href="./sagwan.htm" title="ì—­ëŒ€ ì™•ì¡°ì˜ ì—­ì‚¬ë“¤ì„ ì¼ëŒí•©ë‹ˆë‹¤."><img src="$IMG/m5.jpg" width="130" height="90" border="0"></a></p>
                     </td>
                     <td width="33%" height="110">
-                        <p align="center"><a href="http://cafe.naver.com/120sam" target="_blank" title="Ä¥¶û¼­¹öÀÇ °ø½ÄÄ«ÆäÀÔ´Ï´Ù."><img src="$IMG/m6.jpg" width="130" height="90" border="0"></a></p>
+                        <p align="center"><a href="http://cafe.naver.com/120sam" target="_blank" title="ì¹ ë‘ì„œë²„ì˜ ê³µì‹ì¹´í˜ì…ë‹ˆë‹¤."><img src="$IMG/m6.jpg" width="130" height="90" border="0"></a></p>
                     </td>
                 </tr>
             </table>
@@ -186,3 +186,4 @@ $G_MES
 EOM
 }
 1;
+
