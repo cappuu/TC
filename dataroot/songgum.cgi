@@ -1,11 +1,16 @@
 
 sub SONGGUM{
 					if($kgold<0){
-					&K_LOG("µ·ÀÌ ÃæºĞÇÏÁö ¾Ê½À´Ï´Ù.");
+					&K_LOG("ëˆì´ ì¶©ë¶„í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 					}else{
-					$susu = int($csub*30/100);
-					$susu1 = $csub-$susu;
-					&K_LOG("$cno´Ô¿¡°Ô $susu1ÀÇ ±İÀ» ¼Û±İÇß½À´Ï´Ù. [¼ö¼ö·á: $susu]");
+						if($kskill =~ /Ab/){
+						$susu = int($csub*30/100);
+						$susu1 = $csub-$susu;
+						}else{
+						$susu = int($csub*50/100);
+						$susu1 = $csub-$susu;
+						}
+					&K_LOG("$cnoë‹˜ì—ê²Œ $susu1ì˜ ê¸ˆì„ ì†¡ê¸ˆí–ˆìŠµë‹ˆë‹¤. [ìˆ˜ìˆ˜ë£Œ: $susu]");
 					$kgold-=$csub;
 
 							open(IN,"$QUEST_DATA");
@@ -15,15 +20,15 @@ sub SONGGUM{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /¼Û±İ/){
-										if($qup =~ /¼Û±İ/){
+									if($qcategory =~ /ì†¡ê¸ˆ/){
+										if($qup =~ /ì†¡ê¸ˆ/){
 										$kqpoint += $susu1;
 										}else{
 										$kqpoint += $qup;
 										}
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 									}
 								}
@@ -39,7 +44,7 @@ sub SONGGUM{
 					close(IN);
 					($eid,$epass,$ename,$echara,$estr,$eint,$elea,$echa,$esol,$egat,$econ,$egold,$erice,$ecex,$eclass,$earm,$ebook,$ebank,$esub1,$esub2,$epos,$emes,$ehost,$edate,$email,$eos,$eskill,$epoint,$ect,$elevel,$eexp,$ecodea,$ecodeb,$eqpoint) = split(/<>/,$E_DATA[0]);
 					$egold += $susu1;
-					&E_LOG2("$kname´Ô¿¡°Ô¼­ $susu1ÀÇ ±İÀ» ¼Û±İ¹Ş¾Ò½À´Ï´Ù. [¼ö¼ö·á: $susu]");
+					&E_LOG2("$knameë‹˜ì—ê²Œì„œ $susu1ì˜ ê¸ˆì„ ì†¡ê¸ˆë°›ì•˜ìŠµë‹ˆë‹¤. [ìˆ˜ìˆ˜ë£Œ: $susu]");
 					&ENEMY_INPUT;
 
 					}
