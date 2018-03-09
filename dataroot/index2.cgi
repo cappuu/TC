@@ -39,13 +39,13 @@ sub CHEACK_COM{
 	require './dataroot/pagyeon2.cgi';
 
 	if($LOCK){&D_F_LOCK;
-		if (!-e $lockfile2) {&ERR2("ÆÄÀÏÀÇ Àá±İÀÌ µÇÁö ¾Ê°í ÀÖ½À´Ï´Ù.");}
+		if (!-e $lockfile2) {&ERR2("íŒŒì¼ì˜ ì ê¸ˆì´ ë˜ì§€ ì•Šê³  ìˆìŠµë‹ˆë‹¤.");}
 	}
 	open(IN,"$TOWN_LIST");
 	@TOWN_DATA = <IN>;
 	close(IN);
 
-	open(IN,"$UNIT_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$UNIT_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@UNI_DATA = <IN>;
 	close(IN);
 
@@ -81,7 +81,7 @@ sub CHEACK_COM{
 		while($file = readdir(dirlist)){
 			if($file =~ /\.cgi/i){
 				if(!open(page,"$dir/$file")){
-					&ERR2("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+					&ERR2("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 				}
 				@page = <page>;
 				close(page);
@@ -102,7 +102,7 @@ sub CHEACK_COM{
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"$dir/$file")){
-				&ERR2("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+				&ERR2("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 			}
 			@page = <page>;
 			close(page);
@@ -116,7 +116,7 @@ sub CHEACK_COM{
 			if($go_ex > 1699){
 			&BONG_DEL;
 			&DELETE;
-			&MAP_LOG("<img src=$IMG/j7.gif> $kname´ÔÀº ÇÇ·Î°¡ ´©ÀûµÇ¾î °ú·Î·Î »ç¸ÁÇÏ¿´½À´Ï´Ù.");
+			&MAP_LOG("<img src=$IMG/j7.gif> $knameë‹˜ì€ í”¼ë¡œê°€ ëˆ„ì ë˜ì–´ ê³¼ë¡œë¡œ ì‚¬ë§í•˜ì˜€ìŠµë‹ˆë‹¤.");
 			}
 
 				if($mmonth > 12){$kbank +=1;}
@@ -223,27 +223,27 @@ sub CHEACK_COM{
 						$nadd = int(rand(4));
 						if($nadd eq "1"){
 							$kstr++;
-							$add_m = "¹«·Â";
+							$add_m = "ë¬´ë ¥";
 						}elsif($nadd eq "2"){
 							$kint++;
-							$add_m = "Áö·Â";
+							$add_m = "ì§€ë ¥";
 						}elsif($nadd eq "3"){
 							$kcha++;
-							$add_m = "¸Å·Â";
+							$add_m = "ë§¤ë ¥";
 						}else{
 							$klea++;
-							$add_m = "Åë¼Ö·Â";
+							$add_m = "í†µì†”ë ¥";
 						}
 						$max_sal = 1000+$klevel*150;
 						$klevel++;
 						$kclass += int(200 * (1+($klevel*0.1)));
-						&K_LOG("$mmonth¿ù : [<font color=red>·¹º§¾÷</font>] $add_mÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú½À´Ï´Ù.");
-						&K_LOG("$mmonth¿ù : [<font color=red>·¹º§¾÷</font>] Lv.$klevelÀÌ µÇ¾ú´Ù! ºÀ·ÏÀÌ <font color=red> $max_sal </font>·Î ´Ã¾î³µ´Ù!");
-						&HISTORY_LOG($kid,"Lv.$klevelÀÌ µÇ¾ú´Ù!");
+						&K_LOG("$mmonthì›” : [<font color=red>ë ˆë²¨ì—…</font>] $add_mì´ 1í¬ì¸íŠ¸ ì˜¬ëìŠµë‹ˆë‹¤.");
+						&K_LOG("$mmonthì›” : [<font color=red>ë ˆë²¨ì—…</font>] Lv.$klevelì´ ë˜ì—ˆë‹¤! ë´‰ë¡ì´ <font color=red> $max_sal </font>ë¡œ ëŠ˜ì–´ë‚¬ë‹¤!");
+						&HISTORY_LOG($kid,"Lv.$klevelì´ ë˜ì—ˆë‹¤!");
 						$kexp = $love;
 					}
 					$kcex = 0;
-					&K_LOG("$mmonth¿ù : ¼¼±İÀ¸·Î <font color=red>$kadd</font>ÀÇ µ·À» Â¡¼öÇß½À´Ï´Ù. [°üÁ÷Ãß°¡ºÀ·Ï:$adv] [ºÀÅäÃß°¡ºÀ·Ï:$goldplus]");
+					&K_LOG("$mmonthì›” : ì„¸ê¸ˆìœ¼ë¡œ <font color=red>$kadd</font>ì˜ ëˆì„ ì§•ìˆ˜í–ˆìŠµë‹ˆë‹¤. [ê´€ì§ì¶”ê°€ë´‰ë¡:$adv] [ë´‰í† ì¶”ê°€ë´‰ë¡:$goldplus]");
 					}elsif($mmonth eq "7"){
 					&SALARY;
 					if($cou_num[$kcon] eq "0" || $cou_num[$kcon] eq ""){
@@ -263,27 +263,27 @@ sub CHEACK_COM{
 						$nadd = int(rand(4));
 						if($nadd eq "1"){
 							$kstr++;
-							$add_m = "¹«·Â";
+							$add_m = "ë¬´ë ¥";
 						}elsif($nadd eq "2"){
 							$kint++;
-							$add_m = "Áö·Â";
+							$add_m = "ì§€ë ¥";
 						}elsif($nadd eq "3"){
 							$kcha++;
-							$add_m = "¸Å·Â";
+							$add_m = "ë§¤ë ¥";
 						}else{
 							$klea++;
-							$add_m = "Åë¼Ö·Â";
+							$add_m = "í†µì†”ë ¥";
 						}
 						$klevel++;
 						$kclass += int(200 * (1+($klevel*0.1)));
 						$max_sal = 1000 + $klevel * 150;
-						&K_LOG("$mmonth¿ù : [<font color=red>·¹º§¾÷</font>] $add_mÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú½À´Ï´Ù!");
-						&K_LOG("$mmonth¿ù : [<font color=red>·¹º§¾÷</font>] Lv.$klevelÀÌ µÇ¾ú´Ù! ºÀ·ÏÀÌ <font color=red> $max_sal </font>·Î ´Ã¾î³µ´Ù!");
-						&HISTORY_LOG($kid,"Lv.$klevelÀÌ µÇ¾ú´Ù!");
+						&K_LOG("$mmonthì›” : [<font color=red>ë ˆë²¨ì—…</font>] $add_mì´ 1í¬ì¸íŠ¸ ì˜¬ëìŠµë‹ˆë‹¤!");
+						&K_LOG("$mmonthì›” : [<font color=red>ë ˆë²¨ì—…</font>] Lv.$klevelì´ ë˜ì—ˆë‹¤! ë´‰ë¡ì´ <font color=red> $max_sal </font>ë¡œ ëŠ˜ì–´ë‚¬ë‹¤!");
+						&HISTORY_LOG($kid,"Lv.$klevelì´ ë˜ì—ˆë‹¤!");
 						$kexp = $love;
 					}
 					$kcex = 0;
-					&K_LOG("$mmonth¿ù : ¼öÈ®À¸·Î <font color=red>$kadd</font>ÀÇ ½Ä·®À» ¼öÈ®Çß½À´Ï´Ù. [ºÀÅäÃß°¡ºÀ·Ï:$ssalplus]");
+					&K_LOG("$mmonthì›” : ìˆ˜í™•ìœ¼ë¡œ <font color=red>$kadd</font>ì˜ ì‹ëŸ‰ì„ ìˆ˜í™•í–ˆìŠµë‹ˆë‹¤. [ë´‰í† ì¶”ê°€ë´‰ë¡:$ssalplus]");
 				}
 				open(IN,"./charalog/command/$kid\.cgi");
 				@COM_DATA = <IN>;
@@ -379,20 +379,20 @@ sub CHEACK_COM{
 							$go_ex += int($kbank/2);
 							if($cnum eq "1"){
 								$kstr_ex +=2;
-								$a_mes = "¹«·Â";
-								&K_LOG("$mmonth¿ù : $a_mes¸¦ °­È­Çß½À´Ï´Ù.");
+								$a_mes = "ë¬´ë ¥";
+								&K_LOG("$mmonthì›” : $a_mesë¥¼ ê°•í™”í–ˆìŠµë‹ˆë‹¤.");
 							}elsif($cnum eq "2"){
 								$kint_ex +=2;
-								$a_mes = "Áö·Â";
-								&K_LOG("$mmonth¿ù : $a_mes¸¦ °­È­Çß½À´Ï´Ù.");
+								$a_mes = "ì§€ë ¥";
+								&K_LOG("$mmonthì›” : $a_mesë¥¼ ê°•í™”í–ˆìŠµë‹ˆë‹¤.");
 							}elsif($cnum eq "3"){
 								$klea_ex +=2;
-								$a_mes = "Åë¼Ö·Â";
-								&K_LOG("$mmonth¿ù : $a_mes¸¦ °­È­Çß½À´Ï´Ù.");
+								$a_mes = "í†µì†”ë ¥";
+								&K_LOG("$mmonthì›” : $a_mesë¥¼ ê°•í™”í–ˆìŠµë‹ˆë‹¤.");
 							}elsif($cnum eq "4"){
 								$kcha_ex +=2;
-								$a_mes = "¸Å·Â";
-								&K_LOG("$mmonth¿ù : $a_mes¸¦ °­È­Çß½À´Ï´Ù.");
+								$a_mes = "ë§¤ë ¥";
+								&K_LOG("$mmonthì›” : $a_mesë¥¼ ê°•í™”í–ˆìŠµë‹ˆë‹¤.");
 								}
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}elsif($cid eq "61"){
@@ -405,11 +405,11 @@ sub CHEACK_COM{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /ÈŞ½Ä/){
+									if($qcategory =~ /íœ´ì‹/){
 										$kqpoint += $qup;
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 									}
 								}
@@ -417,23 +417,23 @@ sub CHEACK_COM{
 
 							$ksub2=0;
 							if($go_ex < 0){
-							&K_LOG("$mmonth¿ù : ÇöÀç ±â¿îÀÌ Ãæ¸¸ÇÑ »óÅÂÀÔ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : í˜„ì¬ ê¸°ìš´ì´ ì¶©ë§Œí•œ ìƒíƒœì…ë‹ˆë‹¤.");
 								$go_ex=0;
 							}else{
 							if($kcodea =~ /D3/){
 								$kqpoint += 1;
 							}
-							&K_LOG("$mmonth¿ù : ÇÇ·Î¸¦ ¼ÒÆø È¸º¹ÇÏ¿´½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : í”¼ë¡œë¥¼ ì†Œí­ íšŒë³µí•˜ì˜€ìŠµë‹ˆë‹¤.");
 							$go_ex -= 150;
 							}
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
 					}elsif($cid eq "64"){
 							$ksub2=0;
 							if($go_ex < 0){
-							&K_LOG("$mmonth¿ù : ÇöÀç ±â¿îÀÌ Ãæ¸¸ÇÑ »óÅÂÀÔ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : í˜„ì¬ ê¸°ìš´ì´ ì¶©ë§Œí•œ ìƒíƒœì…ë‹ˆë‹¤.");
 								$go_ex=0;
 							}else{
-							&K_LOG("$mmonth¿ù : ÈŞ¾çÇÏ¿© ÇÇ·Î¸¦ ´ëÆø È¸º¹ÇÏ¿´½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : íœ´ì–‘í•˜ì—¬ í”¼ë¡œë¥¼ ëŒ€í­ íšŒë³µí•˜ì˜€ìŠµë‹ˆë‹¤.");
 							$go_ex -= 300;
 							}
 							$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
@@ -446,11 +446,11 @@ sub CHEACK_COM{
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /¼÷¹Ú/){
+									if($qcategory =~ /ìˆ™ë°•/){
 										$kqpoint += $qup;
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 									}
 								}
@@ -458,10 +458,10 @@ sub CHEACK_COM{
 
 							$ksub2=0;
 							if($go_ex < 0){
-							&K_LOG("$mmonth¿ù : ÇöÀç ±â¿îÀÌ Ãæ¸¸ÇÑ »óÅÂÀÔ´Ï´Ù.");
+							&K_LOG("$mmonthì›” : í˜„ì¬ ê¸°ìš´ì´ ì¶©ë§Œí•œ ìƒíƒœì…ë‹ˆë‹¤.");
 								$go_ex=0;
 							}else{
-							&K_LOG("$mmonth¿ù : ¼÷¹ÚÇÏ¿© ÇÇ·Î¸¦ ´ëÆø È¸º¹ÇÏ¿´½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ìˆ™ë°•í•˜ì—¬ í”¼ë¡œë¥¼ ëŒ€í­ íšŒë³µí•˜ì˜€ìŠµë‹ˆë‹¤.");
 							$go_ex -= 300;
 							$kgold -= 300;
 							}
@@ -470,7 +470,7 @@ sub CHEACK_COM{
 						&SUSAEK;
 					}elsif($cid eq "100"){
 						$kpos = 17;
-						&K_LOG("$mmonth¿ù : ´ëÈ¸Âü°¡¸¦ À§ÇØ $town_name[$kpos]¼ºÀ¸·Î µµÂøÇß½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : ëŒ€íšŒì°¸ê°€ë¥¼ ìœ„í•´ $town_name[$kpos]ì„±ìœ¼ë¡œ ë„ì°©í–ˆìŠµë‹ˆë‹¤.");
 					}elsif($cid eq "28"){
 						&JIPHAP;
 					}elsif($cid eq "54"){
@@ -484,13 +484,13 @@ sub CHEACK_COM{
 						if($ksub2 > $DEL_TURN){
 							&BONG_DEL;
 							&DELETE
-							&MAP_LOG("<img src=$IMG/j7.gif> $kname´ÔÀº º´¿¡ °É·Á »ç¸ÁÇÏ¿´½À´Ï´Ù.");
+							&MAP_LOG("<img src=$IMG/j7.gif> $knameë‹˜ì€ ë³‘ì— ê±¸ë ¤ ì‚¬ë§í•˜ì˜€ìŠµë‹ˆë‹¤.");
 						}
-						&K_LOG("$mmonth¿ù : ¾Æ¹«°Íµµ ½ÇÇàÇÏÁö ¾Ê¾Ò½À´Ï´Ù.");
+						&K_LOG("$mmonthì›” : ì•„ë¬´ê²ƒë„ ì‹¤í–‰í•˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
 					}
 
 				}else{
-					&K_LOG("$mmonth¿ù : ÀÚ±¹ÀÌ ¾Æ´Õ´Ï´Ù.");
+					&K_LOG("$mmonthì›” : ìêµ­ì´ ì•„ë‹™ë‹ˆë‹¤.");
 				}
 
 
@@ -513,7 +513,7 @@ sub CHEACK_COM{
 		close(OUT);
 
 
-					&K_LOG("$mmonth¿ù : <font color=red>[Å»ÁÖ] </font>:½ÒÀ» ÁöºÒÇÏÁö ¸øÇÏÀÚ ±º»çµéÀÌ Å»ÁÖÇß½À´Ï´Ù.");
+					&K_LOG("$mmonthì›” : <font color=red>[íƒˆì£¼] </font>:ìŒ€ì„ ì§€ë¶ˆí•˜ì§€ ëª»í•˜ì êµ°ì‚¬ë“¤ì´ íƒˆì£¼í–ˆìŠµë‹ˆë‹¤.");
 					$ksol = 0;
 					$kgat = 0;
 					$krice = 0;
@@ -524,25 +524,24 @@ sub CHEACK_COM{
 					$kstr++;
 					$kstr_ex-=int($kstr/10);
 					$uhit=1;
-					&K_LOG("$mmonth¿ù : <font color=red>[»ó½Â] </font>:$knameÀÇ ¹«·ÂÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú´Ù.");
+					&K_LOG("$mmonthì›” : <font color=red>[ìƒìŠ¹] </font>:$knameì˜ ë¬´ë ¥ì´ 1í¬ì¸íŠ¸ ì˜¬ëë‹¤.");
 				}
-				if($kint_ex >= 10){
-					$kint++;
-					$kint_ex-=10;
+				if($kint_ex >= int($kint/10)){					$kint++;
+					$kint_ex-=int($kint/10);
 					$uhit=1;
-					&K_LOG("$mmonth¿ù : <font color=red>[»ó½Â] </font>:$knameÀÇ Áö·ÂÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú´Ù.");
+					&K_LOG("$mmonthì›” : <font color=red>[ìƒìŠ¹] </font>:$knameì˜ ì§€ë ¥ì´ 1í¬ì¸íŠ¸ ì˜¬ëë‹¤.");
 				}
-				if($klea_ex >= 10){
+				if($klea_ex >= int($klea/10)){
 					$klea++;
-					$klea_ex-=10;
+					$klea_ex-=int($klea/10);
 					$uhit=1;
-					&K_LOG("$mmonth¿ù : <font color=red>[»ó½Â] </font>:$knameÀÇ Åë¼Ö·ÂÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú´Ù.");
+					&K_LOG("$mmonthì›” : <font color=red>[ìƒìŠ¹] </font>:$knameì˜ í†µì†”ë ¥ì´ 1í¬ì¸íŠ¸ ì˜¬ëë‹¤.");
 				}
-				if($kcha_ex >= 10){
+				if($kcha_ex >= int($kcha/10)){
 					$kcha++;
-					$kcha_ex-=10;
+					$kcha_ex-=int($kcha/10);
 					$uhit=1;
-					&K_LOG("$mmonth¿ù : <font color=red>[»ó½Â] </font>:$knameÀÇ ¸Å·ÂÀÌ 1Æ÷ÀÎÆ® ¿Ã¶ú´Ù.");
+					&K_LOG("$mmonthì›” : <font color=red>[ìƒìŠ¹] </font>:$knameì˜ ë§¤ë ¥ì´ 1í¬ì¸íŠ¸ ì˜¬ëë‹¤.");
 				}
 				if($uhit){
 					$ksub1 = "$kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex,";
@@ -552,7 +551,7 @@ sub CHEACK_COM{
 
 				if($ACT_LOG){
 					($qsec,$qmin,$qhour,$qday) = localtime($kdate);
-					unshift(@ACT_DATA,"$kname´ÔÀÌ $qdayÀÏ $qhour½Ã $qminºĞ $qsecÃÊ¿¡ ÀÚ½ÅÀÇ Çàµ¿À» ½ÇÇàÇß½À´Ï´Ù.\n");
+					unshift(@ACT_DATA,"$knameë‹˜ì´ $qdayì¼ $qhourì‹œ $qminë¶„ $qsecì´ˆì— ìì‹ ì˜ í–‰ë™ì„ ì‹¤í–‰í–ˆìŠµë‹ˆë‹¤.\n");
 				}
 				$kup_date++;
 				if($kup_date > $ENTRY_MAX){last;}
