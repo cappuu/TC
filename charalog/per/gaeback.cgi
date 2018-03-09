@@ -1,0 +1,5 @@
+gaeback<><>할렐루야~~ㅎㅎ<>128<><B><font size=2><a href="javascript:info('gaeback')">《맹획》</a></B>ID:gaeback <font size=2>레벨:「Lv.13」 소속국:「초국」<img src=./image/gg20.jpg><>121.183.79.22<>10/13/(Mon) 22:56<>4<>1<>0<>5<>4<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/12/(Sun) 17:51<>4<>1<>0<>4<>0<>
+gaeback<><>방가워요 ^^ 축용 하시지 ㅎㅎ<>128<><B><font size=2><a href="javascript:info('gaeback')">《맹획》</a></B>ID:gaeback <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg20.jpg><>121.183.79.119<>10/12/(Sun) 14:00<>4<>1<>0<>3<>2<>
+sdk423<>맹획아저씨 =ㅅ=ㅋㅋ<>안녕하세요 16기 축융이였습니다.<br>기억하실라나 ㅎㅎㅋㅋ<>413<><B><font size=2><a href="javascript:info('sdk423')">《장각》</a></B>ID:sdk423 <font size=2>레벨:「Lv.12」 소속국:「초국」<img src=./image/gg13.jpg><>221.141.122.173<>10/12/(Sun) 12:22<>4<>1<>0<>2<>0<>
+gaeback<>맹획의 전방 땅입니다. <>ㅎㅎ<>128<><B><font size=2><a href="javascript:info('gaeback')">《맹획》</a></B>ID:gaeback <font size=2>레벨:「Lv.6」 소속국:「초국」<img src=./image/gg20.jpg><>121.183.79.88<>10/09/(Thu) 23:22<>4<>1<>0<>1<>0<>

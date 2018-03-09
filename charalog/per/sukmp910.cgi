@@ -1,0 +1,3 @@
+gurwn<>참모님반갑습니다 ㅋㅋ<>안녕하새여 ㅋㅋ<>624<><B><font size=2><a href="javascript:info('gurwn')">《허저》</a></B>ID:gurwn <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg08.jpg><>220.122.100.231<>10/12/(Sun) 18:44<>7<>2<>0<>3<>0<>
+sukmp910<><>ㅋㅋㅋ<>119<><B><font size=2><a href="javascript:info('sukmp910')">《마초》</a></B>ID:sukmp910 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg02.jpg><>222.101.138.26<>10/08/(Wed) 23:12<>7<>2<>0<>2<>1<>
+Giggs<>마초님 안녕하세요^^<>16기때 많이가르쳐 주셔서 ㄳ합니다<br>첫번째글 1등<>579<><B><font size=2><a href="javascript:info('Giggs')">《침옥》</a></B>ID:Giggs <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg16.jpg><>123.215.142.118<>10/08/(Wed) 12:53<>7<>2<>0<>1<>0<>

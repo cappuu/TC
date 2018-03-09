@@ -1,0 +1,6 @@
+boolta<><>^___________^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg17.jpg><>211.236.150.143<>10/15/(Wed) 21:30<>7<>2<>0<>6<>3<>
+boolta<><>낙화유수, 관해님과 함께 해서 영광입니다. 다시 한번 천통을 향해 고고씽!!<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg17.jpg><>211.236.150.143<>10/15/(Wed) 21:21<>7<>2<>0<>5<>2<>
+boolta<><>네, 안녕하세요, 평강님 앞으로 잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg17.jpg><>211.236.150.143<>10/15/(Wed) 21:20<>7<>2<>0<>4<>1<>
+dasri<>안녕하셔요<>^___________^<>387<><B><font size=2><a href="javascript:info('dasri')">《유표》</a></B>ID:dasri <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg00.jpg><>121.177.214.231<>10/10/(Fri) 22:01<>7<>2<>0<>3<>0<>
+skcyean<>양호님!<>과장님 함께 삼통이루어 보아요^^<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.33<>10/09/(Thu) 17:38<>7<>2<>0<>2<>0<>
+woals<>안녕하세요?<>안녕하시죠?<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg07.jpg><>218.144.105.63<>10/09/(Thu) 15:51<>7<>2<>0<>1<>0<>

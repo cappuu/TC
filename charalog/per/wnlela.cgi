@@ -1,0 +1,1 @@
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.1」 소속국:「초국」<img src=./image/gg00.jpg><>59.19.148.219<>10/07/(Tue) 17:35<>4<>1<>0<>1<>0<>

@@ -1,0 +1,4 @@
+pt1004<><>내공냠냠<>488<><B><font size=2><a href="javascript:info('pt1004')">《제갈근》</a></B>ID:pt1004 <font size=2>레벨:「Lv.14」 소속국:「고구려국」<img src=./image/gg06.jpg><>121.176.46.245<>10/12/(Sun) 11:58<>7<>2<>0<>4<>1<>
+pt1004<><>?? 뭔솔임.?<>488<><B><font size=2><a href="javascript:info('pt1004')">《제갈근》</a></B>ID:pt1004 <font size=2>레벨:「Lv.14」 소속국:「고구려국」<img src=./image/gg06.jpg><>121.176.46.245<>10/12/(Sun) 11:58<>7<>2<>0<>3<>2<>
+skcyean<>안녕하세요<>2명의 여자와 동거? 좋겠다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg10.jpg><>218.52.101.215<>10/10/(Fri) 18:45<>7<>2<>0<>2<>0<>
+aaati<>공헌치냠냠<>맛있게드세요<>131<><B><font size=2><a href="javascript:info('aaati')">《관구검》</a></B>ID:aaati <font size=2>레벨:「Lv.2」 소속국:「고구려국」<img src=./image/gg00.jpg><>125.184.71.160<>10/10/(Fri) 17:37<>7<>2<>0<>1<>0<>

@@ -1,0 +1,1 @@
+Eodrn<>많이들 들려주시기 바래요<>내정인생 여건입니다~<>281<><B><font size=2><a href="javascript:info('Eodrn')">《여건》</a></B>ID:Eodrn <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg00.jpg><>116.125.73.203<>10/16/(Thu) 00:14<>7<>2<>0<>1<>0<>

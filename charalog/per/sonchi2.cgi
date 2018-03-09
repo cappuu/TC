@@ -1,0 +1,3 @@
+dasri<>안녕하셔요<>^____^<>387<><B><font size=2><a href="javascript:info('dasri')">《유표》</a></B>ID:dasri <font size=2>레벨:「Lv.18」 소속국:「고구려국」<img src=./image/gg00.jpg><>121.177.214.231<>10/15/(Wed) 22:28<>7<>2<>0<>3<>0<>
+boolta<>안녕하세요, 조조님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.12」 소속국:「고구려국」<img src=./image/gg00.jpg><>119.148.132.137<>10/14/(Tue) 03:03<>7<>2<>0<>2<>0<>
+skcyean<>만나서 반갑습니다<>많은 활약 기대합니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.16」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/14/(Tue) 00:08<>7<>2<>0<>1<>0<>

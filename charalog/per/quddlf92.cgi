@@ -1,0 +1,8 @@
+quddlf92<><>ㅎㅎ 네<>43<><B><font size=2><a href="javascript:info('quddlf92')">《곽익》</a></B>ID:quddlf92 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg11.jpg><>61.84.169.53<>10/09/(Thu) 20:51<>7<>2<>0<>8<>7<>
+gksqkseh<>대교입니다...<>항상 멋진 모습 기대할께요 ㅎㅎ<>84<><B><font size=2><a href="javascript:info('gksqkseh')">《대교》</a></B>ID:gksqkseh <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg05.jpg><>218.49.204.15<>10/09/(Thu) 06:44<>7<>2<>0<>7<>0<>
+quddlf92<><>ㅋㅋ 아자아자 ㅋㅋ<>43<><B><font size=2><a href="javascript:info('quddlf92')">《곽익》</a></B>ID:quddlf92 <font size=2>레벨:「Lv.6」 소속국:「고구려국」<img src=./image/gg11.jpg><>61.84.154.6<>10/08/(Wed) 18:13<>7<>2<>0<>6<>3<>
+quddlf92<><>평강님도 화이팅임 ㅋ <>43<><B><font size=2><a href="javascript:info('quddlf92')">《곽익》</a></B>ID:quddlf92 <font size=2>레벨:「Lv.6」 소속국:「고구려국」<img src=./image/gg11.jpg><>61.84.154.6<>10/08/(Wed) 18:13<>7<>2<>0<>5<>2<>
+quddlf92<><>저도 잘부탁드리겠습니다 양호님 ㅋ<>43<><B><font size=2><a href="javascript:info('quddlf92')">《곽익》</a></B>ID:quddlf92 <font size=2>레벨:「Lv.6」 소속국:「고구려국」<img src=./image/gg11.jpg><>61.84.154.6<>10/08/(Wed) 18:13<>7<>2<>0<>4<>1<>
+kch9747<>아자아자 입니다.<>방시 방시<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg04.jpg><>128.134.225.3<>10/08/(Wed) 15:26<>7<>2<>0<>3<>0<>
+woals<>안녕하세요?<>화이링!<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg07.jpg><>218.144.105.63<>10/08/(Wed) 09:34<>7<>2<>0<>2<>0<>
+boolta<>안녕하세요, 곽익님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.1」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.236.147.52<>10/08/(Wed) 03:34<>7<>2<>0<>1<>0<>

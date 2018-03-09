@@ -1,0 +1,4 @@
+Eodrn<>내정왔다가 들립니다<>휘리릭~~<>281<><B><font size=2><a href="javascript:info('Eodrn')">《여건》</a></B>ID:Eodrn <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg00.jpg><>116.125.73.203<>10/16/(Thu) 00:13<>7<>2<>0<>4<>0<>
+skcyean<><>넵 지켜봐주십시오<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.33<>10/09/(Thu) 17:37<>7<>2<>0<>3<>2<>
+sukmp910<>관해공<>산적 관해공 건국초 관해공을 전장에서 뵈었습니다..<br><br>큰공을 게속 이루시기바랍니다.<>119<><B><font size=2><a href="javascript:info('sukmp910')">《마초》</a></B>ID:sukmp910 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg02.jpg><>222.101.138.26<>10/08/(Wed) 23:13<>7<>2<>0<>2<>0<>
+skcyean<>안녕하세요<>산적 관해 인사드릴께요<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.8」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.33<>10/08/(Wed) 15:57<>7<>2<>0<>1<>0<>

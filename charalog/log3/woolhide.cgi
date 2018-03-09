@@ -1,0 +1,20 @@
+[198년01월]황월영님이 선화님을 상대로 일기토에서 승리!
+<font color=red>19</font>합:선화의 체력 -6 (-7) VS 황월영의 체력 5 (-4)
+[198년01월]선화(무력:78 통솔:81)님과 일기토를 시작!
+[195년11월]황월영님이 사마휘님을 상대로 일기토에서 승리!
+<font color=red>19</font>합:황월영의 체력 5 (-6) VS 사마휘의 체력 -1 (-7)
+<font color=red>18</font>합:황월영의 체력 5 (-6) VS 사마휘의 체력 6 (-7)
+<font color=red>17</font>합:황월영의 체력 11 (-5) VS 사마휘의 체력 13 (-5)
+<font color=red>16</font>합:황월영의 체력 16 (-4) VS 사마휘의 체력 18 (-5)
+<font color=red>15</font>합:황월영의 체력 20 (-4) VS 사마휘의 체력 23 (-5)
+<font color=red>14</font>합:황월영의 체력 24 (-7) VS 사마휘의 체력 28 (-5)
+<font color=red>13</font>합:황월영의 체력 31 (-4) VS 사마휘의 체력 33 (-4)
+<font color=red>12</font>합:황월영의 체력 35 (-5) VS 사마휘의 체력 37 (-6)
+<font color=red>11</font>합:황월영의 체력 40 (-6) VS 사마휘의 체력 43 (-5)
+<font color=red>10</font>합:황월영의 체력 46 (-6) VS 사마휘의 체력 48 (-4)
+<font color=red>9</font>합:황월영의 체력 52 (-7) VS 사마휘의 체력 52 (-3)
+<font color=red>8</font>합:황월영의 체력 59 (-5) VS 사마휘의 체력 55 (-5)
+<font color=red>7</font>합:황월영의 체력 64 (-6) VS 사마휘의 체력 60 (-5)
+<font color=red>6</font>합:황월영의 체력 70 (-4) VS 사마휘의 체력 65 (-5)
+<font color=red>5</font>합:황월영의 체력 74 (-5) VS 사마휘의 체력 70 (-5)
+<font color=red>4</font>합:황월영의 체력 79 (-6) VS 사마휘의 체력 75 (-7)

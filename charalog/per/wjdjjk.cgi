@@ -1,0 +1,9 @@
+wjdjjk<><>저도 잘부탁드려요<>303<><B><font size=2><a href="javascript:info('wjdjjk')">《오반》</a></B>ID:wjdjjk <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg00.jpg><>121.180.247.68<>10/15/(Wed) 18:39<>2<>3<>0<>9<>4<>
+wjdjjk<><>네 님도 힘내세요<>303<><B><font size=2><a href="javascript:info('wjdjjk')">《오반》</a></B>ID:wjdjjk <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg00.jpg><>121.180.247.68<>10/15/(Wed) 18:38<>2<>3<>0<>8<>6<>
+wjdjjk<><>안녕하세요<>303<><B><font size=2><a href="javascript:info('wjdjjk')">《오반》</a></B>ID:wjdjjk <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg00.jpg><>121.180.247.68<>10/15/(Wed) 18:38<>2<>3<>0<>7<>3<>
+backho79<>안녕하세요<>놀러 왔다가 갑니다~ 힘내세요~<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.16」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/15/(Wed) 05:37<>2<>3<>0<>6<>0<>
+sese70<><>하이염<>509<><B><font size=2><a href="javascript:info('sese70')">《조운》</a></B>ID:sese70 <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg00.jpg><>211.37.62.18<>10/13/(Mon) 18:42<>2<>3<>0<>5<>1<>
+krienoah<>안녕하세요<>앞으로 잘 부탁드립니다<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/13/(Mon) 16:26<>2<>3<>0<>4<>0<>
+ccpjjh<>안녕하세요~~<>안녕하세요^^<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/11/(Sat) 03:11<>2<>3<>0<>3<>0<>
+wjdjjk<><>반갑습니다<>303<><B><font size=2><a href="javascript:info('wjdjjk')">《오반》</a></B>ID:wjdjjk <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg00.jpg><>121.180.247.68<>10/10/(Fri) 09:28<>2<>3<>0<>2<>1<>
+jjjj<>반갑습니다. <>반갑습니다. <>505<><B><font size=2><a href="javascript:info('jjjj')">《조앙》</a></B>ID:jjjj <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg16.jpg><>125.128.150.125<>10/09/(Thu) 18:33<>2<>3<>0<>1<>0<>

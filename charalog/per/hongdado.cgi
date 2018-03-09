@@ -1,0 +1,2 @@
+skcyean<>안녕하세요 반갑습니다<>산적관해입니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg10.jpg><>218.52.101.215<>10/12/(Sun) 21:00<>7<>2<>0<>2<>0<>
+boolta<>안녕하세요, 비시님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg00.jpg><>116.120.55.28<>10/12/(Sun) 12:58<>7<>2<>0<>1<>0<>

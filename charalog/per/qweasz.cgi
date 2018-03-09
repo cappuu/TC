@@ -1,0 +1,1 @@
+kch9747<>안녕하세요?<>1번이 접니다 푸하하하<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg04.jpg><>128.134.225.3<>10/13/(Mon) 14:06<>7<>2<>0<>1<>0<>

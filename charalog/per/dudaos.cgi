@@ -1,0 +1,2 @@
+kch9747<>^^;<>잘부탁드려요~~~<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg04.jpg><>128.134.225.3<>10/13/(Mon) 08:04<>7<>2<>0<>2<>0<>
+woals<>2:?<>허거거거거ㅓㅓㅓㅓㅓㄱ<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.12」 소속국:「고구려국」<img src=./image/gg07.jpg><>59.186.218.149<>10/11/(Sat) 10:02<>7<>2<>0<>1<>0<>

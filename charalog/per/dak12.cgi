@@ -1,0 +1,2 @@
+dak12<><>ㅎㅎㅎ 전설의 잡장 이사부님! ㅎㅎ 제 관흥캐릭이 증발 해버렸습니다 ;ㅂ;<>582<><B><font size=2><a href="javascript:info('dak12')">《태사향》</a></B>ID:dak12 <font size=2>레벨:「Lv.15」 소속국:「초국」<img src=./image/gg10.jpg><>211.183.87.82<>10/14/(Tue) 18:57<>4<>1<>0<>2<>1<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.10」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/13/(Mon) 00:22<>4<>1<>0<>1<>0<>

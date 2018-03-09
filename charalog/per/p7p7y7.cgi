@@ -1,0 +1,3 @@
+boolta<>안녕하세요, 유장님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg17.jpg><>211.236.150.143<>10/15/(Wed) 21:31<>7<>2<>0<>3<>0<>
+skcyean<>만나서 반갑습니다<>안녕하세요 산적 관해입니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.18」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/15/(Wed) 15:13<>7<>2<>0<>2<>0<>
+p7p7y7<>안녕하세요<>전기 - 유장<br>이번기 - 유장<br><br>이번기는 듣보잡이 돼지않길 !<>382<><B><font size=2><a href="javascript:info('p7p7y7')">《유장》</a></B>ID:p7p7y7 <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg00.jpg><>61.102.52.170<>10/10/(Fri) 23:30<>7<>2<>0<>1<>0<>

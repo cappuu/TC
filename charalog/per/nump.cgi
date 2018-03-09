@@ -1,0 +1,3 @@
+nump<><>헐 공손공님 안녕하세여 !!!잘 부탁해요~!!<>118<><B><font size=2><a href="javascript:info('nump')">《마철》</a></B>ID:nump <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg11.jpg><>58.141.154.94<>10/15/(Wed) 20:00<>7<>2<>0<>3<>2<>
+dhfl<>안녕하세요 마철님!!<>공손공입니다!ㅋㅋ 첫번째?ㅋㅋㅋ로 글쓰내요 ㅋㅋ 잘지내봐용 ㅎㅎ<br><>27<><B><font size=2><a href="javascript:info('dhfl')">《공손공》</a></B>ID:dhfl <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg00.jpg><>121.142.251.144<>10/15/(Wed) 15:52<>7<>2<>0<>2<>0<>
+nump<>많이들려주세요<>ㅋ 요번기도 많이들려주셧으면하는 ㅋㅋㅋ;;;<>118<><B><font size=2><a href="javascript:info('nump')">《마철》</a></B>ID:nump <font size=2>레벨:「Lv.5」 소속국:「고구려국」<img src=./image/gg11.jpg><>58.141.153.244<>10/10/(Fri) 21:38<>7<>2<>0<>1<>0<>

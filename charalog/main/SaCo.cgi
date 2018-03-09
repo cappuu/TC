@@ -1,0 +1,1 @@
+SaCo<>201212<>¾ç¼­<>258<>41<>67<>64<>61<>0<>0<>0<>7004<>4675<>0<>1400<>0<>0<>36<>1,4,0,4,,,,,,,1605,,<>33<>0<>:: Starcraft Asia Server - SaCo. ::<br><br>:: The Nonganist ::<br><br>:: Playing games is very good to you ::<>58.237.220.51<>1224084586<>leeky8707@naver.com<>1<><>460<>0<>6<>80<><>A0A1A5A4A7<>0<>

@@ -1,0 +1,5 @@
+ccn5696<>환범님~<>안녕하세여 만나서 방갑습니다.<br><br>열심히 하겠습니다~<>594<><B><font size=2><a href="javascript:info('ccn5696')">《하후돈》</a></B>ID:ccn5696 <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.236.211.242<>10/15/(Wed) 20:56<>7<>2<>0<>5<>0<>
+ccn5696<><>잘부탁 드립니다 만나서 방갑씁니다<>594<><B><font size=2><a href="javascript:info('ccn5696')">《하후돈》</a></B>ID:ccn5696 <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.236.211.242<>10/15/(Wed) 20:54<>7<>2<>0<>4<>1<>
+ccn5696<><>방갑습니다^^열심히 해봅시다^^친하게지내요^^<>594<><B><font size=2><a href="javascript:info('ccn5696')">《하후돈》</a></B>ID:ccn5696 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>58.236.211.238<>10/14/(Tue) 17:00<>0<><>0<>3<>2<>
+skcyean<>안녕하세요 <>만나서 반갑습니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.16」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/13/(Mon) 11:01<>7<>2<>0<>2<>0<>
+boolta<>안녕하세요, 환범님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.236.139.254<>10/12/(Sun) 23:49<>7<>2<>0<>1<>0<>

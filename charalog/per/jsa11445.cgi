@@ -1,0 +1,2 @@
+backho79<>안녕하세요~<>최고 간지 캐릭 휴고 입니다 ㅋ<br>그럼 촉 천통하는 그날까지 화링!!<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/15/(Wed) 18:16<>2<>3<>0<>2<>0<>
+ccpjjh<>ㅎㅇ<>고당륭 님 잘 부탁 드려요~~<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.10」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/13/(Mon) 17:07<>2<>3<>0<>1<>0<>

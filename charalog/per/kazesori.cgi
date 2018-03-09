@@ -1,0 +1,3 @@
+artaizen<>안녕하세요<>이번기에도 이사부를 찬양하며 '믿쑵니다 보병신'을 외쳐봅시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.10」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/13/(Mon) 00:23<>4<>1<>0<>3<>0<>
+kazesori<><>캄사합니다!! 흐흐흐..<>422<><B><font size=2><a href="javascript:info('kazesori')">《장료》</a></B>ID:kazesori <font size=2>레벨:「Lv.12」 소속국:「초국」<img src=./image/gg12.jpg><>124.80.144.215<>10/10/(Fri) 21:32<>4<>1<>0<>2<>1<>
+ckdgns12<>들렸다가요<>들렸다감<>534<><B><font size=2><a href="javascript:info('ckdgns12')">《주유》</a></B>ID:ckdgns12 <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg00.jpg><>124.216.10.243<>10/10/(Fri) 21:18<>4<>1<>0<>1<>0<>

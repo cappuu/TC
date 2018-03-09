@@ -1,0 +1,2 @@
+anjae83<><>ㅋㅋ턴좀 제때 넣어주시길ㅋ<>542<><B><font size=2><a href="javascript:info('anjae83')">《주환》</a></B>ID:anjae83 <font size=2>레벨:「Lv.18」 소속국:「촉국」<img src=./image/gg01.jpg><>150.150.78.20<>10/14/(Tue) 13:25<>2<>3<>0<>2<>1<>
+ko5572<>봉토다 <>짱짱짜아ㅉ아ㅉㅇ<>663<><B><font size=2><a href="javascript:info('ko5572')">《양만춘》</a></B>ID:ko5572 <font size=2>레벨:「Lv.12」 소속국:「촉국」<img src=./image/gg18.jpg><>118.46.254.175<>10/12/(Sun) 11:44<>2<>3<>0<>1<>0<>

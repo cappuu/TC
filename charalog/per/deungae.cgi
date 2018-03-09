@@ -1,0 +1,6 @@
+deungae<><>??<>202<><B><font size=2><a href="javascript:info('deungae')">《손건》</a></B>ID:deungae <font size=2>레벨:「Lv.15」 소속국:「초국」<img src=./image/gg26.jpg><>221.133.162.68<>10/16/(Thu) 00:22<>4<>1<>0<>6<>4<>
+deungae<><>으하하하하하하&#54643;<>202<><B><font size=2><a href="javascript:info('deungae')">《손건》</a></B>ID:deungae <font size=2>레벨:「Lv.15」 소속국:「초국」<img src=./image/gg26.jpg><>221.133.162.68<>10/16/(Thu) 00:22<>4<>1<>0<>5<>3<>
+kjr2485<>안녕하세요<>처음 시작하지만 잘부탁드려요 아무래도 손건님 영토에서 신세질텐데 ㅎ<>420<><B><font size=2><a href="javascript:info('kjr2485')">《장량》</a></B>ID:kjr2485 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>210.216.176.234<>10/15/(Wed) 13:46<>0<><>0<>4<>0<>
+kiim102<>결국 얻으셧군 ..<>ㅋ떠돌생활하시더니 결국에는 영토 얻으셧군요. <br>ㅊㅋㅊㅋ<>661<><B><font size=2><a href="javascript:info('kiim102')">《김춘추》</a></B>ID:kiim102 <font size=2>레벨:「Lv.12」 소속국:「초국」<img src=./image/gg00.jpg><>121.183.150.160<>10/14/(Tue) 20:55<>4<>1<>0<>3<>0<>
+deungae<><>감사하오.<>202<><B><font size=2><a href="javascript:info('deungae')">《손건》</a></B>ID:deungae <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg00.jpg><>221.133.162.68<>10/11/(Sat) 20:41<>4<>1<>0<>2<>1<>
+boolta<>안녕하세요, 손건님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.1」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.236.147.52<>10/08/(Wed) 01:04<>7<>2<>0<>1<>0<>

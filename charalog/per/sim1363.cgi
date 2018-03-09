@@ -1,0 +1,2 @@
+sim1363<><>안녕하세요 잘부탁드립니다.^^<>123<><B><font size=2><a href="javascript:info('sim1363')">《만총》</a></B>ID:sim1363 <font size=2>레벨:「Lv.12」 소속국:「고구려국」<img src=./image/gg00.jpg><>222.102.210.134<>10/13/(Mon) 07:29<>7<>2<>0<>2<>1<>
+gksqkseh<>안녕하세요 대교입니다...<>앞으로 잘 부탁드립니다..<br>멋진 활약 기대할께요~<>84<><B><font size=2><a href="javascript:info('gksqkseh')">《대교》</a></B>ID:gksqkseh <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg05.jpg><>211.116.87.233<>10/12/(Sun) 21:00<>7<>2<>0<>1<>0<>

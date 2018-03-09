@@ -1,0 +1,2 @@
+uto457<>..<>저도 드리겠사와요<>439<><B><font size=2><a href="javascript:info('uto457')">《장완》</a></B>ID:uto457 <font size=2>레벨:「Lv.10」 소속국:「촉국」<img src=./image/gg23.jpg><>118.38.215.84<>10/09/(Thu) 18:21<>2<>3<>0<>2<>0<>
+gemya<>봉기님<>봉기님 공헌치 받으시와요 <>187<><B><font size=2><a href="javascript:info('gemya')">《서성》</a></B>ID:gemya <font size=2>레벨:「Lv.4」 소속국:「촉국」<img src=./image/gg04.jpg><>59.21.255.22<>10/06/(Mon) 22:59<>2<>3<>0<>1<>0<>

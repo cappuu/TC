@@ -1,0 +1,3 @@
+skcyean<>만나서 반갑습니다<>산적 관해입니다 <>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.19」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/15/(Wed) 23:44<>7<>2<>0<>3<>0<>
+neoguru<>군주의 봉토에<>글이 하나도 없다니 훗훗<br><br>-_-;;;;;<br><br><br><>145<><B><font size=2><a href="javascript:info('neoguru')">《방덕》</a></B>ID:neoguru <font size=2>레벨:「Lv.16」 소속국:「고구려국」<img src=./image/gg01.jpg><>211.187.141.236<>10/15/(Wed) 21:27<>7<>2<>0<>2<>0<>
+neoguru<>봉토에 놀러오신분들 환영합니다.<>훗훗<>145<><B><font size=2><a href="javascript:info('neoguru')">《방덕》</a></B>ID:neoguru <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg01.jpg><>211.187.141.236<>10/12/(Sun) 06:46<>7<>2<>0<>1<>0<>

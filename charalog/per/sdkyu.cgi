@@ -1,0 +1,4 @@
+artaizen<>안녕하세요 <>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.7」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/10/(Fri) 17:58<>4<>1<>0<>4<>0<>
+oblitop<>봉토이웃<>웃고 살아 봅시 다아아아~<>155<><B><font size=2><a href="javascript:info('oblitop')">《법정》</a></B>ID:oblitop <font size=2>레벨:「Lv.10」 소속국:「초국」<img src=./image/gg21.jpg><>220.88.80.85<>10/09/(Thu) 22:36<>4<>1<>0<>3<>0<>
+mandgod<>대..대..줘용!<>대줘용님이 같은 나라니까..<br><br>대장군 한명 더 있는 기분이 ㅋㅋ<>681<><B><font size=2><a href="javascript:info('mandgod')">《조민》</a></B>ID:mandgod <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg05.jpg><>59.6.104.158<>10/09/(Thu) 19:16<>4<>1<>0<>2<>0<>
+kjkm04<>안녕하세요~<>봉통이웃인데...<br>잘부탁드려요 ㅎ <>427<><B><font size=2><a href="javascript:info('kjkm04')">《장비》</a></B>ID:kjkm04 <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg06.jpg><>71.199.150.15<>10/09/(Thu) 12:52<>4<>1<>0<>1<>0<>

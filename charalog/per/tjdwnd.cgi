@@ -1,0 +1,2 @@
+boolta<>안녕하세요, 공도님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.15」 소속국:「고구려국」<img src=./image/gg17.jpg><>211.236.150.143<>10/15/(Wed) 21:30<>7<>2<>0<>2<>0<>
+skcyean<>안녕하세요<>만나서 반가워요^^<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.18」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/15/(Wed) 15:12<>7<>2<>0<>1<>0<>

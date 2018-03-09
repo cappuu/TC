@@ -1,0 +1,4 @@
+thdrua<><>마초님이야말로 수고하십니다. 들려주셔서 감사합니다 ^^<>207<><B><font size=2><a href="javascript:info('thdrua')">《손권》</a></B>ID:thdrua <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg03.jpg><>211.44.67.89<>10/10/(Fri) 10:30<>7<>2<>0<>4<>3<>
+sukmp910<>대장군<>항상 수고많으십니다.. 잠시 들렸습니다..<br><br>내정완료후에 저는 떠납니다.<>119<><B><font size=2><a href="javascript:info('sukmp910')">《마초》</a></B>ID:sukmp910 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg02.jpg><>222.101.138.26<>10/08/(Wed) 23:12<>7<>2<>0<>3<>0<>
+thdrua<><>들려주셔서 감사합니다 ^^<>207<><B><font size=2><a href="javascript:info('thdrua')">《손권》</a></B>ID:thdrua <font size=2>레벨:「Lv.8」 소속국:「고구려국」<img src=./image/gg03.jpg><>211.44.67.89<>10/08/(Wed) 17:52<>7<>2<>0<>2<>1<>
+skcyean<>손권 대장군님 하이여^^  <>열심히 쟁 참여 하겠습니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.8」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.33<>10/08/(Wed) 15:55<>7<>2<>0<>1<>0<>

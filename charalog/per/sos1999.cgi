@@ -1,0 +1,5 @@
+kch9747<>안녕하세요?`<>즐거운 껨하세요~~~<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg04.jpg><>128.134.225.3<>10/10/(Fri) 10:02<>7<>2<>0<>5<>0<>
+skcyean<>안녕하세요 관해입니다<>저에 봉토도 찾아주세요 술이라도 한잔^^<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.33<>10/10/(Fri) 10:01<>7<>2<>0<>4<>0<>
+gksqkseh<>안녕하세요 대교입니다...<>어리숙한 대교 잘 부탁드립니다..<br><>84<><B><font size=2><a href="javascript:info('gksqkseh')">《대교》</a></B>ID:gksqkseh <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg05.jpg><>218.49.204.24<>10/10/(Fri) 01:50<>7<>2<>0<>3<>0<>
+spem<>극정님 하이요 ㅎㅎ<>으허~ 이전에 곽도에효 ㄲㄲ<>116<><B><font size=2><a href="javascript:info('spem')">《마운령》</a></B>ID:spem <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg21.jpg><>118.33.72.192<>10/09/(Thu) 20:32<>7<>2<>0<>2<>0<>
+boolta<>안녕하세요, 극정님<>잘부탁드리겠습니다. ^^<>269<><B><font size=2><a href="javascript:info('boolta')">《양호》</a></B>ID:boolta <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.236.147.52<>10/09/(Thu) 03:13<>7<>2<>0<>1<>0<>

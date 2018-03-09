@@ -1,0 +1,4 @@
+spem<><>반가워요 관해님 잘부탁드립니다^^<>116<><B><font size=2><a href="javascript:info('spem')">《마운령》</a></B>ID:spem <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg21.jpg><>118.33.72.212<>10/11/(Sat) 10:42<>7<>2<>0<>4<>2<>
+spem<><>반갑숩니다 관구검님^^<>116<><B><font size=2><a href="javascript:info('spem')">《마운령》</a></B>ID:spem <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg21.jpg><>118.33.72.212<>10/11/(Sat) 10:42<>7<>2<>0<>3<>1<>
+skcyean<>안녕하세요 반갑습니다<>투구 벗으면 더 이쁠듯^^<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg10.jpg><>218.52.101.215<>10/10/(Fri) 18:44<>7<>2<>0<>2<>0<>
+aaati<>공헌치냠냠<>저도 이번기 매장<>131<><B><font size=2><a href="javascript:info('aaati')">《관구검》</a></B>ID:aaati <font size=2>레벨:「Lv.2」 소속국:「고구려국」<img src=./image/gg00.jpg><>125.184.71.160<>10/10/(Fri) 17:37<>7<>2<>0<>1<>0<>

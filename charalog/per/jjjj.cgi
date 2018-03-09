@@ -1,0 +1,2 @@
+atwyj<>조앙님을 뵙습니다^^<>옆집이시네여^^ 좋은 하루 되시고요 잘지내보아요^^<>463<><B><font size=2><a href="javascript:info('atwyj')">《전기》</a></B>ID:atwyj <font size=2>레벨:「Lv.18」 소속국:「촉국」<img src=./image/gg14.jpg><>121.200.95.119<>10/15/(Wed) 18:26<>2<>3<>0<>2<>0<>
+jjjj<>반갑습니다. <>나약한 조앙입니다. <br><br>나약한 조앙이 여러분의 등뒤에 서 있다면, <br><br>그것은 여러분의 목을 노리고 있기 때문입니다. <br><br>   <br><br> <>505<><B><font size=2><a href="javascript:info('jjjj')">《조앙》</a></B>ID:jjjj <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg16.jpg><>125.128.150.125<>10/09/(Thu) 18:28<>2<>3<>0<>1<>0<>

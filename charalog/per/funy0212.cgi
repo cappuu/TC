@@ -1,0 +1,4 @@
+sence<><>안녕하세요~반갑습니다<>537<><B><font size=2><a href="javascript:info('sence')">《주지》</a></B>ID:sence <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>211.236.203.157<>10/15/(Wed) 21:55<>0<><>0<>4<>1<>
+alex9395<><>안녕하세요 만나서 반갑습니다<>204<><B><font size=2><a href="javascript:info('alex9395')">《손관》</a></B>ID:alex9395 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>116.120.248.35<>10/13/(Mon) 21:47<>0<><>0<>3<>1<>
+qaswsq19<><>안녕하세요 ㅎㅎㅎㅎ<>551<><B><font size=2><a href="javascript:info('qaswsq19')">《진등》</a></B>ID:qaswsq19 <font size=2>레벨:「Lv.2」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.212.200.66<>10/09/(Thu) 19:00<>7<>2<>0<>2<>1<>
+funy0212<>안녕안녕안녕안녕안녕안녕안녕안녕 입니다.<>반가워요. 순대국은 장단이 최고입니다.<>183<><B><font size=2><a href="javascript:info('funy0212')">《사정》</a></B>ID:funy0212 <font size=2>레벨:「Lv.1」 소속국:「고구려국」<img src=./image/gg00.jpg><>61.102.15.90<>10/08/(Wed) 22:17<>7<>2<>0<>1<>0<>

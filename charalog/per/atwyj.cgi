@@ -1,0 +1,4 @@
+atwyj<><>어서오세요 조앙님^^ 17기가 조앙이였는데ㅋ 고생많이 하시는데 쐬주한잔 올리리다(참이슬을 획득하였습니다)<>463<><B><font size=2><a href="javascript:info('atwyj')">《전기》</a></B>ID:atwyj <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg14.jpg><>121.200.100.72<>10/14/(Tue) 21:41<>2<>3<>0<>4<>3<>
+jjjj<>안녕하세요. 조앙입니다. <>안녕하세요. 조앙입니다. <>505<><B><font size=2><a href="javascript:info('jjjj')">《조앙》</a></B>ID:jjjj <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg16.jpg><>125.128.150.237<>10/14/(Tue) 20:00<>2<>3<>0<>3<>0<>
+atwyj<><>이렇게 방문해주셔서 감사합니다 서성님 ^^ 한잔올리겠습니다 (백사주을 획득하였습니다)<>463<><B><font size=2><a href="javascript:info('atwyj')">《전기》</a></B>ID:atwyj <font size=2>레벨:「Lv.6」 소속국:「촉국」<img src=./image/gg05.jpg><>121.200.96.42<>10/08/(Wed) 07:51<>2<>3<>0<>2<>1<>
+gemya<>전기님<>반갑습니다 하하 <>187<><B><font size=2><a href="javascript:info('gemya')">《서성》</a></B>ID:gemya <font size=2>레벨:「Lv.6」 소속국:「촉국」<img src=./image/gg04.jpg><>59.21.255.22<>10/07/(Tue) 13:35<>2<>3<>0<>1<>0<>

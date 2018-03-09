@@ -1,0 +1,20 @@
+[189년11월]하제님이 관평님을 상대로 일기토에서 승리!
+<font color=red>23</font>합:하제의 체력 10 (-3) VS 관평의 체력 0 (-4)
+[189년11월]하제(무력:49 통솔:71)님과 일기토를 시작!
+[185년12월]관평님이 김춘추님을 상대로 일기토에서 승리!
+<font color=red>26</font>합:관평의 체력 29 (-3) VS 김춘추의 체력 -1 (-4)
+<font color=red>25</font>합:관평의 체력 29 (-2) VS 김춘추의 체력 3 (-4)
+<font color=red>24</font>합:관평의 체력 31 (-3) VS 김춘추의 체력 7 (-4)
+<font color=red>23</font>합:관평의 체력 34 (-2) VS 김춘추의 체력 11 (-4)
+<font color=red>22</font>합:관평의 체력 36 (-2) VS 김춘추의 체력 15 (-4)
+<font color=red>21</font>합:관평의 체력 38 (-3) VS 김춘추의 체력 19 (-4)
+<font color=red>20</font>합:관평의 체력 41 (-3) VS 김춘추의 체력 23 (-3)
+<font color=red>19</font>합:관평의 체력 44 (-3) VS 김춘추의 체력 26 (-3)
+<font color=red>18</font>합:관평의 체력 47 (-3) VS 김춘추의 체력 29 (-4)
+<font color=red>17</font>합:관평의 체력 50 (-3) VS 김춘추의 체력 33 (-5)
+<font color=red>16</font>합:관평의 체력 53 (-3) VS 김춘추의 체력 38 (-4)
+<font color=red>15</font>합:관평의 체력 56 (-3) VS 김춘추의 체력 42 (-3)
+<font color=red>14</font>합:관평의 체력 59 (-3) VS 김춘추의 체력 45 (-3)
+<font color=red>13</font>합:관평의 체력 62 (-2) VS 김춘추의 체력 48 (-5)
+<font color=red>12</font>합:관평의 체력 64 (-3) VS 김춘추의 체력 53 (-4)
+<font color=red>11</font>합:관평의 체력 67 (-3) VS 김춘추의 체력 57 (-5)

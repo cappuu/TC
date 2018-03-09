@@ -1,0 +1,1 @@
+dhfl<>진횡님 안녕하세요?ㅋㅋ<>공손공 입니다 잘지내봐요~!!!<br><>27<><B><font size=2><a href="javascript:info('dhfl')">《공손공》</a></B>ID:dhfl <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg00.jpg><>121.142.251.144<>10/15/(Wed) 15:52<>7<>2<>0<>1<>0<>

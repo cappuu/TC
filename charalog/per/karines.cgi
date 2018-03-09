@@ -1,0 +1,2 @@
+karines<><>촉국 ㅎㅎ<>519<><B><font size=2><a href="javascript:info('karines')">《조홍》</a></B>ID:karines <font size=2>레벨:「Lv.11」 소속국:「촉국」<img src=./image/gg07.jpg><>121.176.194.231<>10/14/(Tue) 00:27<>2<>3<>0<>2<>1<>
+ong7935<>어디 나라좀 추천하여 주십시요<>저기 어느나라든 좋으니 추천해 주십시요.<br>이러다가는 난세에서 살아남기가 불가능할지도 모릅니다<br><br><br><br><br><br><br><br><br><br><br> -10월 12일 손책 씀-<>225<><B><font size=2><a href="javascript:info('ong7935')">《손책》</a></B>ID:ong7935 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>125.177.101.58<>10/12/(Sun) 20:22<>0<><>0<>1<>0<>

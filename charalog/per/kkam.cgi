@@ -1,0 +1,5 @@
+kkam<><>넹 잘 부탁드려요~! ㅋㅋ<>495<><B><font size=2><a href="javascript:info('kkam')">《조루》</a></B>ID:kkam <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.143.19.41<>10/14/(Tue) 22:59<>7<>2<>0<>5<>4<>
+wprkfrms<>-_-<>어딜봐서 남자 같다는건지요..<br>잘지내보아요 ~_<>49<><B><font size=2><a href="javascript:info('wprkfrms')">《관우》</a></B>ID:wprkfrms <font size=2>레벨:「Lv.16」 소속국:「고구려국」<img src=./image/gg13.jpg><>121.158.198.127<>10/14/(Tue) 17:37<>7<>2<>0<>4<>0<>
+sukmp910<><>성함이 멋지십니다..<>119<><B><font size=2><a href="javascript:info('sukmp910')">《마초》</a></B>ID:sukmp910 <font size=2>레벨:「Lv.14」 소속국:「고구려국」<img src=./image/gg02.jpg><>124.53.12.216<>10/13/(Mon) 11:08<>7<>2<>0<>3<>1<>
+qaswsq19<><>저도 잘부탁드립니다<>551<><B><font size=2><a href="javascript:info('qaswsq19')">《진등》</a></B>ID:qaswsq19 <font size=2>레벨:「Lv.5」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.212.200.68<>10/11/(Sat) 13:04<>7<>2<>0<>2<>1<>
+kkam<>안녕하십니까~!<>이름도 남자다운 조루예요~ 잘 부탁드려용~!<>495<><B><font size=2><a href="javascript:info('kkam')">《조루》</a></B>ID:kkam <font size=2>레벨:「Lv.3」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.143.2.55<>10/08/(Wed) 22:20<>7<>2<>0<>1<>0<>

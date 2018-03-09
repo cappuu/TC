@@ -1,0 +1,2 @@
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/12/(Sun) 17:50<>4<>1<>0<>2<>0<>
+gaeback<>맹획이 놀러 왔다 가요 ㅎㅎ<>ㅎㅎ<>128<><B><font size=2><a href="javascript:info('gaeback')">《맹획》</a></B>ID:gaeback <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg20.jpg><>121.183.79.119<>10/12/(Sun) 14:01<>4<>1<>0<>1<>0<>

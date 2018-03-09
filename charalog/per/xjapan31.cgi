@@ -1,0 +1,4 @@
+poilks<>오오 곽회씨..-ㅁ-<>할룽 할룽<>671<><B><font size=2><a href="javascript:info('poilks')">《담덕》</a></B>ID:poilks <font size=2>레벨:「Lv.10」 소속국:「초국」<img src=./image/gg03.jpg><>58.228.137.115<>10/10/(Fri) 13:29<>4<>1<>0<>4<>0<>
+alsxor<>안녕하세요<>잘부탁드립니다^^<>665<><B><font size=2><a href="javascript:info('alsxor')">《을지문덕》</a></B>ID:alsxor <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg00.jpg><>218.152.55.81<>10/10/(Fri) 13:13<>4<>1<>0<>3<>0<>
+kuni1202<>안녕하세요<>처음하는거라 잘 모르겠네요<br>관심 부탁드려요ㅋ<>182<><B><font size=2><a href="javascript:info('kuni1202')">《사마휘》</a></B>ID:kuni1202 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>211.109.24.199<>10/07/(Tue) 05:42<>0<><>0<>2<>0<>
+artaizen<>안녕하세요<>이번기에도 이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>59.19.148.219<>10/07/(Tue) 00:36<>0<><>0<>1<>0<>

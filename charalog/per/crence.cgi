@@ -1,0 +1,1 @@
+crence<>어흥!!<>나도 봉토 생겼음 &gt;ㅅ&lt;<>504<><B><font size=2><a href="javascript:info('crence')">《조식》</a></B>ID:crence <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg00.jpg><>61.73.220.100<>10/08/(Wed) 13:30<>7<>2<>0<>1<>0<>

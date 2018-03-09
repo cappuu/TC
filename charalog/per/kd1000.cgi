@@ -1,0 +1,3 @@
+skcyean<>만나서 반가워요<>산적 관해 입니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.18」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/15/(Wed) 14:03<>7<>2<>0<>3<>0<>
+kd1000<><>헉... 처음 봤네요.. 봉토는요.<>598<><B><font size=2><a href="javascript:info('kd1000')">《하후영녀》</a></B>ID:kd1000 <font size=2>레벨:「Lv.5」 소속국:「고구려국」<img src=./image/gg20.jpg><>220.88.140.238<>10/07/(Tue) 12:18<>7<>2<>0<>2<>1<>
+nkbwlhwc<>안녕하세요 ^^<>안녕하세요 하후영녀님<br>초섭에서 건너온 칠랑섭 초보 서서입니다 ^^;;<br>[초섭에서는 임충임둥~ 혹시 아시면 손 한 번 흔들어주이소~ ㅎㅎ;;]<br>잘 부탁드려요~<br>봉토개념... 신기하네요 +_+<br><>186<><B><font size=2><a href="javascript:info('nkbwlhwc')">《서서》</a></B>ID:nkbwlhwc <font size=2>레벨:「Lv.4」 소속국:「고구려국」<img src=./image/gg04.jpg><>68.62.6.11<>10/07/(Tue) 04:06<>7<>2<>0<>1<>0<>

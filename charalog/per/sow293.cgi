@@ -1,0 +1,1 @@
+Eodrn<>내정왔다가 들립니다<>승상직 하시느라 수고 많습니다 <br>고구려 잘 이끌어주시길<>281<><B><font size=2><a href="javascript:info('Eodrn')">《여건》</a></B>ID:Eodrn <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg00.jpg><>116.125.73.203<>10/16/(Thu) 00:12<>7<>2<>0<>1<>0<>

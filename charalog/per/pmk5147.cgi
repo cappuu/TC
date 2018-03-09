@@ -1,0 +1,5 @@
+backho79<>안녕하세요 들렸다 갑니다~<>ㅋ 제가 글만 쓰면 공헌치가 올라간다는 전설이~<br><br>삵교 만세!!<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/13/(Mon) 08:29<>2<>3<>0<>5<>0<>
+krienoah<>안녕하세요<>만나서 반갑습니다.<br>앞으로 잘 부탁드리고<br>혹 광릉 지나시거든 제 봉토에도 방문해주세요 ^^<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/12/(Sun) 05:58<>2<>3<>0<>4<>0<>
+gemya<>화웅님<>안녕하세요 반갑습니다 <>187<><B><font size=2><a href="javascript:info('gemya')">《서성》</a></B>ID:gemya <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg04.jpg><>59.21.255.22<>10/12/(Sun) 03:59<>2<>3<>0<>3<>0<>
+pmk5147<><>네 저두요 ~<>637<><B><font size=2><a href="javascript:info('pmk5147')">《화웅》</a></B>ID:pmk5147 <font size=2>레벨:「Lv.8」 소속국:「촉국」<img src=./image/gg00.jpg><>58.140.132.5<>10/11/(Sat) 20:54<>2<>3<>0<>2<>1<>
+wjm0908<>하이염 ㅋ<>잘부탁드려염 ㅋ<>453<><B><font size=2><a href="javascript:info('wjm0908')">《장합》</a></B>ID:wjm0908 <font size=2>레벨:「Lv.14」 소속국:「촉국」<img src=./image/gg03.jpg><>124.62.223.35<>10/11/(Sat) 16:47<>2<>3<>0<>1<>0<>

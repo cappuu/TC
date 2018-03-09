@@ -1,0 +1,2 @@
+artaizen<>안녕못하세요<>조민씨는 더욱 더 이사부를 찬양하면 존경하며 경배합시다 ㄱ-<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.8」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/10/(Fri) 22:48<>4<>1<>0<>2<>0<>
+JeoSu<>조민님 ㅎㅇ여.<>잘 부탁드려요!<>461<><B><font size=2><a href="javascript:info('JeoSu')">《저수》</a></B>ID:JeoSu <font size=2>레벨:「Lv.6」 소속국:「초국」<img src=./image/gg23.jpg><>218.37.246.133<>10/09/(Thu) 23:19<>4<>1<>0<>1<>0<>

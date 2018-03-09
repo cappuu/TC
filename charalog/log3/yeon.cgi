@@ -1,0 +1,20 @@
+[194년08월]문빙님이 조운님을 상대로 일기토에서 승리!
+<font color=red>17</font>합:문빙의 체력 35 (-3) VS 조운의 체력 -2 (-5)
+<font color=red>16</font>합:문빙의 체력 35 (-4) VS 조운의 체력 3 (-5)
+<font color=red>15</font>합:문빙의 체력 39 (-3) VS 조운의 체력 8 (-7)
+<font color=red>14</font>합:문빙의 체력 42 (-3) VS 조운의 체력 15 (-5)
+<font color=red>13</font>합:문빙의 체력 45 (-4) VS 조운의 체력 20 (-7)
+<font color=red>12</font>합:문빙의 체력 49 (-3) VS 조운의 체력 27 (-7)
+<font color=red>11</font>합:문빙의 체력 52 (-5) VS 조운의 체력 34 (-7)
+<font color=red>10</font>합:문빙의 체력 57 (-5) VS 조운의 체력 41 (-7)
+<font color=red>9</font>합:문빙의 체력 62 (-3) VS 조운의 체력 48 (-7)
+<font color=red>8</font>합:문빙의 체력 65 (-6) VS 조운의 체력 55 (-6)
+<font color=red>7</font>합:문빙의 체력 71 (-3) VS 조운의 체력 61 (-5)
+<font color=red>6</font>합:문빙의 체력 74 (-5) VS 조운의 체력 66 (-4)
+<font color=red>5</font>합:문빙의 체력 79 (-5) VS 조운의 체력 70 (-5)
+<font color=red>4</font>합:문빙의 체력 84 (-3) VS 조운의 체력 75 (-7)
+<font color=red>3</font>합:문빙의 체력 87 (-4) VS 조운의 체력 82 (-7)
+<font color=red>2</font>합:문빙의 체력 91 (-5) VS 조운의 체력 89 (-6)
+<font color=red>1</font>합:문빙의 체력 96 (-4) VS 조운의 체력 95 (-5)
+[194년08월]조운(무력:84 통솔:43)님과 일기토를 시작!
+[194년06월]문빙님이 조운님을 상대로 일기토에서 승리!

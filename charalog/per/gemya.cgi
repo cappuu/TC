@@ -1,0 +1,4 @@
+jeokyou<>크하하 !<>크하하 !<>662<><B><font size=2><a href="javascript:info('jeokyou')">《소서노》</a></B>ID:jeokyou <font size=2>레벨:「Lv.10」 소속국:「촉국」<img src=./image/gg28.jpg><>219.241.73.112<>10/15/(Wed) 22:54<>2<>3<>0<>4<>0<>
+anjae83<><>천통 ㄱㄱ<>542<><B><font size=2><a href="javascript:info('anjae83')">《주환》</a></B>ID:anjae83 <font size=2>레벨:「Lv.18」 소속국:「촉국」<img src=./image/gg01.jpg><>150.150.78.20<>10/14/(Tue) 13:25<>2<>3<>0<>3<>1<>
+gemya<><>헐... 감동입니다  이유님 감사합니다 <>187<><B><font size=2><a href="javascript:info('gemya')">《서성》</a></B>ID:gemya <font size=2>레벨:「Lv.12」 소속국:「촉국」<img src=./image/gg04.jpg><>59.21.255.22<>10/10/(Fri) 23:25<>2<>3<>0<>2<>1<>
+answ<>이유입니다.<>안녕하세요 ㅎ<br><>406<><B><font size=2><a href="javascript:info('answ')">《이유》</a></B>ID:answ <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg00.jpg><>218.39.17.100<>10/10/(Fri) 22:56<>2<>3<>0<>1<>0<>

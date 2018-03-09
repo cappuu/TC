@@ -1,0 +1,3 @@
+ssh0223<><>엄청난 간단명료;;<>679<><B><font size=2><a href="javascript:info('ssh0223')">《부영》</a></B>ID:ssh0223 <font size=2>레벨:「Lv.10」 소속국:「고구려국」<img src=./image/gg12.jpg><>122.254.156.173<>10/10/(Fri) 23:27<>7<>2<>0<>3<>2<>
+skcyean<>안녕하세요<>넘 이뻐요^^<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg10.jpg><>218.52.101.215<>10/10/(Fri) 18:43<>7<>2<>0<>2<>0<>
+aaati<>공헌치냠냠<>안녕하세요<>131<><B><font size=2><a href="javascript:info('aaati')">《관구검》</a></B>ID:aaati <font size=2>레벨:「Lv.2」 소속국:「고구려국」<img src=./image/gg00.jpg><>125.184.71.160<>10/10/(Fri) 17:37<>7<>2<>0<>1<>0<>

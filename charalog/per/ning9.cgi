@@ -1,0 +1,3 @@
+backho79<>놀러왔다가 갑니다~<>적방님 관리좀 하셔야할듯 ㅋㅋ<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/15/(Wed) 18:16<>2<>3<>0<>3<>0<>
+ccpjjh<>1<>여몽님 잘 부탁드려요~<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.10」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/13/(Mon) 17:06<>2<>3<>0<>2<>0<>
+ning9<>아자 내 꺼!<>ㅋㅋ<>285<><B><font size=2><a href="javascript:info('ning9')">《여몽》</a></B>ID:ning9 <font size=2>레벨:「Lv.7」 소속국:「촉국」<img src=./image/gg02.jpg><>165.194.17.40<>10/08/(Wed) 18:01<>2<>3<>0<>1<>0<>

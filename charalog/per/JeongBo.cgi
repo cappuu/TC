@@ -1,0 +1,1 @@
+backho79<>안녕하세요~ <>만나서 반갑습니다~ 촉국을 위해 활약해주세요~<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/14/(Tue) 04:50<>2<>3<>0<>1<>0<>

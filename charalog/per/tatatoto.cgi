@@ -1,0 +1,6 @@
+backho79<>반갑습니다~<>힘내봐여~ 서로~ ㅋ<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.16」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/15/(Wed) 05:38<>2<>3<>0<>6<>0<>
+krienoah<>반갑습니다<>앞으로 잘 부탁드려요<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/13/(Mon) 16:26<>2<>3<>0<>5<>0<>
+kimyusin<>방가요<>방가요<>660<><B><font size=2><a href="javascript:info('kimyusin')">《김유신》</a></B>ID:kimyusin <font size=2>레벨:「Lv.4」 소속국:「촉국」<img src=./image/gg00.jpg><>211.244.142.70<>10/11/(Sat) 23:24<>2<>3<>0<>4<>0<>
+ccpjjh<>방가워요^^<>반갑습니다^^<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/11/(Sat) 03:11<>2<>3<>0<>3<>0<>
+ccpjjh<><>관색님 반가워요^^<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/11/(Sat) 03:09<>2<>3<>0<>2<>1<>
+jjjj<>반갑습니다. <>반갑습니다. <>505<><B><font size=2><a href="javascript:info('jjjj')">《조앙》</a></B>ID:jjjj <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg16.jpg><>125.128.150.125<>10/09/(Thu) 18:33<>2<>3<>0<>1<>0<>

@@ -1,0 +1,4 @@
+lkk3044<>지나가다<>하이염<>370<><B><font size=2><a href="javascript:info('lkk3044')">《유봉》</a></B>ID:lkk3044 <font size=2>레벨:「Lv.8」 소속국:「초국」<img src=./image/gg00.jpg><>58.78.148.143<>10/11/(Sat) 05:11<>4<>1<>0<>4<>0<>
+woolhide<>ㅎㅎ<>반갑습니다 :)<>648<><B><font size=2><a href="javascript:info('woolhide')">《황월영》</a></B>ID:woolhide <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg16.jpg><>24.2.50.34<>10/10/(Fri) 12:26<>4<>1<>0<>3<>0<>
+kuni1202<>반갑습니다<>처음하는데 여러가지 잘 모르겠네요<br>도와주세용^^<>182<><B><font size=2><a href="javascript:info('kuni1202')">《사마휘》</a></B>ID:kuni1202 <font size=2>레벨:「Lv.1」 소속국:「초국」<img src=./image/gg00.jpg><>211.109.24.199<>10/08/(Wed) 22:18<>4<>1<>0<>2<>0<>
+artaizen<>안녕하세요<>이사부를 찬양하며 공헌치를 드세요<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>59.19.148.219<>10/07/(Tue) 00:37<>0<><>0<>1<>0<>

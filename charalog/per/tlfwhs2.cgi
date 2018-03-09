@@ -1,0 +1,2 @@
+tlfwhs2<><>네 안녕하세요^^<>541<><B><font size=2><a href="javascript:info('tlfwhs2')">《주포》</a></B>ID:tlfwhs2 <font size=2>레벨:「Lv.4」 소속국:「고구려국」<img src=./image/gg00.jpg><>221.141.12.27<>10/09/(Thu) 23:21<>7<>2<>0<>2<>1<>
+woals<>안녕하세욧?<>안녕하세요?<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg07.jpg><>218.144.105.63<>10/09/(Thu) 15:52<>7<>2<>0<>1<>0<>

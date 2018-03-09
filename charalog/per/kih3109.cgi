@@ -1,0 +1,4 @@
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/12/(Sun) 17:50<>4<>1<>0<>4<>0<>
+kih3109<><>넹.. ㅎㅎ <>110<><B><font size=2><a href="javascript:info('kih3109')">《마대》</a></B>ID:kih3109 <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg00.jpg><>121.154.96.217<>10/12/(Sun) 15:50<>4<>1<>0<>3<>1<>
+gaeback<>맹획이 들렀다 가요 <>ㅎㅎ<>128<><B><font size=2><a href="javascript:info('gaeback')">《맹획》</a></B>ID:gaeback <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg20.jpg><>121.183.79.119<>10/12/(Sun) 14:01<>4<>1<>0<>2<>0<>
+gui899<>오오<>마대님 봉토가 있으시네요ㅎㅎ<br><>134<><B><font size=2><a href="javascript:info('gui899')">《무안국》</a></B>ID:gui899 <font size=2>레벨:「Lv.5」 소속국:「한국」<img src=./image/gg06.jpg><>210.182.190.136<>10/09/(Thu) 08:15<>6<>5<>0<>1<>0<>

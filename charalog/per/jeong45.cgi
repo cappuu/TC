@@ -1,0 +1,2 @@
+jeong45<><>네 저도 반가워요 ^^<>619<><B><font size=2><a href="javascript:info('jeong45')">《향총》</a></B>ID:jeong45 <font size=2>레벨:「Lv.7」 소속국:「고구려국」<img src=./image/gg00.jpg><>61.254.229.231<>10/15/(Wed) 18:08<>7<>2<>0<>2<>1<>
+skcyean<>안녕하세요<>만나서 반갑습니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.18」 소속국:「고구려국」<img src=./image/gg10.jpg><>59.7.33.15<>10/15/(Wed) 14:01<>7<>2<>0<>1<>0<>

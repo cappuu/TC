@@ -1,0 +1,2 @@
+backho79<>안녕하세요~ <>놀러왔다가 갑니다 ㅋ<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/14/(Tue) 04:50<>2<>3<>0<>2<>0<>
+krienoah<>첨 뵙겠습니다~<>앞으로 잘 부탁드립니다<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/10/(Fri) 02:04<>2<>3<>0<>1<>0<>

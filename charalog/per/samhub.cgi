@@ -1,0 +1,2 @@
+backho79<>어쩐지 매력이 높다 하셨더니...<>연지 곤지 찍어서 그런거였군요 ㅋㅋㅋ<br><br><>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/13/(Mon) 08:29<>2<>3<>0<>2<>0<>
+samhub<>안녕하세요. 장보인사드립니다.<>입가엔 한장의 종이를 물고 얼굴엔 연지를 바르고 오늘도 달려봅시다.<>426<><B><font size=2><a href="javascript:info('samhub')">《장보》</a></B>ID:samhub <font size=2>레벨:「Lv.1」 소속국:「촉국」<img src=./image/gg00.jpg><>119.67.243.236<>10/12/(Sun) 18:11<>2<>3<>0<>1<>0<>

@@ -1,0 +1,8 @@
+uto457<><>네 19조 8천만원 나왔습니다~<>439<><B><font size=2><a href="javascript:info('uto457')">《장완》</a></B>ID:uto457 <font size=2>레벨:「Lv.18」 소속국:「촉국」<img src=./image/gg23.jpg><>118.38.215.78<>10/15/(Wed) 17:45<>2<>3<>0<>8<>7<>
+backho79<>여기 주막 영업 하나?<>영업하면 양념반 후라이드반 탁주 한사발 내오게 주모~<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.16」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/15/(Wed) 05:38<>2<>3<>0<>7<>0<>
+uto457<><>안녕하세요 잘부탁드려요~<>439<><B><font size=2><a href="javascript:info('uto457')">《장완》</a></B>ID:uto457 <font size=2>레벨:「Lv.16」 소속국:「촉국」<img src=./image/gg23.jpg><>118.38.215.95<>10/13/(Mon) 16:51<>2<>3<>0<>6<>5<>
+krienoah<>첨 뵙습니다.<>앞으로 잘 부탁드려요<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/13/(Mon) 16:26<>2<>3<>0<>5<>0<>
+uto457<><>ㅎㅇ여~ 반가워요<>439<><B><font size=2><a href="javascript:info('uto457')">《장완》</a></B>ID:uto457 <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg23.jpg><>118.38.215.85<>10/11/(Sat) 14:11<>2<>3<>0<>4<>3<>
+ccpjjh<>반가워요~~<>방가방가<>405<><B><font size=2><a href="javascript:info('ccpjjh')">《이엄》</a></B>ID:ccpjjh <font size=2>레벨:「Lv.5」 소속국:「촉국」<img src=./image/gg12.jpg><>59.22.65.16<>10/11/(Sat) 03:11<>2<>3<>0<>3<>0<>
+uto457<><>방가방가 반갑습니다~<>439<><B><font size=2><a href="javascript:info('uto457')">《장완》</a></B>ID:uto457 <font size=2>레벨:「Lv.11」 소속국:「촉국」<img src=./image/gg23.jpg><>118.38.215.86<>10/10/(Fri) 17:11<>2<>3<>0<>2<>1<>
+jjjj<>반갑습니다. <>반갑습니다. <>505<><B><font size=2><a href="javascript:info('jjjj')">《조앙》</a></B>ID:jjjj <font size=2>레벨:「Lv.9」 소속국:「촉국」<img src=./image/gg16.jpg><>125.128.150.125<>10/09/(Thu) 18:32<>2<>3<>0<>1<>0<>

@@ -1,0 +1,1 @@
+kim8618<>안녕하세요<>안녕하세요 반갑습니다<>44<><B><font size=2><a href="javascript:info('kim8618')">《곽준》</a></B>ID:kim8618 <font size=2>레벨:「Lv.1」 소속국:「백제국」<img src=./image/gg01.jpg><>211.187.253.112<>10/11/(Sat) 23:21<>9<>10<>0<>1<>0<>

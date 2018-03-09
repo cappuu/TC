@@ -1,0 +1,2 @@
+sdk423<><>ㅎㅇㅎㅇ ㅋ<>413<><B><font size=2><a href="javascript:info('sdk423')">《장각》</a></B>ID:sdk423 <font size=2>레벨:「Lv.13」 소속국:「초국」<img src=./image/gg13.jpg><>221.141.122.173<>10/12/(Sun) 22:47<>4<>1<>0<>2<>1<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/12/(Sun) 19:49<>4<>1<>0<>1<>0<>

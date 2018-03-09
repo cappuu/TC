@@ -1,0 +1,7 @@
+kch9747<><>미남자내요~~~<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg04.jpg><>116.126.53.2<>10/11/(Sat) 16:33<>7<>2<>0<>7<>4<>
+kch9747<><>아름다우시군요~~`<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg04.jpg><>116.126.53.2<>10/11/(Sat) 16:33<>7<>2<>0<>6<>3<>
+kch9747<><>안녕하세요~~~ 감사<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.9」 소속국:「고구려국」<img src=./image/gg04.jpg><>116.126.53.2<>10/11/(Sat) 16:33<>7<>2<>0<>5<>2<>
+akgb<>안녕하세요 고간님.<>요번에 임관한 마휴라고합니다.<br>잘부탁드려요<>121<><B><font size=2><a href="javascript:info('akgb')">《마휴》</a></B>ID:akgb <font size=2>레벨:「Lv.1」 소속국:「고구려국」<img src=./image/gg00.jpg><>220.75.17.54<>10/11/(Sat) 11:05<>7<>2<>0<>4<>0<>
+gksqkseh<>안녕하세요 대교입니다..<>앞으로 잘 부탁드리고 멋진 활약 기대할께요~~<>84<><B><font size=2><a href="javascript:info('gksqkseh')">《대교》</a></B>ID:gksqkseh <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg05.jpg><>211.116.87.233<>10/11/(Sat) 03:43<>7<>2<>0<>3<>0<>
+skcyean<>관해입니다<>안녕하세요  반갑습니다<>54<><B><font size=2><a href="javascript:info('skcyean')">《관해》</a></B>ID:skcyean <font size=2>레벨:「Lv.12」 소속국:「고구려국」<img src=./image/gg10.jpg><>218.52.101.215<>10/11/(Sat) 00:47<>7<>2<>0<>2<>0<>
+kch9747<>썰렁하구먼~~<>썰렁하구먼~~<>13<><B><font size=2><a href="javascript:info('kch9747')">《고간》</a></B>ID:kch9747 <font size=2>레벨:「Lv.1」 소속국:「고구려국」<img src=./image/gg00.jpg><>211.213.130.196<>10/07/(Tue) 22:31<>7<>2<>0<>1<>0<>

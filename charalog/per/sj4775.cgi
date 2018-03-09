@@ -1,0 +1,3 @@
+backho79<>반갑습니다~<>얼굴로 먹고사는 지장 휴고 입니다 ㅋ<br><br>천통을 이룰때까지 함께 힘내봐여~<>654<><B><font size=2><a href="javascript:info('backho79')">《휴고》</a></B>ID:backho79 <font size=2>레벨:「Lv.15」 소속국:「촉국」<img src=./image/gg20.jpg><>218.49.92.76<>10/14/(Tue) 04:51<>2<>3<>0<>3<>0<>
+krienoah<>안녕하세요. 첨 뵙겠습니다<>앞으로 잘 부탁드려요<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.13」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/12/(Sun) 13:56<>2<>3<>0<>2<>0<>
+yeon<>핼로<>gfh<>135<><B><font size=2><a href="javascript:info('yeon')">《문빙》</a></B>ID:yeon <font size=2>레벨:「Lv.5」 소속국:「신라국」<img src=./image/gg02.jpg><>121.100.97.10<>10/07/(Tue) 19:25<>8<>4<>0<>1<>0<>

@@ -1,0 +1,5 @@
+kjhboy88<>여긴 조용한.. 곳이구려..<>법정님은.. 말이 없는.. 소심쟁이~_~ 어허허허허..<>635<><B><font size=2><a href="javascript:info('kjhboy88')">《호차인》</a></B>ID:kjhboy88 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>211.177.217.173<>10/12/(Sun) 08:03<>0<><>0<>5<>0<>
+mandgod<>법정님 ㅋㅋ<>삼모전에서 유명한 닉인데<br><br>이번기에 전에 법정하던 사람을 뛰어넘어보세여 ㅋㅋ<>681<><B><font size=2><a href="javascript:info('mandgod')">《조민》</a></B>ID:mandgod <font size=2>레벨:「Lv.11」 소속국:「초국」<img src=./image/gg05.jpg><>59.6.104.158<>10/09/(Thu) 19:17<>4<>1<>0<>4<>0<>
+kjkm04<>안녕하세요<>봉토이웃이라 들렀습니다.<br>잘부탁드려요 ^^ <>427<><B><font size=2><a href="javascript:info('kjkm04')">《장비》</a></B>ID:kjkm04 <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg06.jpg><>71.199.150.15<>10/09/(Thu) 12:52<>4<>1<>0<>3<>0<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.1」 소속국:「초국」<img src=./image/gg00.jpg><>59.19.148.219<>10/07/(Tue) 17:35<>4<>1<>0<>2<>0<>
+lucia<>ㅎㅇㅎㅇ<>흐흐흐흐<>209<><B><font size=2><a href="javascript:info('lucia')">《손노반》</a></B>ID:lucia <font size=2>레벨:「Lv.1」 소속국:「초국」<img src=./image/gg04.jpg><>58.77.172.2<>10/07/(Tue) 14:16<>4<>1<>0<>1<>0<>

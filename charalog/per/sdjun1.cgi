@@ -1,0 +1,3 @@
+kids<>하급관리가 인사드리고 갑니다.<>아무튼 잘 부탁드립니다.<>20<><B><font size=2><a href="javascript:info('kids')">《고옹》</a></B>ID:kids <font size=2>레벨:「Lv.12」 소속국:「초국」<img src=./image/gg00.jpg><>125.209.27.4<>10/15/(Wed) 16:37<>4<>1<>0<>3<>0<>
+ssad7474<>안녕하세요 전위님~<>전위님 이번기도 천통을 향하여 <br>퐈이팅~!<>410<><B><font size=2><a href="javascript:info('ssad7474')">《이통》</a></B>ID:ssad7474 <font size=2>레벨:「Lv.12」 소속국:「초국」<img src=./image/gg27.jpg><>121.188.15.28<>10/12/(Sun) 23:22<>4<>1<>0<>2<>0<>
+kyss<>할루 ^^<>ㅎㅎ 전위님도 아무도 글을 안남기셨네요.<br>저도 없지만 제가 하나 썼어용. ^^<>490<><B><font size=2><a href="javascript:info('kyss')">《제갈상》</a></B>ID:kyss <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg00.jpg><>118.45.123.45<>10/10/(Fri) 22:04<>4<>1<>0<>1<>0<>

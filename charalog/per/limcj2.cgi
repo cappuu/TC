@@ -1,0 +1,6 @@
+limcj2<><>네^^ 관우님 오늘 하루 즐겁게^^<>120<><B><font size=2><a href="javascript:info('limcj2')">《마충》</a></B>ID:limcj2 <font size=2>레벨:「Lv.12」 소속국:「고구려국」<img src=./image/gg15.jpg><>211.230.217.64<>10/15/(Wed) 15:19<>7<>2<>0<>6<>5<>
+wprkfrms<>같은 땅이네요<>잘지내보아요<>49<><B><font size=2><a href="javascript:info('wprkfrms')">《관우》</a></B>ID:wprkfrms <font size=2>레벨:「Lv.16」 소속국:「고구려국」<img src=./image/gg13.jpg><>121.158.198.127<>10/14/(Tue) 17:37<>7<>2<>0<>5<>0<>
+limcj2<><>아! 안녕하세요 조루님 언제 한번들릴게요^^<>120<><B><font size=2><a href="javascript:info('limcj2')">《마충》</a></B>ID:limcj2 <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg15.jpg><>211.230.134.92<>10/14/(Tue) 16:55<>7<>2<>0<>4<>2<>
+limcj2<><>네 ^^<>120<><B><font size=2><a href="javascript:info('limcj2')">《마충》</a></B>ID:limcj2 <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg15.jpg><>211.230.134.92<>10/14/(Tue) 16:54<>7<>2<>0<>3<>1<>
+kkam<>마충님 안녕하십니까~!<>우허허 같은 매소성에 속해있네요~ 잘 부탁드려욤~!<>495<><B><font size=2><a href="javascript:info('kkam')">《조루》</a></B>ID:kkam <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.143.11.162<>10/13/(Mon) 23:35<>7<>2<>0<>2<>0<>
+lkj7412<>제 봉토에 글 남겨주셔서 감사합니다.<>부디 삼모전에 큰 활약하시기를....<>489<><B><font size=2><a href="javascript:info('lkj7412')">《제갈량》</a></B>ID:lkj7412 <font size=2>레벨:「Lv.13」 소속국:「고구려국」<img src=./image/gg23.jpg><>121.186.108.232<>10/13/(Mon) 20:27<>7<>2<>0<>1<>0<>

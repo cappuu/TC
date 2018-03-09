@@ -1,0 +1,3 @@
+jsd6309<>헉<>무력이 쩐다!<>667<><B><font size=2><a href="javascript:info('jsd6309')">《주몽》</a></B>ID:jsd6309 <font size=2>레벨:「Lv.14」 소속국:「초국」<img src=./image/gg18.jpg><>124.53.182.32<>10/14/(Tue) 00:35<>4<>1<>0<>3<>0<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.9」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/12/(Sun) 00:35<>4<>1<>0<>2<>0<>
+ONEPICE<>저도 소속을 초국에넣어주세요 ㄷㄷ<>군사도뽑고 싸우고싶은대 군소속이 아니라 않된다내요 초국같은 소속되면 생산가능한거같은대 등용을 않해주내요 부탁드립니다<>19<><B><font size=2><a href="javascript:info('ONEPICE')">《고승》</a></B>ID:ONEPICE <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>125.252.51.39<>10/11/(Sat) 12:41<>0<><>0<>1<>0<>

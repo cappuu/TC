@@ -1,0 +1,1 @@
+ephesian<>봉토가 새겼네요 ㅎㅎ<>들리시는 분들 글좀 남겨주세요 ㅎ<>297<><B><font size=2><a href="javascript:info('ephesian')">《예형》</a></B>ID:ephesian <font size=2>레벨:「Lv.2」 소속국:「고구려국」<img src=./image/gg00.jpg><>210.93.38.45<>10/15/(Wed) 11:09<>7<>2<>0<>1<>0<>

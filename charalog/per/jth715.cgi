@@ -1,0 +1,2 @@
+jth715<>감사합니다 <>이사부님 ㅋㅋㅋ<>573<><B><font size=2><a href="javascript:info('jth715')">《초촉》</a></B>ID:jth715 <font size=2>레벨:「Lv.4」 소속국:「초국」<img src=./image/gg17.jpg><>125.186.23.88<>10/08/(Wed) 20:20<>4<>1<>0<>2<>0<>
+artaizen<>안녕하세요<>이사부를 찬양합시다<>676<><B><font size=2><a href="javascript:info('artaizen')">《이사부》</a></B>ID:artaizen <font size=2>레벨:「Lv.3」 소속국:「초국」<img src=./image/gg08.jpg><>59.19.148.219<>10/08/(Wed) 17:41<>4<>1<>0<>1<>0<>

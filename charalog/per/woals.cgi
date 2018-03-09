@@ -1,0 +1,4 @@
+woals<>저의 봉토에 들려주셔서 감사합니다.<>언젠가 보답을 하게뜸니다. 굳굳<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.17」 소속국:「고구려국」<img src=./image/gg07.jpg><>59.186.218.149<>10/14/(Tue) 11:48<>7<>2<>0<>4<>0<>
+wlstn20<><>ㅎㅎ<>22<><B><font size=2><a href="javascript:info('wlstn20')">《고정》</a></B>ID:wlstn20 <font size=2>레벨:「Lv.1」 소속국:「재야국」<img src=./image/gg00.jpg><>61.109.95.27<>10/14/(Tue) 02:16<>0<><>0<>3<>1<>
+woals<><>안녕하세요~ 저도초보에영<>666<><B><font size=2><a href="javascript:info('woals')">《평강》</a></B>ID:woals <font size=2>레벨:「Lv.6」 소속국:「고구려국」<img src=./image/gg07.jpg><>218.144.105.63<>10/07/(Tue) 13:24<>7<>2<>0<>2<>1<>
+nkbwlhwc<>안녕하세요 <>안녕하세요 평강님<br>초섭에서 건너온 칠랑섭 초보 서서입니다 ^^;;<br>[초섭에서는 임충임둥~ 혹시 아시면 손 한 번 흔들어주이소~ ㅎㅎ;;]<br>잘 부탁드려요~<br>봉토개념... 신기하군요 +_+<>186<><B><font size=2><a href="javascript:info('nkbwlhwc')">《서서》</a></B>ID:nkbwlhwc <font size=2>레벨:「Lv.4」 소속국:「고구려국」<img src=./image/gg04.jpg><>68.62.6.11<>10/07/(Tue) 04:07<>7<>2<>0<>1<>0<>

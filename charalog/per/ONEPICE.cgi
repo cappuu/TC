@@ -1,0 +1,1 @@
+ONEPICE<>재야인사 여러분 안녕하세요.<>재야인사 여러분 안녕하세요. 초국장수 고승이라고 합니다 혹시 등용이필요하면 저한태<>19<><B><font size=2><a href="javascript:info('ONEPICE')">《고승》</a></B>ID:ONEPICE <font size=2>레벨:「Lv.3」 소속국:「초국」<img src=./image/gg00.jpg><>125.252.53.56<>10/14/(Tue) 21:18<>4<>1<>0<>1<>0<>

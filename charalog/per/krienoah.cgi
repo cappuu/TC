@@ -1,0 +1,4 @@
+krienoah<><>어서 오세요~ 잘 부탁드려요<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg00.jpg><>211.244.145.26<>10/16/(Thu) 00:31<>2<>3<>0<>4<>2<>
+krienoah<><>반갑습니다~ ^^<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg00.jpg><>211.244.145.26<>10/16/(Thu) 00:30<>2<>3<>0<>3<>1<>
+answ<>안녕하세요?<>왔다 갑니다<>406<><B><font size=2><a href="javascript:info('answ')">《이유》</a></B>ID:answ <font size=2>레벨:「Lv.11」 소속국:「촉국」<img src=./image/gg00.jpg><>222.238.61.21<>10/15/(Wed) 23:12<>2<>3<>0<>2<>0<>
+anoa657<>안녕하세요~<>반가워요~ㅎㅎ<>638<><B><font size=2><a href="javascript:info('anoa657')">《화타》</a></B>ID:anoa657 <font size=2>레벨:「Lv.8」 소속국:「촉국」<img src=./image/gg00.jpg><>221.141.193.244<>10/15/(Wed) 23:11<>2<>3<>0<>1<>0<>

@@ -1,0 +1,2 @@
+krienoah<>안녕하세요. 첨 뵙겠습니다<>반갑습니다~.<br>광릉에 들르시면 제 봉토에도 들러주세요~<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/15/(Wed) 15:38<>2<>3<>0<>2<>0<>
+wjm0908<>하이염 ㅋㅌ<>뤄뤄뤄루러<>453<><B><font size=2><a href="javascript:info('wjm0908')">《장합》</a></B>ID:wjm0908 <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg03.jpg><>124.62.223.35<>10/14/(Tue) 07:32<>2<>3<>0<>1<>0<>

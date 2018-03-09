@@ -1,0 +1,2 @@
+krienoah<>안녕하세요<>첨 뵙겠습니다.<br>앞으로 잘 부탁드립니다.<br><br>혹 광릉에 들르시거든 제 봉토에도 들러주세요~<>633<><B><font size=2><a href="javascript:info('krienoah')">《호진》</a></B>ID:krienoah <font size=2>레벨:「Lv.17」 소속국:「촉국」<img src=./image/gg17.jpg><>211.244.145.26<>10/15/(Wed) 18:25<>2<>3<>0<>2<>0<>
+answ<>안녕하세요<>안녕하세요 많이 올려주시기 바랍니다<>406<><B><font size=2><a href="javascript:info('answ')">《이유》</a></B>ID:answ <font size=2>레벨:「Lv.4」 소속국:「촉국」<img src=./image/gg00.jpg><>218.39.17.100<>10/10/(Fri) 16:42<>2<>3<>0<>1<>0<>

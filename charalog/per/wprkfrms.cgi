@@ -1,0 +1,2 @@
+kkam<><>우허허 관우님 잘 부탁드려요~! 같은곳이네염~!<>495<><B><font size=2><a href="javascript:info('kkam')">《조루》</a></B>ID:kkam <font size=2>레벨:「Lv.11」 소속국:「고구려국」<img src=./image/gg00.jpg><>58.143.11.162<>10/13/(Mon) 23:34<>7<>2<>0<>2<>1<>
+nkbwlhwc<>안녕하세요 ^^<>안녕하세요 관우님<br>초섭에서 건너온 칠랑섭 초보 서서입니다 ^^;;<br>[초섭에서는 임충임둥~ 혹시 아시면 손 한 번 흔들어주이소~ ㅎㅎ;;]<br>잘 부탁드려요~<br>봉토개념... 신기하네요 +_+<>186<><B><font size=2><a href="javascript:info('nkbwlhwc')">《서서》</a></B>ID:nkbwlhwc <font size=2>레벨:「Lv.4」 소속국:「고구려국」<img src=./image/gg04.jpg><>68.62.6.11<>10/07/(Tue) 04:07<>7<>2<>0<>1<>0<>
