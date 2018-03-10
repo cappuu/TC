@@ -1,31 +1,34 @@
 
 sub KING_COM2 {
 
-	if($in{'mes'} eq ""){&ERR("Áö·ÉÀÌ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù.");}
-	if(length($in{'mes'}) > 100) { &ERR("ÆíÁö´Â Àü°¢ 50 ¹®ÀÚ ÀÌÇÏ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä."); }
+	if($in{'mes'} eq ""){&ERR("ì§€ë ¹ì´ ì…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");}
 	&CHARA_MAIN_OPEN;
 	&COUNTRY_DATA_OPEN($kcon);
 
-	if($xking ne $kid && $x0 ne $kid){&ERR("¿ÕÀÌ³ª Âü¸ğ°¡ ¾Æ´Ï¸é ½ÇÇàÇÒ ¼ö ¾ø½À´Ï´Ù.");}
+	if($xking ne $kid && $x0 ne $kid && $x1 ne $kid && $x17 ne $kid){&ERR("ëŒ€ì¥êµ° ìŠ¹ìƒì´í•˜ëŠ” ì‹¤í–‰í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");}
 
 	if($xking eq $kid){
-		$add = "±ºÁÖ";
+		$add = "êµ°ì£¼";
 	}elsif($x0 eq $kid){
-		$add = "Âü¸ğ";
+		$add = "ì°¸ëª¨";
+	}elsif($x1 eq $kid){
+		$add = "ëŒ€ì¥êµ°";
+	}elsif($x17 eq $kid){
+		$add = "ìŠ¹ìƒ";
 	}
 
-	$xmes = "$in{'mes'}($add $knameìÔ)";
+	$xmes = "$in{'mes'}($add $knameå°)";
 	&COUNTRY_DATA_INPUT;
 
 	&HEADER;
 
 	print <<"EOM";
-<CENTER><hr size=0><h2>Áö·ÉÀ» ÀÔ·ÂÇß½À´Ï´Ù.</h2><p>
+<CENTER><hr size=0><h2>ì§€ë ¹ì„ ì…ë ¥í–ˆìŠµë‹ˆë‹¤.</h2><p>
 <form action="$FILE_STATUS" method="post">
 <input type=hidden name=id value=$kid>
 <input type=hidden name=pass value=$kpass>
 <input type=hidden name=mode value=STATUS>
-<input type=submit value="È®ÀÎ"></form></CENTER>
+<input type=submit value="í™•ì¸"></form></CENTER>
 EOM
 
 	&FOOTER;
