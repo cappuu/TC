@@ -4,22 +4,22 @@ sub LOCAL_RULE {
 	&CHARA_MAIN_OPEN;
 
 	&COUNTRY_DATA_OPEN("$kcon");
-	if($xcid eq "0"){&ERR("Àç¾ßÀÎ»ç´Â ½ÇÇàÇÒ ¼ö ¾ø½À´Ï´Ù.");}
+	if($xcid eq "0"){&ERR("ì¬ì•¼ì¸ì‚¬ëŠ” ì‹¤í–‰í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");}
 	$sno = $kcex / $LANK;
 	if($sno > 43){$sno = 43;}
-	$xxins = "<font color=green size=1>$kunit±º $LANK[$sno] $kname</font>";
+	$xxins = "<font color=green size=1>$kunitêµ° $LANK[$sno] $kname</font>";
 
-	if($xking eq $kid || $x0 eq $kid || $x17 eq $kid){
-		$rule = "<input type=submit value=±¹¹ıÁ¦Á¤>;"
+	if($xking eq $kid || $x0 eq $kid || $x17 eq $kid || $x1 eq $kid){
+		$rule = "<input type=submit value=êµ­ë²•ì œì •>;"
 	}
 
-	open(IN,"$LOCAL_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.err no :country_bbs');
+	open(IN,"$LOCAL_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.err no :country_bbs');
 	@LOCAL_DATA = <IN>;
 	close(IN);
 
-        if($xking eq $kid || $x0 eq $kid || $x17 eq $kid){
-                $rule1 = "<input type=submit style=\"font-family:±Ã¼­; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;\" value=±¹¹ı»èÁ¦>";
-        	$rule2 = "<input type=submit style=\"font-family:±Ã¼­; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;\" value=±¹¹ıÁ¦Á¤>";
+        if($xking eq $kid || $x0 eq $kid || $x17 eq $kid || $x1 eq $kid){
+                $rule1 = "<input type=submit style=\"font-family:ê¶ì„œ; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;\" value=êµ­ë²•ì‚­ì œ>";
+        	$rule2 = "<input type=submit style=\"font-family:ê¶ì„œ; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;\" value=êµ­ë²•ì œì •>";
 	}
 
 
@@ -50,7 +50,7 @@ sub LOCAL_RULE {
 <table bgcolor="black" width="98%" align="center">
     <tr>
         <td>
-            <font color="white" face="µ¸¿ò"><span style="font-size:9pt;"><b>±¹°¡¹ıÀü½Ç</b><br>$xname±¹ÀÇ Á¤ÇØÁø µ¶ÀÚÀûÀÎ Æ¯º°ÇÑ ·êÀÌ³ª Áß¿äÇÑ ±â¹ĞÀ» ³²°ÜµÎ±â À§ÇÑ Àå¼ÒÀÔ´Ï´Ù.<BR>±× ³ª¶óÀÇ Âü°¡ÀÚ´Â $xname±¹¿¡ ¸öÀ» ´ã°í ÀÖ´Â ÇÑÀº ÀÌ ¹ı¿¡ µû¶ó Çàµ¿ÇÏ¼Å¾ß ÇÕ´Ï´Ù.<BR>Àß ÀĞ°í ¼÷ÁöÇÑ µÚ ÀÇ¹®»çÇ×ÀÌ ÀÖ´Â °æ¿ì´Â $xname±¹ÀÇ ±¹¿Õ,Âü¸ğ,½Â»ó¿¡°Ô ¹®ÀÇÇØÁÖ¼¼¿ä.(ÃÖ´ë 20°Ç±îÁö µî·Ï°¡´É)</span></font>
+            <font color="white" face="ë‹ì›€"><span style="font-size:9pt;"><b>êµ­ê°€ë²•ì „ì‹¤</b><br>$xnameêµ­ì˜ ì •í•´ì§„ ë…ìì ì¸ íŠ¹ë³„í•œ ë£°ì´ë‚˜ ì¤‘ìš”í•œ ê¸°ë°€ì„ ë‚¨ê²¨ë‘ê¸° ìœ„í•œ ì¥ì†Œì…ë‹ˆë‹¤.<BR>ê·¸ ë‚˜ë¼ì˜ ì°¸ê°€ìëŠ” $xnameêµ­ì— ëª¸ì„ ë‹´ê³  ìˆëŠ” í•œì€ ì´ ë²•ì— ë”°ë¼ í–‰ë™í•˜ì…”ì•¼ í•©ë‹ˆë‹¤.<BR>ì˜ ì½ê³  ìˆ™ì§€í•œ ë’¤ ì˜ë¬¸ì‚¬í•­ì´ ìˆëŠ” ê²½ìš°ëŠ” $xnameêµ­ì˜ êµ­ì™•,ì°¸ëª¨,ìŠ¹ìƒì—ê²Œ ë¬¸ì˜í•´ì£¼ì„¸ìš”.(ìµœëŒ€ 20ê±´ê¹Œì§€ ë“±ë¡ê°€ëŠ¥)</span></font>
         </td>
     </tr>
 </table>
@@ -60,7 +60,7 @@ EOM
 	foreach(@LOCAL_DATA){
 		($bbid,$bbno,$bbmes,$bbcharaimg,$bbname,$bbhost,$bbtime,$bbele,$bbcon,$bbtype)=split(/<>/);
 		if($kcon eq "$bbcon" && $bbtype eq "0"){
-            $mes .= "<TR><TD><input type=radio name=del_id value=$bbno></td><td><font size=2 color=FFFFFF>$bbmes <font size=2>[Á¦Á¤ : $bbname]</TD></TR>\n";
+            $mes .= "<TR><TD><input type=radio name=del_id value=$bbno></td><td><font size=2 color=FFFFFF>$bbmes <font size=2>[ì œì • : $bbname]</TD></TR>\n";
 		$s_n++;
 		if($s_n > 15){last;}
 		}
@@ -103,7 +103,7 @@ $rule2
 <input type=hidden name=id value=$kid>
 <input type=hidden name=pass value=$kpass>
 <input type=hidden name=mode value=STATUS>
-<input type=submit style="font-family:±Ã¼­; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;" value="¸Ş´º·Î µ¹¾Æ¿Â´Ù"></form>
+<input type=submit style="font-family:ê¶ì„œ; color:$ELE_C[$xele]; background-color:$ELE_BG[$xele]; border-width:1; border-color:black; border-style:solid;" value="ë©”ë‰´ë¡œ ëŒì•„ì˜¨ë‹¤"></form>
         </td>
     </tr>
 </table>
