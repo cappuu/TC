@@ -43,8 +43,13 @@ sub WAR{
 									$kpoint += 6;
 									&MAP_LOG("<img src=$IMG/j1.gif> $xname국의 $kname부대는 $zname성으로 쳐들어 갔습니다!");
 
-									$krice -= int($SOL_RICE[$ksub1_ex]*($ksol/60));
-									$erice -= int($SOL_RICE[$esub1_ex]*($esol/60));
+									if($kskill =~ /Ec/){
+										$krice -= int($SOL_RICE[$ksub1_ex]*($ksol/60));
+										$erice -= int($SOL_RICE[$esub1_ex]*($esol/60));
+									}else{
+										$krice -= int($SOL_RICE[$ksub1_ex]*($ksol/60));
+										$erice -= int($SOL_RICE[$esub1_ex]*($esol/60));
+									}
 
 									$eid="";
 			
