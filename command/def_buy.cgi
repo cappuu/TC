@@ -1,6 +1,6 @@
 sub DEF_BUY {
 
-	if($in{'no'} eq ""){&ERR("NO:°¡ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù.");}
+	if($in{'no'} eq ""){&ERR("NO:ê°€ ìž…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");}
 	&CHARA_MAIN_OPEN;
 	&CHARA_ITEM_OPEN;
 	&TOWN_DATA_OPEN("$kpos");
@@ -45,17 +45,17 @@ A {
                     <td width="180" height="185" rowspan="2">
                     </td>
                     <td width="480" height="63">
-                        <p align="right"><span style="filter:shadow(color=#BLACK,direction=135); color:FFFFFF; font-size:36px; height:1pt;">¿Õ¼­¹æÀÇ 
-                        º¹Àå»óÁ¡</span></p>
+                        <p align="right"><span style="filter:shadow(color=#BLACK,direction=135); color:FFFFFF; font-size:36px; height:1pt;">ì™•ì„œë°©ì˜ 
+                        ë³µìž¥ìƒì </span></p>
                     </td>
                 </tr>
                 <tr>
                     <td width="480" height="122" valign="up">
-                        <p align="left"><span style="font-size:9pt;"><font color=black>ÈåÀ½ $kname, ÀÚ³Ù°¡?<br>±ÍÂú°Ô ¿Ö ¶Ç ¿Ô´Â°¡?<br>Â¥ÁõÀÌ 
-                        ³­´Ù³×<BR>º¹ÀåÀ» »ì·Á°í ¸»ÀÎ°¡?<BR>ÇöÀç ÀÚ³×°¡ ÆÈ·Á°í 
-                        ÇÏ´Â $pronameÀÇ °¡°ÝÀº ±Ý </span><FONT color=red><span style="font-size:9pt;">$proval</span></FONT><span style="font-size:9pt;"> ÀÌ¶ó³×.<BR>¾Æ·¡¿¡ 
-                        ÆÈ°í ÀÖ´Â ¾ÆÀÌÅÛÀÇ 
-¸®½ºÆ®µéÀ» º¸°Ô³ª.</font></span></td>
+                        <p align="left"><span style="font-size:9pt;"><font color=black>íìŒ $kname, ìžë„¨ê°€?<br>ê·€ì°®ê²Œ ì™œ ë˜ ì™”ëŠ”ê°€?<br>ì§œì¦ì´ 
+                        ë‚œë‹¤ë„¤<BR>ë³µìž¥ì„ ì‚´ë ¤ê³  ë§ì¸ê°€?<BR>í˜„ìž¬ ìžë„¤ê°€ íŒ”ë ¤ê³  
+                        í•˜ëŠ” $pronameì˜ ê°€ê²©ì€ ê¸ˆ </span><FONT color=red><span style="font-size:9pt;">$proval</span></FONT><span style="font-size:9pt;"> ì´ë¼ë„¤.<BR>ì•„ëž˜ì— 
+                        íŒ”ê³  ìžˆëŠ” ì•„ì´í…œì˜ 
+ë¦¬ìŠ¤íŠ¸ë“¤ì„ ë³´ê²Œë‚˜.</font></span></td>
                 </tr>
             </table>
         </td>
@@ -67,17 +67,17 @@ A {
 
 EOM
 
-	open(IN,"$PRO_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(IN,"$PRO_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@PRO_DATA = <IN>;
 	close(IN);
 
-	$list = "<TR align=center><TD bgcolor=$TD_C1>¼±ÅÃ</TD><TD bgcolor=$TD_C2 width=80>¸íÄª</TD><TD align=right bgcolor=$TD_C3>°¡°Ý</TD><TD bgcolor=$TD_C2 width=40>¹«·Â</TD><TD bgcolor=$TD_C2>Åë¼Ö·Â</TD><TD bgcolor=$TD_C2 width=40>Áö·Â</TD><TD bgcolor=$TD_C2 width=40>¸Å·Â</TD><TD bgcolor=$TD_C2 width=360>º¹ÀåÈ¿°ú</TD></TR>";
+	$list = "<TR align=center><TD bgcolor=$TD_C1>ì„ íƒ</TD><TD bgcolor=$TD_C2 width=80>ëª…ì¹­</TD><TD align=right bgcolor=$TD_C3>ê°€ê²©</TD><TD bgcolor=$TD_C2 width=40>ë¬´ë ¥</TD><TD bgcolor=$TD_C2>í†µì†”ë ¥</TD><TD bgcolor=$TD_C2 width=40>ì§€ë ¥</TD><TD bgcolor=$TD_C2 width=40>ë§¤ë ¥</TD><TD bgcolor=$TD_C3 width=50>ì œí•œë ˆë²¨</TD><TD bgcolor=$TD_C2 width=360>ë³µìž¥íš¨ê³¼</TD></TR>";
 	$s_i=0;
 	foreach(@PRO_DATA){
 		($proname,$proval,$prostr,$prolea,$proint,$procha,$proclass,$protownid,$proname1) = split(/<>/);
 		if($kvsub2 eq 0){$proval = int($proval / 10);}
 		if($protownid eq 0){
-			$list .= "<TR align=center><TD bgcolor=$TD_C1><input type=radio name=select value=$s_i></TD><TD bgcolor=$TD_C2>$proname</TD><TD align=right bgcolor=$TD_C3>±Ý $proval</TD><TD bgcolor=$TD_C2>$prostr</TD><TD bgcolor=$TD_C2>$prolea</TD><TD bgcolor=$TD_C2>$proint</TD><TD bgcolor=$TD_C2>$procha</TD><TD bgcolor=$TD_C2>$proname1</TD></TR>";
+			$list .= "<TR align=center><TD bgcolor=$TD_C1><input type=radio name=select value=$s_i></TD><TD bgcolor=$TD_C2>$proname</TD><TD align=right bgcolor=$TD_C3>ê¸ˆ $proval</TD><TD bgcolor=$TD_C2>$prostr</TD><TD bgcolor=$TD_C2>$prolea</TD><TD bgcolor=$TD_C2>$proint</TD><TD bgcolor=$TD_C2>$procha</TD><TD bgcolor=$TD_C3><center>$proclass</TD><TD bgcolor=$TD_C2>$proname1</TD></TR>";
 		}
 		$s_i++;
 	}
@@ -93,14 +93,14 @@ $no_list
     <tr>
         <td>
 <input type=hidden name=mode value=23>
-<input type=submit value="±¸ÀÔÇÑ´Ù"></form>
+<input type=submit value="êµ¬ìž…í•œë‹¤"></form>
         </td>
         <td>
 <form action="$FILE_STATUS" method="post">
 <input type=hidden name=id value=$kid>
 <input type=hidden name=pass value=$kpass>
 <input type=hidden name=mode value=STATUS>
-<input type=submit value="µ¹¾Æ¿Â´Ù"></form>
+<input type=submit value="ëŒì•„ì˜¨ë‹¤"></form>
         </td>
     </tr>
 </table>
