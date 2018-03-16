@@ -2,7 +2,7 @@ sub NEW_CHARA {
 
 
 
-	open(IN,"$member_list") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"$member_list") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@MEMBER_DATA = <IN>;
 	close(IN);
 
@@ -11,140 +11,100 @@ sub NEW_CHARA {
 		if($mname eq "$hi[$in{'chara'}]"){
 		if($mpass eq "$in{'pass'}"){
 		}else{
-		&E_ERR("¡¸$mname¡¹ÀÌ¶õ Àå¼ö¸íÀº Æ¯¼ö Àü¿ëÀÌ¹Ç·Î »ç¿ëÇÒ ¼ö ¾ø½À´Ï´Ù.");
+		&E_ERR("ã€Œ$mnameã€ì´ë€ ì¥ìˆ˜ëª…ì€ íŠ¹ìˆ˜ ì „ìš©ì´ë¯€ë¡œ ì‚¬ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 		}
 	}
 
 	&CHEACKER;
-	if($CHARA_STOP){ &ERR2("ÇöÀç ½Å±Ô µî·ÏÀº ¹Ş¾ÆµéÀÌÁö ¾Ê°í ÀÖ½À´Ï´Ù."); }
-	if ($in{'license'} eq "") {&E_ERR("Ä¥¶û¼­¹öÀÇ ÀÌ¿ë¾à°üÀÌ µ¿ÀÇÇÏÁö ¾Ê¾Ò½À´Ï´Ù."); }
-	if ($in{'id'} =~ m/[^0-9a-zA-Z]/) {&E_ERR("ID¿¡ ¹İ°İ¿µ¼ıÀÚ ÀÌ¿ÜÀÇ ¹®ÀÚ°¡ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù."); }
-	if ($in{'pass'} =~ m/[^0-9a-zA-Z]/) {&E_ERR("ÆĞ½º¿öµå¿¡ ¹İ°İ¿µ¼ıÀÚ ÀÌ¿ÜÀÇ ¹®ÀÚ°¡ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù."); }
-	if ($in{'mail'} eq "" || $in{'mail'} !~ /(.*)\@(.*)\.(.*)/){&E_ERR("¸ŞÀÏÀÇ ÀÔ·ÂÀÌ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.");}
-	if($in{'id'} eq "" or length($in{'id'}) < 4 or length($in{'id'}) > 8) { &E_ERR("ID´Â, 4¹®ÀÚ ÀÌ»ó 8¹®ÀÚ ÀÌÇÏ·Î ÀÔ·ÂÇÏ±æ ¹Ù¶ø´Ï´Ù."); }
-	elsif($in{'pass'} eq "" || length($in{'pass'}) < 4 || length($in{'pass'}) > 8) { &E_ERR("ÆĞ½º¿öµå´Â 4¹®ÀÚ ÀÌ»ó 8¹®ÀÚ ÀÌÇÏ·Î ÀÔ·ÂÇÏ±æ ¹Ù¶ø´Ï´Ù."); }
-	elsif($in{'con'} eq "") { &E_ERR("ÃÊ±â À§Ä¡°¡ ¼±ÅÃµÇÁö ¾Ê¾Ò½À´Ï´Ù."); }
-	elsif($in{'mail'} eq "\@" || $in{'mail'} eq "") { &E_ERR("¸ŞÀÏÀÇ ÀÔ·ÂÀÌ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù."); }
-	elsif($in{'pass'} eq "" || length($in{'pass'}) < 4 || length($in{'pass'}) > 16) { &E_ERR("Ä³¸¯ÅÍÀÇ ÆĞ½º¿öµå°¡ ¿Ã¹Ù¸£°Ô ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù."); }
-	elsif($in{'id'} eq $in{'pass'}){&E_ERR("ID¿Í ÆĞ½º¿öµå°¡ °°Àº °æ¿ì, µî·ÏÇÒ ¼ö ¾ø½À´Ï´Ù."); }
-	elsif($in{'type'} eq "") { &E_ERR("Àå¼ö Å¸ÀÔÀÌ ¼±ÅÃµÇÁö ¾Ê¾Ò½À´Ï´Ù."); }
+	if($CHARA_STOP){ &ERR2("í˜„ì¬ ì‹ ê·œ ë“±ë¡ì€ ë°›ì•„ë“¤ì´ì§€ ì•Šê³  ìˆìŠµë‹ˆë‹¤."); }
+	if ($in{'license'} eq "") {&E_ERR("ì¹ ë‘ì„œë²„ì˜ ì´ìš©ì•½ê´€ì´ ë™ì˜í•˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤."); }
+	if ($in{'id'} =~ m/[^0-9a-zA-Z]/) {&E_ERR("IDì— ë°˜ê²©ì˜ìˆ«ì ì´ì™¸ì˜ ë¬¸ìê°€ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤."); }
+	if ($in{'pass'} =~ m/[^0-9a-zA-Z]/) {&E_ERR("íŒ¨ìŠ¤ì›Œë“œì— ë°˜ê²©ì˜ìˆ«ì ì´ì™¸ì˜ ë¬¸ìê°€ í¬í•¨ë˜ì–´ ìˆìŠµë‹ˆë‹¤."); }
+	if ($in{'mail'} eq "" || $in{'mail'} !~ /(.*)\@(.*)\.(.*)/){&E_ERR("ë©”ì¼ì˜ ì…ë ¥ì´ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤.");}
+	if($in{'id'} eq "" or length($in{'id'}) < 4 or length($in{'id'}) > 8) { &E_ERR("IDëŠ”, 4ë¬¸ì ì´ìƒ 8ë¬¸ì ì´í•˜ë¡œ ì…ë ¥í•˜ê¸¸ ë°”ëë‹ˆë‹¤."); }
+	elsif($in{'pass'} eq "" || length($in{'pass'}) < 4 || length($in{'pass'}) > 8) { &E_ERR("íŒ¨ìŠ¤ì›Œë“œëŠ” 4ë¬¸ì ì´ìƒ 8ë¬¸ì ì´í•˜ë¡œ ì…ë ¥í•˜ê¸¸ ë°”ëë‹ˆë‹¤."); }
+	elsif($in{'con'} eq "") { &E_ERR("ì´ˆê¸° ìœ„ì¹˜ê°€ ì„ íƒë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤."); }
+	elsif($in{'mail'} eq "\@" || $in{'mail'} eq "") { &E_ERR("ë©”ì¼ì˜ ì…ë ¥ì´ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤."); }
+	elsif($in{'pass'} eq "" || length($in{'pass'}) < 4 || length($in{'pass'}) > 16) { &E_ERR("ìºë¦­í„°ì˜ íŒ¨ìŠ¤ì›Œë“œê°€ ì˜¬ë°”ë¥´ê²Œ ì…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤."); }
+	elsif($in{'id'} eq $in{'pass'}){&E_ERR("IDì™€ íŒ¨ìŠ¤ì›Œë“œê°€ ê°™ì€ ê²½ìš°, ë“±ë¡í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤."); }
+	elsif($in{'type'} eq "") { &E_ERR("ì¥ìˆ˜ íƒ€ì…ì´ ì„ íƒë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤."); }
 
-	if ($in{'chara'} =~ m/[^0-9]/){&E_ERR("¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù."); }
+	if ($in{'chara'} =~ m/[^0-9]/){&E_ERR("ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤."); }
 
 
 	if($in{'cou_name1'} eq "1"){
-		$in{'cou_name'} = "À§";
+		$in{'cou_name'} = "ìœ„";
 		$in{'ele'} = "1";
 	}elsif($in{'cou_name1'} eq "2"){
-		$in{'cou_name'} = "ÃË";
+		$in{'cou_name'} = "ì´‰";
 		$in{'ele'} = "2";
 	}elsif($in{'cou_name1'} eq "3"){
-		$in{'cou_name'} = "¿À";
+		$in{'cou_name'} = "ì˜¤";
 		$in{'ele'} = "3";
 	}elsif($in{'cou_name1'} eq "4"){
-		$in{'cou_name'} = "ÃÊ";
+		$in{'cou_name'} = "ì´ˆ";
 		$in{'ele'} = "4";
 	}elsif($in{'cou_name1'} eq "5"){
-		$in{'cou_name'} = "¿¬";
+		$in{'cou_name'} = "ì—°";
 		$in{'ele'} = "5";
 	}elsif($in{'cou_name1'} eq "6"){
-		$in{'cou_name'} = "ÇÑ";
+		$in{'cou_name'} = "í•œ";
 		$in{'ele'} = "6";
 	}elsif($in{'cou_name1'} eq "7"){
-		$in{'cou_name'} = "°í±¸·Á";
+		$in{'cou_name'} = "ê³ êµ¬ë ¤";
 		$in{'ele'} = "7";
 	}elsif($in{'cou_name1'} eq "8"){
-		$in{'cou_name'} = "½Å¶ó";
+		$in{'cou_name'} = "ì‹ ë¼";
 		$in{'ele'} = "8";
 	}elsif($in{'cou_name1'} eq "9"){
-		$in{'cou_name'} = "¹éÁ¦";
+		$in{'cou_name'} = "ë°±ì œ";
 		$in{'ele'} = "9";
 	}
 
-	open(IN,"$COUNTRY_LIST") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"$COUNTRY_LIST") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@COU_DATA = <IN>;
 	close(IN);
 
 	foreach(@COU_DATA){
 		($xxcid,$xxname,$xxele,$xxnum,$xxins,$xxind,$xxall,$xxgold,$xxhp,$xxmaxhp,$xxstr,$xxvit,$xxagi)=split(/<>/);
-	if($xxname eq $in{'cou_name'}){&E_ERR("±× ³ª¶ó´Â ÀÌ¹Ì Á¸ÀçÇÕ´Ï´Ù.");}
+	if($xxname eq $in{'cou_name'}){&E_ERR("ê·¸ ë‚˜ë¼ëŠ” ì´ë¯¸ ì¡´ì¬í•©ë‹ˆë‹¤.");}
 	}
 
-	$st[0] = 10;
-	$st[1] = 10;
-	$st[2] = 10;
-	$st[3] = 10;
-
-	for($i=0;$i<100;$i++){
+	$st[0] = 30;
+	$st[1] = 30;
+	$st[2] = 30;
+	$st[3] = 30;
+	
+		$st[$in{'type'}] += 30;
+		$st[$in{'weak'}] -= 20;
+		
+	for($i=0;$i<40;$i++){
 		$st[int(rand(4))]++;
 	}
-	for($i=0;$i<4;$i++){
+	for($i=0;$i<6;$i++){
 		$st[int(rand(4))]+=5;
 	}
-
-	if($in{'type'} eq "1"){
-		$st[int(rand(4))]+=20;
-		$st[int(rand(4))]+=10;
-		$st[0]+=5;
-		$st[1]+=5;
-		if( $st[0] > $st[2] ){
-			$in{'str'} = $st[0];
-			$in{'int'} = $st[2];
-		}else{
-			$in{'str'} = $st[2];
-			$in{'int'} = $st[0];
-		}
-		if( $st[1] > $st[3] ){
-			$in{'tou'} = $st[1];
-			$in{'cha'} = $st[3];
-		}else{
-			$in{'tou'} = $st[3];
-			$in{'cha'} = $st[1];
-		}
-	}elsif($in{'type'} eq "2"){
-		$st[int(rand(4))]+=20;
-		$st[int(rand(4))]+=10;
-		$st[0]+=5;
-		$st[1]+=5;
-		if( $st[0] < $st[2] ){
-			$in{'str'} = $st[0];
-			$in{'int'} = $st[2];
-		}else{
-			$in{'str'} = $st[2];
-			$in{'int'} = $st[0];
-		}
-		if( $st[1] < $st[3] ){
-			$in{'tou'} = $st[1];
-			$in{'cha'} = $st[3];
-		}else{
-			$in{'tou'} = $st[3];
-			$in{'cha'} = $st[1];
-		}
-	}else{
-		$st[int(rand(4))]+=10;
-		$st[int(rand(4))]+=10;
-		$st[int(rand(4))]+=10;
-		$st[int(rand(4))]+=10;
 		$in{'str'} = $st[0];
 		$in{'int'} = $st[1];
 		$in{'tou'} = $st[2];
 		$in{'cha'} = $st[3];
-	}
+		
+		
 	$max = $in{'str'} + $in{'int'} + $in{'tou'} + $in{'cha'};
 	if($max ne "200"){
-		&E_ERR("ÇÕ°èÀÇ ´É·ÂÀÌ 200ÀÌ ¾Æ´Õ´Ï´Ù. (ÇÕ°è $max)");
+		&E_ERR("í•©ê³„ì˜ ëŠ¥ë ¥ì´ 200ì´ ì•„ë‹™ë‹ˆë‹¤. (í•©ê³„ $max)");
 	}
 
-	open(IN,"$TOWN_LIST") or &E_ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$TOWN_LIST") or &E_ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@TOWN_DATA = <IN>;
 	close(IN);
 
-	open(IN,"$COUNTRY_LIST") or &E_ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"$COUNTRY_LIST") or &E_ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@COU_DATA = <IN>;
 	close(IN);
 
-	open(IN,"$COUNTRY_NO_LIST") or &E_ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country no');
+	open(IN,"$COUNTRY_NO_LIST") or &E_ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country no');
 	@COU_NO_DATA = <IN>;
 	close(IN);
 
@@ -153,8 +113,8 @@ sub NEW_CHARA {
 	($z2name,$z2con)=split(/<>/,$TOWN_DATA[$in{'con'}]);
 	if($z2con eq "" && $in{'gunju'} eq 1){
 		if($in{'ele'} eq ""){
-			&E_ERR("±ºÁÖÀÇ ±¹°¡ »öÀ» ¼±ÅÃÇØÁÖ¼¼¿ä.");
-		}elsif($in{'cou_name'} eq "" || length($in{'cou_name'}) < 2 || length($in{'cou_name'}) > 8) { &E_ERR("³ª¶óÀÇ ÀÌ¸§ÀÌ ¿Ã¹Ù¸£°Ô ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù."); }
+			&E_ERR("êµ°ì£¼ì˜ êµ­ê°€ ìƒ‰ì„ ì„ íƒí•´ì£¼ì„¸ìš”.");
+		}elsif($in{'cou_name'} eq "" || length($in{'cou_name'}) < 2 || length($in{'cou_name'}) > 8) { &E_ERR("ë‚˜ë¼ì˜ ì´ë¦„ì´ ì˜¬ë°”ë¥´ê²Œ ì…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤."); }
 		$m_hit = 1;
 		$cou_name = $in{'cou_name'};
 		$new_cou_no = @COU_NO_DATA + 1;
@@ -187,7 +147,7 @@ sub NEW_CHARA {
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"$dir/$file")){
-				&E_ERR("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+				&E_ERR("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 			}
 			@page = <page>;
 			close(page);
@@ -205,15 +165,15 @@ sub NEW_CHARA {
 		($rkid,$rkpass,$rkname,$rkchara,$rkstr,$rkint,$rklea,$rkcha,$rksol,$rkgat,$rkcon,$rkgold,$rkrice,$rkcex,$rkclass,$rkarm,$rkbook,$rkbank,$rksub1,$rksub2,$rkpos,$rkmes,$rkhost,$rkdate,$rkmail,$rkos,$rkskill,$rkpoint,$rkct,$rklevel,$rkexp,$rkcodea,$rkcodeb,$rkqpoint) = split(/<>/);
 		if($ACCESS){
 			if($host eq $rkhost ){
-				&E_ERR("ÇÑ ¸í¿¡ ´ëÇØ ÇÑ Ä³¸¯ÅÍÀÔ´Ï´Ù. È¤Àº °°Àº ¾ÆÀÌÇÇ°¡ ÀÌ¹Ì µî·ÏµÇ¾î ÀÖ½À´Ï´Ù.");
+				&E_ERR("í•œ ëª…ì— ëŒ€í•´ í•œ ìºë¦­í„°ì…ë‹ˆë‹¤. í˜¹ì€ ê°™ì€ ì•„ì´í”¼ê°€ ì´ë¯¸ ë“±ë¡ë˜ì–´ ìˆìŠµë‹ˆë‹¤.");
 			}
 		}
 		if($rkmail eq "$in{'mail'}"){
-			&E_ERR("±× ¸ŞÀÏ ÁÖ¼Ò´Â ÀÌ¹Ì µî·ÏµÇ¾î ÀÖ½À´Ï´Ù.");
+			&E_ERR("ê·¸ ë©”ì¼ ì£¼ì†ŒëŠ” ì´ë¯¸ ë“±ë¡ë˜ì–´ ìˆìŠµë‹ˆë‹¤.");
 		}
 		if($rkchara eq "$in{'chara'}"){
 			
-			&E_ERR("ÀÌ¹Ì ±× Àå¼ö¸íÀº ´©±º°¡°¡ »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù.");
+			&E_ERR("ì´ë¯¸ ê·¸ ì¥ìˆ˜ëª…ì€ ëˆ„êµ°ê°€ê°€ ì‚¬ìš©í•˜ê³  ìˆìŠµë‹ˆë‹¤.");
 		}
 		if($kcon eq $rkcon){
 			$con_num++;
@@ -224,30 +184,30 @@ sub NEW_CHARA {
 		$kcon = $new_cou_no;
 
 		$month_read = "./log_file/date_count.cgi";
-		open(IN,"$month_read") or &E_ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+		open(IN,"$month_read") or &E_ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 		@MONTH_DATA = <IN>;
 		close(IN);
 		($myear,$mmonth,$mtime) = split(/<>/,$MONTH_DATA[0]);
-		$old_date = sprintf("%02d\³â%02d\¿ù", $F_YEAR+$myear, $mmonth);
+		$old_date = sprintf("%02d\ë…„%02d\ì›”", $F_YEAR+$myear, $mmonth);
 
 		push(@COU_DATA,"$new_cou_no<>$in{'cou_name'}<>$in{'ele'}<>1<>$in{'id'}<><>$hi[$in{'chara'}]<>1<><>\n");
-		open(OUT,">$COUNTRY_LIST") or &E_ERR('COUNTRY µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$COUNTRY_LIST") or &E_ERR('COUNTRY ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @COU_DATA;
 		close(OUT);
 
 		push(@COU_NO_DATA,"$new_cou_no<>$in{'cou_name'}<>$in{'ele'}<>1<>$in{'id'}<><><>1<><>\n");
-		open(OUT,">$COUNTRY_NO_LIST") or &E_ERR('COUNTRY µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$COUNTRY_NO_LIST") or &E_ERR('COUNTRY ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @COU_NO_DATA;
 		close(OUT);
 
 		&TOWN_DATA_OPEN("$in{'con'}");
 		$zcon = $new_cou_no;
 		&TOWN_DATA_INPUT;
-		&MAP_LOG2("<img src=$IMG/j13.gif> [$old_date\] $hi[$in{'chara'}], $cou_name±¹À» °Ç±¹ÇÏ´Ù.");
-		&MAP_LOG("<img src=$IMG/j13.gif> [$old_date\] $hi[$in{'chara'}], $cou_name±¹À» °Ç±¹ÇÏ´Ù.");
+		&MAP_LOG2("<img src=$IMG/j13.gif> [$old_date\] $hi[$in{'chara'}], $cou_nameêµ­ì„ ê±´êµ­í•˜ë‹¤.");
+		&MAP_LOG("<img src=$IMG/j13.gif> [$old_date\] $hi[$in{'chara'}], $cou_nameêµ­ì„ ê±´êµ­í•˜ë‹¤.");
 
 	}else{
-		&MAP_LOG("<img src=$IMG/b18.gif> $hi[$in{'chara'}]´ÔÀº ÀºµĞ»ıÈ°À» ¹ş¾î³ª ³­¼¼¿¡ ¶Ù¾îµé¾ú½À´Ï´Ù.");
+		&MAP_LOG("<img src=$IMG/b18.gif> $hi[$in{'chara'}]ë‹˜ì€ ì€ë‘”ìƒí™œì„ ë²—ì–´ë‚˜ ë‚œì„¸ì— ë›°ì–´ë“¤ì—ˆìŠµë‹ˆë‹¤.");
 	}
 
 	@NEW_COM=();
@@ -261,7 +221,7 @@ sub NEW_CHARA {
 
 	@NEW_COM1=();
 	for($i=0;$i<30;$i++){
-		push(@NEW_COM1,"ÀÏ¹İ°ø°İ<>1<>0<>0<>\n");
+		push(@NEW_COM1,"ì¼ë°˜ê³µê²©<>1<>0<>0<>\n");
 	}
 
 	open(OUT,">./charalog/command1/$in{'id'}.cgi");
@@ -316,48 +276,48 @@ sub NEW_CHARA {
 sub mail_to {
 	$sendmail = '/usr/lib/sendmail';
 
-	$mail_sub = "»ï±¹Áö ¸ğÀÇÀüÅõ NET µî·Ï ÅëÁö";
+	$mail_sub = "ì‚¼êµ­ì§€ ëª¨ì˜ì „íˆ¬ NET ë“±ë¡ í†µì§€";
 	&TIME_DATA;
 
 	$a_pass = crypt("$in{'pass'}", wd);
 
 	$mail_msg = <<"EOM";
-¾È³çÇÏ½Ê´Ï±î? $hi[$in{'chara'}] ´Ô
+ì•ˆë…•í•˜ì‹­ë‹ˆê¹Œ? $hi[$in{'chara'}] ë‹˜
 
-$GAME_TITLE ÀÇ ¼¼°è¿¡ ¿À½Å°É È¯¿µÇÕ´Ï´Ù.
-µî·Ï ³»¿ëÀº ¾Æ·¡¿Í °°À¸¹Ç·Î ÇÊ½Ã È®ÀÎÇØÁÖ½Ê½Ã¿À.
+$GAME_TITLE ì˜ ì„¸ê³„ì— ì˜¤ì‹ ê±¸ í™˜ì˜í•©ë‹ˆë‹¤.
+ë“±ë¡ ë‚´ìš©ì€ ì•„ë˜ì™€ ê°™ìœ¼ë¯€ë¡œ í•„ì‹œ í™•ì¸í•´ì£¼ì‹­ì‹œì˜¤.
 
 
-¡Ú µî·ÏÀÏ½Ã : $daytime
-¡Ú È£½ºÆ®¸í : $host
-¡Ú Âü°¡ÀÚ¸í : $hi[$in{'chara'}]
-¡Ú ÀÌ¸ŞÀÏ : $in{'mail'}
-¡Ú ¾ÆÀÌµğ : $in{'id'}
-¡Ú ºñ¹Ğ¹øÈ£ : $in{'pass'}
-¡Ú ÀÎÁõÅ° : $a_pass
+â˜… ë“±ë¡ì¼ì‹œ : $daytime
+â˜… í˜¸ìŠ¤íŠ¸ëª… : $host
+â˜… ì°¸ê°€ìëª… : $hi[$in{'chara'}]
+â˜… ì´ë©”ì¼ : $in{'mail'}
+â˜… ì•„ì´ë”” : $in{'id'}
+â˜… ë¹„ë°€ë²ˆí˜¸ : $in{'pass'}
+â˜… ì¸ì¦í‚¤ : $a_pass
 
-ÀÎÁõ Å°¿¡ µî·ÏÇØ¾ßÁö¸¸ °ÔÀÓ¿¡ Âü°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+ì¸ì¦ í‚¤ì— ë“±ë¡í•´ì•¼ì§€ë§Œ ê²Œì„ì— ì°¸ê°€í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.
 
-[ÀÎÁõÅ° µî·ÏÇÏ·¯ °¡±â]
+[ì¸ì¦í‚¤ ë“±ë¡í•˜ëŸ¬ ê°€ê¸°]
 $SANGOKU_URL/entry.cgi?mode=ATTESTATION
-(¡Ù ÀÌÂÊÀ¸·ÎºÎÅÍ µî·ÏÇÒ ¼ö ÀÖ½À´Ï´Ù.)
+(â˜† ì´ìª½ìœ¼ë¡œë¶€í„° ë“±ë¡í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.)
 
-±×¸®°í ÀÚÁÖ °Ô½ÃÆÇÀ» È®ÀÎÇÏ¿© ¿î¿µÀÚÀÇ °øÁö»çÇ×À» ÀÚÁÖº¸´Â ½À°üÀ» ±â¸¨½Ã´Ù.
-¶Ç, ÆĞ½º¿öµå ¾ÆÀÌµğµîÀº Àç¹ßÇàÀÌ µÇÁö ¾ÊÀ¸¹Ç·Î ¼ÒÁßÈ÷ º¸°üÇØÁÖ½Ê½Ã¿À.
+ê·¸ë¦¬ê³  ìì£¼ ê²Œì‹œíŒì„ í™•ì¸í•˜ì—¬ ìš´ì˜ìì˜ ê³µì§€ì‚¬í•­ì„ ìì£¼ë³´ëŠ” ìŠµê´€ì„ ê¸°ë¦…ì‹œë‹¤.
+ë˜, íŒ¨ìŠ¤ì›Œë“œ ì•„ì´ë””ë“±ì€ ì¬ë°œí–‰ì´ ë˜ì§€ ì•Šìœ¼ë¯€ë¡œ ì†Œì¤‘íˆ ë³´ê´€í•´ì£¼ì‹­ì‹œì˜¤.
 
-¾ÆÀÌµğ´Â ÇÑ »ç¶÷´ç ÇÏ³ª¹Û¿¡ ¸ø¸¸µì´Ï´Ù.
-Áö¼ÓÀûÀÎ ÀÚÃ¼ÀûÀÎ ¾ÆÀÌÇÇ°Ë»ç¿Í whois¿Í ÇØÄ¿Áî·¦¸¦ ÀÌ¿ëÇÑ °Ë»çµµ ÇÏ°í ÀÖ½À´Ï´Ù.
-±¦ÇÑ ÁşÀº ÇÏÁö ¾Ê´Â°Ô ÁÁÀ»µí ½Í½À´Ï´Ù.
-¸¸¾à Àû¹ßµÇ¸é º»ÄÉ´Â ¹°·Ğ ³ª¸ÓÁö ¾ÆÀÌµğ±îÁö ÀüºÎ »èÁ¦ÇÏ´Ï À¯ÀÇÇØÁÖ¼¼¿ä.
+ì•„ì´ë””ëŠ” í•œ ì‚¬ëŒë‹¹ í•˜ë‚˜ë°–ì— ëª»ë§Œë“­ë‹ˆë‹¤.
+ì§€ì†ì ì¸ ìì²´ì ì¸ ì•„ì´í”¼ê²€ì‚¬ì™€ whoisì™€ í•´ì»¤ì¦ˆë©ë¥¼ ì´ìš©í•œ ê²€ì‚¬ë„ í•˜ê³  ìˆìŠµë‹ˆë‹¤.
+ê´œí•œ ì§“ì€ í•˜ì§€ ì•ŠëŠ”ê²Œ ì¢‹ì„ë“¯ ì‹¶ìŠµë‹ˆë‹¤.
+ë§Œì•½ ì ë°œë˜ë©´ ë³¸ì¼€ëŠ” ë¬¼ë¡  ë‚˜ë¨¸ì§€ ì•„ì´ë””ê¹Œì§€ ì „ë¶€ ì‚­ì œí•˜ë‹ˆ ìœ ì˜í•´ì£¼ì„¸ìš”.
 
-$GAME_TITLE¿î¿µÀÚ ±èÁø¼·
+$GAME_TITLEìš´ì˜ì ê¹€ì§„ì„­
 
-È¨ÆäÀÌÁö   : http://sam-net.wo.to
+í™ˆí˜ì´ì§€   : http://sam-net.wo.to
 EOM
 
 	$mail_msg =~ s/<br>/\n/ig;
 
-	open(MAIL,"| $sendmail -t") || &E_ERR("¸ŞÀÏ ¼Û½Å¿¡ ½ÇÆĞÇß½À´Ï´Ù.");
+	open(MAIL,"| $sendmail -t") || &E_ERR("ë©”ì¼ ì†¡ì‹ ì— ì‹¤íŒ¨í–ˆìŠµë‹ˆë‹¤.");
 	print MAIL "To: $in{'mail'}\n";
 	print MAIL "Subject: $mail_sub\n";
 	print MAIL "MIME-Version: 1.0\n";
@@ -375,7 +335,7 @@ sub E_ERR {
 	if (-e $lockfile) { unlink($lockfile); }
 	print "<center><hr size=0><h3>ERROR !</h3>\n";
 	print "<P><font color=red><B>$_[0]</B></font>\n";
-print "<form action=\"$FILE_ENTRY\" method=\"post\"><input type=hidden name=id value=$in{'id'}><input type=hidden name=pass value=$in{'pass'}><input type=hidden name=mail value=$in{'mail'}><input type=hidden name=url value=$in{'url'}><input type=hidden name=chara_name value=$hi[$in{'chara'}]><input type=hidden name=mes value=$in{'mes'}><input type=hidden name=mode value=entry><input type=submit value=\"µ¹¾Æ¿Â´Ù\"></form>";
+print "<form action=\"$FILE_ENTRY\" method=\"post\"><input type=hidden name=id value=$in{'id'}><input type=hidden name=pass value=$in{'pass'}><input type=hidden name=mail value=$in{'mail'}><input type=hidden name=url value=$in{'url'}><input type=hidden name=chara_name value=$hi[$in{'chara'}]><input type=hidden name=mes value=$in{'mes'}><input type=hidden name=mode value=entry><input type=submit value=\"ëŒì•„ì˜¨ë‹¤\"></form>";
 	print "<P><hr size=0></center>\n</body></html>\n";
 	exit;
 }
@@ -387,7 +347,7 @@ sub CHEACKER {
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"$dir/$file")){
-				&ERR2("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+				&ERR2("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 			}
 			@page = <page>;
 			close(page);
@@ -401,7 +361,7 @@ sub CHEACKER {
 
 	if($ENTRY_MAX){
 		if($num > $ENTRY_MAX){
-			&ERR2("ÃÖ´ë µî·Ï¼ö \[$ENTRY_MAX\]¸¦ ³Ñ°í ÀÖ½À´Ï´Ù. ÇöÀç ½Å±Ô µî·ÏÀ» ÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			&ERR2("ìµœëŒ€ ë“±ë¡ìˆ˜ \[$ENTRY_MAX\]ë¥¼ ë„˜ê³  ìˆìŠµë‹ˆë‹¤. í˜„ì¬ ì‹ ê·œ ë“±ë¡ì„ í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 	}
 }
