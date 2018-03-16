@@ -2,15 +2,15 @@ sub ENTRY {
 	&CHEACKER;
 	&HEADER;
 
-	open(IN,"./log_file/country.cgi") or &E_ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"./log_file/country.cgi") or &E_ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@COU_DATA1 = <IN>;
 	close(IN);
 
-	open(IN,"$COUNTRY_LIST") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(IN,"$COUNTRY_LIST") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@COU_DATA = <IN>;
 	close(IN);
 
-	open(IN,"$COUNTRY_MES") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$COUNTRY_MES") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@MES_DATA = <IN>;
 	close(IN);
 
@@ -23,7 +23,7 @@ sub ENTRY {
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"$dir/$file")){
-				&E_ERR("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+				&E_ERR("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 			}
 			@page = <page>;
 			close(page);
@@ -36,7 +36,7 @@ sub ENTRY {
 	($kid,$kpass,$kname,$kchara,$kstr,$kint,$klea,$kcha,$ksol,$kgat,$kcon,$kgold,$krice,$kcex,$kclass,$karm,$kbook,$kbank,$ksub1,$ksub2,$kpos,$kmes,$khost,$kdate,$kmail,$kos,$kskill,$kpoint,$kct,$klevel,$kexp,$kcodea,$kcodeb,$kqpoint) = split(/<>/);
 	if($hi[$kchara] eq $kname){
 	$hi[$kchara]++;
-	$hi[$kchara]="$kname¡¸ºÒ°¡¡¹";
+	$hi[$kchara]="$knameã€Œë¶ˆê°€ã€";
 	}
 	}
 
@@ -45,7 +45,7 @@ sub ENTRY {
 	@NEWCHARA = <IN>;
 	close(IN);
 
-	open(IN,"$COUNTRY_LIST") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"$COUNTRY_LIST") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@COU_DATA = <IN>;
 	close(IN);
 	foreach(@COU_DATA){
@@ -63,7 +63,7 @@ sub ENTRY {
 		$mess .= "<TR><TD bgcolor=$ELE_C[$cou_ele[$cid]]><center>$cou_name[$cid]</TD><TD bgcolor=$ELE_C[$cou_ele[$cid]]>$cmes</TD></TR>";
 	}
 
-	open(IN,"$TOWN_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$TOWN_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@TOWN_DATA = <IN>;
 	close(IN);
 
@@ -74,7 +74,7 @@ sub ENTRY {
 	$town_name[$zc] = "$z2name";
 	$town_cou[$zc] = "$z2con";
 		if($zc < 53){
-	$t_list .= "<option value=\"$zc\">$z2name¡¼$cou_name[$z2con]¡½";
+	$t_list .= "<option value=\"$zc\">$z2nameã€$cou_name[$z2con]ã€‘";
 		}else{}
 	$zc++;
 	}
@@ -84,7 +84,7 @@ sub ENTRY {
 
 	if($in{'url'} eq ""){$nurl = "http://";}else{$nurl = "$in{'url'}";}
 	if($in{'mail'} eq ""){$nmail = "\@";}else{$nmail = "$in{'mail'}";}
-	if(ATTESTATION){$emes = "¡¤<font color=red>ÀÎÁõ ID°¡ Ã·ºÎµÈ È®ÀÎ ¸ÞÀÏÀ» º¸³»±â ¶§¹®¿¡ ¹Ýµå½Ã ¿Ã¹Ù¸£°Ô ÀÔ·ÂÇØ ÁÖ¼¼¿ä.</font><BR>¸ÞÀÏÀº ¹Ýµå½Ã µå¸²À§Áî ¸ÞÀÏ·Î º¸³»ÁÖ½Ê½Ã¿À. ¶Ç ¾È¿Â´Ù ½ÍÀ¸¸é ½ºÆÔÅëÀ» µÚÁ®ºÁÁÖ½Ê½Ã¿À.";}
+	if(ATTESTATION){$emes = "Â·<font color=red>ì¸ì¦ IDê°€ ì²¨ë¶€ëœ í™•ì¸ ë©”ì¼ì„ ë³´ë‚´ê¸° ë•Œë¬¸ì— ë°˜ë“œì‹œ ì˜¬ë°”ë¥´ê²Œ ìž…ë ¥í•´ ì£¼ì„¸ìš”.</font><BR>ë©”ì¼ì€ ë°˜ë“œì‹œ ë“œë¦¼ìœ„ì¦ˆ ë©”ì¼ë¡œ ë³´ë‚´ì£¼ì‹­ì‹œì˜¤. ë˜ ì•ˆì˜¨ë‹¤ ì‹¶ìœ¼ë©´ ìŠ¤íŒ¸í†µì„ ë’¤ì ¸ë´ì£¼ì‹­ì‹œì˜¤.";}
 	print <<"EOM";
 	<STYLE>BODY {
 	CURSOR: url('samnet.cur')
@@ -136,7 +136,7 @@ sub ENTRY {
 </tr>
 <tr>
 <td>
-<center><input type="checkbox" name="license" value="1"> À§ Ä¥¶û¼­¹öÀÇ ¾à°ü¿¡ µ¿ÀÇÇÕ´Ï´Ù.
+<center><input type="checkbox" name="license" value="1"> ìœ„ ì¹ ëž‘ì„œë²„ì˜ ì•½ê´€ì— ë™ì˜í•©ë‹ˆë‹¤.
 </td>
                 </tr>
             </table>
@@ -152,8 +152,8 @@ sub ENTRY {
             <table align="center" border="1">
                 <tr>
                     <td width="90" height="94">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white">¼± 
-                        ÅÃ Àå ¼ö<br>&<br>¾Æ ÀÌ µð</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white">ì„  
+                        íƒ ìž¥ ìˆ˜<br>&<br>ì•„ ì´ ë””</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -167,7 +167,7 @@ sub ENTRY {
                     <td width="265" height="62">
                         <table align="center" cellpadding="0" cellspacing="0">
                             <tr>
-                                <td width="254" height="34" colspan="2"><p align="center"><select name=chara onChange=\"changeImg()\" size="1" style="font-family:±Ã¼­; color:rgb(255,153,0); background-color:rgb(41,60,66);">
+                                <td width="254" height="34" colspan="2"><p align="center"><select name=chara onChange=\"changeImg()\" size="1" style="font-family:ê¶ì„œ; color:rgb(255,153,0); background-color:rgb(41,60,66);">
 EOM
 	foreach (0..$CHARA_IMAGE){
 	print "<option value=\"$_\">$hi[$_]\n";
@@ -189,8 +189,8 @@ EOM
                 </tr>
                 <tr>
                     <td width="265" height="20">
-                        <p align="center"><font color="white"><span style="font-size:9pt;"><b>Àå¼ö¸¦ 
-                        ¼±ÅÃÇØ ÁÖ½Ê½Ã¿À.(Áßº¹ ºÒ°¡)</b></span></font></p>
+                        <p align="center"><font color="white"><span style="font-size:9pt;"><b>ìž¥ìˆ˜ë¥¼ 
+                        ì„ íƒí•´ ì£¼ì‹­ì‹œì˜¤.(ì¤‘ë³µ ë¶ˆê°€)</b></span></font></p>
                     </td>
                 </tr>
             </table>
@@ -199,7 +199,7 @@ EOM
             <table align="center" border="1">
                 <tr>
                     <td width="90" height="94">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white">ÃÊ ±â À§ Ä¡</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white">ì´ˆ ê¸° ìœ„ ì¹˜</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -208,15 +208,15 @@ EOM
             <table align="center" border="1" width="364">
                 <tr>
                     <td width="354" height="72">
-            <p align="center"><select name="con" size="1" style="font-family:±Ã¼­; color:rgb(255,153,0); background-color:rgb(41,60,66);">
-<option value=""> ¼±ÅÃÇØÁÖ¼¼¿ä.
+            <p align="center"><select name="con" size="1" style="font-family:ê¶ì„œ; color:rgb(255,153,0); background-color:rgb(41,60,66);">
+<option value=""> ì„ íƒí•´ì£¼ì„¸ìš”.
 $t_list
 </select></p>
                     </td>
                 </tr>
                 <tr>
                     <td width="354" height="20">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white"><b>Ä³¸¯ÅÍÀÇ °íÇâÀ» ¼±ÅÃÇØÁÖ¼¼¿ä.(¡¼¡½´Â °Ç±¹°¡´É</b>)</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white"><b>ìºë¦­í„°ì˜ ê³ í–¥ì„ ì„ íƒí•´ì£¼ì„¸ìš”.(ã€ã€‘ëŠ” ê±´êµ­ê°€ëŠ¥</b>)</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -237,8 +237,8 @@ $t_list
             <table align="center" border="1">
                 <tr>
                     <td width="90" height="84">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white">´É 
-                        ·Â ºÐ ¹è</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white">ëŠ¥ 
+                        ë ¥ ë¶„ ë°°</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -246,16 +246,29 @@ $t_list
         <td width="364" height="85" background="$IMG/backg.gif">
             <table align="center" border="1" width="364">
                 <tr>
-                    <td width="354" height="62">
-                        <p align="left">	<span style="font-size:9pt;"><font color="white"><input type="radio" name="type" value="9">Æò±ÕÅ¸ÀÔ (´É·ÂÄ¡°¡ ´ëÃ¼·Î Æò±ÕÀûÀÔ´Ï´Ù.)<br>
-	<input type="radio" name="type" value="1">¹«ÀåÅ¸ÀÔ (¹«·Â, Åë¼ÖÀÌ ´ëÃ¼·Î ³ô½À´Ï´Ù.)<br>
-	<input type="radio" name="type" value="2">ÁöÀåÅ¸ÀÔ (Áö·Â, ¸Å·ÂÀÌ ´ëÃ¼·Î ³ô½À´Ï´Ù.)<br>
+                    <td width="177" height="62">
+                        <p align="left">	<span style="font-size:9pt;"><font color="white">
+						<input type="radio" name="type" value="0">ë¬´ë ¥
+						<input type="radio" name="type" value="1">ì§€ë ¥<br>
+						<input type="radio" name="type" value="2">í†µì†”
+						<input type="radio" name="type" value="3">ë§¤ë ¥<br>
+					<td width="177" height="62">
+						<p align="left"><span style="font-size:9pt;"><font color="white">
+						<input type="radio" name="weak" value="0">ë¬´ë ¥
+						<input type="radio" name="weak" value="1">ì§€ë ¥<br>
+						<input type="radio" name="weak" value="2">í†µì†”
+						<input type="radio" name="weak" value="3">ë§¤ë ¥<br>
+                        <p align="left">	<span style="font-size:9pt;"><font color="white">
 	 </font></span></p>
                     </td>
                 </tr>
                 <tr>
-                    <td width="354" height="17">
-                        <p align="center">	<span style="font-size:9pt;"><font color="white"><b>Àå¼öÀÇ Å¸ÀÔÀ» ¼±ÅÃÇØÁÖ½Ê½Ã¿À.</b></font></span></p>
+                    <td width="177" height="17">
+                        <p align="center">	<span style="font-size:9pt;"><font color="green"><b>ì£¼ë ¥ ëŠ¥ë ¥ì¹˜</b>
+					<td width="177" height="17">
+                        <p align="center">	<span style="font-size:9pt;"><font color="red"><b>ë¹„ì£¼ë ¥ ëŠ¥ë ¥ì¹˜</b>
+
+						</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -264,8 +277,8 @@ $t_list
             <table align="center" border="1">
                 <tr>
                     <td width="90" height="84">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white">¸Þ 
-                        ÀÏ ÁÖ ¼Ò</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white">ë©” 
+                        ì¼ ì£¼ ì†Œ</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -279,7 +292,7 @@ $t_list
                 </tr>
                 <tr>
                     <td width="354" height="20">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white"><b>¸ÞÀÏÀÎÁõÀ» À§ÇØ ¸ÞÀÏÁÖ¼Ò¸¦ Àû¾îÁÖ½Ê½Ã¿À.</b></font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white"><b>ë©”ì¼ì¸ì¦ì„ ìœ„í•´ ë©”ì¼ì£¼ì†Œë¥¼ ì ì–´ì£¼ì‹­ì‹œì˜¤.</b></font></span></p>
                     </td>
                 </tr>
             </table>
@@ -295,8 +308,8 @@ $t_list
             <table align="center" border="1">
                 <tr>
                     <td width="90" height="96">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò" color="white"><input type="radio" name="gunju" value="1">³ª 
-                        ¶ó °Ç ±¹</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€" color="white"><input type="radio" name="gunju" value="1">ë‚˜ 
+                        ë¼ ê±´ êµ­</font></span></p>
                     </td>
                 </tr>
             </table>
@@ -305,13 +318,13 @@ $t_list
             <table align="center" border="1" width="827" bordercolor="black" bordercolordark="white" bordercolorlight="white">
                 <tr>
                     <td width="817" height="62">
-                        <p align="center"><span style="font-size:9pt;"><font face="µ¸¿ò"><input type="radio" name="cou_name1" value="1"></font></span><font color=#00A5FF face="µ¸¿ò"><span style="font-size:9pt;">À§³ª¶ó(êà) 
-                        <input type="radio" name="cou_name1" value="2"></span><font color="#33CC66" face="µ¸¿ò"><span style="font-size:9pt;">ÃË³ª¶ó(õ¹)</span><font color=#00A5FF face="µ¸¿ò"><font color=#006400><span style="font-size:9pt;"> 
-                        <input type="radio" name="cou_name1" value="3"></span><font color="#FF7897" face="µ¸¿ò"><span style="font-size:9pt;">¿À³ª¶ó(çï)</span><font color=#00A5FF face="µ¸¿ò"><font color=#006400><font color=#B9062F><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="4"></span></font><font color="#9966CC" face="µ¸¿ò"><span style="font-size:9pt;">ÃÊ³ª¶ó(õ¢)</span><font color=#00A5FF face="µ¸¿ò"><font color=#006400><font color=#B9062F><font color=#800080><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="5"></span></font></font><font color="#CCCCCC" face="µ¸¿ò"><span style="font-size:9pt;">¿¬³ª¶ó(æØ)</span><font color=#00A5FF face="µ¸¿ò"><font color=#006400><font color=#B9062F><font color=#800080><font color=#282828><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="6"></span><font color=#D2691E><span style="font-size:9pt;">ÇÑ³ª¶ó(ùÓ)<input type="radio" name="cou_name1" value="7"></span></font></font></font></font><font color="#A57451" face="µ¸¿ò"><span style="font-size:9pt;">°í±¸·Á(ÍÔ)</span><input type="radio" name="cou_name1" value="8"></span><font color="#EEE12F" face="µ¸¿ò"><span style="font-size:9pt;">½Å¶ó(ãæ)</span><input type="radio" name="cou_name1" value="9"></span><font color="#009999" face="µ¸¿ò"><span style="font-size:9pt;">¹éÁ¦(ÛÝ)</span></td>
+                        <p align="center"><span style="font-size:9pt;"><font face="ë‹ì›€"><input type="radio" name="cou_name1" value="1"></font></span><font color=#00A5FF face="ë‹ì›€"><span style="font-size:9pt;">ìœ„ë‚˜ë¼(é­) 
+                        <input type="radio" name="cou_name1" value="2"></span><font color="#33CC66" face="ë‹ì›€"><span style="font-size:9pt;">ì´‰ë‚˜ë¼(èœ€)</span><font color=#00A5FF face="ë‹ì›€"><font color=#006400><span style="font-size:9pt;"> 
+                        <input type="radio" name="cou_name1" value="3"></span><font color="#FF7897" face="ë‹ì›€"><span style="font-size:9pt;">ì˜¤ë‚˜ë¼(å³)</span><font color=#00A5FF face="ë‹ì›€"><font color=#006400><font color=#B9062F><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="4"></span></font><font color="#9966CC" face="ë‹ì›€"><span style="font-size:9pt;">ì´ˆë‚˜ë¼(æ¥š)</span><font color=#00A5FF face="ë‹ì›€"><font color=#006400><font color=#B9062F><font color=#800080><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="5"></span></font></font><font color="#CCCCCC" face="ë‹ì›€"><span style="font-size:9pt;">ì—°ë‚˜ë¼(ç‡•)</span><font color=#00A5FF face="ë‹ì›€"><font color=#006400><font color=#B9062F><font color=#800080><font color=#282828><span style="font-size:9pt;"><input type="radio" name="cou_name1" value="6"></span><font color=#D2691E><span style="font-size:9pt;">í•œë‚˜ë¼(æ¼¢)<input type="radio" name="cou_name1" value="7"></span></font></font></font></font><font color="#A57451" face="ë‹ì›€"><span style="font-size:9pt;">ê³ êµ¬ë ¤(é«˜)</span><input type="radio" name="cou_name1" value="8"></span><font color="#EEE12F" face="ë‹ì›€"><span style="font-size:9pt;">ì‹ ë¼(æ–°)</span><input type="radio" name="cou_name1" value="9"></span><font color="#009999" face="ë‹ì›€"><span style="font-size:9pt;">ë°±ì œ(ç™¾)</span></td>
                 </tr>
                 <tr>
                     <td width="817" height="20">
-                        <p align="center"><span style="font-size:9pt;"><font color="white" face="µ¸¿ò">±ºÁÖ·Î ÇÏ½Ç ºÐÀº <font color=red>¿ÞÂÊ ¶óµð¿À ¹öÆ°</font>À» Ã¼Å©ÇÑ ÈÄ ±¹°¡¸¦ ¼±ÅÃÇØÁÖ½Ê½Ã¿À. ´Ü ÀÌ¹Ì °Ç±¹ÇÑ ³ª¶ó´Â °Ç±¹ÇÒ ¼ö ¾ø½À´Ï´Ù.<br>¶óµð¿À¹öÆ°À» Ã¼Å©¸¦ ÇÏÁö ¾Ê°í µî·ÏÇÏ°Ô µÇ¸é Àç¾ßÀÎ»ç·Î ½ÃÀÛÇÏ°Ô µË´Ï´Ù.</font></span></p>
+                        <p align="center"><span style="font-size:9pt;"><font color="white" face="ë‹ì›€">êµ°ì£¼ë¡œ í•˜ì‹¤ ë¶„ì€ <font color=red>ì™¼ìª½ ë¼ë””ì˜¤ ë²„íŠ¼</font>ì„ ì²´í¬í•œ í›„ êµ­ê°€ë¥¼ ì„ íƒí•´ì£¼ì‹­ì‹œì˜¤. ë‹¨ ì´ë¯¸ ê±´êµ­í•œ ë‚˜ë¼ëŠ” ê±´êµ­í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.<br>ë¼ë””ì˜¤ë²„íŠ¼ì„ ì²´í¬ë¥¼ í•˜ì§€ ì•Šê³  ë“±ë¡í•˜ê²Œ ë˜ë©´ ìž¬ì•¼ì¸ì‚¬ë¡œ ì‹œìž‘í•˜ê²Œ ë©ë‹ˆë‹¤.</font></span></p>
 </td>
                 </tr>
             </table>
@@ -324,7 +337,7 @@ $t_list
     </tr>
     <tr>
         <td width="929" height="68" background="$IMG/backg.gif" colspan="4">
-            <p align="center"><input type="submit" style="font-family:±Ã¼­; color:rgb(255,153,0); background-color:rgb(41,60,66); border-style:none;" value="»ï±¹Áö ¸ðÀÇÀüÅõ NET µî·Ï"></form>        </td>
+            <p align="center"><input type="submit" style="font-family:ê¶ì„œ; color:rgb(255,153,0); background-color:rgb(41,60,66); border-style:none;" value="ì‚¼êµ­ì§€ ëª¨ì˜ì „íˆ¬ NET ë“±ë¡"></form>        </td>
     </tr>
     <tr>
         <td width="950" height="28" colspan="6">
@@ -349,7 +362,7 @@ sub CHEACKER {
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"$dir/$file")){
-				&ERR2("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯");
+				&ERR2("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬");
 			}
 			@page = <page>;
 			close(page);
@@ -363,7 +376,7 @@ sub CHEACKER {
 
 	if($ENTRY_MAX){
 		if($num > $ENTRY_MAX){
-			&ERR2("ÃÖ´ë µî·Ï¼ö [$ENTRY_MAX]¸¦ ³Ñ°í ÀÖ½À´Ï´Ù. ÇöÀç ½Å±Ô µî·ÏÇÒ ¼ö°¡ ¾ø½À´Ï´Ù.");
+			&ERR2("ìµœëŒ€ ë“±ë¡ìˆ˜ [$ENTRY_MAX]ë¥¼ ë„˜ê³  ìžˆìŠµë‹ˆë‹¤. í˜„ìž¬ ì‹ ê·œ ë“±ë¡í•  ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		}
 	}
 }
