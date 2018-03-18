@@ -1,4 +1,3 @@
-
 sub IMGWAN{
 						$ksub2=0;
 						&CON_NUM;
@@ -8,10 +7,10 @@ sub IMGWAN{
 						$timelimit = $F_YEAR+$myear;
 
 						if($xcid eq 0){
-							if($cou_name[$cnum] eq ""){
-								&K_LOG("$mmonth¿ù : ±× ³ª¶ó¿¡ µî¿ëµÉ ¼ö ¾ø½À´Ï´Ù.");
+							if($cno eq ""){
+								&K_LOG("$mmonthì›” : ê·¸ ë‚˜ë¼ì— ë“±ìš©ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 							}elsif($timelimit < 184 && $connum1 >= 20){
-								&K_LOG("$mmonth¿ù : 184³â 1¿ù Àü±îÁö´Â $cou_name[$cnum]±¹¿¡ ÀÓ°üÇÒ ¼ö ¾ø½À´Ï´Ù.");
+								&K_LOG("$mmonthì›” : 184ë…„ 1ì›” ì „ê¹Œì§€ëŠ” $cnumêµ­ì— ì„ê´€í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 							}else{
 								if(@B_LIST eq "0"){
 									open(IN,"./log_file/black_list.cgi");
@@ -26,17 +25,17 @@ sub IMGWAN{
 									}
 								}
 								if($b_hit){
-									&K_LOG("$mmonth¿ù : $cou_name[$cnum]±¹¿¡¼­ ÀÓ°üÀÌ °ÅºÎµÇ¾ú½À´Ï´Ù.");
+									&K_LOG("$mmonthì›” : $cnumêµ­ì—ì„œ ì„ê´€ì´ ê±°ë¶€ë˜ì—ˆìŠµë‹ˆë‹¤.");
 								}else{	
 				
-									$kcon = $cnum;
-									&K_LOG("$mmonth¿ù : $cou_name[$cnum]¿¡ ÀÓ°üÇß½À´Ï´Ù.");
-									&HISTORY_LOG($kid,"$cou_name[$cnum]¿¡ ÀÓ°üÇß½À´Ï´Ù.");
-									&MAP_LOG("<img src=$IMG/j2.gif> $kname´ÔÀº $cou_name[$cnum]±¹À¸·Î ÀÓ°üÇß½À´Ï´Ù.");
+									$kcon = $cno;
+									&K_LOG("$mmonthì›” : $cnumì— ì„ê´€í–ˆìŠµë‹ˆë‹¤.");
+									&HISTORY_LOG($kid,"$cnumì— ì„ê´€í–ˆìŠµë‹ˆë‹¤.");
+									&MAP_LOG("<img src=$IMG/j2.gif> $knameë‹˜ì€ $cnumêµ­ìœ¼ë¡œ ì„ê´€í–ˆìŠµë‹ˆë‹¤.");
 								}
 							}
 						}else{
-							&K_LOG("$mmonth¿ù : Àç¾ß°¡ ¾Æ´Ï¸é µî¿ëµÉ ¼ö°¡ ¾ø½À´Ï´Ù.");
+							&K_LOG("$mmonthì›” : ì¬ì•¼ê°€ ì•„ë‹ˆë©´ ë“±ìš©ë  ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.");
 						}
 }
 1;
