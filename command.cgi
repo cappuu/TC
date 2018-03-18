@@ -3,10 +3,10 @@
 require 'jcode.pl';
 require './ini_file/index.ini';
 require 'suport.cgi';
-if($MENTE) { &ERR2("·ÎµùÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·ÁÁÖ¼¼¿ä."); }
+if($MENTE) { &ERR2("ë¡œë”©ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ì£¼ì„¸ìš”."); }
 &DECODE;
 &SERVER_STOP;
-if($ENV{'HTTP_REFERER'} !~ /i/ && $CHEACKER){ &ERR2("ÁÖ¼ÒÃ¢¿¡ °ªÀ» ÀÔ·ÂÇÏÁö ¸»¾ÆÁÖ¼¼¿ä."); }
+if($ENV{'HTTP_REFERER'} !~ /i/ && $CHEACKER){ &ERR2("ì£¼ì†Œì°½ì— ê°’ì„ ì…ë ¥í•˜ì§€ ë§ì•„ì£¼ì„¸ìš”."); }
 
 
 
@@ -80,6 +80,8 @@ elsif($mode eq '65') { require 'command/husik3.cgi';&HUSIK3; }
 elsif($mode eq '68') { require 'command/nongmove.cgi';&NONGMOVE; }
 elsif($mode eq '69') { require 'command/nongmove.cgi';&NONGMOVE2; }
 elsif($mode eq '70') { require 'command/nongmove.cgi';&NONGMOVE3; }
+elsif($mode eq '90') { require 'command/newimkan.cgi';&IMKAN; }
+elsif($mode eq '91') { require 'command/newimkan.cgi';&IMKAN2; }
 elsif($mode eq '100') { require 'command/chamga.cgi';&CHAMGA; }
-else { &ERR("¿Ã¹Ù¸£Áö ¾ÊÀº ¿¢¼¼½ºÀÔ´Ï´Ù."); }
+else { &ERR("ì˜¬ë°”ë¥´ì§€ ì•Šì€ ì—‘ì„¸ìŠ¤ì…ë‹ˆë‹¤."); }
 
