@@ -149,12 +149,6 @@ sub IMKAN2 {
 	@COU_DATA = <IN>;
 	close(IN);
 
-	foreach(@COU_DATA){
-		($xxcid,$xxname,$xxele,$xxnum,$xxins,$xxind,$xxall,$xxgold,$xxhp,$xxmaxhp,$xxstr,$xxvit,$xxagi)=split(/<>/);
-	if($xxname eq $in{'cou_name'}){&ERR("그 나라는 이미 존재하는 국가입니다.");}
-	}
-
-
 
 	open(IN,"./charalog/command/$kid.cgi");
 	@COM_DATA = <IN>;
