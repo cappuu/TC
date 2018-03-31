@@ -1,687 +1,687 @@
-$hi[0] = "°¡±Ô";
-$hi[1] = "°¡¹ü";
-$hi[2] = "°¡Ãæ";
-$hi[3] = "°¡È­";
-$hi[4] = "°¡ÈÄ";
-$hi[5] = "°¨³ç";
-$hi[6] = "°¨ÅÃ";
-$hi[7] = "°­À¯";
-$hi[8] = "°Ç¼®";
-$hi[9] = "°ßÃÊ";
-$hi[10] = "°ßÈ«";
-$hi[11] = "°ßÈñ";
-$hi[12] = "°è¿Ë";
-$hi[13] = "°í°£";
-$hi[14] = "°í´ã";
-$hi[15] = "°í´ç¸¢";
-$hi[16] = "°í¶÷";
-$hi[17] = "°í»ó";
-$hi[18] = "°í¼ø";
-$hi[19] = "°í½Â";
-$hi[20] = "°í¿Ë";
-$hi[21] = "°íÀ¯";
-$hi[22] = "°íÁ¤";
-$hi[23] = "°íÆĞ";
-$hi[24] = "°ø±¸";
-$hi[25] = "°øµµ";
-$hi[26] = "°ø¼Õ°­";
-$hi[27] = "°ø¼Õ°ø";
-$hi[28] = "°ø¼Õµµ";
-$hi[29] = "°ø¼Õ¹ü";
-$hi[30] = "°ø¼Õ¼Ó";
-$hi[31] = "°ø¼Õ¿¬";
-$hi[32] = "°ø¼Õ¿ù";
-$hi[33] = "°ø¼ÕÂù";
-$hi[34] = "°øÀ¶";
-$hi[35] = "°øÁÖ";
-$hi[36] = "°øÁö";
-$hi[37] = "°û°¡";
-$hi[38] = "°ûµµ";
-$hi[39] = "°û¸¶";
-$hi[40] = "°û»ç";
-$hi[41] = "°û¿ø";
-$hi[42] = "°ûÀ¯Áö";
-$hi[43] = "°ûÀÍ";
-$hi[44] = "°ûÁØ";
-$hi[45] = "°ûÇõ";
-$hi[46] = "°ûÈ¸";
-$hi[47] = "°ü·Î";
-$hi[48] = "°ü»ö";
-$hi[49] = "°ü¿ì";
-$hi[50] = "°üÀÌ";
-$hi[51] = "°üÁ¤";
-$hi[52] = "°üÅë";
-$hi[53] = "°üÆò";
-$hi[54] = "°üÇØ";
-$hi[55] = "°üÈï";
-$hi[56] = "±«·®";
-$hi[57] = "±«¿ù";
-$hi[58] = "±³¸ğ";
-$hi[59] = "±³À¯";
-$hi[60] = "±³Çö";
-$hi[61] = "±¸°Ç";
-$hi[62] = "±¸º»";
-$hi[63] = "±¸¼º";
-$hi[64] = "±¹¿¬";
-$hi[65] = "±¹ÀÇ";
-$hi[66] = "±ØÁ¤";
-$hi[67] = "±İ¼±";
-$hi[68] = "±İÀÇ";
-$hi[69] = "±İÈ¯»ï°á";
-$hi[70] = "±â·É";
-$hi[71] = "³«Åë";
-$hi[72] = "³²µÎ";
-$hi[73] = "³ÃÆ÷";
-$hi[74] = "³ë¼÷";
-$hi[75] = "³ú¹Ú";
-$hi[76] = "´©±Ô";
-$hi[77] = "´ÉÁ¶";
-$hi[78] = "´ÉÅë";
-$hi[79] = "´Ü°æ";
-$hi[80] = "´ã¿õ";
-$hi[81] = "´ç±Õ";
-$hi[82] = "´çºó";
-$hi[83] = "´çÀÚ";
-$hi[84] = "´ë±³";
-$hi[85] = "´ë·¡µ¿ÁÖ";
-$hi[86] = "´ë¸ª";
-$hi[87] = "µµ°â";
-$hi[88] = "µµÁØ";
-$hi[89] = "µ¿±È";
-$hi[90] = "µ¿µµ³ª";
-$hi[91] = "µ¿¹Î";
-$hi[92] = "µ¿¼Ò";
-$hi[93] = "µ¿½À";
-$hi[94] = "µ¿½Â";
-$hi[95] = "µ¿À±";
-$hi[96] = "µ¿Á¶";
-$hi[97] = "µ¿Å¹";
-$hi[98] = "µ¿È­";
-$hi[99] = "µÎ±â";
-$hi[100] = "µÎ¿¹";
-$hi[101] = "µî¹«";
-$hi[102] = "µî¼ö";
-$hi[103] = "µî¾Ö";
-$hi[104] = "µîÀ±";
-$hi[105] = "µîÁö";
-$hi[106] = "µîÃæ";
-$hi[107] = "µîÇö";
-$hi[108] = "¶óÇå";
-$hi[109] = "¸¶±Õ";
-$hi[110] = "¸¶´ë";
-$hi[111] = "¸¶µî";
-$hi[112] = "¸¶·®";
-$hi[113] = "¸¶¸·";
-$hi[114] = "¸¶¼Ó";
-$hi[115] = "¸¶¿Ï";
-$hi[116] = "¸¶¿î·É";
-$hi[117] = "¸¶ÁØ";
-$hi[118] = "¸¶Ã¶";
-$hi[119] = "¸¶ÃÊ";
-$hi[120] = "¸¶Ãæ";
-$hi[121] = "¸¶ÈŞ";
-$hi[122] = "¸¶¿í";
-$hi[123] = "¸¸ÃÑ";
-$hi[124] = "¸Á¾ÆÀå";
-$hi[125] = "¸Í´Ş";
-$hi[126] = "¸Í¿ì";
-$hi[127] = "¸ÍÁ¾";
-$hi[128] = "¸ÍÈ¹";
-$hi[129] = "¸ñ·Ï´ë¿Õ";
-$hi[130] = "¸ñ¼ø";
-$hi[131] = "°ü±¸°Ë";
-$hi[132] = "°ü±¸¼ö";
-$hi[133] = "°ü±¸Àü";
-$hi[134] = "¹«¾È±¹";
-$hi[135] = "¹®ºù";
-$hi[136] = "¹®¾Ó";
-$hi[137] = "¹®Ãß";
-$hi[138] = "¹®È£";
-$hi[139] = "¹®Èì";
-$hi[140] = "¹Ì¹æ";
-$hi[141] = "¹ÌÃà";
-$hi[142] = "¹İºÀ";
-$hi[143] = "¹İÀå";
-$hi[144] = "¹İÁØ";
-$hi[145] = "¹æ´ö";
-$hi[146] = "¹æ¿­";
-$hi[147] = "¹æÀÇ";
-$hi[148] = "¹æÅë";
-$hi[149] = "¹æÈ¸";
-$hi[150] = "¹è¼ö";
-$hi[151] = "¹è¿ø¼Ò";
-$hi[152] = "¹ø°Ç";
-$hi[153] = "¹ø´É";
-$hi[154] = "¹øÁ¶";
-$hi[155] = "¹ıÁ¤";
-$hi[156] = "º¯Èñ";
-$hi[157] = "º¸Áñ";
-$hi[158] = "º¸Ã¶";
-$hi[159] = "º¸Çù";
-$hi[160] = "º¹¾çÈï";
-$hi[161] = "ºÀ±â";
-$hi[162] = "ºÎµ¿";
-$hi[163] = "ºÎ»çÀÎ";
-$hi[164] = "ºÎ¼Õ";
-$hi[165] = "ºÎÃ·";
-$hi[166] = "ºÎÇÏ";
-$hi[167] = "ºÏµÎ";
-$hi[168] = "ºñ½Ã";
-$hi[169] = "ºñ¿¬";
-$hi[170] = "ºñ¿ä";
-$hi[171] = "ºñÀÇ";
-$hi[172] = "»ç¸¶°¡";
-$hi[173] = "»ç¸¶¶û";
-$hi[174] = "»ç¸¶¸Á";
-$hi[175] = "»ç¸¶ºÎ";
-$hi[176] = "»ç¸¶»ç";
-$hi[177] = "»ç¸¶¼Ò";
-$hi[178] = "»ç¸¶¿°";
-$hi[179] = "»ç¸¶À¯";
-$hi[180] = "»ç¸¶ÀÇ";
-$hi[181] = "»ç¸¶ÁÖ";
-$hi[182] = "»ç¸¶ÈÖ";
-$hi[183] = "»çÁ¤";
-$hi[184] = "»çÂù";
-$hi[185] = "¼­¸·";
-$hi[186] = "¼­¼­";
-$hi[187] = "¼­¼º";
-$hi[188] = "¼­¿µ";
-$hi[189] = "¼­Áú";
-$hi[190] = "¼­È²";
-$hi[191] = "¼®Æ÷";
-$hi[192] = "¼³¿Á";
-$hi[193] = "¼³Á¾";
-$hi[194] = "¼³ÈÄ";
-$hi[195] = "¼º°ø¿µ";
-$hi[196] = "¼º¸¸";
-$hi[197] = "¼ºÀÇ";
-$hi[198] = "¼Ò±³";
-$hi[199] = "¼Òºñ";
-$hi[200] = "¼ÒÀ¯";
-$hi[201] = "¼ÒÁ¦";
-$hi[202] = "¼Õ°Ç";
-$hi[203] = "¼Õ°ß";
-$hi[204] = "¼Õ°ü";
-$hi[205] = "¼Õ±¤";
-$hi[206] = "¼Õ±³";
-$hi[207] = "¼Õ±Ç";
-$hi[208] = "¼Õ±â";
-$hi[209] = "¼Õ³ë¹İ";
-$hi[210] = "¼Õµî";
-$hi[211] = "¼Õ¶û";
-$hi[212] = "¼Õ·®";
-$hi[213] = "¼Õ·Ê";
-$hi[214] = "¼Õºó";
-$hi[215] = "¼Õ»óÇâ";
-$hi[216] = "¼Õ¼Ò";
-$hi[217] = "¼Õ¼ö";
-$hi[218] = "¼ÕÀ¯";
-$hi[219] = "¼ÕÀÌ";
-$hi[220] = "¼ÕÀÍ";
-$hi[221] = "¼ÕÁ¤";
-$hi[222] = "¼ÕÁØ";
-$hi[223] = "¼ÕÁß";
-$hi[224] = "¼ÕÁø";
-$hi[225] = "¼ÕÃ¥";
-$hi[226] = "¼ÕÄ§";
-$hi[227] = "¼ÕÈ£";
-$hi[228] = "¼ÕÈ­";
-$hi[229] = "¼ÕÈ¯";
-$hi[230] = "¼ÕÈŞ";
-$hi[231] = "¼ÕÈì";
-$hi[232] = "¼Û°â";
-$hi[233] = "¼ÛÇå";
-$hi[234] = "¼ø½É";
-$hi[235] = "¼ø¿ì°æ";
-$hi[236] = "¼ø¿í";
-$hi[237] = "¼øÀ¯";
-$hi[238] = "¼øÀÇ";
-$hi[239] = "½Ã»è";
-$hi[240] = "½Åºñ";
-$hi[241] = "½ÅÀÇ";
-$hi[242] = "½ÅÃ¢";
-$hi[243] = "½ÅÅ½";
-$hi[244] = "½ÅÆò";
-$hi[245] = "½ÅÇå¿µ";
-$hi[246] = "½É¹è";
-$hi[247] = "¾ÆÈ¸³²";
-$hi[248] = "¾Ç¸²";
-$hi[249] = "¾ÇÀÇ";
-$hi[250] = "¾ÇÁø";
-$hi[251] = "¾ÇÃë";
-$hi[252] = "¾ÇÈ¯";
-$hi[253] = "¾È·®";
-$hi[254] = "¾ç°­";
-$hi[255] = "¾ç¹é";
-$hi[256] = "¾çºÀ";
-$hi[257] = "¾çºÎ";
-$hi[258] = "¾ç¼­";
-$hi[259] = "¾ç¼Û";
-$hi[260] = "¾ç¼ö";
-$hi[261] = "¾ç½À";
-$hi[262] = "¾ç¾Ó";
-$hi[263] = "¾çÀÇ";
-$hi[264] = "¾çÀÓ";
-$hi[265] = "¾çÁ¦";
-$hi[266] = "¾çÁ¶";
-$hi[267] = "¾çÃß";
-$hi[268] = "¾çÃà";
-$hi[269] = "¾çÈ£";
-$hi[270] = "¾çÈ«";
-$hi[271] = "¾çÈç";
-$hi[272] = "¾çÈï";
-$hi[273] = "¾ö°­";
-$hi[274] = "¾ö¹éÈ£";
-$hi[275] = "¾ö¾È";
-$hi[276] = "¾ö¿©";
-$hi[277] = "¾öÁ¤";
-$hi[278] = "¾öÁØ";
-$hi[279] = "¿©°³";
-$hi[280] = "¿©°Å";
-$hi[281] = "¿©°Ç";
-$hi[282] = "¿©±¤";
-$hi[283] = "¿©´ë";
-$hi[284] = "¿©·É±â";
-$hi[285] = "¿©¸ù";
-$hi[286] = "¿©¹ü";
-$hi[287] = "¿©»ó";
-$hi[288] = "¿©½Ä";
-$hi[289] = "¿©À§È²";
-$hi[290] = "¿©Æ÷";
-$hi[291] = "¿°»ó";
-$hi[292] = "¿°¿ì";
-$hi[293] = "¿°À¯";
-$hi[294] = "¿°Æ÷";
-$hi[295] = "¿°Çà";
-$hi[296] = "¿µÁ¦";
-$hi[297] = "¿¹Çü";
-$hi[298] = "¿À°­";
-$hi[299] = "¿À°Å";
-$hi[300] = "¿À°æ";
-$hi[301] = "¿À±¹ÅÂ";
-$hi[302] = "¿À¶õ";
-$hi[303] = "¿À¹İ";
-$hi[304] = "¿À¾ğ";
-$hi[305] = "¿À¿¬";
-$hi[306] = "¿ÀÀÇ";
-$hi[307] = "¿ÀÁú";
-$hi[308] = "¿ÀÂù";
-$hi[309] = "¿ÂÈ¸";
-$hi[310] = "¿Ãµ¹°ñ";
-$hi[311] = "¿Ë°³";
-$hi[312] = "¿Õ°æ";
-$hi[313] = "¿Õ±¤";
-$hi[314] = "¿Õ±â";
-$hi[315] = "¿Õµµ";
-$hi[316] = "¿Õµ·";
-$hi[317] = "¿Õ¶û";
-$hi[318] = "¿Õ·ç";
-$hi[319] = "¿Õ¸ª";
-$hi[320] = "¿Õ¹®";
-$hi[321] = "¿Õº¸";
-$hi[322] = "¿Õ»ó";
-$hi[323] = "¿Õ¼ö";
-$hi[324] = "¿Õ¼÷";
-$hi[325] = "¿Õ½Ö";
-$hi[326] = "¿Õ¾÷";
-$hi[327] = "¿ÕÀ§";
-$hi[328] = "¿ÕÀ±";
-$hi[329] = "¿ÕÀ¶";
-$hi[330] = "¿ÕÀÌ";
-$hi[331] = "¿ÕÁØ";
-$hi[332] = "¿ÕÂù";
-$hi[333] = "¿ÕÃ¢";
-$hi[334] = "¿ÕÃæ";
-$hi[335] = "¿ÕÆò";
-$hi[336] = "¿ÕÇ×";
-$hi[337] = "¿ÕÈ¥";
-$hi[338] = "¿ä¸³";
-$hi[339] = "¿äÈ­";
-$hi[340] = "¿ì±İ";
-$hi[341] = "¿ì±æ";
-$hi[342] = "¿ì¹ø";
-$hi[343] = "¿ìº¸";
-$hi[344] = "¿ì»ç";
-$hi[345] = "¿ìÀü";
-$hi[346] = "¿ø´ã";
-$hi[347] = "¿ø»ó";
-$hi[348] = "¿ø¼Ò";
-$hi[349] = "¿ø¼ú";
-$hi[350] = "¿ø¿ä";
-$hi[351] = "¿øÀ¯";
-$hi[352] = "¿øÀ±";
-$hi[353] = "¿øÈ¯";
-$hi[354] = "¿øÈñ";
-$hi[355] = "À§°ü";
-$hi[356] = "À§¸·";
-$hi[357] = "À§¼Ò";
-$hi[358] = "À§¼Ó";
-$hi[359] = "À§¿¬";
-$hi[360] = "À§À¯";
-$hi[361] = "À§Ç³";
-$hi[362] = "À¯±«";
-$hi[363] = "À¯±â";
-$hi[364] = "À¯´ë";
-$hi[365] = "À¯µµ";
-$hi[366] = "À¯·«";
-$hi[367] = "À¯¹İ";
-$hi[368] = "À¯º®";
-$hi[369] = "À¯º¹";
-$hi[370] = "À¯ºÀ";
-$hi[371] = "À¯ºñ";
-$hi[372] = "À¯¼±";
-$hi[373] = "À¯¼·";
-$hi[374] = "À¯¼Ò";
-$hi[375] = "À¯¼ø";
-$hi[376] = "À¯½Â";
-$hi[377] = "À¯½É";
-$hi[378] = "À¯¾ğ";
-$hi[379] = "À¯¿±";
-$hi[380] = "À¯¿ä";
-$hi[381] = "À¯¿ì";
-$hi[382] = "À¯Àå";
-$hi[383] = "À¯Á¾";
-$hi[384] = "À¯Âù";
-$hi[385] = "À¯ÆÄ";
-$hi[386] = "À¯Æò";
-$hi[387] = "À¯Ç¥";
-$hi[388] = "À¯Çö";
-$hi[389] = "À¯È­";
-$hi[390] = "À¯ÈÆ";
-$hi[391] = "À°°³";
-$hi[392] = "À°¼Õ";
-$hi[393] = "À°Àû";
-$hi[394] = "À°Ç×";
-$hi[395] = "À±´ë¸ñ";
-$hi[396] = "À±¹¬";
-$hi[397] = "À±»ó";
-$hi[398] = "À±Á÷";
-$hi[399] = "ÀÌ°¢";
-$hi[400] = "ÀÌ°¨";
-$hi[401] = "ÀÌºÀ";
-$hi[402] = "ÀÌºÎ";
-$hi[403] = "ÀÌ¼º";
-$hi[404] = "ÀÌ¼÷";
-$hi[405] = "ÀÌ¾ö";
-$hi[406] = "ÀÌÀ¯";
-$hi[407] = "ÀÌÀÌ";
-$hi[408] = "ÀÌÀû";
-$hi[409] = "ÀÌÀü";
-$hi[410] = "ÀÌÅë";
-$hi[411] = "ÀÌÈ¸";
-$hi[412] = "ÀáÈ¥";
-$hi[413] = "Àå°¢";
-$hi[414] = "Àå°£";
-$hi[415] = "Àå°³";
-$hi[416] = "Àå±²";
-$hi[417] = "Àå±¸";
-$hi[418] = "Àå±â";
-$hi[419] = "Àå³²";
-$hi[420] = "Àå·®";
-$hi[421] = "Àå·Î";
-$hi[422] = "Àå·á";
-$hi[423] = "Àå¸·";
-$hi[424] = "Àå¸¸¼º";
-$hi[425] = "Àå¹İ";
-$hi[426] = "Àåº¸";
-$hi[427] = "Àåºñ";
-$hi[428] = "Àåºó";
-$hi[429] = "Àå¼­";
-$hi[430] = "Àå¼Ò";
-$hi[431] = "Àå¼Û";
-$hi[432] = "Àå¼ö";
-$hi[433] = "Àå½Â";
-$hi[434] = "Àå¾ç";
-$hi[435] = "Àå¾ï";
-$hi[436] = "Àå¿¬";
-$hi[437] = "Àå¿µ";
-$hi[438] = "Àå¿Â";
-$hi[439] = "Àå¿Ï";
-$hi[440] = "ÀåÀ§";
-$hi[441] = "ÀåÀ±";
-$hi[442] = "ÀåÀÇ";
-$hi[443] = "ÀåÀÇ°Å";
-$hi[444] = "ÀåÀÍ";
-$hi[445] = "ÀåÀÓ";
-$hi[446] = "ÀåÁ¦";
-$hi[447] = "ÀåÁØ";
-$hi[448] = "ÀåÁı";
-$hi[449] = "ÀåÃáÈ­";
-$hi[450] = "ÀåÆ¯";
-$hi[451] = "ÀåÆĞ";
-$hi[452] = "ÀåÆ÷";
-$hi[453] = "ÀåÇÕ";
-$hi[454] = "ÀåÈ£";
-$hi[455] = "ÀåÈ­";
-$hi[456] = "ÀåÈ¾";
-$hi[457] = "ÀåÈÆ";
-$hi[458] = "ÀåÈŞ";
-$hi[459] = "ÀåÈì";
-$hi[460] = "Àú°î";
-$hi[461] = "Àú¼ö";
-$hi[462] = "Àû¹æ";
-$hi[463] = "Àü±â";
-$hi[464] = "Àü´Ü";
-$hi[465] = "Àü¸¸";
-$hi[466] = "Àü»ó";
-$hi[467] = "Àü¼Ó";
-$hi[468] = "Àü¿ª";
-$hi[469] = "Àü¿¹";
-$hi[470] = "ÀüÀ§";
-$hi[471] = "ÀüÀÇ";
-$hi[472] = "ÀüÁ¾";
-$hi[473] = "ÀüÁÖ";
-$hi[474] = "ÀüÇ³";
-$hi[475] = "ÀüÇØ";
-$hi[476] = "Á¤¹«";
-$hi[477] = "Á¤º´";
-$hi[478] = "Á¤º¸";
-$hi[479] = "Á¤ºÀ";
-$hi[480] = "Á¤¿í";
-$hi[481] = "Á¤¿ø";
-$hi[482] = "Á¤Àº";
-$hi[483] = "Á¤ÀÇ";
-$hi[484] = "Á¤Áö¿ø";
-$hi[485] = "Á¦°¥°¢";
-$hi[486] = "Á¦°¥±³";
-$hi[487] = "Á¦°¥±Õ";
-$hi[488] = "Á¦°¥±Ù";
-$hi[489] = "Á¦°¥·®";
-$hi[490] = "Á¦°¥»ó";
-$hi[491] = "Á¦°¥¼­";
-$hi[492] = "Á¦°¥Á¤";
-$hi[493] = "Á¦°¥Ã·";
-$hi[494] = "Á¦°¥Åº";
-$hi[495] = "Á¶·ç";
-$hi[496] = "Á¶¸ğ";
-$hi[497] = "Á¶¹«";
-$hi[498] = "Á¶¹æ";
-$hi[499] = "Á¶¹ü";
-$hi[500] = "Á¶ºñ";
-$hi[501] = "Á¶»ó";
-$hi[502] = "Á¶¼º";
-$hi[503] = "Á¶¼ø";
-$hi[504] = "Á¶½Ä";
-$hi[505] = "Á¶¾Ó";
-$hi[506] = "Á¶¾ö";
-$hi[507] = "Á¶¿¹";
-$hi[508] = "Á¶¿ì";
-$hi[509] = "Á¶¿î";
-$hi[510] = "Á¶¿õ";
-$hi[511] = "Á¶ÀÇ";
-$hi[512] = "Á¶ÀÎ";
-$hi[513] = "Á¶Á¶";
-$hi[514] = "Á¶Áø";
-$hi[515] = "Á¶Ã¢";
-$hi[516] = "Á¶Ãæ";
-$hi[517] = "Á¶Åë";
-$hi[518] = "Á¶Ç¥";
-$hi[519] = "Á¶È«";
-$hi[520] = "Á¶È¯";
-$hi[521] = "Á¶ÈÆ";
-$hi[522] = "Á¶ÈŞ";
-$hi[523] = "Á¾¿ä";
-$hi[524] = "Á¾À°";
-$hi[525] = "Á¾ÀÌ¸ñ";
-$hi[526] = "Á¾È¸";
-$hi[527] = "ÁÂÀÚ";
-$hi[528] = "ÁÂÇõ";
-$hi[529] = "ÁÖ°Å";
-$hi[530] = "ÁÖ¹æ";
-$hi[531] = "ÁÖ¾Ó";
-$hi[532] = "ÁÖ¿¬";
-$hi[533] = "ÁÖ¿µ";
-$hi[534] = "ÁÖÀ¯";
-$hi[535] = "ÁÖÀÌ";
-$hi[536] = "ÁÖÁØ";
-$hi[537] = "ÁÖÁö";
-$hi[538] = "ÁÖÃ¢";
-$hi[539] = "ÁÖÄ¡";
-$hi[540] = "ÁÖÅÂ";
-$hi[541] = "ÁÖÆ÷";
-$hi[542] = "ÁÖÈ¯";
-$hi[543] = "ÁÖÈç";
-$hi[544] = "Áø°Ç";
-$hi[545] = "Áø±³";
-$hi[546] = "Áø±º";
-$hi[547] = "Áø±Ã";
-$hi[548] = "Áø±Ô";
-$hi[549] = "Áø±â";
-$hi[550] = "Áøµµ";
-$hi[551] = "Áøµî";
-$hi[552] = "Áø¶õ";
-$hi[553] = "Áø¶û";
-$hi[554] = "Áø¸²";
-$hi[555] = "Áø¹«";
-$hi[556] = "Áøº¹";
-$hi[557] = "Áø¼ö";
-$hi[558] = "Áø½Ä";
-$hi[559] = "ÁøÀÀ";
-$hi[560] = "ÁøÁø";
-$hi[561] = "ÁøÅÂ";
-$hi[562] = "ÁøÇ¥";
-$hi[563] = "ÁøÈ¾";
-$hi[564] = "Â÷ÁÖ";
-$hi[565] = "ÂøÀ¶";
-$hi[566] = "Ã¤¸ğ";
-$hi[567] = "Ã¤¿°";
-$hi[568] = "Ã¤Áß";
-$hi[569] = "Ã¤È­";
-$hi[570] = "ÃÊ¼±";
-$hi[571] = "ÃÊÀÌ";
-$hi[572] = "ÃÊÁÖ";
-$hi[573] = "ÃÊÃË";
-$hi[574] = "ÃÖ¸²";
-$hi[575] = "ÃÖ¿°";
-$hi[576] = "Ãß´Ü";
-$hi[577] = "ÃßÁ¤";
-$hi[578] = "ÃàÀ¶";
-$hi[579] = "Ä§¿Á";
-$hi[580] = "Å¸»ç´ë¿Õ";
-$hi[581] = "ÅÂ»çÀÚ";
-$hi[582] = "ÅÂ»çÇâ";
-$hi[583] = "ÆÄÀç";
-$hi[584] = "Æ÷»ï³¶";
-$hi[585] = "Æ÷½Å";
-$hi[586] = "Æ÷Ãæ";
-$hi[587] = "Ç³½À";
-$hi[588] = "ÇÏ½Ä";
-$hi[589] = "ÇÏ¾È";
-$hi[590] = "ÇÏÀÇ";
-$hi[591] = "ÇÏÁ¦";
-$hi[592] = "ÇÏÁø";
-$hi[593] = "ÇÏÈÄ´ö";
-$hi[594] = "ÇÏÈÄµ·";
-$hi[595] = "ÇÏÈÄ¹«";
-$hi[596] = "ÇÏÈÄ»ó";
-$hi[597] = "ÇÏÈÄ¿¬";
-$hi[598] = "ÇÏÈÄ¿µ³à";
-$hi[599] = "ÇÏÈÄÀ§";
-$hi[600] = "ÇÏÈÄÀº";
-$hi[601] = "ÇÏÈÄÆĞ";
-$hi[602] = "ÇÏÈÄÇö";
-$hi[603] = "ÇÏÈÄÇı";
-$hi[604] = "ÇÏÈÄÈ­";
-$hi[605] = "ÇĞ¸Í";
-$hi[606] = "ÇĞ¼Ò";
-$hi[607] = "ÇÑ°ÅÀÚ";
-$hi[608] = "ÇÑ´ç";
-$hi[609] = "ÇÑ´ö";
-$hi[610] = "ÇÑº¹";
-$hi[611] = "ÇÑ¼¶";
-$hi[612] = "ÇÑ¼ö";
-$hi[613] = "ÇÑ¼ş";
-$hi[614] = "ÇÑÀ±";
-$hi[615] = "ÇÑÃæ";
-$hi[616] = "ÇÑÇö";
-$hi[617] = "ÇÑÈ£";
-$hi[618] = "Çâ¶û";
-$hi[619] = "ÇâÃÑ";
-$hi[620] = "Çã°ø";
-$hi[621] = "Çã¼Ò";
-$hi[622] = "ÇãÀ¯";
-$hi[623] = "ÇãÀÇ";
-$hi[624] = "ÇãÀú";
-$hi[625] = "ÇãÁ¤";
-$hi[626] = "ÇåÁ¦";
-$hi[627] = "Çüµµ¿µ";
-$hi[628] = "È£¹İ";
-$hi[629] = "È£ºĞ";
-$hi[630] = "È£¿­";
-$hi[631] = "È£Á¦";
-$hi[632] = "È£ÁØ";
-$hi[633] = "È£Áø";
-$hi[634] = "È£Áú";
-$hi[635] = "È£Â÷ÀÎ";
-$hi[636] = "È­¸¸";
-$hi[637] = "È­¿õ";
-$hi[638] = "È­Å¸";
-$hi[639] = "È­ÇÙ";
-$hi[640] = "È­Èì";
-$hi[641] = "È¯°è";
-$hi[642] = "È¯¹ü";
-$hi[643] = "È²°³";
-$hi[644] = "È²±Ç";
-$hi[645] = "È²º¸¼ş";
-$hi[646] = "È²¼ş";
-$hi[647] = "È²½Â¾ğ";
-$hi[648] = "È²¿ù¿µ";
-$hi[649] = "È²Á¶";
-$hi[650] = "È²Ãæ";
-$hi[651] = "È²È£";
-$hi[652] = "ÈÄ¼±";
-$hi[653] = "ÈÄ¼º";
-$hi[654] = "ÈŞ°í";
-$hi[655] = "ÈŞ¿øÁø";
-$hi[656] = "ÈñÁöÀç";
-$hi[657] = "°­ÀÌ½Ä";
-$hi[658] = "°è¹é";
-$hi[659] = "°üÃ¢";
-$hi[660] = "±èÀ¯½Å";
-$hi[661] = "±èÃáÃß";
-$hi[662] = "¼Ò¼­³ë";
-$hi[663] = "¾ç¸¸Ãá";
-$hi[664] = "¿Â´Ş";
-$hi[665] = "À»Áö¹®´ö";
-$hi[666] = "Æò°­";
-$hi[667] = "ÁÖ¸ù";
-$hi[668] = "¼ºÃ¤";
-$hi[669] = "°û°Åº´";
-$hi[670] = "¼±È­";
-$hi[671] = "´ã´ö";
-$hi[672] = "ÈæÄ¡»óÁö";
-$hi[673] = "À»µÎÁö";
-$hi[674] = "¿Â»ç¹®";
-$hi[675] = "³úÀ½½Å";
-$hi[676] = "ÀÌ»çºÎ";
-$hi[677] = "´ëÁ¶¿µ";
-$hi[678] = "¼±´ö";
-$hi[679] = "ºÎ¿µ";
-$hi[680] = "µ¿¹é";
-$hi[681] = "Á¶¹Î";
-$hi[682] = "°í¼±Áö";
-$hi[683] = "°Ë¸ğÀá";
+$hi[0] = "ê°€ê·œ";
+$hi[1] = "ê°€ë²”";
+$hi[2] = "ê°€ì¶©";
+$hi[3] = "ê°€í™”";
+$hi[4] = "ê°€í›„";
+$hi[5] = "ê°ë…•";
+$hi[6] = "ê°íƒ";
+$hi[7] = "ê°•ìœ ";
+$hi[8] = "ê±´ì„";
+$hi[9] = "ê²¬ì´ˆ";
+$hi[10] = "ê²¬í™";
+$hi[11] = "ê²¬í¬";
+$hi[12] = "ê³„ì˜¹";
+$hi[13] = "ê³ ê°„";
+$hi[14] = "ê³ ë‹´";
+$hi[15] = "ê³ ë‹¹ë¥­";
+$hi[16] = "ê³ ëŒ";
+$hi[17] = "ê³ ìƒ";
+$hi[18] = "ê³ ìˆœ";
+$hi[19] = "ê³ ìŠ¹";
+$hi[20] = "ê³ ì˜¹";
+$hi[21] = "ê³ ìœ ";
+$hi[22] = "ê³ ì •";
+$hi[23] = "ê³ íŒ¨";
+$hi[24] = "ê³µêµ¬";
+$hi[25] = "ê³µë„";
+$hi[26] = "ê³µì†ê°•";
+$hi[27] = "ê³µì†ê³µ";
+$hi[28] = "ê³µì†ë„";
+$hi[29] = "ê³µì†ë²”";
+$hi[30] = "ê³µì†ì†";
+$hi[31] = "ê³µì†ì—°";
+$hi[32] = "ê³µì†ì›”";
+$hi[33] = "ê³µì†ì°¬";
+$hi[34] = "ê³µìœµ";
+$hi[35] = "ê³µì£¼";
+$hi[36] = "ê³µì§€";
+$hi[37] = "ê³½ê°€";
+$hi[38] = "ê³½ë„";
+$hi[39] = "ê³½ë§ˆ";
+$hi[40] = "ê³½ì‚¬";
+$hi[41] = "ê³½ì›";
+$hi[42] = "ê³½ìœ ì§€";
+$hi[43] = "ê³½ìµ";
+$hi[44] = "ê³½ì¤€";
+$hi[45] = "ê³½í˜";
+$hi[46] = "ê³½íšŒ";
+$hi[47] = "ê´€ë¡œ";
+$hi[48] = "ê´€ìƒ‰";
+$hi[49] = "ê´€ìš°";
+$hi[50] = "ê´€ì´";
+$hi[51] = "ê´€ì •";
+$hi[52] = "ê´€í†µ";
+$hi[53] = "ê´€í‰";
+$hi[54] = "ê´€í•´";
+$hi[55] = "ê´€í¥";
+$hi[56] = "ê´´ëŸ‰";
+$hi[57] = "ê´´ì›”";
+$hi[58] = "êµëª¨";
+$hi[59] = "êµìœ ";
+$hi[60] = "êµí˜„";
+$hi[61] = "êµ¬ê±´";
+$hi[62] = "êµ¬ë³¸";
+$hi[63] = "êµ¬ì„±";
+$hi[64] = "êµ­ì—°";
+$hi[65] = "êµ­ì˜";
+$hi[66] = "ê·¹ì •";
+$hi[67] = "ê¸ˆì„ ";
+$hi[68] = "ê¸ˆì˜";
+$hi[69] = "ê¸ˆí™˜ì‚¼ê²°";
+$hi[70] = "ê¸°ë ¹";
+$hi[71] = "ë‚™í†µ";
+$hi[72] = "ë‚¨ë‘";
+$hi[73] = "ëƒ‰í¬";
+$hi[74] = "ë…¸ìˆ™";
+$hi[75] = "ë‡Œë°•";
+$hi[76] = "ëˆ„ê·œ";
+$hi[77] = "ëŠ¥ì¡°";
+$hi[78] = "ëŠ¥í†µ";
+$hi[79] = "ë‹¨ê²½";
+$hi[80] = "ë‹´ì›…";
+$hi[81] = "ë‹¹ê· ";
+$hi[82] = "ë‹¹ë¹ˆ";
+$hi[83] = "ë‹¹ì";
+$hi[84] = "ëŒ€êµ";
+$hi[85] = "ëŒ€ë˜ë™ì£¼";
+$hi[86] = "ëŒ€ë¦‰";
+$hi[87] = "ë„ê²¸";
+$hi[88] = "ë„ì¤€";
+$hi[89] = "ë™ê¶";
+$hi[90] = "ë™ë„ë‚˜";
+$hi[91] = "ë™ë¯¼";
+$hi[92] = "ë™ì†Œ";
+$hi[93] = "ë™ìŠµ";
+$hi[94] = "ë™ìŠ¹";
+$hi[95] = "ë™ìœ¤";
+$hi[96] = "ë™ì¡°";
+$hi[97] = "ë™íƒ";
+$hi[98] = "ë™í™”";
+$hi[99] = "ë‘ê¸°";
+$hi[100] = "ë‘ì˜ˆ";
+$hi[101] = "ë“±ë¬´";
+$hi[102] = "ë“±ìˆ˜";
+$hi[103] = "ë“±ì• ";
+$hi[104] = "ë“±ìœ¤";
+$hi[105] = "ë“±ì§€";
+$hi[106] = "ë“±ì¶©";
+$hi[107] = "ë“±í˜„";
+$hi[108] = "ë¼í—Œ";
+$hi[109] = "ë§ˆê· ";
+$hi[110] = "ë§ˆëŒ€";
+$hi[111] = "ë§ˆë“±";
+$hi[112] = "ë§ˆëŸ‰";
+$hi[113] = "ë§ˆë§‰";
+$hi[114] = "ë§ˆì†";
+$hi[115] = "ë§ˆì™„";
+$hi[116] = "ë§ˆìš´ë ¹";
+$hi[117] = "ë§ˆì¤€";
+$hi[118] = "ë§ˆì² ";
+$hi[119] = "ë§ˆì´ˆ";
+$hi[120] = "ë§ˆì¶©";
+$hi[121] = "ë§ˆíœ´";
+$hi[122] = "ë§ˆìš±";
+$hi[123] = "ë§Œì´";
+$hi[124] = "ë§ì•„ì¥";
+$hi[125] = "ë§¹ë‹¬";
+$hi[126] = "ë§¹ìš°";
+$hi[127] = "ë§¹ì¢…";
+$hi[128] = "ë§¹íš";
+$hi[129] = "ëª©ë¡ëŒ€ì™•";
+$hi[130] = "ëª©ìˆœ";
+$hi[131] = "ê´€êµ¬ê²€";
+$hi[132] = "ê´€êµ¬ìˆ˜";
+$hi[133] = "ê´€êµ¬ì „";
+$hi[134] = "ë¬´ì•ˆêµ­";
+$hi[135] = "ë¬¸ë¹™";
+$hi[136] = "ë¬¸ì•™";
+$hi[137] = "ë¬¸ì¶”";
+$hi[138] = "ë¬¸í˜¸";
+$hi[139] = "ë¬¸í ";
+$hi[140] = "ë¯¸ë°©";
+$hi[141] = "ë¯¸ì¶•";
+$hi[142] = "ë°˜ë´‰";
+$hi[143] = "ë°˜ì¥";
+$hi[144] = "ë°˜ì¤€";
+$hi[145] = "ë°©ë•";
+$hi[146] = "ë°©ì—´";
+$hi[147] = "ë°©ì˜";
+$hi[148] = "ë°©í†µ";
+$hi[149] = "ë°©íšŒ";
+$hi[150] = "ë°°ìˆ˜";
+$hi[151] = "ë°°ì›ì†Œ";
+$hi[152] = "ë²ˆê±´";
+$hi[153] = "ë²ˆëŠ¥";
+$hi[154] = "ë²ˆì¡°";
+$hi[155] = "ë²•ì •";
+$hi[156] = "ë³€í¬";
+$hi[157] = "ë³´ì¦";
+$hi[158] = "ë³´ì² ";
+$hi[159] = "ë³´í˜‘";
+$hi[160] = "ë³µì–‘í¥";
+$hi[161] = "ë´‰ê¸°";
+$hi[162] = "ë¶€ë™";
+$hi[163] = "ë¶€ì‚¬ì¸";
+$hi[164] = "ë¶€ì†";
+$hi[165] = "ë¶€ì²¨";
+$hi[166] = "ë¶€í•˜";
+$hi[167] = "ë¶ë‘";
+$hi[168] = "ë¹„ì‹œ";
+$hi[169] = "ë¹„ì—°";
+$hi[170] = "ë¹„ìš”";
+$hi[171] = "ë¹„ì˜";
+$hi[172] = "ì‚¬ë§ˆê°€";
+$hi[173] = "ì‚¬ë§ˆë‘";
+$hi[174] = "ì‚¬ë§ˆë§";
+$hi[175] = "ì‚¬ë§ˆë¶€";
+$hi[176] = "ì‚¬ë§ˆì‚¬";
+$hi[177] = "ì‚¬ë§ˆì†Œ";
+$hi[178] = "ì‚¬ë§ˆì—¼";
+$hi[179] = "ì‚¬ë§ˆìœ ";
+$hi[180] = "ì‚¬ë§ˆì˜";
+$hi[181] = "ì‚¬ë§ˆì£¼";
+$hi[182] = "ì‚¬ë§ˆíœ˜";
+$hi[183] = "ì‚¬ì •";
+$hi[184] = "ì‚¬ì°¬";
+$hi[185] = "ì„œë§‰";
+$hi[186] = "ì„œì„œ";
+$hi[187] = "ì„œì„±";
+$hi[188] = "ì„œì˜";
+$hi[189] = "ì„œì§ˆ";
+$hi[190] = "ì„œí™©";
+$hi[191] = "ì„í¬";
+$hi[192] = "ì„¤ì˜¥";
+$hi[193] = "ì„¤ì¢…";
+$hi[194] = "ì„¤í›„";
+$hi[195] = "ì„±ê³µì˜";
+$hi[196] = "ì„±ë§Œ";
+$hi[197] = "ì„±ì˜";
+$hi[198] = "ì†Œêµ";
+$hi[199] = "ì†Œë¹„";
+$hi[200] = "ì†Œìœ ";
+$hi[201] = "ì†Œì œ";
+$hi[202] = "ì†ê±´";
+$hi[203] = "ì†ê²¬";
+$hi[204] = "ì†ê´€";
+$hi[205] = "ì†ê´‘";
+$hi[206] = "ì†êµ";
+$hi[207] = "ì†ê¶Œ";
+$hi[208] = "ì†ê¸°";
+$hi[209] = "ì†ë…¸ë°˜";
+$hi[210] = "ì†ë“±";
+$hi[211] = "ì†ë‘";
+$hi[212] = "ì†ëŸ‰";
+$hi[213] = "ì†ë¡€";
+$hi[214] = "ì†ë¹ˆ";
+$hi[215] = "ì†ìƒí–¥";
+$hi[216] = "ì†ì†Œ";
+$hi[217] = "ì†ìˆ˜";
+$hi[218] = "ì†ìœ ";
+$hi[219] = "ì†ì´";
+$hi[220] = "ì†ìµ";
+$hi[221] = "ì†ì •";
+$hi[222] = "ì†ì¤€";
+$hi[223] = "ì†ì¤‘";
+$hi[224] = "ì†ì§„";
+$hi[225] = "ì†ì±…";
+$hi[226] = "ì†ì¹¨";
+$hi[227] = "ì†í˜¸";
+$hi[228] = "ì†í™”";
+$hi[229] = "ì†í™˜";
+$hi[230] = "ì†íœ´";
+$hi[231] = "ì†í ";
+$hi[232] = "ì†¡ê²¸";
+$hi[233] = "ì†¡í—Œ";
+$hi[234] = "ìˆœì‹¬";
+$hi[235] = "ìˆœìš°ê²½";
+$hi[236] = "ìˆœìš±";
+$hi[237] = "ìˆœìœ ";
+$hi[238] = "ìˆœì˜";
+$hi[239] = "ì‹œì‚­";
+$hi[240] = "ì‹ ë¹„";
+$hi[241] = "ì‹ ì˜";
+$hi[242] = "ì‹ ì°½";
+$hi[243] = "ì‹ íƒ";
+$hi[244] = "ì‹ í‰";
+$hi[245] = "ì‹ í—Œì˜";
+$hi[246] = "ì‹¬ë°°";
+$hi[247] = "ì•„íšŒë‚¨";
+$hi[248] = "ì•…ë¦¼";
+$hi[249] = "ì•…ì˜";
+$hi[250] = "ì•…ì§„";
+$hi[251] = "ì•…ì·¨";
+$hi[252] = "ì•…í™˜";
+$hi[253] = "ì•ˆëŸ‰";
+$hi[254] = "ì–‘ê°•";
+$hi[255] = "ì–‘ë°±";
+$hi[256] = "ì–‘ë´‰";
+$hi[257] = "ì–‘ë¶€";
+$hi[258] = "ì–‘ì„œ";
+$hi[259] = "ì–‘ì†¡";
+$hi[260] = "ì–‘ìˆ˜";
+$hi[261] = "ì–‘ìŠµ";
+$hi[262] = "ì–‘ì•™";
+$hi[263] = "ì–‘ì˜";
+$hi[264] = "ì–‘ì„";
+$hi[265] = "ì–‘ì œ";
+$hi[266] = "ì–‘ì¡°";
+$hi[267] = "ì–‘ì¶”";
+$hi[268] = "ì–‘ì¶•";
+$hi[269] = "ì–‘í˜¸";
+$hi[270] = "ì–‘í™";
+$hi[271] = "ì–‘í”";
+$hi[272] = "ì–‘í¥";
+$hi[273] = "ì—„ê°•";
+$hi[274] = "ì—„ë°±í˜¸";
+$hi[275] = "ì—„ì•ˆ";
+$hi[276] = "ì—„ì—¬";
+$hi[277] = "ì—„ì •";
+$hi[278] = "ì—„ì¤€";
+$hi[279] = "ì—¬ê°œ";
+$hi[280] = "ì—¬ê±°";
+$hi[281] = "ì—¬ê±´";
+$hi[282] = "ì—¬ê´‘";
+$hi[283] = "ì—¬ëŒ€";
+$hi[284] = "ì—¬ë ¹ê¸°";
+$hi[285] = "ì—¬ëª½";
+$hi[286] = "ì—¬ë²”";
+$hi[287] = "ì—¬ìƒ";
+$hi[288] = "ì—¬ì‹";
+$hi[289] = "ì—¬ìœ„í™©";
+$hi[290] = "ì—¬í¬";
+$hi[291] = "ì—¼ìƒ";
+$hi[292] = "ì—¼ìš°";
+$hi[293] = "ì—¼ìœ ";
+$hi[294] = "ì—¼í¬";
+$hi[295] = "ì—¼í–‰";
+$hi[296] = "ì˜ì œ";
+$hi[297] = "ì˜ˆí˜•";
+$hi[298] = "ì˜¤ê°•";
+$hi[299] = "ì˜¤ê±°";
+$hi[300] = "ì˜¤ê²½";
+$hi[301] = "ì˜¤êµ­íƒœ";
+$hi[302] = "ì˜¤ë€";
+$hi[303] = "ì˜¤ë°˜";
+$hi[304] = "ì˜¤ì–¸";
+$hi[305] = "ì˜¤ì—°";
+$hi[306] = "ì˜¤ì˜";
+$hi[307] = "ì˜¤ì§ˆ";
+$hi[308] = "ì˜¤ì°¬";
+$hi[309] = "ì˜¨íšŒ";
+$hi[310] = "ì˜¬ëŒê³¨";
+$hi[311] = "ì˜¹ê°œ";
+$hi[312] = "ì™•ê²½";
+$hi[313] = "ì™•ê´‘";
+$hi[314] = "ì™•ê¸°";
+$hi[315] = "ì™•ë„";
+$hi[316] = "ì™•ëˆ";
+$hi[317] = "ì™•ë‘";
+$hi[318] = "ì™•ë£¨";
+$hi[319] = "ì™•ë¦‰";
+$hi[320] = "ì™•ë¬¸";
+$hi[321] = "ì™•ë³´";
+$hi[322] = "ì™•ìƒ";
+$hi[323] = "ì™•ìˆ˜";
+$hi[324] = "ì™•ìˆ™";
+$hi[325] = "ì™•ìŒ";
+$hi[326] = "ì™•ì—…";
+$hi[327] = "ì™•ìœ„";
+$hi[328] = "ì™•ìœ¤";
+$hi[329] = "ì™•ìœµ";
+$hi[330] = "ì™•ì´";
+$hi[331] = "ì™•ì¤€";
+$hi[332] = "ì™•ì°¬";
+$hi[333] = "ì™•ì°½";
+$hi[334] = "ì™•ì¶©";
+$hi[335] = "ì™•í‰";
+$hi[336] = "ì™•í•­";
+$hi[337] = "ì™•í˜¼";
+$hi[338] = "ìš”ë¦½";
+$hi[339] = "ìš”í™”";
+$hi[340] = "ìš°ê¸ˆ";
+$hi[341] = "ìš°ê¸¸";
+$hi[342] = "ìš°ë²ˆ";
+$hi[343] = "ìš°ë³´";
+$hi[344] = "ìš°ì‚¬";
+$hi[345] = "ìš°ì „";
+$hi[346] = "ì›ë‹´";
+$hi[347] = "ì›ìƒ";
+$hi[348] = "ì›ì†Œ";
+$hi[349] = "ì›ìˆ ";
+$hi[350] = "ì›ìš”";
+$hi[351] = "ì›ìœ ";
+$hi[352] = "ì›ìœ¤";
+$hi[353] = "ì›í™˜";
+$hi[354] = "ì›í¬";
+$hi[355] = "ìœ„ê´€";
+$hi[356] = "ìœ„ë§‰";
+$hi[357] = "ìœ„ì†Œ";
+$hi[358] = "ìœ„ì†";
+$hi[359] = "ìœ„ì—°";
+$hi[360] = "ìœ„ìœ ";
+$hi[361] = "ìœ„í’";
+$hi[362] = "ìœ ê´´";
+$hi[363] = "ìœ ê¸°";
+$hi[364] = "ìœ ëŒ€";
+$hi[365] = "ìœ ë„";
+$hi[366] = "ìœ ëµ";
+$hi[367] = "ìœ ë°˜";
+$hi[368] = "ìœ ë²½";
+$hi[369] = "ìœ ë³µ";
+$hi[370] = "ìœ ë´‰";
+$hi[371] = "ìœ ë¹„";
+$hi[372] = "ìœ ì„ ";
+$hi[373] = "ìœ ì„­";
+$hi[374] = "ìœ ì†Œ";
+$hi[375] = "ìœ ìˆœ";
+$hi[376] = "ìœ ìŠ¹";
+$hi[377] = "ìœ ì‹¬";
+$hi[378] = "ìœ ì–¸";
+$hi[379] = "ìœ ì—½";
+$hi[380] = "ìœ ìš”";
+$hi[381] = "ìœ ìš°";
+$hi[382] = "ìœ ì¥";
+$hi[383] = "ìœ ì¢…";
+$hi[384] = "ìœ ì°¬";
+$hi[385] = "ìœ íŒŒ";
+$hi[386] = "ìœ í‰";
+$hi[387] = "ìœ í‘œ";
+$hi[388] = "ìœ í˜„";
+$hi[389] = "ìœ í™”";
+$hi[390] = "ìœ í›ˆ";
+$hi[391] = "ìœ¡ê°œ";
+$hi[392] = "ìœ¡ì†";
+$hi[393] = "ìœ¡ì ";
+$hi[394] = "ìœ¡í•­";
+$hi[395] = "ìœ¤ëŒ€ëª©";
+$hi[396] = "ìœ¤ë¬µ";
+$hi[397] = "ìœ¤ìƒ";
+$hi[398] = "ìœ¤ì§";
+$hi[399] = "ì´ê°";
+$hi[400] = "ì´ê°";
+$hi[401] = "ì´ë´‰";
+$hi[402] = "ì´ë¶€";
+$hi[403] = "ì´ì„±";
+$hi[404] = "ì´ìˆ™";
+$hi[405] = "ì´ì—„";
+$hi[406] = "ì´ìœ ";
+$hi[407] = "ì´ì´";
+$hi[408] = "ì´ì ";
+$hi[409] = "ì´ì „";
+$hi[410] = "ì´í†µ";
+$hi[411] = "ì´íšŒ";
+$hi[412] = "ì í˜¼";
+$hi[413] = "ì¥ê°";
+$hi[414] = "ì¥ê°„";
+$hi[415] = "ì¥ê°œ";
+$hi[416] = "ì¥êµ‰";
+$hi[417] = "ì¥êµ¬";
+$hi[418] = "ì¥ê¸°";
+$hi[419] = "ì¥ë‚¨";
+$hi[420] = "ì¥ëŸ‰";
+$hi[421] = "ì¥ë¡œ";
+$hi[422] = "ì¥ë£Œ";
+$hi[423] = "ì¥ë§‰";
+$hi[424] = "ì¥ë§Œì„±";
+$hi[425] = "ì¥ë°˜";
+$hi[426] = "ì¥ë³´";
+$hi[427] = "ì¥ë¹„";
+$hi[428] = "ì¥ë¹ˆ";
+$hi[429] = "ì¥ì„œ";
+$hi[430] = "ì¥ì†Œ";
+$hi[431] = "ì¥ì†¡";
+$hi[432] = "ì¥ìˆ˜";
+$hi[433] = "ì¥ìŠ¹";
+$hi[434] = "ì¥ì–‘";
+$hi[435] = "ì¥ì–µ";
+$hi[436] = "ì¥ì—°";
+$hi[437] = "ì¥ì˜";
+$hi[438] = "ì¥ì˜¨";
+$hi[439] = "ì¥ì™„";
+$hi[440] = "ì¥ìœ„";
+$hi[441] = "ì¥ìœ¤";
+$hi[442] = "ì¥ì˜";
+$hi[443] = "ì¥ì˜ê±°";
+$hi[444] = "ì¥ìµ";
+$hi[445] = "ì¥ì„";
+$hi[446] = "ì¥ì œ";
+$hi[447] = "ì¥ì¤€";
+$hi[448] = "ì¥ì§‘";
+$hi[449] = "ì¥ì¶˜í™”";
+$hi[450] = "ì¥íŠ¹";
+$hi[451] = "ì¥íŒ¨";
+$hi[452] = "ì¥í¬";
+$hi[453] = "ì¥í•©";
+$hi[454] = "ì¥í˜¸";
+$hi[455] = "ì¥í™”";
+$hi[456] = "ì¥íš¡";
+$hi[457] = "ì¥í›ˆ";
+$hi[458] = "ì¥íœ´";
+$hi[459] = "ì¥í ";
+$hi[460] = "ì €ê³¡";
+$hi[461] = "ì €ìˆ˜";
+$hi[462] = "ì ë°©";
+$hi[463] = "ì „ê¸°";
+$hi[464] = "ì „ë‹¨";
+$hi[465] = "ì „ë§Œ";
+$hi[466] = "ì „ìƒ";
+$hi[467] = "ì „ì†";
+$hi[468] = "ì „ì—­";
+$hi[469] = "ì „ì˜ˆ";
+$hi[470] = "ì „ìœ„";
+$hi[471] = "ì „ì˜";
+$hi[472] = "ì „ì¢…";
+$hi[473] = "ì „ì£¼";
+$hi[474] = "ì „í’";
+$hi[475] = "ì „í•´";
+$hi[476] = "ì •ë¬´";
+$hi[477] = "ì •ë³‘";
+$hi[478] = "ì •ë³´";
+$hi[479] = "ì •ë´‰";
+$hi[480] = "ì •ìš±";
+$hi[481] = "ì •ì›";
+$hi[482] = "ì •ì€";
+$hi[483] = "ì •ì˜";
+$hi[484] = "ì •ì§€ì›";
+$hi[485] = "ì œê°ˆê°";
+$hi[486] = "ì œê°ˆêµ";
+$hi[487] = "ì œê°ˆê· ";
+$hi[488] = "ì œê°ˆê·¼";
+$hi[489] = "ì œê°ˆëŸ‰";
+$hi[490] = "ì œê°ˆìƒ";
+$hi[491] = "ì œê°ˆì„œ";
+$hi[492] = "ì œê°ˆì •";
+$hi[493] = "ì œê°ˆì²¨";
+$hi[494] = "ì œê°ˆíƒ„";
+$hi[495] = "ì¡°ë£¨";
+$hi[496] = "ì¡°ëª¨";
+$hi[497] = "ì¡°ë¬´";
+$hi[498] = "ì¡°ë°©";
+$hi[499] = "ì¡°ë²”";
+$hi[500] = "ì¡°ë¹„";
+$hi[501] = "ì¡°ìƒ";
+$hi[502] = "ì¡°ì„±";
+$hi[503] = "ì¡°ìˆœ";
+$hi[504] = "ì¡°ì‹";
+$hi[505] = "ì¡°ì•™";
+$hi[506] = "ì¡°ì—„";
+$hi[507] = "ì¡°ì˜ˆ";
+$hi[508] = "ì¡°ìš°";
+$hi[509] = "ì¡°ìš´";
+$hi[510] = "ì¡°ì›…";
+$hi[511] = "ì¡°ì˜";
+$hi[512] = "ì¡°ì¸";
+$hi[513] = "ì¡°ì¡°";
+$hi[514] = "ì¡°ì§„";
+$hi[515] = "ì¡°ì°½";
+$hi[516] = "ì¡°ì¶©";
+$hi[517] = "ì¡°í†µ";
+$hi[518] = "ì¡°í‘œ";
+$hi[519] = "ì¡°í™";
+$hi[520] = "ì¡°í™˜";
+$hi[521] = "ì¡°í›ˆ";
+$hi[522] = "ì¡°íœ´";
+$hi[523] = "ì¢…ìš”";
+$hi[524] = "ì¢…ìœ¡";
+$hi[525] = "ì¢…ì´ëª©";
+$hi[526] = "ì¢…íšŒ";
+$hi[527] = "ì¢Œì";
+$hi[528] = "ì¢Œí˜";
+$hi[529] = "ì£¼ê±°";
+$hi[530] = "ì£¼ë°©";
+$hi[531] = "ì£¼ì•™";
+$hi[532] = "ì£¼ì—°";
+$hi[533] = "ì£¼ì˜";
+$hi[534] = "ì£¼ìœ ";
+$hi[535] = "ì£¼ì´";
+$hi[536] = "ì£¼ì¤€";
+$hi[537] = "ì£¼ì§€";
+$hi[538] = "ì£¼ì°½";
+$hi[539] = "ì£¼ì¹˜";
+$hi[540] = "ì£¼íƒœ";
+$hi[541] = "ì£¼í¬";
+$hi[542] = "ì£¼í™˜";
+$hi[543] = "ì£¼í”";
+$hi[544] = "ì§„ê±´";
+$hi[545] = "ì§„êµ";
+$hi[546] = "ì§„êµ°";
+$hi[547] = "ì§„ê¶";
+$hi[548] = "ì§„ê·œ";
+$hi[549] = "ì§„ê¸°";
+$hi[550] = "ì§„ë„";
+$hi[551] = "ì§„ë“±";
+$hi[552] = "ì§„ë€";
+$hi[553] = "ì§„ë‘";
+$hi[554] = "ì§„ë¦¼";
+$hi[555] = "ì§„ë¬´";
+$hi[556] = "ì§„ë³µ";
+$hi[557] = "ì§„ìˆ˜";
+$hi[558] = "ì§„ì‹";
+$hi[559] = "ì§„ì‘";
+$hi[560] = "ì§„ì§„";
+$hi[561] = "ì§„íƒœ";
+$hi[562] = "ì§„í‘œ";
+$hi[563] = "ì§„íš¡";
+$hi[564] = "ì°¨ì£¼";
+$hi[565] = "ì°©ìœµ";
+$hi[566] = "ì±„ëª¨";
+$hi[567] = "ì±„ì—¼";
+$hi[568] = "ì±„ì¤‘";
+$hi[569] = "ì±„í™”";
+$hi[570] = "ì´ˆì„ ";
+$hi[571] = "ì´ˆì´";
+$hi[572] = "ì´ˆì£¼";
+$hi[573] = "ì´ˆì´‰";
+$hi[574] = "ìµœë¦¼";
+$hi[575] = "ìµœì—¼";
+$hi[576] = "ì¶”ë‹¨";
+$hi[577] = "ì¶”ì •";
+$hi[578] = "ì¶•ìœµ";
+$hi[579] = "ì¹¨ì˜¥";
+$hi[580] = "íƒ€ì‚¬ëŒ€ì™•";
+$hi[581] = "íƒœì‚¬ì";
+$hi[582] = "íƒœì‚¬í–¥";
+$hi[583] = "íŒŒì¬";
+$hi[584] = "í¬ì‚¼ë‚­";
+$hi[585] = "í¬ì‹ ";
+$hi[586] = "í¬ì¶©";
+$hi[587] = "í’ìŠµ";
+$hi[588] = "í•˜ì‹";
+$hi[589] = "í•˜ì•ˆ";
+$hi[590] = "í•˜ì˜";
+$hi[591] = "í•˜ì œ";
+$hi[592] = "í•˜ì§„";
+$hi[593] = "í•˜í›„ë•";
+$hi[594] = "í•˜í›„ëˆ";
+$hi[595] = "í•˜í›„ë¬´";
+$hi[596] = "í•˜í›„ìƒ";
+$hi[597] = "í•˜í›„ì—°";
+$hi[598] = "í•˜í›„ì˜ë…€";
+$hi[599] = "í•˜í›„ìœ„";
+$hi[600] = "í•˜í›„ì€";
+$hi[601] = "í•˜í›„íŒ¨";
+$hi[602] = "í•˜í›„í˜„";
+$hi[603] = "í•˜í›„í˜œ";
+$hi[604] = "í•˜í›„í™”";
+$hi[605] = "í•™ë§¹";
+$hi[606] = "í•™ì†Œ";
+$hi[607] = "í•œê±°ì";
+$hi[608] = "í•œë‹¹";
+$hi[609] = "í•œë•";
+$hi[610] = "í•œë³µ";
+$hi[611] = "í•œì„¬";
+$hi[612] = "í•œìˆ˜";
+$hi[613] = "í•œìˆ­";
+$hi[614] = "í•œìœ¤";
+$hi[615] = "í•œì¶©";
+$hi[616] = "í•œí˜„";
+$hi[617] = "í•œí˜¸";
+$hi[618] = "í–¥ë‘";
+$hi[619] = "í–¥ì´";
+$hi[620] = "í—ˆê³µ";
+$hi[621] = "í—ˆì†Œ";
+$hi[622] = "í—ˆìœ ";
+$hi[623] = "í—ˆì˜";
+$hi[624] = "í—ˆì €";
+$hi[625] = "í—ˆì •";
+$hi[626] = "í—Œì œ";
+$hi[627] = "í˜•ë„ì˜";
+$hi[628] = "í˜¸ë°˜";
+$hi[629] = "í˜¸ë¶„";
+$hi[630] = "í˜¸ì—´";
+$hi[631] = "í˜¸ì œ";
+$hi[632] = "í˜¸ì¤€";
+$hi[633] = "í˜¸ì§„";
+$hi[634] = "í˜¸ì§ˆ";
+$hi[635] = "í˜¸ì°¨ì¸";
+$hi[636] = "í™”ë§Œ";
+$hi[637] = "í™”ì›…";
+$hi[638] = "í™”íƒ€";
+$hi[639] = "í™”í•µ";
+$hi[640] = "í™”í ";
+$hi[641] = "í™˜ê³„";
+$hi[642] = "í™˜ë²”";
+$hi[643] = "í™©ê°œ";
+$hi[644] = "í™©ê¶Œ";
+$hi[645] = "í™©ë³´ìˆ­";
+$hi[646] = "í™©ìˆ­";
+$hi[647] = "í™©ìŠ¹ì–¸";
+$hi[648] = "í™©ì›”ì˜";
+$hi[649] = "í™©ì¡°";
+$hi[650] = "í™©ì¶©";
+$hi[651] = "í™©í˜¸";
+$hi[652] = "í›„ì„ ";
+$hi[653] = "í›„ì„±";
+$hi[654] = "íœ´ê³ ";
+$hi[655] = "íœ´ì›ì§„";
+$hi[656] = "í¬ì§€ì¬";
+$hi[657] = "ê°•ì´ì‹";
+$hi[658] = "ê³„ë°±";
+$hi[659] = "ê´€ì°½";
+$hi[660] = "ê¹€ìœ ì‹ ";
+$hi[661] = "ê¹€ì¶˜ì¶”";
+$hi[662] = "ì†Œì„œë…¸";
+$hi[663] = "ì–‘ë§Œì¶˜";
+$hi[664] = "ì˜¨ë‹¬";
+$hi[665] = "ì„ì§€ë¬¸ë•";
+$hi[666] = "í‰ê°•";
+$hi[667] = "ì£¼ëª½";
+$hi[668] = "ì„±ì±„";
+$hi[669] = "ê³½ê±°ë³‘";
+$hi[670] = "ì„ í™”";
+$hi[671] = "ë‹´ë•";
+$hi[672] = "í‘ì¹˜ìƒì§€";
+$hi[673] = "ì„ë‘ì§€";
+$hi[674] = "ì˜¨ì‚¬ë¬¸";
+$hi[675] = "ë‡ŒìŒì‹ ";
+$hi[676] = "ì´ì‚¬ë¶€";
+$hi[677] = "ëŒ€ì¡°ì˜";
+$hi[678] = "ì„ ë•";
+$hi[679] = "ë¶€ì˜";
+$hi[680] = "ë™ë°±";
+$hi[681] = "ì¡°ë¯¼";
+$hi[682] = "ê³ ì„ ì§€";
+$hi[683] = "ê²€ëª¨ì ";
 
 sub QUEST_LINK {
 							open(IN,"$QUEST_DATA");
@@ -691,15 +691,15 @@ sub QUEST_LINK {
 							foreach(@QUEST_DATA){
 							($qnum,$qcode,$qface,$qname,$qlevel,$quest,$qlimit,$qtalka,$qtalkb,$qtalkc,$qgold,$qrice,$qstr,$qint,$qlea,$qcha,$qcex,$qexp,$qseal,$qflag,$qcategory,$qrate,$qtalkd,$qup) = split(/<>/);
 								if($kcodea =~ /$qcode/ && $qrate > rand(99)){
-									if($qcategory =~ /»ó¾÷/){
-										if($qup =~ /»ó¾÷/){
+									if($qcategory =~ /ìƒì—…/){
+										if($qup =~ /ìƒì—…/){
 										$kqpoint += $zsyoadd;
 										}else{
 										$kqpoint += $qup;
 										}
 										if($qtalkd eq ""){
 										}else{
-										&K_LOG("$mmonth¿ù : $qtalkd");
+										&K_LOG("$mmonthì›” : $qtalkd");
 										}
 									}
 								}
@@ -712,7 +712,7 @@ sub CON_NUM{
 	while($file = readdir(dirlist)){
 		if($file =~ /\.cgi/i){
 			if(!open(page,"./charalog/main/$file")){
-				&ERR2("ÆÄÀÏ ¿ÀÇÂ ¿¡·¯!");
+				&ERR2("íŒŒì¼ ì˜¤í”ˆ ì—ëŸ¬!");
 			}
 			@page = <page>;
 			close(page);
@@ -749,67 +749,67 @@ sub DELETE {
 sub SKILL{
 
 	if($eskillcode eq 'Aa'){
-	$name = '³ó¾÷';
+	$name = 'ë†ì—…';
 	}
 	if($eskillcode eq 'Ab'){
-	$name = '°Å·¡';
+	$name = 'ê±°ë˜';
 	}
 	if($eskillcode eq 'Ac'){
-	$name = '´ö¸Á';
+	$name = 'ë•ë§';
 	}
 	if($eskillcode eq 'Ba'){
-	$name = '»ó¾÷';
+	$name = 'ìƒì—…';
 	}
 	if($eskillcode eq 'Bb'){
-	$name = '¼ö¿Ï';
+	$name = 'ìˆ˜ì™„';
 	}
 	if($eskillcode eq 'Bc'){
-	$name = '°í¿ë';
+	$name = 'ê³ ìš©';
 	}
 	if($eskillcode eq 'Ca'){
-	$name = '±â¼ú';
+	$name = 'ê¸°ìˆ ';
 	}
 	if($eskillcode eq 'Cb'){
-	$name = 'È¸ÇÇ';
+	$name = 'íšŒí”¼';
 	}
 	if($eskillcode eq 'Cc'){
-	$name = '¿¬±¸';
+	$name = 'ì—°êµ¬';
 	}
 	if($eskillcode eq 'Da'){
-	$name = '¾ç¼º';
+	$name = 'ì–‘ì„±';
 	}
 	if($eskillcode eq 'Db'){
-	$name = '¸ğº´';
+	$name = 'ëª¨ë³‘';
 	}
 	if($eskillcode eq 'Dc'){
-	$name = '¼³Ä¡';
+	$name = 'ì„¤ì¹˜';
 	}
 	if($eskillcode eq 'Ea'){
-	$name = 'ÈÆ·Ã';
+	$name = 'í›ˆë ¨';
 	}
 	if($eskillcode eq 'Eb'){
-	$name = 'µ¶·Á';
+	$name = 'ë…ë ¤';
 	}
 	if($eskillcode eq 'Ec'){
-	$name = '¿øÀü';
+	$name = 'ì›ì „';
 	}
 	if($eskillcode eq 'Fa'){
-	$name = '¹Î½É';
+	$name = 'ë¯¼ì‹¬';
 	}
 	if($eskillcode eq 'Fb'){
-	$name = '¸Å·á';
+	$name = 'ë§¤ë£Œ';
 	}
 	if($eskillcode eq 'Fc'){
-	$name = '¸ÅÀü';
+	$name = 'ë§¤ì „';
 	}
 	if($eskillcode eq 'Ga'){
-	$name = '°í¾ç';
+	$name = 'ê³ ì–‘';
 	}
 	if($eskillcode eq 'Gb'){
-	$name = 'º´·«';
+	$name = 'ë³‘ëµ';
 	}
 	if($eskillcode eq 'Gc'){
-	$name = 'ÀÏ¼¶';
+	$name = 'ì¼ì„¬';
 	}
 
 }
@@ -833,11 +833,11 @@ sub JIDO0{
 				foreach(@TOWN_DATA){
 					($zzname,$zzcon,$zznum,$zznou,$zzsyo,$zzshiro,$zznou_max,$zzsyo_max,$zzshiro_max,$zzpri,$zzx,$zzy,$zzsouba,$zzdef_att,$zzsub1,$zzsub2,$z[0],$z[1],$z[2],$z[3],$z[4],$z[5],$z[6],$z[7],$zzname1,$zzname2,$zzbong1,$zzbong2,$zzbong3)=split(/<>/);
 	if($zzname2 eq "1"){
-	$jiname ="ÆòÁö";
+	$jiname ="í‰ì§€";
 	}elsif($zzname2 eq "2"){
-	$jiname ="¼ö»ó";
+	$jiname ="ìˆ˜ìƒ";
 	}elsif($zzname2 eq "3"){
-	$jiname ="»ê¾Ç";
+	$jiname ="ì‚°ì•…";
 	}
 
 
@@ -846,110 +846,110 @@ sub JIDO0{
 				}
 				$col="";
 				if($m_hit){
-					if($zx eq $kpos && ($zzname eq "¼ºµµ" || $zzname eq "Àå¾È" || $zzname eq "¾ç¾ç" || $zzname eq "³«¾ç" || $zzname eq "¾÷" || $zzname eq "ÇãÃ¢" || $zzname eq "°Ç¾÷" || $zzname eq "ÇÑ")){
+					if($zx eq $kpos && ($zzname eq "ì„±ë„" || $zzname eq "ì¥ì•ˆ" || $zzname eq "ì–‘ì–‘" || $zzname eq "ë‚™ì–‘" || $zzname eq "ì—…" || $zzname eq "í—ˆì°½" || $zzname eq "ê±´ì—…" || $zzname eq "í•œ")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg31.gif alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg31.gif alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg31.gif alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg31.gif alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "¼­·®" || $zzname eq "Ãµ¼ö" || $zzname eq "Á¹º»" || $zzname eq "ÇÑÁß" || $zzname eq "°­ÁÖ" || $zzname eq "°­ÇÏ" || $zzname eq "Àå»ç" || $zzname eq "³²ÇØ" || $zzname eq "ÁøÀ¯" || $zzname eq "½Ã»ó" || $zzname eq "ÃÊ" || $zzname eq "´Ü¾ç" || $zzname eq "ºÏÆò" || $zzname eq "È¸°è" || $zzname eq "¼­¶ó¹ú" || $zzname eq "»çºñ")){
+					}elsif($zx eq $kpos && ($zzname eq "ì„œëŸ‰" || $zzname eq "ì²œìˆ˜" || $zzname eq "ì¡¸ë³¸" || $zzname eq "í•œì¤‘" || $zzname eq "ê°•ì£¼" || $zzname eq "ê°•í•˜" || $zzname eq "ì¥ì‚¬" || $zzname eq "ë‚¨í•´" || $zzname eq "ì§„ìœ " || $zzname eq "ì‹œìƒ" || $zzname eq "ì´ˆ" || $zzname eq "ë‹¨ì–‘" || $zzname eq "ë¶í‰" || $zzname eq "íšŒê³„" || $zzname eq "ì„œë¼ë²Œ" || $zzname eq "ì‚¬ë¹„")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg11.gif alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg11.gif alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg11.gif alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg11.gif alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "È«³ó" || $zzname eq "¿Ï" || $zzname eq "°­¸ª" || $zzname eq "¿©³²" || $zzname eq "º¹¾ç" || $zzname eq "¼öÃá" || $zzname eq "°è" || $zzname eq "³²ÇÇ" || $zzname eq "ºÏÇØ" || $zzname eq "ÇÏºñ" || $zzname eq "±¤¸ª" || $zzname eq "¿À" || $zzname eq "±¹³»")){
+					}elsif($zx eq $kpos && ($zzname eq "í™ë†" || $zzname eq "ì™„" || $zzname eq "ê°•ë¦‰" || $zzname eq "ì—¬ë‚¨" || $zzname eq "ë³µì–‘" || $zzname eq "ìˆ˜ì¶˜" || $zzname eq "ê³„" || $zzname eq "ë‚¨í”¼" || $zzname eq "ë¶í•´" || $zzname eq "í•˜ë¹„" || $zzname eq "ê´‘ë¦‰" || $zzname eq "ì˜¤" || $zzname eq "êµ­ë‚´")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg21.gif alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg21.gif alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg21.gif alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg21.gif alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "¹«µµ" || $zzname eq "°Ç³ç" || $zzname eq "»ó¿ë" || $zzname eq "¿î³²" || $zzname eq "¾ÈÁ¤" || $zzname eq "°Ë°¢" || $zzname eq "ÀÚµ¿" || $zzname eq "¿µ¾È" || $zzname eq "¹«¸ª" || $zzname eq "¿µ¸ª" || $zzname eq "½Å¾ß" || $zzname eq "°è¾ç" || $zzname eq "Æò¿ø" || $zzname eq "¿©°­" || $zzname eq "¼ÒÆĞ" || $zzname eq "¾çÆò" || $zzname eq "¸Å¼Ò")){
+					}elsif($zx eq $kpos && ($zzname eq "ë¬´ë„" || $zzname eq "ê±´ë…•" || $zzname eq "ìƒìš©" || $zzname eq "ìš´ë‚¨" || $zzname eq "ì•ˆì •" || $zzname eq "ê²€ê°" || $zzname eq "ìë™" || $zzname eq "ì˜ì•ˆ" || $zzname eq "ë¬´ë¦‰" || $zzname eq "ì˜ë¦‰" || $zzname eq "ì‹ ì•¼" || $zzname eq "ê³„ì–‘" || $zzname eq "í‰ì›" || $zzname eq "ì—¬ê°•" || $zzname eq "ì†ŒíŒ¨" || $zzname eq "ì–‘í‰" || $zzname eq "ë§¤ì†Œ")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg01.gif alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg01.gif alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg01.gif alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg01.gif alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zzname eq "¼ºµµ" || $zzname eq "Àå¾È" || $zzname eq "¾ç¾ç" || $zzname eq "³«¾ç" || $zzname eq "¾÷" || $zzname eq "ÇãÃ¢" || $zzname eq "°Ç¾÷" || $zzname eq "ÇÑ"){
+					}elsif($zzname eq "ì„±ë„" || $zzname eq "ì¥ì•ˆ" || $zzname eq "ì–‘ì–‘" || $zzname eq "ë‚™ì–‘" || $zzname eq "ì—…" || $zzname eq "í—ˆì°½" || $zzname eq "ê±´ì—…" || $zzname eq "í•œ"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg3.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zzname eq "È«³ó" || $zzname eq "¿Ï" || $zzname eq "°­¸ª" || $zzname eq "¿©³²" || $zzname eq "º¹¾ç" || $zzname eq "¼öÃá" || $zzname eq "°è" || $zzname eq "³²ÇÇ" || $zzname eq "ºÏÇØ" || $zzname eq "ÇÏºñ" || $zzname eq "±¤¸ª" || $zzname eq "¿À" || $zzname eq "±¹³»"){
+					}elsif($zzname eq "í™ë†" || $zzname eq "ì™„" || $zzname eq "ê°•ë¦‰" || $zzname eq "ì—¬ë‚¨" || $zzname eq "ë³µì–‘" || $zzname eq "ìˆ˜ì¶˜" || $zzname eq "ê³„" || $zzname eq "ë‚¨í”¼" || $zzname eq "ë¶í•´" || $zzname eq "í•˜ë¹„" || $zzname eq "ê´‘ë¦‰" || $zzname eq "ì˜¤" || $zzname eq "êµ­ë‚´"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg2.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
-					}elsif($zzname eq "¼­·®" || $zzname eq "Ãµ¼ö" || $zzname eq "Á¹º»" || $zzname eq "ÇÑÁß" || $zzname eq "°­ÁÖ" || $zzname eq "°­ÇÏ" || $zzname eq "Àå»ç" || $zzname eq "³²ÇØ" || $zzname eq "ÁøÀ¯" || $zzname eq "½Ã»ó" || $zzname eq "ÃÊ" || $zzname eq "´Ü¾ç" || $zzname eq "ºÏÆò" || $zzname eq "È¸°è" || $zzname eq "¼­¶ó¹ú" || $zzname eq "»çºñ"){
+					}elsif($zzname eq "ì„œëŸ‰" || $zzname eq "ì²œìˆ˜" || $zzname eq "ì¡¸ë³¸" || $zzname eq "í•œì¤‘" || $zzname eq "ê°•ì£¼" || $zzname eq "ê°•í•˜" || $zzname eq "ì¥ì‚¬" || $zzname eq "ë‚¨í•´" || $zzname eq "ì§„ìœ " || $zzname eq "ì‹œìƒ" || $zzname eq "ì´ˆ" || $zzname eq "ë‹¨ì–‘" || $zzname eq "ë¶í‰" || $zzname eq "íšŒê³„" || $zzname eq "ì„œë¼ë²Œ" || $zzname eq "ì‚¬ë¹„"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg1.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
 					}elsif($zzname eq "1"){
 						print "<TH img background=$IMG/sea.gif></TH>";
@@ -963,18 +963,18 @@ sub JIDO0{
 						print "<TH img background=$IMG/cho.gif></TH>";
 					}else{
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'></TH>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt=$zzname¡¼$cou_name[$zzcon]¡½></TH>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><img src=$IMG/bg0.gif width=20 height=20 border=0 alt=$zznameã€$cou_name[$zzcon]ã€‘></TH>";
 						}
 					}
 				}else{
@@ -1003,11 +1003,11 @@ sub JIDO1{
 					($zzname,$zzcon,$zznum,$zznou,$zzsyo,$zzshiro,$zznou_max,$zzsyo_max,$zzshiro_max,$zzpri,$zzx,$zzy,$zzsouba,$zzdef_att,$zzsub1,$zzsub2,$z[0],$z[1],$z[2],$z[3],$z[4],$z[5],$z[6],$z[7],$zzname1,$zzname2,$zzbong1,$zzbong2,$zzbong3)=split(/<>/);
 					$good++;
 	if($zzname2 eq "1"){
-	$jiname ="ÆòÁö";
+	$jiname ="í‰ì§€";
 	}elsif($zzname2 eq "2"){
-	$jiname ="¼ö»ó";
+	$jiname ="ìˆ˜ìƒ";
 	}elsif($zzname2 eq "3"){
-	$jiname ="»ê¾Ç";
+	$jiname ="ì‚°ì•…";
 	}
 
 
@@ -1016,117 +1016,117 @@ sub JIDO1{
 				}
 				$col="";
 				if($m_hit){
-					if($zx eq $kpos && ($zzname eq "¼ºµµ" || $zzname eq "Àå¾È" || $zzname eq "¾ç¾ç" || $zzname eq "³«¾ç" || $zzname eq "¾÷" || $zzname eq "ÇãÃ¢" || $zzname eq "°Ç¾÷" || $zzname eq "ÇÑ")){
+					if($zx eq $kpos && ($zzname eq "ì„±ë„" || $zzname eq "ì¥ì•ˆ" || $zzname eq "ì–‘ì–‘" || $zzname eq "ë‚™ì–‘" || $zzname eq "ì—…" || $zzname eq "í—ˆì°½" || $zzname eq "ê±´ì—…" || $zzname eq "í•œ")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg31.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg31.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg31.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg31.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "¼­·®" || $zzname eq "Ãµ¼ö" || $zzname eq "Á¹º»" || $zzname eq "ÇÑÁß" || $zzname eq "°­ÁÖ" || $zzname eq "°­ÇÏ" || $zzname eq "Àå»ç" || $zzname eq "³²ÇØ" || $zzname eq "ÁøÀ¯" || $zzname eq "½Ã»ó" || $zzname eq "ÃÊ" || $zzname eq "´Ü¾ç" || $zzname eq "ºÏÆò" || $zzname eq "È¸°è" || $zzname eq "¼­¶ó¹ú" || $zzname eq "»çºñ")){
+					}elsif($zx eq $kpos && ($zzname eq "ì„œëŸ‰" || $zzname eq "ì²œìˆ˜" || $zzname eq "ì¡¸ë³¸" || $zzname eq "í•œì¤‘" || $zzname eq "ê°•ì£¼" || $zzname eq "ê°•í•˜" || $zzname eq "ì¥ì‚¬" || $zzname eq "ë‚¨í•´" || $zzname eq "ì§„ìœ " || $zzname eq "ì‹œìƒ" || $zzname eq "ì´ˆ" || $zzname eq "ë‹¨ì–‘" || $zzname eq "ë¶í‰" || $zzname eq "íšŒê³„" || $zzname eq "ì„œë¼ë²Œ" || $zzname eq "ì‚¬ë¹„")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg11.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg11.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg11.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg11.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "È«³ó" || $zzname eq "¿Ï" || $zzname eq "°­¸ª" || $zzname eq "¿©³²" || $zzname eq "º¹¾ç" || $zzname eq "¼öÃá" || $zzname eq "°è" || $zzname eq "³²ÇÇ" || $zzname eq "ºÏÇØ" || $zzname eq "ÇÏºñ" || $zzname eq "±¤¸ª" || $zzname eq "¿À" || $zzname eq "±¹³»")){
+					}elsif($zx eq $kpos && ($zzname eq "í™ë†" || $zzname eq "ì™„" || $zzname eq "ê°•ë¦‰" || $zzname eq "ì—¬ë‚¨" || $zzname eq "ë³µì–‘" || $zzname eq "ìˆ˜ì¶˜" || $zzname eq "ê³„" || $zzname eq "ë‚¨í”¼" || $zzname eq "ë¶í•´" || $zzname eq "í•˜ë¹„" || $zzname eq "ê´‘ë¦‰" || $zzname eq "ì˜¤" || $zzname eq "êµ­ë‚´")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg21.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg21.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg21.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg21.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zx eq $kpos && ($zzname eq "¹«µµ" || $zzname eq "°Ç³ç" || $zzname eq "¿î³²" || $zzname eq "¾ÈÁ¤" || $zzname eq "°Ë°¢" || $zzname eq "ÀÚµ¿" || $zzname eq "¿µ¾È" || $zzname eq "¹«¸ª" || $zzname eq "¿µ¸ª" || $zzname eq "½Å¾ß" || $zzname eq "°è¾ç" || $zzname eq "Æò¿ø" || $zzname eq "¿©°­" || $zzname eq "¼ÒÆĞ" || $zzname eq "¾çÆò" || $zzname eq "¸Å¼Ò")){
+					}elsif($zx eq $kpos && ($zzname eq "ë¬´ë„" || $zzname eq "ê±´ë…•" || $zzname eq "ìš´ë‚¨" || $zzname eq "ì•ˆì •" || $zzname eq "ê²€ê°" || $zzname eq "ìë™" || $zzname eq "ì˜ì•ˆ" || $zzname eq "ë¬´ë¦‰" || $zzname eq "ì˜ë¦‰" || $zzname eq "ì‹ ì•¼" || $zzname eq "ê³„ì–‘" || $zzname eq "í‰ì›" || $zzname eq "ì—¬ê°•" || $zzname eq "ì†ŒíŒ¨" || $zzname eq "ì–‘í‰" || $zzname eq "ë§¤ì†Œ")){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg01.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg01.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg01.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg01.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zzname eq "¼ºµµ" || $zzname eq "Àå¾È" || $zzname eq "¾ç¾ç" || $zzname eq "³«¾ç" || $zzname eq "¾÷" || $zzname eq "ÇãÃ¢" || $zzname eq "°Ç¾÷" || $zzname eq "ÇÑ"){
+					}elsif($zzname eq "ì„±ë„" || $zzname eq "ì¥ì•ˆ" || $zzname eq "ì–‘ì–‘" || $zzname eq "ë‚™ì–‘" || $zzname eq "ì—…" || $zzname eq "í—ˆì°½" || $zzname eq "ê±´ì—…" || $zzname eq "í•œ"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg3.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg3.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg3.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg3.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zzname eq "È«³ó" || $zzname eq "¿Ï" || $zzname eq "°­¸ª" || $zzname eq "¿©³²" || $zzname eq "º¹¾ç" || $zzname eq "¼öÃá" || $zzname eq "°è" || $zzname eq "³²ÇÇ" || $zzname eq "ºÏÇØ" || $zzname eq "ÇÏºñ" || $zzname eq "±¤¸ª" || $zzname eq "¿À" || $zzname eq "±¹³»"){
+					}elsif($zzname eq "í™ë†" || $zzname eq "ì™„" || $zzname eq "ê°•ë¦‰" || $zzname eq "ì—¬ë‚¨" || $zzname eq "ë³µì–‘" || $zzname eq "ìˆ˜ì¶˜" || $zzname eq "ê³„" || $zzname eq "ë‚¨í”¼" || $zzname eq "ë¶í•´" || $zzname eq "í•˜ë¹„" || $zzname eq "ê´‘ë¦‰" || $zzname eq "ì˜¤" || $zzname eq "êµ­ë‚´"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg2.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg2.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg2.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg2.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
-					}elsif($zzname eq "¼­·®" || $zzname eq "Ãµ¼ö" || $zzname eq "Á¹º»" || $zzname eq "ÇÑÁß" || $zzname eq "°­ÁÖ" || $zzname eq "°­ÇÏ" || $zzname eq "Àå»ç" || $zzname eq "³²ÇØ" || $zzname eq "ÁøÀ¯" || $zzname eq "½Ã»ó" || $zzname eq "ÃÊ" || $zzname eq "´Ü¾ç" || $zzname eq "ºÏÆò" || $zzname eq "È¸°è" || $zzname eq "¼­¶ó¹ú" || $zzname eq "»çºñ"){
+					}elsif($zzname eq "ì„œëŸ‰" || $zzname eq "ì²œìˆ˜" || $zzname eq "ì¡¸ë³¸" || $zzname eq "í•œì¤‘" || $zzname eq "ê°•ì£¼" || $zzname eq "ê°•í•˜" || $zzname eq "ì¥ì‚¬" || $zzname eq "ë‚¨í•´" || $zzname eq "ì§„ìœ " || $zzname eq "ì‹œìƒ" || $zzname eq "ì´ˆ" || $zzname eq "ë‹¨ì–‘" || $zzname eq "ë¶í‰" || $zzname eq "íšŒê³„" || $zzname eq "ì„œë¼ë²Œ" || $zzname eq "ì‚¬ë¹„"){
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg1.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg1.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg1.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg1.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
 					}elsif($zzname eq "1"){
 						print "<TH img background=$IMG/sea.gif></TH>";
@@ -1140,19 +1140,19 @@ sub JIDO1{
 						print "<TH img background=$IMG/cho.gif></TH>";
 					}else{
 						if($kcon eq $zzcon){
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg0.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½
-³ó¹Î:$zznum
-³ó¾÷:$zznou/$zznou_max
-»ó¾÷:$zzsyo/$zzsyo_max
-±â¼ú:$zzsub1/1200
-¹Î½É:$zzpri
-¼öºñ:$zzshiro/$zzshiro_max
-¹æ¾î:$zzdef_att/1000
-½Ã¼¼:$zzsouba
-ÁöÇü:$jiname'>
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg0.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘
+ë†ë¯¼:$zznum
+ë†ì—…:$zznou/$zznou_max
+ìƒì—…:$zzsyo/$zzsyo_max
+ê¸°ìˆ :$zzsub1/1200
+ë¯¼ì‹¬:$zzpri
+ìˆ˜ë¹„:$zzshiro/$zzshiro_max
+ë°©ì–´:$zzdef_att/1000
+ì‹œì„¸:$zzsouba
+ì§€í˜•:$jiname'>
 </TH></form>";
 						}else{
-						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg0.gif\" alt='$zzname¡¼$cou_name[$zzcon]¡½'></TH></form>";
+						print "<TH bgcolor=$ELE_BG[$cou_ele[$zzcon]]><form action=$COMMAND method=POST>$no_list<input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=$comlist><input type=hidden name=num value=$good><input type=image src=\"$IMG/bg0.gif\" alt='$zznameã€$cou_name[$zzcon]ã€‘'></TH></form>";
 						}
 					}
 				}else{
@@ -1227,7 +1227,7 @@ sub GWAN1{
 
 sub BONG_DEL{
 
-	open(IN,"$UNIT_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$UNIT_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@UNI_DATA = <IN>;
 	close(IN);
 
@@ -1257,11 +1257,11 @@ sub BONG_DEL{
 	}
 
 
-	open(OUT,">$UNIT_LIST") or &ERR('UNIT3 »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$UNIT_LIST") or &ERR('UNIT3 ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @NEW_UNI_DATA;
 	close(OUT);
 
-	open(IN,"$TOWN_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$TOWN_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@TOWN_DATA = <IN>;
 	close(IN);
 
@@ -1271,19 +1271,19 @@ sub BONG_DEL{
 			if($kid eq "$zbong1"){
 			$zbong1 = "";
 	splice(@TOWN_DATA,$dkjf,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
-	open(OUT,">$TOWN_LIST") or &ERR('TOWN µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$TOWN_LIST") or &ERR('TOWN ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @TOWN_DATA;
 	close(OUT);
 			}elsif($kid eq "$zbong2"){
 			$zbong2 = "";
 	splice(@TOWN_DATA,$dkjf,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
-	open(OUT,">$TOWN_LIST") or &ERR('TOWN µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$TOWN_LIST") or &ERR('TOWN ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @TOWN_DATA;
 	close(OUT);
 			}elsif($kid eq "$zbong3"){
 			$zbong3 = "";
 	splice(@TOWN_DATA,$dkjf,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
-	open(OUT,">$TOWN_LIST") or &ERR('TOWN µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$TOWN_LIST") or &ERR('TOWN ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @TOWN_DATA;
 	close(OUT);
 			}
@@ -1513,16 +1513,16 @@ sub UNIT_DATA_OPEN {
 
 	foreach(@UNIT_DATA){
 		($uid,$ustatus,$uleader,$uname,$umes,$umember,$uline) = split(/<>/);
-		$unit_name[$uid] = $uname."ºÎ´ë";
+		$unit_name[$uid] = $uname."ë¶€ëŒ€";
 		$unit_leader[$uid] = $uleader;
 		$unit_mes[$uid] = $umes;
 	}
-	$unit_name[0] = "Àç¾ß";
+	$unit_name[0] = "ì¬ì•¼";
 }
 
 sub CHARA_MAIN_OPEN2 {
 
-	open(IN,"./charalog/main/$_[0].cgi") or &ERR2('ID¿Í ÆĞ½º¿öµå°¡ ¿Ã¹Ù¸£Áö´Â ¾Ê½À´Ï´Ù.');
+	open(IN,"./charalog/main/$_[0].cgi") or &ERR2('IDì™€ íŒ¨ìŠ¤ì›Œë“œê°€ ì˜¬ë°”ë¥´ì§€ëŠ” ì•ŠìŠµë‹ˆë‹¤.');
 	@CN_DATA = <IN>;
 	close(IN);
 
@@ -1561,250 +1561,250 @@ sub TOWN_DEF{
 
 sub HIS{
 		if(($F_YEAR+$myear) eq "181" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [181³â 1¿ù]È²ÀÚ ÇùÀÇ »ı¸ğ, ¿Õ¹ÌÀÎ µ¶»ì´çÇÏ´Ù.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [181ë…„ 1ì›”]í™©ì í˜‘ì˜ ìƒëª¨, ì™•ë¯¸ì¸ ë…ì‚´ë‹¹í•˜ë‹¤.");
 		}
 		if(($F_YEAR+$myear) eq "181" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [181³â 9¿ù]³¶¾ß ¾çµµÇö¿¡¼­ Á¦°¥·® Ãâ»ıÇÏ´Ù.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [181ë…„ 9ì›”]ë‚­ì•¼ ì–‘ë„í˜„ì—ì„œ ì œê°ˆëŸ‰ ì¶œìƒí•˜ë‹¤.");
 		}
 		if(($F_YEAR+$myear) eq "182" && $mmonth eq "3"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [182³â 3¿ù]¼Õ±Ç, ¿À±º ºÎÃá(Àı°­¼º)¿¡¼­ Ãâ»ıÇÏ´Ù.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [182ë…„ 3ì›”]ì†ê¶Œ, ì˜¤êµ° ë¶€ì¶˜(ì ˆê°•ì„±)ì—ì„œ ì¶œìƒí•˜ë‹¤.");
 		}
 		if(($F_YEAR+$myear) eq "184" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [184³â 1¿ù]ÁßÆò(ñéøÁ) °³¿ø. Àå°¢(íåÊÇ), È²°ÇÀûÀÇ ³­À» ÀÏÀ¸Å´.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [184ë…„ 1ì›”]ì¤‘í‰(ä¸­å¹³) ê°œì›. ì¥ê°(å¼µè§’), í™©ê±´ì ì˜ ë‚œì„ ì¼ìœ¼í‚´.");
 		}
 		if(($F_YEAR+$myear) eq "184" && $mmonth eq "3"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [184³â 3¿ù]À¯ºñ,°ü¿ì,Àåºñ µµ¿ø°áÀÇ¸¦ ¸Î´Ù.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [184ë…„ 3ì›”]ìœ ë¹„,ê´€ìš°,ì¥ë¹„ ë„ì›ê²°ì˜ë¥¼ ë§ºë‹¤.");
 		}
 		if(($F_YEAR+$myear) eq "189" && $mmonth eq "4"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [189³â 4¿ù]±¤Èñ(ÎÃıì) °³¿ø. ¿µÁ¦ ºØ¾î, ¼ÒÁ¦(á´ğ¨) À¯º¯(êåÜª) ÁïÀ§.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [189ë…„ 4ì›”]ê´‘í¬(å…‰å–œ) ê°œì›. ì˜ì œ ë¶•ì–´, ì†Œì œ(å°‘å¸) ìœ ë³€(ï§‡è¾¯) ì¦‰ìœ„.");
 		}
 		if(($F_YEAR+$myear) eq "189" && $mmonth eq 6){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [189³â 6¿ù]¼Ò³ç(á¹Ò») °³¿ø. ´ëÀå±º ÇÏÁø(ù¼òä), µ¿ÅÂÈÄ(Ôİ÷¼ı¨)¸¦ »ìÇØ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [189ë…„ 6ì›”]ì†Œë…•(æ˜­å¯§) ê°œì›. ëŒ€ì¥êµ° í•˜ì§„(ä½•é€²), ë™íƒœí›„(è‘£å¤ªå)ë¥¼ ì‚´í•´.");
 		}
 		if(($F_YEAR+$myear) eq "189" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [189³â 9¿ù]¿µÇÑ(çµùÓ) °³¿ø. µ¿Å¹(Ôİöñ), ¼ÒÁ¦¸¦ ÆóÇÏ°í ÇåÁ¦(úÌğ¨) À¯Çù(êåúğ) ¿Ë¸³.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [189ë…„ 9ì›”]ì˜í•œ(æ°¸æ¼¢) ê°œì›. ë™íƒ(è‘£å“), ì†Œì œë¥¼ íí•˜ê³  í—Œì œ(ç»å¸) ìœ í˜‘(ï§‡å”) ì˜¹ë¦½.");
 		}
 		if(($F_YEAR+$myear) eq "190" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [190³â 9¿ù]ÃÊÆò(ôøøÁ) °³¿ø. µ¿Å¹ Åä¹ú Á¦ÈÄ¿¬ÇÕ±º °á¼º. µ¿Å¹, Àå¾È(íşäÌ)À¸·Î Ãµµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [190ë…„ 9ì›”]ì´ˆí‰(åˆå¹³) ê°œì›. ë™íƒ í† ë²Œ ì œí›„ì—°í•©êµ° ê²°ì„±. ë™íƒ, ì¥ì•ˆ(é•·å®‰)ìœ¼ë¡œ ì²œë„.");
 		}
 		if(($F_YEAR+$myear) eq "191" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [191³â 1¿ù]Á¦ÈÄ¿¬ÇÕ±º ÇØ»ê. ¼Õ±Ç, À¯Ç¥(êåøú)¿Í ÀüÅõ¿¡¼­ Àü»ç. Àå³² ¼ÕÃ¥(áİóş) °è½Â.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [191ë…„ 1ì›”]ì œí›„ì—°í•©êµ° í•´ì‚°. ì†ê¶Œ, ìœ í‘œ(ï§‡è¡¨)ì™€ ì „íˆ¬ì—ì„œ ì „ì‚¬. ì¥ë‚¨ ì†ì±…(å­«ç­–) ê³„ìŠ¹.");
 		}
 		if(($F_YEAR+$myear) eq "192" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [192³â 1¿ù]¿©Æ÷(åûøÖ), ¿ÕÀ±(èİëÃ)ÀÇ °è·«¿¡ °É·Á µ¿Å¹À» »ìÇØ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [192ë…„ 1ì›”]ì—¬í¬(ï¦€å¸ƒ), ì™•ìœ¤(ç‹å…)ì˜ ê³„ëµì— ê±¸ë ¤ ë™íƒì„ ì‚´í•´.");
 		}
 		if(($F_YEAR+$myear) eq "193" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [193³â 1¿ù]Á¶Á¶ÀÇ ºÎÄ£ Á¶¼ş(ğÇâı), µµ°â(Ô¶ÌÅ)ÀÇ ºÎÇÏ¿¡°Ô ÇÇ»ì.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [193ë…„ 1ì›”]ì¡°ì¡°ì˜ ë¶€ì¹œ ì¡°ìˆ­(æ›¹å´‡), ë„ê²¸(é™¶è¬™)ì˜ ë¶€í•˜ì—ê²Œ í”¼ì‚´.");
 		}
 		if(($F_YEAR+$myear) eq "194" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [194³â 9¿ù]ÈïÆò(ıéøÁ) °³¿ø. µµ°âÀÌ º´»ç(Ü»Şİ)ÇÏÀÚ À¯ºñ°¡ ¼­ÁÖ¸ñ(ßïñ¶ÙÌ)ÀÌ µÊ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [194ë…„ 9ì›”]í¥í‰(èˆˆå¹³) ê°œì›. ë„ê²¸ì´ ë³‘ì‚¬(ç—…æ­»)í•˜ì ìœ ë¹„ê°€ ì„œì£¼ëª©(å¾å·ç‰§)ì´ ë¨.");
 		}
 		if(($F_YEAR+$myear) eq "195" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [195³â 1¿ù]Á¶Á¶, ¿©Æ÷¸¦ °İÆÄÇÔ. ¿©Æ÷´Â À¯ºñ¿¡°Ô ÀÇÅ¹.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [195ë…„ 1ì›”]ì¡°ì¡°, ì—¬í¬ë¥¼ ê²©íŒŒí•¨. ì—¬í¬ëŠ” ìœ ë¹„ì—ê²Œ ì˜íƒ.");
 		}
 		if(($F_YEAR+$myear) eq "196" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [196³â 1¿ù]°Ç¾È(ËïäÌ) °³¿ø. Á¶Á¶, ÇåÁ¦¸¦ ¿µÁ¢ÇÑ ÈÄ Çã(úÉ)·Î Ãµµµ. À¯ºñ, Á¶Á¶¿¡°Ô ÅõÇ×.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [196ë…„ 1ì›”]ê±´ì•ˆ(å»ºå®‰) ê°œì›. ì¡°ì¡°, í—Œì œë¥¼ ì˜ì ‘í•œ í›„ í—ˆ(è¨±)ë¡œ ì²œë„. ìœ ë¹„, ì¡°ì¡°ì—ê²Œ íˆ¬í•­.");
 		}
 		if(($F_YEAR+$myear) eq "198" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [198³â 1¿ù]Á¶Á¶, ¿©Æ÷¸¦ Åä¹úÇÑ ÈÄ Âü¼ö.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [198ë…„ 1ì›”]ì¡°ì¡°, ì—¬í¬ë¥¼ í† ë²Œí•œ í›„ ì°¸ìˆ˜.");
 		}
 		if(($F_YEAR+$myear) eq "199" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [199³â 1¿ù]¿ø¼Ò, °ø¼ÕÂù(ÍëáİóÀ)À» °İÆÄÇÏ¿© ÇÏºÏÀ» ¼®±Ç. À¯ºñ, Á¶Á¶¿¡°Ô¼­ Å»Ãâ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [199ë…„ 1ì›”]ì›ì†Œ, ê³µì†ì°¬(å…¬å­«ç“š)ì„ ê²©íŒŒí•˜ì—¬ í•˜ë¶ì„ ì„ê¶Œ. ìœ ë¹„, ì¡°ì¡°ì—ê²Œì„œ íƒˆì¶œ.");
 		}
 		if(($F_YEAR+$myear) eq "200" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [200³â 1¿ù]Á¶Á¶, ¹é¸¶(ÛÜØ©)¿Í °üµµ(Î¯Ô¤)¿¡¼­ ¿ø¼Ò °İÆÄ. ¼ÕÃ¥ »ç¸Á. ¼Õ±Ç(áİÏí) ½Â°è.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [200ë…„ 1ì›”]ì¡°ì¡°, ë°±ë§ˆ(ç™½é¦¬)ì™€ ê´€ë„(å®˜æ¸¡)ì—ì„œ ì›ì†Œ ê²©íŒŒ. ì†ì±… ì‚¬ë§. ì†ê¶Œ(å­«æ¬Š) ìŠ¹ê³„.");
 		}
 		if(($F_YEAR+$myear) eq "201" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [201³â 1¿ù]À¯ºñ, À¯Ç¥¿¡°Ô ÀÇÅ¹.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [201ë…„ 1ì›”]ìœ ë¹„, ìœ í‘œì—ê²Œ ì˜íƒ.");
 		}
 		if(($F_YEAR+$myear) eq "202" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [202³â 1¿ù]¿ø¼Ò º´»ç(Ü»Şİ). ÀÛÀº ¾Æµé ¿ø»ó(ê¾ßÆ) ½Â°è.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [202ë…„ 1ì›”]ì›ì†Œ ë³‘ì‚¬(ç—…æ­»). ì‘ì€ ì•„ë“¤ ì›ìƒ(è¢å°™) ìŠ¹ê³„.");
 		}
 		if(($F_YEAR+$myear) eq "203" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [203³â 1¿ù]Á¶Á¶, ¿ø»ó°ú ¿ø´ã(ê¾ÓÉ) ÇüÁ¦ °İÆÄ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [203ë…„ 1ì›”]ì¡°ì¡°, ì›ìƒê³¼ ì›ë‹´(è¢è­š) í˜•ì œ ê²©íŒŒ.");
 		}
 		if(($F_YEAR+$myear) eq "204" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [204³â 1¿ù]Á¶Á¶, ±âÁÖ(Ğíñ¶) ÆòÁ¤.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [204ë…„ 1ì›”]ì¡°ì¡°, ê¸°ì£¼(å†€å·) í‰ì •.");
 		}
 		if(($F_YEAR+$myear) eq "205" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [205³â 1¿ù]Á¶Á¶, ¿ø´ãÀ» Âü¼ö. ¿ø»ó°ú ¿øÈñ(ê¾ı÷)´Â ¿ÀÈ¯Á·(è¡ü¯ğé)¿¡°Ô ÀÇÅ¹.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [205ë…„ 1ì›”]ì¡°ì¡°, ì›ë‹´ì„ ì°¸ìˆ˜. ì›ìƒê³¼ ì›í¬(è¢ç†™)ëŠ” ì˜¤í™˜ì¡±(çƒä¸¸æ—)ì—ê²Œ ì˜íƒ.");
 		}
 		if(($F_YEAR+$myear) eq "207" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [207³â 1¿ù]Á¶Á¶, ¿ÀÈ¯Á· Åä¹ú. ¿ÀÈ¯Á·ÀÌ ¿ø»ó°ú ¿øÈñ¸¦ Âü¼ö.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [207ë…„ 1ì›”]ì¡°ì¡°, ì˜¤í™˜ì¡± í† ë²Œ. ì˜¤í™˜ì¡±ì´ ì›ìƒê³¼ ì›í¬ë¥¼ ì°¸ìˆ˜.");
 		}
 		if(($F_YEAR+$myear) eq "208" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [208³â 1¿ù]À¯ºñ, »ï°íÃÊ·Á(ß²ÍÓñıÖÈ). Á¦°¥·®(ğ³Êçå¹) ¿µÀÔ. Á¶Á¶, Àûº®´ëÀü¿¡¼­ ´ëÆĞ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [208ë…„ 1ì›”]ìœ ë¹„, ì‚¼ê³ ì´ˆë ¤(ä¸‰é¡§ä¹‹æ¾§). ì œê°ˆëŸ‰(è«¸è‘›ï¥·) ì˜ì…. ì¡°ì¡°, ì ë²½ëŒ€ì „ì—ì„œ ëŒ€íŒ¨.");
 		}
 		if(($F_YEAR+$myear) eq "209" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [209³â 1¿ù]À¯ºñ, ÇüÁÖ¸ñ(ûªñ¶ÙÌ)ÀÌ µÊ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [209ë…„ 1ì›”]ìœ ë¹„, í˜•ì£¼ëª©(èŠå·ç‰§)ì´ ë¨.");
 		}
 		if(($F_YEAR+$myear) eq "210" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [210³â 1¿ù]Á¶Á¶, µ¿ÀÛ´ë(ÔŞíÍÓæ) ¿Ï°ø. 12¿ù¿¡ ÁÖÀ¯(ñ²ë¥) »ç¸Á.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [210ë…„ 1ì›”]ì¡°ì¡°, ë™ì‘ëŒ€(éŠ…é›€è‡º) ì™„ê³µ. 12ì›”ì— ì£¼ìœ (å‘¨ç‘œ) ì‚¬ë§.");
 		}
 		if(($F_YEAR+$myear) eq "211" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [211³â 1¿ù]À¯ºñ, ¹æÅë(ÛÂ÷Ö) ¿µÀÔ. ¸¶ÃÊ(Ø©õ±), °Åº´ ÈÄ Á¶Á¶¿¡°Ô ÆĞ¹è. À¯ºñ, ÀÔÃË(ìıõ¹).");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [211ë…„ 1ì›”]ìœ ë¹„, ë°©í†µ(é¾çµ±) ì˜ì…. ë§ˆì´ˆ(é¦¬è¶…), ê±°ë³‘ í›„ ì¡°ì¡°ì—ê²Œ íŒ¨ë°°. ìœ ë¹„, ì…ì´‰(å…¥èœ€).");
 		}
 		if(($F_YEAR+$myear) eq "213" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [213³â 1¿ù]Á¶Á¶, À§°ø(êàÍë) Ã¥ºÀ. ¹æÅë, ³«ºÀÆÄ(ÑæÜó÷ç)¿¡¼­ Àü»ç.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [213ë…„ 1ì›”]ì¡°ì¡°, ìœ„ê³µ(é­å…¬) ì±…ë´‰. ë°©í†µ, ë‚™ë´‰íŒŒ(ï¤˜é³³å¡)ì—ì„œ ì „ì‚¬.");
 		}
 		if(($F_YEAR+$myear) eq "214" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [214³â 1¿ù]À¯ºñ, ¼ºµµ(à÷Ô´) Á¡·É. ¼Õ±Ç, À¯ºñ¿¡°Ô ÇüÁÖ ¹İÈ¯ ¿ä±¸.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [214ë…„ 1ì›”]ìœ ë¹„, ì„±ë„(æˆéƒ½) ì ë ¹. ì†ê¶Œ, ìœ ë¹„ì—ê²Œ í˜•ì£¼ ë°˜í™˜ ìš”êµ¬.");
 		}
 		if(($F_YEAR+$myear) eq "215" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [215³â 1¿ù]Àå·Î(íåÖÛ), Á¶Á¶¿¡°Ô ÅõÇ×. Á¶Á¶, ÇÑÁß(ùÓñé) ÆòÁ¤.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [215ë…„ 1ì›”]ì¥ë¡œ(å¼µé­¯), ì¡°ì¡°ì—ê²Œ íˆ¬í•­. ì¡°ì¡°, í•œì¤‘(æ¼¢ä¸­) í‰ì •.");
 		}
 		if(($F_YEAR+$myear) eq "216" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [216³â 1¿ù]Á¶Á¶, À§¿Õ(êàèİ) Ã¥ºÀ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [216ë…„ 1ì›”]ì¡°ì¡°, ìœ„ì™•(é­ç‹) ì±…ë´‰.");
 		}
 		if(($F_YEAR+$myear) eq "219" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [219³â 1¿ù]À¯ºñ, ÇÑÁß¿Õ(ùÓñéèİ)ÀÌ µÊ. °ü¿ì(Î¼éâ), ¿©¸ù(åûÙÕ)¿¡°Ô ÆĞÇÏ°í Âü¼öµÊ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [219ë…„ 1ì›”]ìœ ë¹„, í•œì¤‘ì™•(æ¼¢ä¸­ç‹)ì´ ë¨. ê´€ìš°(é—œç¾½), ì—¬ëª½(ï¦€è’™)ì—ê²Œ íŒ¨í•˜ê³  ì°¸ìˆ˜ë¨.");
 		}
 		if(($F_YEAR+$myear) eq "220" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [220³â 1¿ù]¿¬°­(æÅË¬) °³¿ø. Á¶Á¶ »ç¸Á. ÀåÀÚ Á¶ºñ(ğÇİà), À§¿Õ¿¡ ÁïÀ§.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [220ë…„ 1ì›”]ì—°ê°•(å»¶åº·) ê°œì›. ì¡°ì¡° ì‚¬ë§. ì¥ì ì¡°ë¹„(æ›¹ä¸•), ìœ„ì™•ì— ì¦‰ìœ„.");
 		}
 		if(($F_YEAR+$myear) eq "220" && $mmonth eq "8"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [220³â 8¿ù]È²ÃÊ(üÜôø °³¿ø. Á¶ºñ, ÇåÁ¦ ÆóÇÏ°í È²Á¦ ÁïÀ§. ÇåÁ¦¸¦ »ê¾ç°ø(ß£åÕÍë)¿¡ ºÀÇÔ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [220ë…„ 8ì›”]í™©ì´ˆ(é»ƒåˆ ê°œì›. ì¡°ë¹„, í—Œì œ íí•˜ê³  í™©ì œ ì¦‰ìœ„. í—Œì œë¥¼ ì‚°ì–‘ê³µ(å±±é™½å…¬)ì— ë´‰í•¨.");
 		}
 		if(($F_YEAR+$myear) eq "221" && $mmonth eq "8"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [221³â 8¿ù]8¿ù¿¡ ¼Õ±ÇÀ» ¿À¿Õ(çïèİ)¿¡ ºÀÇÔ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [221ë…„ 8ì›”]8ì›”ì— ì†ê¶Œì„ ì˜¤ì™•(å³ç‹)ì— ë´‰í•¨.");
 		}
 		if(($F_YEAR+$myear) eq "221" && $mmonth eq "11"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [221³â 11¿ù]Àå¹«(íñÙë) °Ç¿ø(Ëïêª). À¯ºñ, È²Á¦°¡ µÊ. ¼Õ±Ç Á¤¹ú °³½Ã. Àåºñ(íåŞ«) ÇÇ»ì.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [221ë…„ 11ì›”]ì¥ë¬´(ç« æ­¦) ê±´ì›(å»ºå…ƒ). ìœ ë¹„, í™©ì œê°€ ë¨. ì†ê¶Œ ì •ë²Œ ê°œì‹œ. ì¥ë¹„(å¼µé£›) í”¼ì‚´.");
 		}
 		if(($F_YEAR+$myear) eq "222" && $mmonth eq "2"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [222³â 2¿ù]À§³ª¶ó, ¼Õ±Ç Á¤¹ú¿¡ ³ª¼¶.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [222ë…„ 2ì›”]ìœ„ë‚˜ë¼, ì†ê¶Œ ì •ë²Œì— ë‚˜ì„¬.");
 		}
 		if(($F_YEAR+$myear) eq "222" && $mmonth eq "5"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [222³â 5¿ù]À¯ºñ, ¼Õ±Ç±º¿¡ ´ëÆĞÇÔ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [222ë…„ 5ì›”]ìœ ë¹„, ì†ê¶Œêµ°ì— ëŒ€íŒ¨í•¨.");
 		}
 		if(($F_YEAR+$myear) eq "222" && $mmonth eq "7"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [222³â 7¿ù]È²¹«(üÜÙë) °³¿ø. ¼Õ±Ç, Á¶ºñ¿¡°Ô¼­ µ¶¸³ÇÒ ¶æÀ» ºĞ¸íÈ÷ ÇÏ°í È²¹«·Î °³¿øÇÔ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [222ë…„ 7ì›”]í™©ë¬´(é»ƒæ­¦) ê°œì›. ì†ê¶Œ, ì¡°ë¹„ì—ê²Œì„œ ë…ë¦½í•  ëœ»ì„ ë¶„ëª…íˆ í•˜ê³  í™©ë¬´ë¡œ ê°œì›í•¨.");
 		}
 		if(($F_YEAR+$myear) eq "223" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [223³â 1¿ù]°ÇÈï(Ëïıé) °³¿ø. À¯ºñ, »ç¸Á. ÀåÀÚ À¯¼±(êåàÉ) ÁïÀ§. ¿À(çï)¿Í µ¿¸Í Ã¼°á.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [223ë…„ 1ì›”]ê±´í¥(å»ºèˆˆ) ê°œì›. ìœ ë¹„, ì‚¬ë§. ì¥ì ìœ ì„ (ï§‡ç¦ª) ì¦‰ìœ„. ì˜¤(å³)ì™€ ë™ë§¹ ì²´ê²°.");
 		}
 		if(($F_YEAR+$myear) eq "225" && $mmonth eq "4"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [225³â 4¿ù]Á¦°¥·®, ³²Á¤(ÑõïÖ)¿¡ ³ª¼¶.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [225ë…„ 4ì›”]ì œê°ˆëŸ‰, ë‚¨ì •(å—å¾)ì— ë‚˜ì„¬.");
 		}
 		if(($F_YEAR+$myear) eq "226" && $mmonth eq "6"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [226³â 6¿ù]Á¶ºñ, °¡º¹Àü(Ê©ÜØîü)¿¡¼­ ºØ¾î. ÅÂÀÚ Á¶¿¹(ğÇçÕ) ÁïÀ§.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [226ë…„ 6ì›”]ì¡°ë¹„, ê°€ë³µì „(å˜‰ç¦æ®¿)ì—ì„œ ë¶•ì–´. íƒœì ì¡°ì˜ˆ(æ›¹å¡) ì¦‰ìœ„.");
 		}
 		if(($F_YEAR+$myear) eq "227" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [227³â 1¿ù]À§³ª¶ó, ÅÂÈ­(÷¼ûú) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [227ë…„ 1ì›”]ìœ„ë‚˜ë¼, íƒœí™”(å¤ªå’Œ) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "227" && $mmonth eq "7"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [227³â 7¿ù]Á¦°¥·®, Ãâ»çÇ¥(õóŞÔøú)¸¦ ¿Ã¸®°í ÃâÁ¤. °­À¯(Ë©ë«)¸¦ ¾òÀ½.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [227ë…„ 7ì›”]ì œê°ˆëŸ‰, ì¶œì‚¬í‘œ(å‡ºå¸«è¡¨)ë¥¼ ì˜¬ë¦¬ê³  ì¶œì •. ê°•ìœ (å§œç¶­)ë¥¼ ì–»ìŒ.");
 		}
 		if(($F_YEAR+$myear) eq "228" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [228³â 1¿ù]»ç¸¶ÀÇ, ¸Í´Ş(ØëÓ¹)À» Âü¼ö. °¡Á¤(Ê¶ïÍ)¿¡¼­ Á¦°¥·® °İÆÄ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [228ë…„ 1ì›”]ì‚¬ë§ˆì˜, ë§¹ë‹¬(å­Ÿé”)ì„ ì°¸ìˆ˜. ê°€ì •(è¡—äº­)ì—ì„œ ì œê°ˆëŸ‰ ê²©íŒŒ.");
 		}
 		if(($F_YEAR+$myear) eq "228" && $mmonth eq "6"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [228³â 6¿ù]Á¦°¥·® Ã¶±º. ¸¶¼Ó(Ø©áÚ) Âü¼ö. Á¶¿î(ğáê£) »ç¸Á. Á¦°¥·®, Á¦2Â÷ ºÏ¹ú ÃâÁ¤.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [228ë…„ 6ì›”]ì œê°ˆëŸ‰ ì² êµ°. ë§ˆì†(é¦¬è¬–) ì°¸ìˆ˜. ì¡°ìš´(è¶™é›²) ì‚¬ë§. ì œê°ˆëŸ‰, ì œ2ì°¨ ë¶ë²Œ ì¶œì •.");
 		}
 		if(($F_YEAR+$myear) eq "228" && $mmonth eq "12"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [228³â 12¿ù]À°¼Õ(ëÁáá), ¼®Á¤(à´ïÍ)¿¡¼­ Á¶ÈŞ(ğÇıÌ) °İÆÄ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [228ë…„ 12ì›”]ìœ¡ì†(ï§“éœ), ì„ì •(çŸ³äº­)ì—ì„œ ì¡°íœ´(æ›¹ä¼‘) ê²©íŒŒ.");
 		}
 		if(($F_YEAR+$myear) eq "229" && $mmonth eq "3"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [229³â 3¿ù]À§³ª¶ó Á¾¹¦(ğóÙÙ) ¿Ï°ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [229ë…„ 3ì›”]ìœ„ë‚˜ë¼ ì¢…ë¬˜(å®—å»Ÿ) ì™„ê³µ.");
 		}
 		if(($F_YEAR+$myear) eq "229" && $mmonth eq "5"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [229³â 5¿ù]È²·æ(üÜ×£) °³¿ø. ¼Õ±Ç, È²Á¦°¡ µÊ. °Ç¾÷(Ëïåö)À¸·Î Ãµµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [229ë…„ 5ì›”]í™©ë£¡(é»ƒé¾) ê°œì›. ì†ê¶Œ, í™©ì œê°€ ë¨. ê±´ì—…(å»ºæ¥­)ìœ¼ë¡œ ì²œë„.");
 		}
 		if(($F_YEAR+$myear) eq "229" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [229³â 9¿ù]Á¦°¥·®, Á¦3Â÷ ºÏ¹ú ½Ãµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [229ë…„ 9ì›”]ì œê°ˆëŸ‰, ì œ3ì°¨ ë¶ë²Œ ì‹œë„.");
 		}
 		if(($F_YEAR+$myear) eq "230" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [230³â 1¿ù]Á¶ºñ, Á¶Áø(ğÇòØ)°ú »ç¸¶ÀÇ¿¡°Ô ÃË³ª¶ó Åä¹ú Á¶Ä¢À» ³»¸².");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [230ë…„ 1ì›”]ì¡°ë¹„, ì¡°ì§„(æ›¹çœ)ê³¼ ì‚¬ë§ˆì˜ì—ê²Œ ì´‰ë‚˜ë¼ í† ë²Œ ì¡°ì¹™ì„ ë‚´ë¦¼.");
 		}
 		if(($F_YEAR+$myear) eq "230" && $mmonth eq "4"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [230³â 4¿ù]Á¦°¥·® Á¦4Â÷ ºÏ¹ú ½Ãµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [230ë…„ 4ì›”]ì œê°ˆëŸ‰ ì œ4ì°¨ ë¶ë²Œ ì‹œë„.");
 		}
 		if(($F_YEAR+$myear) eq "231" && $mmonth eq "7"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [231³â 7¿ù]Á¶Áø »ç¸Á. Á¦°¥·®ÀÇ ºÏ¹ú °İÅğ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [231ë…„ 7ì›”]ì¡°ì§„ ì‚¬ë§. ì œê°ˆëŸ‰ì˜ ë¶ë²Œ ê²©í‡´.");
 		}
 		if(($F_YEAR+$myear) eq "231" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [231³â 9¿ù]Á¦°¥·®, Á¦5Â÷ ºÏ¹ú ½Ãµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [231ë…„ 9ì›”]ì œê°ˆëŸ‰, ì œ5ì°¨ ë¶ë²Œ ì‹œë„.");
 		}
 		if(($F_YEAR+$myear) eq "232" && $mmonth eq "5"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [232³â 5¿ù]¿À³ª¶ó, °¡È­(Ê©ü¢) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [232ë…„ 5ì›”]ì˜¤ë‚˜ë¼, ê°€í™”(å˜‰ç¦¾) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "233" && $mmonth eq "9"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [233³â 9¿ù]À§³ª¶ó, Ã»·æ(ôì×£) °³¿ø. °ø¼Õ¿¬(ÍëááæĞ), ¼Õ±ÇÀÌ ÆÄ°ßÇÑ »çÀÚ¸¦ º£¾î º¸³» ¿È.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [233ë…„ 9ì›”]ìœ„ë‚˜ë¼, ì²­ë£¡(é‘é¾) ê°œì›. ê³µì†ì—°(å…¬éœæ·µ), ì†ê¶Œì´ íŒŒê²¬í•œ ì‚¬ìë¥¼ ë² ì–´ ë³´ë‚´ ì˜´.");
 		}
 		if(($F_YEAR+$myear) eq "233" && $mmonth eq "1"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [233³â 1¿ù]Á¤»ç »ï±¹Áö(ß²ÏĞò¤)ÀÇ ÀúÀÛÀÚ Áø¼ö(òçáø) Ãâ»ı.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [233ë…„ 1ì›”]ì •ì‚¬ ì‚¼êµ­ì§€(ä¸‰åœ‹å¿—)ì˜ ì €ì‘ì ì§„ìˆ˜(é™³å£½) ì¶œìƒ.");
 		}
 		if(($F_YEAR+$myear) eq "233" && $mmonth eq "12"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [233³â 12¿ù]¿À³ª¶ó, ¿äµ¿(é¬ÔÔ)ÀÇ °ø¼Õ¿¬¿¡°Ô »çÀÚ ÆÄ°ß.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [233ë…„ 12ì›”]ì˜¤ë‚˜ë¼, ìš”ë™(ï§ƒæ±)ì˜ ê³µì†ì—°ì—ê²Œ ì‚¬ì íŒŒê²¬.");
 		}
 		if(($F_YEAR+$myear) eq "234" && $mmonth eq "10"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [234³â 10¿ù]»ê¾ç°ø À¯Çù »ç¸Á. »ç¸¶ÀÇ, ¿ÀÀå¿ø¿¡¼­ Á¦°¥·® °İÆÄ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [234ë…„ 10ì›”]ì‚°ì–‘ê³µ ìœ í˜‘ ì‚¬ë§. ì‚¬ë§ˆì˜, ì˜¤ì¥ì›ì—ì„œ ì œê°ˆëŸ‰ ê²©íŒŒ.");
 		}
 		if(($F_YEAR+$myear) eq "234" && $mmonth eq "5"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [234³â 5¿ù]Á¦°¥·®, Á¦6Â÷ ºÏ¹ú ÃâÁ¤. 8¿ù¿¡ ¿ÀÀå¿ø(çéíÛê«)¿¡¼­ º´»ç.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [234ë…„ 5ì›”]ì œê°ˆëŸ‰, ì œ6ì°¨ ë¶ë²Œ ì¶œì •. 8ì›”ì— ì˜¤ì¥ì›(äº”ä¸ˆåŸ)ì—ì„œ ë³‘ì‚¬.");
 		}
 		if(($F_YEAR+$myear) eq "235" && $mmonth eq "8"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [235³â 8¿ù]»ç¸¶ÀÇ, ÅÂÀ§(÷¼êÏ)°¡ µÊ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [235ë…„ 8ì›”]ì‚¬ë§ˆì˜, íƒœìœ„(å¤ªå°‰)ê°€ ë¨.");
 		}
 		if(($F_YEAR+$myear) eq "237" && $mmonth eq "5"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [237³â 5¿ù]À§³ª¶ó, °æÃÊ(ÌØôø) °³¿ø. °ø¼Õ¿¬, À§³ª¶ó¿¡ ¹İ±â.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [237ë…„ 5ì›”]ìœ„ë‚˜ë¼, ê²½ì´ˆ(æ™¯åˆ) ê°œì›. ê³µì†ì—°, ìœ„ë‚˜ë¼ì— ë°˜ê¸°.");
 		}
 		if(($F_YEAR+$myear) eq "238" && $mmonth eq "2"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [238³â 2¿ù]»ç¸¶ÀÇ, ¿äµ¿À¸·Î ÃâÁ¤ÇÏ¿© °ø¼Õ¿¬À» °İÆÄÇÏ°í Âü¼ö.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [238ë…„ 2ì›”]ì‚¬ë§ˆì˜, ìš”ë™ìœ¼ë¡œ ì¶œì •í•˜ì—¬ ê³µì†ì—°ì„ ê²©íŒŒí•˜ê³  ì°¸ìˆ˜.");
 		}
 		if(($F_YEAR+$myear) eq "238" && $mmonth eq "11"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [238³â 11¿ù]ÃË³ª¶ó, ¿¬Èñ(æÅı÷) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [238ë…„ 11ì›”]ì´‰ë‚˜ë¼, ì—°í¬(å»¶ç†™) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "238" && $mmonth eq "4"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [238³â 4¿ù]¿À³ª¶ó, Àû¿À(îåè¡) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [238ë…„ 4ì›”]ì˜¤ë‚˜ë¼, ì ì˜¤(èµ¤çƒ) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "239" && $mmonth eq "3"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [239³â 3¿ù]Á¤¿ù 1ÀÏ, Á¶¿¹ ºØ¾î. ¾çÀÚ Á¶¹æ(ğÇÛ») ÁïÀ§.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [239ë…„ 3ì›”]ì •ì›” 1ì¼, ì¡°ì˜ˆ ë¶•ì–´. ì–‘ì ì¡°ë°©(æ›¹èŠ³) ì¦‰ìœ„.");
 		}
 		if(($F_YEAR+$myear) eq "240" && $mmonth eq "11"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [240³â 11¿ù]À§³ª¶ó, Á¤½Ã(ïáã·) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [240ë…„ 11ì›”]ìœ„ë‚˜ë¼, ì •ì‹œ(æ­£å§‹) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "245" && $mmonth eq "7"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [245³â 7¿ù]°ü±¸°Ë(Î»ÎøËû), °í±¸·Á(ÍÔÏ£Õñ) ÀçÂ÷ °ø°İ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [245ë…„ 7ì›”]ê´€êµ¬ê²€(è²«ä¸˜å„‰), ê³ êµ¬ë ¤(é«˜å¥é©ª) ì¬ì°¨ ê³µê²©.");
 		}
 		if(($F_YEAR+$myear) eq "245" && $mmonth eq "3"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [245³â 3¿ù]À°¼Õ »ç¸Á.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [245ë…„ 3ì›”]ìœ¡ì† ì‚¬ë§.");
 		}
 		if(($F_YEAR+$myear) eq "249" && $mmonth eq "4"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [249³â 4¿ù]°¡Æò(Ê©øÁ) °³¿ø. »ç¸¶ÀÇ°¡ ´ëÀå±º Á¶»ó(ğÇßĞ) ÀÏÆÄ¸¦ Ã³´Ü. Á¶Á¤ ÀçÁı±Ç.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [249ë…„ 4ì›”]ê°€í‰(å˜‰å¹³) ê°œì›. ì‚¬ë§ˆì˜ê°€ ëŒ€ì¥êµ° ì¡°ìƒ(æ›¹çˆ½) ì¼íŒŒë¥¼ ì²˜ë‹¨. ì¡°ì • ì¬ì§‘ê¶Œ.");
 		}
 		if(($F_YEAR+$myear) eq "249" && $mmonth eq "10"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [249³â 10¿ù]À§³ª¶ó Àå±º ÇÏÈÄÆĞ(ù¾ı¥ø®) ÃË¿¡ ÅõÇ×. °­À¯, Á¦1Â÷ ºÏ¹ú ÃâÁ¤.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [249ë…„ 10ì›”]ìœ„ë‚˜ë¼ ì¥êµ° í•˜í›„íŒ¨(å¤ä¾¯è¦‡) ì´‰ì— íˆ¬í•­. ê°•ìœ , ì œ1ì°¨ ë¶ë²Œ ì¶œì •.");
 		}
 		if(($F_YEAR+$myear) eq "251" && $mmonth eq "2"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [251³â 2¿ù]»ç¸¶ÀÇ »ç¸Á.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [251ë…„ 2ì›”]ì‚¬ë§ˆì˜ ì‚¬ë§.");
 		}
 		if(($F_YEAR+$myear) eq "251" && $mmonth eq "6"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [251³â 6¿ù]Á¤¿ù, ÅÂ¿ø(÷¼êª) °³¿ø. 2¿ù, ½ÅºÀ(ãêÜó) °³¿ø.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [251ë…„ 6ì›”]ì •ì›”, íƒœì›(å¤ªå…ƒ) ê°œì›. 2ì›”, ì‹ ë´‰(ç¥é³³) ê°œì›.");
 		}
 		if(($F_YEAR+$myear) eq "252" && $mmonth eq "8"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [252³â 8¿ù]°ÇÈï(Ëïıé) °³¿ø. ¼Õ±Ç ºØ¾î. ¸·³» ¾Æµé ¼Õ·®(áİÕÕ) ÁïÀ§.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [252ë…„ 8ì›”]ê±´í¥(å»ºèˆˆ) ê°œì›. ì†ê¶Œ ë¶•ì–´. ë§‰ë‚´ ì•„ë“¤ ì†ëŸ‰(å­«äº®) ì¦‰ìœ„.");
 		}
 		if(($F_YEAR+$myear) eq "253" && $mmonth eq "6"){
-			&MAP_LOG2("<img src=$IMG/j19.gif> [253³â 6¿ù]°­À¯, Á¦2Â÷ ºÏ¹ú ½Ãµµ.");
+			&MAP_LOG2("<img src=$IMG/j19.gif> [253ë…„ 6ì›”]ê°•ìœ , ì œ2ì°¨ ë¶ë²Œ ì‹œë„.");
 		}
 }
 
 sub CHARA_MAIN_OPEN {
 
-	open(IN,"./charalog/main/$in{'id'}.cgi") or &ERR2('ID¿Í ÆĞ½º°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù!');
+	open(IN,"./charalog/main/$in{'id'}.cgi") or &ERR2('IDì™€ íŒ¨ìŠ¤ê°€ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤!');
 	@CN_DATA = <IN>;
 	close(IN);
 
 	($kid,$kpass,$kname,$kchara,$kstr,$kint,$klea,$kcha,$ksol,$kgat,$kcon,$kgold,$krice,$kcex,$kclass,$karm,$kbook,$kbank,$ksub1,$ksub2,$kpos,$kmes,$khost,$kdate,$kmail,$kos,$kskill,$kpoint,$kct,$klevel,$kexp,$kcodea,$kcodeb,$kqpoint) = split(/<>/,$CN_DATA[0]);
 	($kstr_ex,$kint_ex,$klea_ex,$kcha_ex,$ksub1_ex,$ksub2_ex,$bo_ex,$gi_ex,$ch_ex,$gu_ex,$go_ex,$jin_ex) = split(/,/,$ksub1);
-	if($in{'id'} ne "$kid" or $in{'pass'} ne "$kpass"){&ERR2("ID¿Í ÆĞ½º°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.");}
+	if($in{'id'} ne "$kid" or $in{'pass'} ne "$kpass"){&ERR2("IDì™€ íŒ¨ìŠ¤ê°€ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤.");}
 
 }
 
 sub CHARA_MAIN_OPEN_C {
 
-	open(IN,"./charalog/main/$in{'nick'}.cgi") or &ERR2('ID¿Í ÆĞ½º°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù!');
+	open(IN,"./charalog/main/$in{'nick'}.cgi") or &ERR2('IDì™€ íŒ¨ìŠ¤ê°€ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤!');
 	@CN_DATA = <IN>;
 	close(IN);
 
@@ -1817,7 +1817,7 @@ sub CHARA_MAIN_INPUT {
 
 	@NEW_DATA=();
 	unshift(@NEW_DATA,"$kid<>$kpass<>$kname<>$kchara<>$kstr<>$kint<>$klea<>$kcha<>$ksol<>$kgat<>$kcon<>$kgold<>$krice<>$kcex<>$kclass<>$karm<>$kbook<>$kbank<>$ksub1<>$ksub2<>$kpos<>$kmes<>$khost<>$kdate<>$kmail<>$kos<>$kskill<>$kpoint<>$kct<>$klevel<>$kexp<>$kcodea<>$kcodeb<>$kqpoint<>\n");
-	open(OUT,">./charalog/main/$kid\.cgi") or &ERR('MAIN »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">./charalog/main/$kid\.cgi") or &ERR('MAIN ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @NEW_DATA;
 	close(OUT);
 
@@ -1833,11 +1833,11 @@ sub UNIT_OPEN {
 
 sub ENEMY_OPEN {
 
-	open(IN,"./charalog/main/$in{'eid'}.cgi") or &ERR2('ID¿Í ÆĞ½º°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.');
+	open(IN,"./charalog/main/$in{'eid'}.cgi") or &ERR2('IDì™€ íŒ¨ìŠ¤ê°€ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤.');
 	@E_DATA = <IN>;
 	close(IN);
 	($eid,$epass,$ename,$echara,$estr,$eint,$elea,$echa,$esol,$egat,$econ,$egold,$erice,$ecex,$eclass,$earm,$ebook,$ebank,$esub1,$esub2,$epos,$emes,$ehost,$edate,$email,$eos,$eskill,$epoint,$ect,$elevel,$eexp,$ecodea,$ecodeb,$eqpoint) = split(/<>/,$E_DATA[0]);
-	if($in{'eid'} ne "$eid" ){&ERR2("ID¿Í ÆĞ½º°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.");}
+	if($in{'eid'} ne "$eid" ){&ERR2("IDì™€ íŒ¨ìŠ¤ê°€ ì˜¬ë°”ë¥´ì§€ ì•ŠìŠµë‹ˆë‹¤.");}
 
 }
 
@@ -1845,7 +1845,7 @@ sub ENEMY_INPUT {
 
 	@NEW_DATA=();
 	unshift(@NEW_DATA,"$eid<>$epass<>$ename<>$echara<>$estr<>$eint<>$elea<>$echa<>$esol<>$egat<>$econ<>$egold<>$erice<>$ecex<>$eclass<>$earm<>$ebook<>$ebank<>$esub1<>$esub2<>$epos<>$emes<>$ehost<>$edate<>$email<>$eos<>$eskill<>$epoint<>$ect<>$elevel<>$eexp<>$ecodea<>$ecodeb<>$eqpoint<>\n");
-	open(OUT,">./charalog/main/$eid\.cgi") or &ERR2('ENEMY »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">./charalog/main/$eid\.cgi") or &ERR2('ENEMY ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @NEW_DATA;
 	close(OUT);
 
@@ -1872,7 +1872,7 @@ sub BATTLE_LOG {
 
 	splice(@S_MOVE,150);
 
-	open(OUT,">$BATTLE_LOG_LIST") or &ERR2('LOG »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$BATTLE_LOG_LIST") or &ERR2('LOG ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @S_MOVE;
 	close(OUT);
 	if (-d $lockfile) { &UNLOCK_FILE; }
@@ -1888,11 +1888,11 @@ sub MAP_LOG {
 	close(IN);
 	&TIME_DATA;
 
-	unshift(@S_MOVE,"$_[0]($mdayÀÏ$hour½Ã$minºĞ)\n");
+	unshift(@S_MOVE,"$_[0]($mdayì¼$hourì‹œ$minë¶„)\n");
 
 	splice(@S_MOVE,20);
 
-	open(OUT,">$MAP_LOG_LIST") or &ERR2('LOG »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$MAP_LOG_LIST") or &ERR2('LOG ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @S_MOVE;
 	close(OUT);
 	if (-d $lockfile) { &UNLOCK_FILE; }
@@ -1907,11 +1907,11 @@ sub MAP_LOG2 {
 	close(IN);
 	&TIME_DATA;
 
-	unshift(@S_MOVE,"$_[0]($mdayÀÏ$hour½Ã$minºĞ)\n");
+	unshift(@S_MOVE,"$_[0]($mdayì¼$hourì‹œ$minë¶„)\n");
 
 	splice(@S_MOVE,20);
 
-	open(OUT,">$MAP_LOG_LIST2") or &ERR2('LOG »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$MAP_LOG_LIST2") or &ERR2('LOG ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @S_MOVE;
 	close(OUT);
 	if (-d $lockfile) { &UNLOCK_FILE; }
@@ -1930,7 +1930,7 @@ sub MAP_LOG3 {
 
 	splice(@S_MOVE,20);
 
-	open(OUT,">$MAP_LOG_LIST3") or &ERR2('LOG »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+	open(OUT,">$MAP_LOG_LIST3") or &ERR2('LOG ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 	print OUT @S_MOVE;
 	close(OUT);
 	if (-d $lockfile) { &UNLOCK_FILE; }
@@ -1943,7 +1943,7 @@ sub K_LOG {
 	@K_LOG = <IN>;
 	close(IN);
 
-	unshift(@K_LOG,"$_[0]($mdayÀÏ$hour½Ã$minºĞ)\n");
+	unshift(@K_LOG,"$_[0]($mdayì¼$hourì‹œ$minë¶„)\n");
 
 	splice(@K_LOG,20);
 
@@ -1956,7 +1956,7 @@ sub K_LOG {
 
 sub ITEM_OPEN {
 
-	open(IN,"$ITEM_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(IN,"$ITEM_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	while(<IN>){
 		($id,$name,$rare,$price,$str,$int,$lea,$cha) = split(/<>/,$_);
 		$itemname[$id] = $name;
@@ -1976,7 +1976,8 @@ sub CHARA_ITEM_OPEN {
 	if($kid){
 	&COUNTRY_DATA_OPEN("$kcon");
 
-	if($xking eq "$kid" || $x0 eq "$kid"){$kstr2 = int($kstr/20); $kint2 = int($kint/20); $klea2 = int($klea/20); $kcha2=int($kcha/20);}
+	if($xking eq "$kid"){$kstr2 = int($kstr/8); $kint2 = int($kint/8); $klea2 = int($klea/8); $kcha2=int($kcha/8);}
+	elsif($x0 eq "$kid"){$kstr2 = int($kstr/12); $kint2 = int($kint/12); $klea2 = int($klea/12); $kcha2=int($kcha/12);}
 	elsif($x1 eq "$kid"){$kstr2=int($kstr/10); $klea2=int($klea/10);}
 	elsif($x17 eq "$kid"){$kint2=int($kint/10); $kcha2=int($kcha/10);}
 	elsif($x2 eq "$kid"){$kstr2=int($kstr/10);}
@@ -1986,10 +1987,10 @@ sub CHARA_ITEM_OPEN {
 	elsif($x9 eq "$kid" || $x10 eq "$kid" || $x11 eq "$kid" || $x12 eq "$kid"){$kstr2=int($kstr/33); $klea2=int($klea/33);}
 	elsif($x13 eq "$kid" || $x14 eq "$kid" || $x15 eq "$kid" || $x16 eq "$kid"){$klea2=int($klea/15);}
 	elsif($x18 eq "$kid"){$kint2=int($kint/10);}
-	elsif($x19 eq "$kid"){$kint2=int($kint/15); $kcha2=int($kcha/15);}
+	elsif($x19 eq "$kid"){$kint2=int($kint/15); $kcha2=int($kcha/15); $klea2=int($klea/15);}
 	elsif($x20 eq "$kid"){$kcha2=int($kcha/10);}
 	elsif($x21 eq "$kid" || $x22 eq "$kid"){$kint2=int($kint/15);}
-	elsif($x23 eq "$kid" || $x24 eq "$kid"){$kint2=int($kint/33); $kcha2=int($kcha/33);}
+	elsif($x23 eq "$kid" || $x24 eq "$kid"){$kint2=int($kint/33); $kcha2=int($kcha/33); $klea2=int($klea/15);}
 	elsif($x25 eq "$kid" || $x26 eq "$kid"){$kcha2=int($kcha/15);}
 	}
 
@@ -2013,10 +2014,10 @@ sub CHARA_ITEM_OPEN {
 	elsif($x25 eq "$eid" || $x26 eq "$eid"){$echa2=int($echa/15);}
 	}
 
-	open(IN,"$ARM_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(IN,"$ARM_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@ARM_DATA = <IN>;
 	close(IN);
-	open(IN,"$PRO_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(IN,"$PRO_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@PRO_DATA = <IN>;
 	close(IN);
 
@@ -2093,7 +2094,7 @@ sub TIME_DATA {
 
 sub COUNTRY_DATA_OPEN {
 
-	open(IN,"$COUNTRY_LIST") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù. err no :country');
+	open(IN,"$COUNTRY_LIST") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. err no :country');
 	@COU_DATA = <IN>;
 	close(IN);
 	$country_no=0;$hit=0;
@@ -2105,7 +2106,7 @@ sub COUNTRY_DATA_OPEN {
 
 	if(!$hit){
 		$xcid=0;
-		$xname="Àç¾ß";
+		$xname="ì¬ì•¼";
 		$xele=0;
 		$xmark=0;
 		$xking="";
@@ -2129,14 +2130,14 @@ sub COUNTRY_DATA_INPUT {
 
 	if("$xcid" ne "0" && "$xcid" ne ""){
 		splice(@COU_DATA,$country_no,1,"$xcid<>$xname<>$xele<>$xmark<>$xking<>$xmes<>$xsub<>$xpri<>$xch<>\n");
-		open(OUT,">$COUNTRY_LIST") or &ERR('COUNTRY µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$COUNTRY_LIST") or &ERR('COUNTRY ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @COU_DATA;
 		close(OUT);
 	}
 
 	$s_i = int(rand(5));
 	if($s_i eq "0" && $xcid ne ""){
-		open(OUT,">$COUNTRY_LIST2") or &ERR('COUNTRY2 »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$COUNTRY_LIST2") or &ERR('COUNTRY2 ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @COU_DATA;
 		close(OUT);
 	}
@@ -2146,13 +2147,13 @@ sub COUNTRY_DATA_INPUT {
 
 sub TOWN_DATA_OPEN {
 
-	open(IN,"$TOWN_LIST") or &ERR("ÁöÁ¤µÈ ÆÄÀÏÀÌ ¿­¸®Áö ¾Ê½À´Ï´Ù.");
+	open(IN,"$TOWN_LIST") or &ERR("ì§€ì •ëœ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 	@TOWN_DATA = <IN>;
 	close(IN);
 	$zid = $_[0];
 	($zname,$zcon,$znum,$znou,$zsyo,$zshiro,$znou_max,$zsyo_max,$zshiro_max,$zpri,$zx,$zy,$zsouba,$zdef_att,$zsub1,$zsub2,$z[0],$z[1],$z[2],$z[3],$z[4],$z[5],$z[6],$z[7],$zname1,$zname2,$zbong1,$zbong2,$zbong3)=split(/<>/,$TOWN_DATA[$_[0]]);
 
-	if($zname eq ""){&ERR("±× °Å¸®´Â Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");}
+	if($zname eq ""){&ERR("ê·¸ ê±°ë¦¬ëŠ” ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");}
 
 	$zc=0;
 	foreach(@TOWN_DATA){
@@ -2174,14 +2175,14 @@ sub TOWN_DATA_INPUT {
 
 	if("$zname" ne ""){
 		splice(@TOWN_DATA,$zid,1,"$zname<>$zcon<>$znum<>$znou<>$zsyo<>$zshiro<>$znou_max<>$zsyo_max<>$zshiro_max<>$zpri<>$zx<>$zy<>$zsouba<>$zdef_att<>$zsub1<>$zsub2<>$z[0]<>$z[1]<>$z[2]<>$z[3]<>$z[4]<>$z[5]<>$z[6]<>$z[7]<>$zname1<>$zname2<>$zbong1<>$zbong2<>$zbong3<>\n");
-		open(OUT,">$TOWN_LIST") or &ERR('TOWN µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$TOWN_LIST") or &ERR('TOWN ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @TOWN_DATA;
 		close(OUT);
 	}
 
 	$s_it = int(rand(3));
 	if($s_it eq "0" && $zname ne ""){
-		open(OUT,">$TOWN_LIST2") or &ERR('TOWN2 »õ·Î¿î µ¥ÀÌÅÍ¸¦ ±âÀÔÇÒ ¼ö ¾ø½À´Ï´Ù.');
+		open(OUT,">$TOWN_LIST2") or &ERR('TOWN2 ìƒˆë¡œìš´ ë°ì´í„°ë¥¼ ê¸°ì…í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.');
 		print OUT @TOWN_DATA;
 		close(OUT);
 	}
@@ -2191,7 +2192,7 @@ sub TOWN_DATA_INPUT {
 sub DECODE {
 
 	if ($ENV{'REQUEST_METHOD'} eq "POST") {
-		if ($ENV{'CONTENT_LENGTH'} > 51200) { &ERR("±ÛÀÚ ¼ö°¡ ³Ê¹« ¸¹½À´Ï´Ù!"); }
+		if ($ENV{'CONTENT_LENGTH'} > 51200) { &ERR("ê¸€ì ìˆ˜ê°€ ë„ˆë¬´ ë§ìŠµë‹ˆë‹¤!"); }
 		read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 	} else { $buffer = $ENV{'QUERY_STRING'}; }
 	@pairs = split(/&/, $buffer);
@@ -2250,7 +2251,7 @@ sub ERR {
 	if (-d $lockfile) { &UNLOCK_FILE; }
 	print "<center><hr size=0><h3>ERROR !</h3>\n";
 	print "<P><font color=red><B>$_[0]</B></font>\n";
-print "<form action=\"$FILE_STATUS\" method=\"post\"><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=STATUS><input type=submit value=\"µ¹¾Æ¿Â´Ù\"></form>";
+print "<form action=\"$FILE_STATUS\" method=\"post\"><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=hidden name=mode value=STATUS><input type=submit value=\"ëŒì•„ì˜¨ë‹¤\"></form>";
 	print "<P><hr size=0></center>\n</body></html>\n";
 	exit;
 }
@@ -2263,7 +2264,7 @@ sub EVENT_MSG {
 	if (-d $lockfile) { &UNLOCK_FILE; }
 	print "<center><hr size=0><h3>ERROR !</h3>\n";
 	print "<P><font color=red><B>$_[0]</B></font>\n";
-print "<form action=\"./event.cgi\" method=\"post\"><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=submit value=\"µ¹¾Æ¿Â´Ù\"></form>";
+print "<form action=\"./event.cgi\" method=\"post\"><input type=hidden name=id value=$kid><input type=hidden name=pass value=$kpass><input type=submit value=\"ëŒì•„ì˜¨ë‹¤\"></form>";
 	print "<P><hr size=0></center>\n</body></html>\n";
 	exit;
 }
@@ -2294,7 +2295,7 @@ sub F_LOCK {
 
 	if($qhit){
      	&UNLOCK_FILE();
-	 	&ERR("File lock error!<BR>ÆÄÀÏ °»½ÅÁßÀÔ´Ï´Ù. Àá½Ã¸¸ ±â´Ù·Á ÁÖ¼¼¿ä.");
+	 	&ERR("File lock error!<BR>íŒŒì¼ ê°±ì‹ ì¤‘ì…ë‹ˆë‹¤. ì ì‹œë§Œ ê¸°ë‹¤ë ¤ ì£¼ì„¸ìš”.");
 	}
 
 }
@@ -2333,7 +2334,7 @@ EOM
 <STYLE type="text/css">
 <!--
 BODY,TR,TD,TH{
-font-family : "µ¸¿òÃ¼";
+font-family : "ë‹ì›€ì²´";
 font-size: $FONT_SIZE
 }
 A:HOVER{
@@ -2389,7 +2390,7 @@ EOM
 <STYLE type="text/css">
 <!--
 BODY,TR,TD,TH{
-font-family : "µ¸¿òÃ¼";
+font-family : "ë‹ì›€ì²´";
 font-size: $FONT_SIZE
 }
 A:HOVER{
@@ -2442,7 +2443,7 @@ sub SET_COOKIE {
 sub MAKE_GUEST_LIST {
 
 	if($lockkey) { &F_LOCK; }
-	open(GUEST,"$GUEST_LIST") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST,"$GUEST_LIST") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@GUEST=<GUEST>;close(GUEST);
 
 	$times = time();@m_list = ();$hit=0;@New_guest_list=();
@@ -2451,7 +2452,7 @@ sub MAKE_GUEST_LIST {
 		if( $times - 180 > $timer){
 			next;
 		}elsif($kname eq $name){
-			if( $times - 0 <= $timer){ &ERR("ÀüÈ¸ °»½ÅÇÏ°í ³ª¼­ 10ÃÊ ÀÌ»ó °æ°úÇÏÁö ¾Ê¾Ò½À´Ï´Ù.<BR>°£°İÀ» ¿­¾î ½ÇÇàÇØ ÁÖ¼¼¿ä."); }
+			if( $times - 0 <= $timer){ &ERR("ì „íšŒ ê°±ì‹ í•˜ê³  ë‚˜ì„œ 10ì´ˆ ì´ìƒ ê²½ê³¼í•˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.<BR>ê°„ê²©ì„ ì—´ì–´ ì‹¤í–‰í•´ ì£¼ì„¸ìš”."); }
 			push (@New_guest_list,"$times<>$kname<>$kcon<>$kpos<>\n");
 			$m_list .= "<a href=\"javascript:info('$kid')\">$kname</a>\[$town_name[$kpos]\] ";
 			$hit = 1;
@@ -2468,7 +2469,7 @@ sub MAKE_GUEST_LIST {
 		$m_list .= "$kname\[$town_name[$kpos]\] ";
 	}
 
-	open(GUEST,">$GUEST_LIST") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST,">$GUEST_LIST") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	print GUEST @New_guest_list;close(GUEST);
 	if (-d $lockfile) { &UNLOCK_FILE; }
 }
@@ -2477,7 +2478,7 @@ sub MAKE_GUEST_LIST {
 sub EVENT_TIME_LIST {
 
 	if($lockkey) { &F_LOCK; }
-	open(GUEST1,"./log_file/event_time.cgi") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST1,"./log_file/event_time.cgi") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@GUEST1=<GUEST1>;close(GUEST1);
 
 	$times = time();@m_list = ();$hit=0;@New_event_list=();
@@ -2485,7 +2486,7 @@ sub EVENT_TIME_LIST {
 	foreach (@GUEST1){($timer,$name,$con,$opos) = split(/<>/);
 		if($kname eq $name){
 			$limit_time = 60 - ($times - $timer);
-			if( $times - 60 <= $timer){ &EVENT_MSG("´Ù½Ã Àç´ë°áÀ» ÇÏ±â À§ÇØ¼­´Â 1ºĞÀ» ±â´Ù·Á¾ß ÇÕ´Ï´Ù.<br>³²Àº½Ã°£ : $limit_timeÃÊ"); }
+			if( $times - 60 <= $timer){ &EVENT_MSG("ë‹¤ì‹œ ì¬ëŒ€ê²°ì„ í•˜ê¸° ìœ„í•´ì„œëŠ” 1ë¶„ì„ ê¸°ë‹¤ë ¤ì•¼ í•©ë‹ˆë‹¤.<br>ë‚¨ì€ì‹œê°„ : $limit_timeì´ˆ"); }
 			push (@New_event_list,"$times<>$kname<>$kcon<>$kpos<>\n");
 			$hit = 1;
 		}else{
@@ -2497,7 +2498,7 @@ sub EVENT_TIME_LIST {
 		push(@New_event_list,"$times<>$kname<>$kcon<>$kpos<>\n");
 	}
 
-	open(GUEST1,">./log_file/event_time.cgi") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST1,">./log_file/event_time.cgi") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	print GUEST1 @New_event_list;close(GUEST1);
 	if (-d $lockfile) { &UNLOCK_FILE; }
 }
@@ -2565,9 +2566,9 @@ sub E_LOG4 {
 sub SERVER_STOP {
 
 	&HOST_NAME;
-	open(GUEST,"./log_file/stop.cgi") or &ERR2('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST,"./log_file/stop.cgi") or &ERR2('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	@STOP=<GUEST>;close(GUEST);
-if($host eq ""){&ERR("È£½ºÆ®¸íÀ» À¯È¿ÇÏ°Ô ÇØÁÖ¼¼¿ä.");}
+if($host eq ""){&ERR("í˜¸ìŠ¤íŠ¸ëª…ì„ ìœ íš¨í•˜ê²Œ í•´ì£¼ì„¸ìš”.");}
 	$times = time();@m_list = ();$hit=0;@New_stop=();
 	$phit=0;
 	foreach (@STOP){
@@ -2590,14 +2591,14 @@ if($host eq ""){&ERR("È£½ºÆ®¸íÀ» À¯È¿ÇÏ°Ô ÇØÁÖ¼¼¿ä.");}
 		push(@New_stop,"$times<>$host<>\n");
 	}
 
-	open(GUEST,">./log_file/stop.cgi") or &ERR('ÆÄÀÏÀ» ¿­Áö ¾Ê¾Ò½À´Ï´Ù.');
+	open(GUEST,">./log_file/stop.cgi") or &ERR('íŒŒì¼ì„ ì—´ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.');
 	print GUEST @New_stop;close(GUEST);
 
 	if($phit){
 		if($in{'id'} eq ""){
-#			&ERR2("¼­¹öÀÇ ºÎÇÏ ¹æÁö¸¦ À§ÇØ °»½ÅÇÏ°í ³ª¼­<BR>5ÃÊ ÀÌ»ó °£°İÀ» ¿­¾î ½ÇÇàÇØ ÁÖ¼¼¿ä.<BR>Your host name : $host");
+#			&ERR2("ì„œë²„ì˜ ë¶€í•˜ ë°©ì§€ë¥¼ ìœ„í•´ ê°±ì‹ í•˜ê³  ë‚˜ì„œ<BR>5ì´ˆ ì´ìƒ ê°„ê²©ì„ ì—´ì–´ ì‹¤í–‰í•´ ì£¼ì„¸ìš”.<BR>Your host name : $host");
 		}else{
-#			&ERR("¼­¹öÀÇ ºÎÇÏ ¹æÁö¸¦ À§ÇØ °»½ÅÇÏ°í ³ª¼­<BR>5ÃÊ ÀÌ»ó °£°İÀ» ¿­¾î ½ÇÇàÇØ ÁÖ¼¼¿ä.<BR>Your host name : $host");
+#			&ERR("ì„œë²„ì˜ ë¶€í•˜ ë°©ì§€ë¥¼ ìœ„í•´ ê°±ì‹ í•˜ê³  ë‚˜ì„œ<BR>5ì´ˆ ì´ìƒ ê°„ê²©ì„ ì—´ì–´ ì‹¤í–‰í•´ ì£¼ì„¸ìš”.<BR>Your host name : $host");
 		}
 	}
 
